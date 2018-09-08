@@ -1,0 +1,753 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.3.1.2.4\) Plots of Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.3.1.2.4.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.3.1.2.4.2.1\) Entire pool of samples
+
+
+
+
+##### \(1.3.1.2.4.2.2\) Iterating over Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order
+
+
+
+
+##### \(1.3.1.2.4.2.2.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.3.1.2.4.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.3.1.2.4.2.2.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.2.4.2.2.2.1.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.3.1.2.4.2.2.2.1.1.0\) <a name="table.116"></a>[`Table 116.`](#table.116) Data table used for plots. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.2.4.2.2.2.1.1.0-3237493bbb7.1.3.1.2.4.2.2.2.1.1.csv`](data/1.3.1.2.4.2.2.2.1.1.0-3237493bbb7.1.3.1.2.4.2.2.2.1.1.csv)
+
+
+
+
+| .record.id | feature                  | abundance.diff |
+|:-----------|:-------------------------|:---------------|
+| MG1        | Bacteroidales            | 5.694e\-01     |
+| MG10       | Bacteroidales            | 2.210e\-01     |
+| MG13       | Bacteroidales            | 4.176e\-02     |
+| MG14       | Bacteroidales            | 2.579e\-01     |
+| MG16       | Bacteroidales            | 1.408e\-01     |
+| MG17       | Bacteroidales            | \-4.393e\-01   |
+| MG19       | Bacteroidales            | 3.266e\-01     |
+| MG2        | Bacteroidales            | \-3.368e\-01   |
+| MG21       | Bacteroidales            | 1.304e\-01     |
+| MG22       | Bacteroidales            | 1.692e\-02     |
+| MG23       | Bacteroidales            | 5.346e\-01     |
+| MG25       | Bacteroidales            | 6.182e\-02     |
+| MG3        | Bacteroidales            | 7.944e\-02     |
+| MG4        | Bacteroidales            | 6.680e\-02     |
+| MG6        | Bacteroidales            | 1.154e\-01     |
+| MG8        | Bacteroidales            | 2.246e\-01     |
+| MG1        | Clostridiales            | \-2.915e\-01   |
+| MG10       | Clostridiales            | \-1.404e\-01   |
+| MG13       | Clostridiales            | \-2.483e\-02   |
+| MG14       | Clostridiales            | \-2.971e\-01   |
+| MG16       | Clostridiales            | \-9.783e\-02   |
+| MG17       | Clostridiales            | 3.086e\-01     |
+| MG19       | Clostridiales            | \-3.525e\-01   |
+| MG2        | Clostridiales            | \-1.849e\-01   |
+| MG21       | Clostridiales            | \-1.655e\-01   |
+| MG22       | Clostridiales            | \-1.958e\-01   |
+| MG23       | Clostridiales            | \-4.626e\-01   |
+| MG25       | Clostridiales            | \-1.163e\-01   |
+| MG3        | Clostridiales            | \-8.672e\-02   |
+| MG4        | Clostridiales            | 7.365e\-02     |
+| MG6        | Clostridiales            | \-1.283e\-01   |
+| MG8        | Clostridiales            | \-2.580e\-01   |
+| MG1        | Erysipelotrichales       | 1.374e\-03     |
+| MG10       | Erysipelotrichales       | \-9.093e\-04   |
+| MG13       | Erysipelotrichales       | \-3.126e\-03   |
+| MG14       | Erysipelotrichales       | 5.022e\-03     |
+| MG16       | Erysipelotrichales       | 2.380e\-03     |
+| MG17       | Erysipelotrichales       | \-1.039e\-02   |
+| MG19       | Erysipelotrichales       | \-7.424e\-03   |
+| MG2        | Erysipelotrichales       | 3.762e\-01     |
+| MG21       | Erysipelotrichales       | 7.348e\-03     |
+| MG22       | Erysipelotrichales       | 1.665e\-02     |
+| MG23       | Erysipelotrichales       | \-4.800e\-02   |
+| MG25       | Erysipelotrichales       | \-2.063e\-03   |
+| MG3        | Erysipelotrichales       | \-1.602e\-03   |
+| MG4        | Erysipelotrichales       | 7.549e\-03     |
+| MG6        | Erysipelotrichales       | 5.720e\-03     |
+| MG8        | Erysipelotrichales       | \-7.743e\-03   |
+| MG1        | Lactobacillales          | \-1.124e\-01   |
+| MG10       | Lactobacillales          | 1.378e\-03     |
+| MG13       | Lactobacillales          | 9.398e\-05     |
+| MG14       | Lactobacillales          | \-1.124e\-03   |
+| MG16       | Lactobacillales          | 1.297e\-03     |
+| MG17       | Lactobacillales          | 2.150e\-02     |
+| MG19       | Lactobacillales          | \-2.955e\-03   |
+| MG2        | Lactobacillales          | 1.891e\-01     |
+| MG21       | Lactobacillales          | \-7.635e\-04   |
+| MG22       | Lactobacillales          | 4.474e\-03     |
+| MG23       | Lactobacillales          | 6.028e\-04     |
+| MG25       | Lactobacillales          | 3.805e\-04     |
+| MG3        | Lactobacillales          | \-1.986e\-04   |
+| MG4        | Lactobacillales          | \-7.297e\-02   |
+| MG6        | Lactobacillales          | \-2.131e\-03   |
+| MG8        | Lactobacillales          | 2.950e\-03     |
+| MG1        | Selenomonadales          | \-1.828e\-01   |
+| MG10       | Selenomonadales          | 0.000e\+00     |
+| MG13       | Selenomonadales          | \-3.839e\-03   |
+| MG14       | Selenomonadales          | 2.354e\-03     |
+| MG16       | Selenomonadales          | \-1.897e\-04   |
+| MG17       | Selenomonadales          | 1.377e\-02     |
+| MG19       | Selenomonadales          | 1.827e\-04     |
+| MG2        | Selenomonadales          | \-1.036e\-03   |
+| MG21       | Selenomonadales          | 1.117e\-02     |
+| MG22       | Selenomonadales          | 5.574e\-03     |
+| MG23       | Selenomonadales          | \-5.095e\-04   |
+| MG25       | Selenomonadales          | \-2.714e\-03   |
+| MG3        | Selenomonadales          | \-9.321e\-03   |
+| MG4        | Selenomonadales          | \-8.553e\-02   |
+| MG6        | Selenomonadales          | \-1.022e\-02   |
+| MG8        | Selenomonadales          | \-1.237e\-03   |
+| MG1        | Enterobacteriales        | \-1.761e\-03   |
+| MG10       | Enterobacteriales        | \-4.546e\-04   |
+| MG13       | Enterobacteriales        | \-1.498e\-03   |
+| MG14       | Enterobacteriales        | 8.659e\-05     |
+| MG16       | Enterobacteriales        | 2.690e\-03     |
+| MG17       | Enterobacteriales        | 1.456e\-01     |
+| MG19       | Enterobacteriales        | 0.000e\+00     |
+| MG2        | Enterobacteriales        | 2.993e\-03     |
+| MG21       | Enterobacteriales        | 4.344e\-06     |
+| MG22       | Enterobacteriales        | \-3.570e\-04   |
+| MG23       | Enterobacteriales        | \-4.401e\-04   |
+| MG25       | Enterobacteriales        | 0.000e\+00     |
+| MG3        | Enterobacteriales        | 0.000e\+00     |
+| MG4        | Enterobacteriales        | \-2.980e\-05   |
+| MG6        | Enterobacteriales        | \-4.435e\-03   |
+| MG8        | Enterobacteriales        | \-6.593e\-04   |
+| MG1        | Burkholderiales          | \-8.936e\-04   |
+| MG10       | Burkholderiales          | \-1.161e\-01   |
+| MG13       | Burkholderiales          | 3.395e\-03     |
+| MG14       | Burkholderiales          | 1.385e\-02     |
+| MG16       | Burkholderiales          | \-2.469e\-02   |
+| MG17       | Burkholderiales          | \-3.361e\-02   |
+| MG19       | Burkholderiales          | \-1.612e\-03   |
+| MG2        | Burkholderiales          | \-4.045e\-03   |
+| MG21       | Burkholderiales          | 2.957e\-02     |
+| MG22       | Burkholderiales          | 3.011e\-03     |
+| MG23       | Burkholderiales          | 7.416e\-03     |
+| MG25       | Burkholderiales          | 5.561e\-02     |
+| MG3        | Burkholderiales          | \-1.736e\-03   |
+| MG4        | Burkholderiales          | 7.055e\-03     |
+| MG6        | Burkholderiales          | 3.165e\-03     |
+| MG8        | Burkholderiales          | \-4.272e\-03   |
+| MG1        | Unclassified\_Bacteria   | \-1.184e\-02   |
+| MG10       | Unclassified\_Bacteria   | \-1.364e\-02   |
+| MG13       | Unclassified\_Bacteria   | \-1.100e\-03   |
+| MG14       | Unclassified\_Bacteria   | \-5.432e\-03   |
+| MG16       | Unclassified\_Bacteria   | \-2.259e\-03   |
+| MG17       | Unclassified\_Bacteria   | \-5.929e\-03   |
+| MG19       | Unclassified\_Bacteria   | \-1.386e\-02   |
+| MG2        | Unclassified\_Bacteria   | \-3.410e\-02   |
+| MG21       | Unclassified\_Bacteria   | \-1.594e\-02   |
+| MG22       | Unclassified\_Bacteria   | \-7.447e\-03   |
+| MG23       | Unclassified\_Bacteria   | 9.991e\-03     |
+| MG25       | Unclassified\_Bacteria   | \-1.314e\-03   |
+| MG3        | Unclassified\_Bacteria   | 1.327e\-04     |
+| MG4        | Unclassified\_Bacteria   | \-9.981e\-03   |
+| MG6        | Unclassified\_Bacteria   | 3.134e\-03     |
+| MG8        | Unclassified\_Bacteria   | \-1.927e\-03   |
+| MG1        | Bifidobacteriales        | \-3.434e\-02   |
+| MG10       | Bifidobacteriales        | \-6.820e\-04   |
+| MG13       | Bifidobacteriales        | 6.071e\-05     |
+| MG14       | Bifidobacteriales        | 6.061e\-04     |
+| MG16       | Bifidobacteriales        | 3.363e\-04     |
+| MG17       | Bifidobacteriales        | \-7.897e\-05   |
+| MG19       | Bifidobacteriales        | \-3.932e\-03   |
+| MG2        | Bifidobacteriales        | 6.897e\-04     |
+| MG21       | Bifidobacteriales        | \-3.729e\-03   |
+| MG22       | Bifidobacteriales        | 2.058e\-02     |
+| MG23       | Bifidobacteriales        | \-7.042e\-03   |
+| MG25       | Bifidobacteriales        | \-2.192e\-03   |
+| MG3        | Bifidobacteriales        | \-8.040e\-04   |
+| MG4        | Bifidobacteriales        | \-4.341e\-04   |
+| MG6        | Bifidobacteriales        | \-2.131e\-04   |
+| MG8        | Bifidobacteriales        | \-5.633e\-03   |
+| MG1        | Verrucomicrobiales       | 0.000e\+00     |
+| MG10       | Verrucomicrobiales       | 8.029e\-04     |
+| MG13       | Verrucomicrobiales       | 0.000e\+00     |
+| MG14       | Verrucomicrobiales       | 0.000e\+00     |
+| MG16       | Verrucomicrobiales       | 0.000e\+00     |
+| MG17       | Verrucomicrobiales       | 0.000e\+00     |
+| MG19       | Verrucomicrobiales       | \-2.686e\-04   |
+| MG2        | Verrucomicrobiales       | 0.000e\+00     |
+| MG21       | Verrucomicrobiales       | \-7.218e\-03   |
+| MG22       | Verrucomicrobiales       | 1.568e\-01     |
+| MG23       | Verrucomicrobiales       | \-2.129e\-03   |
+| MG25       | Verrucomicrobiales       | \-3.868e\-04   |
+| MG3        | Verrucomicrobiales       | 8.853e\-05     |
+| MG4        | Verrucomicrobiales       | 0.000e\+00     |
+| MG6        | Verrucomicrobiales       | 7.976e\-03     |
+| MG8        | Verrucomicrobiales       | 0.000e\+00     |
+| MG1        | Unclassified\_Firmicutes | \-3.184e\-03   |
+| MG10       | Unclassified\_Firmicutes | \-1.023e\-02   |
+| MG13       | Unclassified\_Firmicutes | \-1.635e\-03   |
+| MG14       | Unclassified\_Firmicutes | \-2.556e\-03   |
+| MG16       | Unclassified\_Firmicutes | \-2.289e\-02   |
+| MG17       | Unclassified\_Firmicutes | \-8.492e\-04   |
+| MG19       | Unclassified\_Firmicutes | \-1.697e\-03   |
+| MG2        | Unclassified\_Firmicutes | 2.682e\-03     |
+| MG21       | Unclassified\_Firmicutes | \-2.143e\-03   |
+| MG22       | Unclassified\_Firmicutes | 1.470e\-03     |
+| MG23       | Unclassified\_Firmicutes | \-7.181e\-03   |
+| MG25       | Unclassified\_Firmicutes | \-3.610e\-03   |
+| MG3        | Unclassified\_Firmicutes | \-6.520e\-04   |
+| MG4        | Unclassified\_Firmicutes | \-1.133e\-03   |
+| MG6        | Unclassified\_Firmicutes | \-3.361e\-03   |
+| MG8        | Unclassified\_Firmicutes | \-1.448e\-03   |
+| MG1        | Rhizobiales              | 4.989e\-05     |
+| MG10       | Rhizobiales              | \-1.137e\-03   |
+| MG13       | Rhizobiales              | 2.603e\-04     |
+| MG14       | Rhizobiales              | \-4.867e\-03   |
+| MG16       | Rhizobiales              | \-2.099e\-03   |
+| MG17       | Rhizobiales              | \-1.370e\-02   |
+| MG19       | Rhizobiales              | 0.000e\+00     |
+| MG2        | Rhizobiales              | \-8.569e\-03   |
+| MG21       | Rhizobiales              | \-1.056e\-02   |
+| MG22       | Rhizobiales              | \-7.362e\-03   |
+| MG23       | Rhizobiales              | 0.000e\+00     |
+| MG25       | Rhizobiales              | \-6.865e\-03   |
+| MG3        | Rhizobiales              | \-4.534e\-03   |
+| MG4        | Rhizobiales              | \-6.895e\-05   |
+| MG6        | Rhizobiales              | \-4.049e\-03   |
+| MG8        | Rhizobiales              | \-1.164e\-03   |
+
+
+
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.1.1\) <a name="widget.126"></a>[`Widget 126.`](#widget.126) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.3.1.2.4.2.2.2.1.1.1-3231440d9fdDynamic.Pivot.Table.html`](./1.3.1.2.4.2.2.2.1.1.1-3231440d9fdDynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.1.1\) <a name="widget.127"></a>[`Widget 127.`](#widget.127) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.3.1.2.4.2.2.2.1.1.1-32335383639Dynamic.Pivot.Table.html`](./1.3.1.2.4.2.2.2.1.1.1-32335383639Dynamic.Pivot.Table.html)
+
+
+\(1.3.1.2.4.2.2.2.1.1.1\) <a name="table.117"></a>[`Table 117.`](#table.117) Summary table. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.2.4.2.2.2.1.1.1-3233fb85d6a.1.3.1.2.4.2.2.2.1.1.csv`](data/1.3.1.2.4.2.2.2.1.1.1-3233fb85d6a.1.3.1.2.4.2.2.2.1.1.csv)
+
+
+
+
+| feature                  | mean       | sd       | median      | incidence |
+|:-------------------------|:-----------|:---------|:------------|:----------|
+| Clostridiales            | \-0.151256 | 0.178884 | \-0.1529297 | 0.1250    |
+| Unclassified\_Firmicutes | \-0.003651 | 0.005955 | \-0.0019201 | 0.1250    |
+| Unclassified\_Bacteria   | \-0.006970 | 0.009998 | \-0.0056804 | 0.1875    |
+| Rhizobiales              | \-0.004042 | 0.004324 | \-0.0030741 | 0.1250    |
+| Bacteroidales            | 0.125702   | 0.258566 | 0.1228797   | 0.8750    |
+| Bifidobacteriales        | \-0.002301 | 0.010443 | \-0.0005581 | 0.3125    |
+| Selenomonadales          | \-0.016523 | 0.049623 | \-0.0007729 | 0.3125    |
+| Erysipelotrichales       | 0.021311   | 0.095657 | 0.0002322   | 0.5000    |
+| Lactobacillales          | 0.001827   | 0.060102 | 0.0002372   | 0.5625    |
+| Burkholderiales          | \-0.003994 | 0.035875 | 0.0010586   | 0.5000    |
+| Enterobacteriales        | 0.008859   | 0.036503 | \-0.0000149 | 0.3125    |
+| Verrucomicrobiales       | 0.009731   | 0.039328 | 0.0000000   | 0.2500    |
+
+
+
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.1.1\) <a name="figure.460"></a>[`Figure 460.`](#figure.460) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/32375dee6de.svg`](plots/32375dee6de.svg).
+![](plots/32375dee6de.svg)
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.1.1\) <a name="figure.461"></a>[`Figure 461.`](#figure.461) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/3231810ae6b.svg`](plots/3231810ae6b.svg).
+![](plots/3231810ae6b.svg)
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.1.1\) <a name="figure.462"></a>[`Figure 462.`](#figure.462) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3237abbfdc3.svg`](plots/3237abbfdc3.svg).
+![](plots/3237abbfdc3.svg)
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.1.1\) <a name="figure.463"></a>[`Figure 463.`](#figure.463) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323573df9c0.svg`](plots/323573df9c0.svg).
+![](plots/323573df9c0.svg)
+
+
+##### \(1.3.1.2.4.2.2.2.1.2\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.2.1\) <a name="figure.464"></a>[`Figure 464.`](#figure.464) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/3235e328e05.svg`](plots/3235e328e05.svg).
+![](plots/3235e328e05.svg)
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.2.1\) <a name="figure.465"></a>[`Figure 465.`](#figure.465) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/323ebbbb11.svg`](plots/323ebbbb11.svg).
+![](plots/323ebbbb11.svg)
+
+
+
+
+\(1.3.1.2.4.2.2.2.1.2.1\) <a name="figure.466"></a>[`Figure 466.`](#figure.466) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237d76adc.svg`](plots/3237d76adc.svg).
+![](plots/3237d76adc.svg)
+
+
+##### \(1.3.1.2.4.2.3\) Grouping variables age.quant
+
+
+
+
+##### \(1.3.1.2.4.2.4\) Iterating over Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order
+
+
+
+
+##### \(1.3.1.2.4.2.4.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.3.1.2.4.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.3.1.2.4.2.4.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.2.4.2.4.2.1.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.3.1.2.4.2.4.2.1.1.0\) <a name="table.118"></a>[`Table 118.`](#table.118) Data table used for plots. Data grouped by age.quant. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.2.4.2.4.2.1.1.0-32364dfc918.1.3.1.2.4.2.4.2.1.1.csv`](data/1.3.1.2.4.2.4.2.1.1.0-32364dfc918.1.3.1.2.4.2.4.2.1.1.csv)
+
+
+
+
+| .record.id | age.quant     | feature                  | abundance.diff |
+|:-----------|:--------------|:-------------------------|:---------------|
+| MG1        | \(15.3,26.4\] | Bacteroidales            | 5.694e\-01     |
+| MG10       | \(8.71,15.3\] | Bacteroidales            | 2.210e\-01     |
+| MG13       | \(15.3,26.4\] | Bacteroidales            | 4.176e\-02     |
+| MG14       | \(15.3,26.4\] | Bacteroidales            | 2.579e\-01     |
+| MG16       | \(15.3,26.4\] | Bacteroidales            | 1.408e\-01     |
+| MG17       | \(15.3,26.4\] | Bacteroidales            | \-4.393e\-01   |
+| MG19       | \(6.27,8.71\] | Bacteroidales            | 3.266e\-01     |
+| MG2        | \[3.18,6.27\] | Bacteroidales            | \-3.368e\-01   |
+| MG21       | \(8.71,15.3\] | Bacteroidales            | 1.304e\-01     |
+| MG22       | \(8.71,15.3\] | Bacteroidales            | 1.692e\-02     |
+| MG23       | \(6.27,8.71\] | Bacteroidales            | 5.346e\-01     |
+| MG25       | \(8.71,15.3\] | Bacteroidales            | 6.182e\-02     |
+| MG3        | \(8.71,15.3\] | Bacteroidales            | 7.944e\-02     |
+| MG4        | \(8.71,15.3\] | Bacteroidales            | 6.680e\-02     |
+| MG6        | \(8.71,15.3\] | Bacteroidales            | 1.154e\-01     |
+| MG8        | \(8.71,15.3\] | Bacteroidales            | 2.246e\-01     |
+| MG1        | \(15.3,26.4\] | Clostridiales            | \-2.915e\-01   |
+| MG10       | \(8.71,15.3\] | Clostridiales            | \-1.404e\-01   |
+| MG13       | \(15.3,26.4\] | Clostridiales            | \-2.483e\-02   |
+| MG14       | \(15.3,26.4\] | Clostridiales            | \-2.971e\-01   |
+| MG16       | \(15.3,26.4\] | Clostridiales            | \-9.783e\-02   |
+| MG17       | \(15.3,26.4\] | Clostridiales            | 3.086e\-01     |
+| MG19       | \(6.27,8.71\] | Clostridiales            | \-3.525e\-01   |
+| MG2        | \[3.18,6.27\] | Clostridiales            | \-1.849e\-01   |
+| MG21       | \(8.71,15.3\] | Clostridiales            | \-1.655e\-01   |
+| MG22       | \(8.71,15.3\] | Clostridiales            | \-1.958e\-01   |
+| MG23       | \(6.27,8.71\] | Clostridiales            | \-4.626e\-01   |
+| MG25       | \(8.71,15.3\] | Clostridiales            | \-1.163e\-01   |
+| MG3        | \(8.71,15.3\] | Clostridiales            | \-8.672e\-02   |
+| MG4        | \(8.71,15.3\] | Clostridiales            | 7.365e\-02     |
+| MG6        | \(8.71,15.3\] | Clostridiales            | \-1.283e\-01   |
+| MG8        | \(8.71,15.3\] | Clostridiales            | \-2.580e\-01   |
+| MG1        | \(15.3,26.4\] | Erysipelotrichales       | 1.374e\-03     |
+| MG10       | \(8.71,15.3\] | Erysipelotrichales       | \-9.093e\-04   |
+| MG13       | \(15.3,26.4\] | Erysipelotrichales       | \-3.126e\-03   |
+| MG14       | \(15.3,26.4\] | Erysipelotrichales       | 5.022e\-03     |
+| MG16       | \(15.3,26.4\] | Erysipelotrichales       | 2.380e\-03     |
+| MG17       | \(15.3,26.4\] | Erysipelotrichales       | \-1.039e\-02   |
+| MG19       | \(6.27,8.71\] | Erysipelotrichales       | \-7.424e\-03   |
+| MG2        | \[3.18,6.27\] | Erysipelotrichales       | 3.762e\-01     |
+| MG21       | \(8.71,15.3\] | Erysipelotrichales       | 7.348e\-03     |
+| MG22       | \(8.71,15.3\] | Erysipelotrichales       | 1.665e\-02     |
+| MG23       | \(6.27,8.71\] | Erysipelotrichales       | \-4.800e\-02   |
+| MG25       | \(8.71,15.3\] | Erysipelotrichales       | \-2.063e\-03   |
+| MG3        | \(8.71,15.3\] | Erysipelotrichales       | \-1.602e\-03   |
+| MG4        | \(8.71,15.3\] | Erysipelotrichales       | 7.549e\-03     |
+| MG6        | \(8.71,15.3\] | Erysipelotrichales       | 5.720e\-03     |
+| MG8        | \(8.71,15.3\] | Erysipelotrichales       | \-7.743e\-03   |
+| MG1        | \(15.3,26.4\] | Lactobacillales          | \-1.124e\-01   |
+| MG10       | \(8.71,15.3\] | Lactobacillales          | 1.378e\-03     |
+| MG13       | \(15.3,26.4\] | Lactobacillales          | 9.398e\-05     |
+| MG14       | \(15.3,26.4\] | Lactobacillales          | \-1.124e\-03   |
+| MG16       | \(15.3,26.4\] | Lactobacillales          | 1.297e\-03     |
+| MG17       | \(15.3,26.4\] | Lactobacillales          | 2.150e\-02     |
+| MG19       | \(6.27,8.71\] | Lactobacillales          | \-2.955e\-03   |
+| MG2        | \[3.18,6.27\] | Lactobacillales          | 1.891e\-01     |
+| MG21       | \(8.71,15.3\] | Lactobacillales          | \-7.635e\-04   |
+| MG22       | \(8.71,15.3\] | Lactobacillales          | 4.474e\-03     |
+| MG23       | \(6.27,8.71\] | Lactobacillales          | 6.028e\-04     |
+| MG25       | \(8.71,15.3\] | Lactobacillales          | 3.805e\-04     |
+| MG3        | \(8.71,15.3\] | Lactobacillales          | \-1.986e\-04   |
+| MG4        | \(8.71,15.3\] | Lactobacillales          | \-7.297e\-02   |
+| MG6        | \(8.71,15.3\] | Lactobacillales          | \-2.131e\-03   |
+| MG8        | \(8.71,15.3\] | Lactobacillales          | 2.950e\-03     |
+| MG1        | \(15.3,26.4\] | Selenomonadales          | \-1.828e\-01   |
+| MG10       | \(8.71,15.3\] | Selenomonadales          | 0.000e\+00     |
+| MG13       | \(15.3,26.4\] | Selenomonadales          | \-3.839e\-03   |
+| MG14       | \(15.3,26.4\] | Selenomonadales          | 2.354e\-03     |
+| MG16       | \(15.3,26.4\] | Selenomonadales          | \-1.897e\-04   |
+| MG17       | \(15.3,26.4\] | Selenomonadales          | 1.377e\-02     |
+| MG19       | \(6.27,8.71\] | Selenomonadales          | 1.827e\-04     |
+| MG2        | \[3.18,6.27\] | Selenomonadales          | \-1.036e\-03   |
+| MG21       | \(8.71,15.3\] | Selenomonadales          | 1.117e\-02     |
+| MG22       | \(8.71,15.3\] | Selenomonadales          | 5.574e\-03     |
+| MG23       | \(6.27,8.71\] | Selenomonadales          | \-5.095e\-04   |
+| MG25       | \(8.71,15.3\] | Selenomonadales          | \-2.714e\-03   |
+| MG3        | \(8.71,15.3\] | Selenomonadales          | \-9.321e\-03   |
+| MG4        | \(8.71,15.3\] | Selenomonadales          | \-8.553e\-02   |
+| MG6        | \(8.71,15.3\] | Selenomonadales          | \-1.022e\-02   |
+| MG8        | \(8.71,15.3\] | Selenomonadales          | \-1.237e\-03   |
+| MG1        | \(15.3,26.4\] | Enterobacteriales        | \-1.761e\-03   |
+| MG10       | \(8.71,15.3\] | Enterobacteriales        | \-4.546e\-04   |
+| MG13       | \(15.3,26.4\] | Enterobacteriales        | \-1.498e\-03   |
+| MG14       | \(15.3,26.4\] | Enterobacteriales        | 8.659e\-05     |
+| MG16       | \(15.3,26.4\] | Enterobacteriales        | 2.690e\-03     |
+| MG17       | \(15.3,26.4\] | Enterobacteriales        | 1.456e\-01     |
+| MG19       | \(6.27,8.71\] | Enterobacteriales        | 0.000e\+00     |
+| MG2        | \[3.18,6.27\] | Enterobacteriales        | 2.993e\-03     |
+| MG21       | \(8.71,15.3\] | Enterobacteriales        | 4.344e\-06     |
+| MG22       | \(8.71,15.3\] | Enterobacteriales        | \-3.570e\-04   |
+| MG23       | \(6.27,8.71\] | Enterobacteriales        | \-4.401e\-04   |
+| MG25       | \(8.71,15.3\] | Enterobacteriales        | 0.000e\+00     |
+| MG3        | \(8.71,15.3\] | Enterobacteriales        | 0.000e\+00     |
+| MG4        | \(8.71,15.3\] | Enterobacteriales        | \-2.980e\-05   |
+| MG6        | \(8.71,15.3\] | Enterobacteriales        | \-4.435e\-03   |
+| MG8        | \(8.71,15.3\] | Enterobacteriales        | \-6.593e\-04   |
+| MG1        | \(15.3,26.4\] | Burkholderiales          | \-8.936e\-04   |
+| MG10       | \(8.71,15.3\] | Burkholderiales          | \-1.161e\-01   |
+| MG13       | \(15.3,26.4\] | Burkholderiales          | 3.395e\-03     |
+| MG14       | \(15.3,26.4\] | Burkholderiales          | 1.385e\-02     |
+| MG16       | \(15.3,26.4\] | Burkholderiales          | \-2.469e\-02   |
+| MG17       | \(15.3,26.4\] | Burkholderiales          | \-3.361e\-02   |
+| MG19       | \(6.27,8.71\] | Burkholderiales          | \-1.612e\-03   |
+| MG2        | \[3.18,6.27\] | Burkholderiales          | \-4.045e\-03   |
+| MG21       | \(8.71,15.3\] | Burkholderiales          | 2.957e\-02     |
+| MG22       | \(8.71,15.3\] | Burkholderiales          | 3.011e\-03     |
+| MG23       | \(6.27,8.71\] | Burkholderiales          | 7.416e\-03     |
+| MG25       | \(8.71,15.3\] | Burkholderiales          | 5.561e\-02     |
+| MG3        | \(8.71,15.3\] | Burkholderiales          | \-1.736e\-03   |
+| MG4        | \(8.71,15.3\] | Burkholderiales          | 7.055e\-03     |
+| MG6        | \(8.71,15.3\] | Burkholderiales          | 3.165e\-03     |
+| MG8        | \(8.71,15.3\] | Burkholderiales          | \-4.272e\-03   |
+| MG1        | \(15.3,26.4\] | Unclassified\_Bacteria   | \-1.184e\-02   |
+| MG10       | \(8.71,15.3\] | Unclassified\_Bacteria   | \-1.364e\-02   |
+| MG13       | \(15.3,26.4\] | Unclassified\_Bacteria   | \-1.100e\-03   |
+| MG14       | \(15.3,26.4\] | Unclassified\_Bacteria   | \-5.432e\-03   |
+| MG16       | \(15.3,26.4\] | Unclassified\_Bacteria   | \-2.259e\-03   |
+| MG17       | \(15.3,26.4\] | Unclassified\_Bacteria   | \-5.929e\-03   |
+| MG19       | \(6.27,8.71\] | Unclassified\_Bacteria   | \-1.386e\-02   |
+| MG2        | \[3.18,6.27\] | Unclassified\_Bacteria   | \-3.410e\-02   |
+| MG21       | \(8.71,15.3\] | Unclassified\_Bacteria   | \-1.594e\-02   |
+| MG22       | \(8.71,15.3\] | Unclassified\_Bacteria   | \-7.447e\-03   |
+| MG23       | \(6.27,8.71\] | Unclassified\_Bacteria   | 9.991e\-03     |
+| MG25       | \(8.71,15.3\] | Unclassified\_Bacteria   | \-1.314e\-03   |
+| MG3        | \(8.71,15.3\] | Unclassified\_Bacteria   | 1.327e\-04     |
+| MG4        | \(8.71,15.3\] | Unclassified\_Bacteria   | \-9.981e\-03   |
+| MG6        | \(8.71,15.3\] | Unclassified\_Bacteria   | 3.134e\-03     |
+| MG8        | \(8.71,15.3\] | Unclassified\_Bacteria   | \-1.927e\-03   |
+| MG1        | \(15.3,26.4\] | Bifidobacteriales        | \-3.434e\-02   |
+| MG10       | \(8.71,15.3\] | Bifidobacteriales        | \-6.820e\-04   |
+| MG13       | \(15.3,26.4\] | Bifidobacteriales        | 6.071e\-05     |
+| MG14       | \(15.3,26.4\] | Bifidobacteriales        | 6.061e\-04     |
+| MG16       | \(15.3,26.4\] | Bifidobacteriales        | 3.363e\-04     |
+| MG17       | \(15.3,26.4\] | Bifidobacteriales        | \-7.897e\-05   |
+| MG19       | \(6.27,8.71\] | Bifidobacteriales        | \-3.932e\-03   |
+| MG2        | \[3.18,6.27\] | Bifidobacteriales        | 6.897e\-04     |
+| MG21       | \(8.71,15.3\] | Bifidobacteriales        | \-3.729e\-03   |
+| MG22       | \(8.71,15.3\] | Bifidobacteriales        | 2.058e\-02     |
+| MG23       | \(6.27,8.71\] | Bifidobacteriales        | \-7.042e\-03   |
+| MG25       | \(8.71,15.3\] | Bifidobacteriales        | \-2.192e\-03   |
+| MG3        | \(8.71,15.3\] | Bifidobacteriales        | \-8.040e\-04   |
+| MG4        | \(8.71,15.3\] | Bifidobacteriales        | \-4.341e\-04   |
+| MG6        | \(8.71,15.3\] | Bifidobacteriales        | \-2.131e\-04   |
+| MG8        | \(8.71,15.3\] | Bifidobacteriales        | \-5.633e\-03   |
+| MG1        | \(15.3,26.4\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG10       | \(8.71,15.3\] | Verrucomicrobiales       | 8.029e\-04     |
+| MG13       | \(15.3,26.4\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG14       | \(15.3,26.4\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG16       | \(15.3,26.4\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG17       | \(15.3,26.4\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG19       | \(6.27,8.71\] | Verrucomicrobiales       | \-2.686e\-04   |
+| MG2        | \[3.18,6.27\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG21       | \(8.71,15.3\] | Verrucomicrobiales       | \-7.218e\-03   |
+| MG22       | \(8.71,15.3\] | Verrucomicrobiales       | 1.568e\-01     |
+| MG23       | \(6.27,8.71\] | Verrucomicrobiales       | \-2.129e\-03   |
+| MG25       | \(8.71,15.3\] | Verrucomicrobiales       | \-3.868e\-04   |
+| MG3        | \(8.71,15.3\] | Verrucomicrobiales       | 8.853e\-05     |
+| MG4        | \(8.71,15.3\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG6        | \(8.71,15.3\] | Verrucomicrobiales       | 7.976e\-03     |
+| MG8        | \(8.71,15.3\] | Verrucomicrobiales       | 0.000e\+00     |
+| MG1        | \(15.3,26.4\] | Unclassified\_Firmicutes | \-3.184e\-03   |
+| MG10       | \(8.71,15.3\] | Unclassified\_Firmicutes | \-1.023e\-02   |
+| MG13       | \(15.3,26.4\] | Unclassified\_Firmicutes | \-1.635e\-03   |
+| MG14       | \(15.3,26.4\] | Unclassified\_Firmicutes | \-2.556e\-03   |
+| MG16       | \(15.3,26.4\] | Unclassified\_Firmicutes | \-2.289e\-02   |
+| MG17       | \(15.3,26.4\] | Unclassified\_Firmicutes | \-8.492e\-04   |
+| MG19       | \(6.27,8.71\] | Unclassified\_Firmicutes | \-1.697e\-03   |
+| MG2        | \[3.18,6.27\] | Unclassified\_Firmicutes | 2.682e\-03     |
+| MG21       | \(8.71,15.3\] | Unclassified\_Firmicutes | \-2.143e\-03   |
+| MG22       | \(8.71,15.3\] | Unclassified\_Firmicutes | 1.470e\-03     |
+| MG23       | \(6.27,8.71\] | Unclassified\_Firmicutes | \-7.181e\-03   |
+| MG25       | \(8.71,15.3\] | Unclassified\_Firmicutes | \-3.610e\-03   |
+| MG3        | \(8.71,15.3\] | Unclassified\_Firmicutes | \-6.520e\-04   |
+| MG4        | \(8.71,15.3\] | Unclassified\_Firmicutes | \-1.133e\-03   |
+| MG6        | \(8.71,15.3\] | Unclassified\_Firmicutes | \-3.361e\-03   |
+| MG8        | \(8.71,15.3\] | Unclassified\_Firmicutes | \-1.448e\-03   |
+| MG1        | \(15.3,26.4\] | Rhizobiales              | 4.989e\-05     |
+| MG10       | \(8.71,15.3\] | Rhizobiales              | \-1.137e\-03   |
+| MG13       | \(15.3,26.4\] | Rhizobiales              | 2.603e\-04     |
+| MG14       | \(15.3,26.4\] | Rhizobiales              | \-4.867e\-03   |
+| MG16       | \(15.3,26.4\] | Rhizobiales              | \-2.099e\-03   |
+| MG17       | \(15.3,26.4\] | Rhizobiales              | \-1.370e\-02   |
+| MG19       | \(6.27,8.71\] | Rhizobiales              | 0.000e\+00     |
+| MG2        | \[3.18,6.27\] | Rhizobiales              | \-8.569e\-03   |
+| MG21       | \(8.71,15.3\] | Rhizobiales              | \-1.056e\-02   |
+| MG22       | \(8.71,15.3\] | Rhizobiales              | \-7.362e\-03   |
+| MG23       | \(6.27,8.71\] | Rhizobiales              | 0.000e\+00     |
+| MG25       | \(8.71,15.3\] | Rhizobiales              | \-6.865e\-03   |
+| MG3        | \(8.71,15.3\] | Rhizobiales              | \-4.534e\-03   |
+| MG4        | \(8.71,15.3\] | Rhizobiales              | \-6.895e\-05   |
+| MG6        | \(8.71,15.3\] | Rhizobiales              | \-4.049e\-03   |
+| MG8        | \(8.71,15.3\] | Rhizobiales              | \-1.164e\-03   |
+
+
+
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.1.1\) <a name="widget.128"></a>[`Widget 128.`](#widget.128) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by age.quant. Click to see HTML widget file in full window: [`./1.3.1.2.4.2.4.2.1.1.1-32346a68129Dynamic.Pivot.Table.html`](./1.3.1.2.4.2.4.2.1.1.1-32346a68129Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.1.1\) <a name="widget.129"></a>[`Widget 129.`](#widget.129) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by age.quant. Click to see HTML widget file in full window: [`./1.3.1.2.4.2.4.2.1.1.1-3235787daf6Dynamic.Pivot.Table.html`](./1.3.1.2.4.2.4.2.1.1.1-3235787daf6Dynamic.Pivot.Table.html)
+
+
+\(1.3.1.2.4.2.4.2.1.1.1\) <a name="table.119"></a>[`Table 119.`](#table.119) Summary table. Data grouped by age.quant. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.2.4.2.4.2.1.1.1-323183ac049.1.3.1.2.4.2.4.2.1.1.csv`](data/1.3.1.2.4.2.4.2.1.1.1-323183ac049.1.3.1.2.4.2.4.2.1.1.csv)
+
+
+
+
+| feature                  | age.quant     | mean        | sd        | median       | incidence |
+|:-------------------------|:--------------|:------------|:----------|:-------------|:----------|
+| Clostridiales            | \[3.18,6.27\] | \-0.1848539 | NA        | \-1.849e\-01 | 0.000     |
+| Clostridiales            | \(6.27,8.71\] | \-0.4075630 | 0.0778220 | \-4.076e\-01 | 0.000     |
+| Clostridiales            | \(8.71,15.3\] | \-0.1271761 | 0.0967787 | \-1.343e\-01 | 0.125     |
+| Clostridiales            | \(15.3,26.4\] | \-0.0805399 | 0.2481007 | \-9.783e\-02 | 0.200     |
+| Unclassified\_Firmicutes | \[3.18,6.27\] | 0.0026824   | NA        | 2.682e\-03   | 1.000     |
+| Unclassified\_Firmicutes | \(6.27,8.71\] | \-0.0044392 | 0.0038774 | \-4.439e\-03 | 0.000     |
+| Unclassified\_Firmicutes | \(8.71,15.3\] | \-0.0026382 | 0.0034609 | \-1.796e\-03 | 0.125     |
+| Unclassified\_Firmicutes | \(15.3,26.4\] | \-0.0062235 | 0.0093606 | \-2.556e\-03 | 0.000     |
+| Unclassified\_Bacteria   | \[3.18,6.27\] | \-0.0341026 | NA        | \-3.410e\-02 | 0.000     |
+| Unclassified\_Bacteria   | \(6.27,8.71\] | \-0.0019366 | 0.0168680 | \-1.937e\-03 | 0.500     |
+| Unclassified\_Bacteria   | \(8.71,15.3\] | \-0.0058734 | 0.0069142 | \-4.687e\-03 | 0.250     |
+| Unclassified\_Bacteria   | \(15.3,26.4\] | \-0.0053124 | 0.0041868 | \-5.432e\-03 | 0.000     |
+| Rhizobiales              | \[3.18,6.27\] | \-0.0085690 | NA        | \-8.569e\-03 | 0.000     |
+| Rhizobiales              | \(6.27,8.71\] | 0.0000000   | 0.0000000 | 0.000e\+00   | 0.000     |
+| Rhizobiales              | \(8.71,15.3\] | \-0.0044678 | 0.0036413 | \-4.292e\-03 | 0.000     |
+| Rhizobiales              | \(15.3,26.4\] | \-0.0040717 | 0.0057674 | \-2.099e\-03 | 0.400     |
+| Bacteroidales            | \[3.18,6.27\] | \-0.3368370 | NA        | \-3.368e\-01 | 0.000     |
+| Bacteroidales            | \(6.27,8.71\] | 0.4306140   | 0.1470472 | 4.306e\-01   | 1.000     |
+| Bacteroidales            | \(8.71,15.3\] | 0.1145387   | 0.0751330 | 9.739e\-02   | 1.000     |
+| Bacteroidales            | \(15.3,26.4\] | 0.1141070   | 0.3674766 | 1.408e\-01   | 0.800     |
+| Bifidobacteriales        | \[3.18,6.27\] | 0.0006897   | NA        | 6.897e\-04   | 1.000     |
+| Bifidobacteriales        | \(6.27,8.71\] | \-0.0054871 | 0.0021992 | \-5.487e\-03 | 0.000     |
+| Bifidobacteriales        | \(8.71,15.3\] | 0.0008611   | 0.0081871 | \-7.430e\-04 | 0.125     |
+| Bifidobacteriales        | \(15.3,26.4\] | \-0.0066836 | 0.0154639 | 6.071e\-05   | 0.600     |
+| Selenomonadales          | \[3.18,6.27\] | \-0.0010363 | NA        | \-1.036e\-03 | 0.000     |
+| Selenomonadales          | \(6.27,8.71\] | \-0.0001634 | 0.0004895 | \-1.634e\-04 | 0.500     |
+| Selenomonadales          | \(8.71,15.3\] | \-0.0115346 | 0.0307222 | \-1.975e\-03 | 0.250     |
+| Selenomonadales          | \(15.3,26.4\] | \-0.0341447 | 0.0833706 | \-1.897e\-04 | 0.400     |
+| Erysipelotrichales       | \[3.18,6.27\] | 0.3761952   | NA        | 3.762e\-01   | 1.000     |
+| Erysipelotrichales       | \(6.27,8.71\] | \-0.0277115 | 0.0286911 | \-2.771e\-02 | 0.000     |
+| Erysipelotrichales       | \(8.71,15.3\] | 0.0031193   | 0.0076611 | 2.405e\-03   | 0.500     |
+| Erysipelotrichales       | \(15.3,26.4\] | \-0.0009487 | 0.0060426 | 1.374e\-03   | 0.600     |
+| Lactobacillales          | \[3.18,6.27\] | 0.1891178   | NA        | 1.891e\-01   | 1.000     |
+| Lactobacillales          | \(6.27,8.71\] | \-0.0011759 | 0.0025155 | \-1.176e\-03 | 0.500     |
+| Lactobacillales          | \(8.71,15.3\] | \-0.0083604 | 0.0261909 | 9.096e\-05   | 0.500     |
+| Lactobacillales          | \(15.3,26.4\] | \-0.0181297 | 0.0535234 | 9.398e\-05   | 0.600     |
+| Burkholderiales          | \[3.18,6.27\] | \-0.0040454 | NA        | \-4.045e\-03 | 0.000     |
+| Burkholderiales          | \(6.27,8.71\] | 0.0029020   | 0.0063832 | 2.902e\-03   | 0.500     |
+| Burkholderiales          | \(8.71,15.3\] | \-0.0029648 | 0.0499617 | 3.088e\-03   | 0.625     |
+| Burkholderiales          | \(15.3,26.4\] | \-0.0083880 | 0.0199463 | \-8.936e\-04 | 0.400     |
+| Enterobacteriales        | \[3.18,6.27\] | 0.0029933   | NA        | 2.993e\-03   | 1.000     |
+| Enterobacteriales        | \(6.27,8.71\] | \-0.0002201 | 0.0003112 | \-2.201e\-04 | 0.000     |
+| Enterobacteriales        | \(8.71,15.3\] | \-0.0007415 | 0.0015139 | \-1.934e\-04 | 0.125     |
+| Enterobacteriales        | \(15.3,26.4\] | 0.0290239   | 0.0651933 | 8.659e\-05   | 0.600     |
+| Verrucomicrobiales       | \[3.18,6.27\] | 0.0000000   | NA        | 0.000e\+00   | 0.000     |
+| Verrucomicrobiales       | \(6.27,8.71\] | \-0.0011986 | 0.0013153 | \-1.199e\-03 | 0.000     |
+| Verrucomicrobiales       | \(8.71,15.3\] | 0.0197609   | 0.0555318 | 4.426e\-05   | 0.500     |
+| Verrucomicrobiales       | \(15.3,26.4\] | 0.0000000   | 0.0000000 | 0.000e\+00   | 0.000     |
+
+
+
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.1.1\) <a name="figure.467"></a>[`Figure 467.`](#figure.467) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/3231e66f078.svg`](plots/3231e66f078.svg).
+![](plots/3231e66f078.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.1.1\) <a name="figure.468"></a>[`Figure 468.`](#figure.468) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/32310ea3648.svg`](plots/32310ea3648.svg).
+![](plots/32310ea3648.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.1.1\) <a name="figure.469"></a>[`Figure 469.`](#figure.469) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32312b9f7b4.svg`](plots/32312b9f7b4.svg).
+![](plots/32312b9f7b4.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.1.1\) <a name="figure.470"></a>[`Figure 470.`](#figure.470) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323578d4481.svg`](plots/323578d4481.svg).
+![](plots/323578d4481.svg)
+
+
+##### \(1.3.1.2.4.2.4.2.1.2\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.2.1\) <a name="figure.471"></a>[`Figure 471.`](#figure.471) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/32319b72b44.svg`](plots/32319b72b44.svg).
+![](plots/32319b72b44.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.2.1\) <a name="figure.472"></a>[`Figure 472.`](#figure.472) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32367b92252.svg`](plots/32367b92252.svg).
+![](plots/32367b92252.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.1.2.1\) <a name="figure.473"></a>[`Figure 473.`](#figure.473) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237ca21f10.svg`](plots/3237ca21f10.svg).
+![](plots/3237ca21f10.svg)
+
+
+##### \(1.3.1.2.4.2.4.2.2\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.2.4.2.4.2.2.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.2.4.2.4.2.2.1.1\) <a name="figure.474"></a>[`Figure 474.`](#figure.474) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/32358f97365.svg`](plots/32358f97365.svg).
+![](plots/32358f97365.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.2.1.1\) <a name="figure.475"></a>[`Figure 475.`](#figure.475) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3231544160a.svg`](plots/3231544160a.svg).
+![](plots/3231544160a.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.2.1.1\) <a name="figure.476"></a>[`Figure 476.`](#figure.476) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323491e0793.svg`](plots/323491e0793.svg).
+![](plots/323491e0793.svg)
+
+
+##### \(1.3.1.2.4.2.4.2.2.2\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.2.4.2.4.2.2.2.1\) <a name="figure.477"></a>[`Figure 477.`](#figure.477) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/3234b935654.svg`](plots/3234b935654.svg).
+![](plots/3234b935654.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.2.2.1\) <a name="figure.478"></a>[`Figure 478.`](#figure.478) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3232916033f.svg`](plots/3232916033f.svg).
+![](plots/3232916033f.svg)
+
+
+
+
+\(1.3.1.2.4.2.4.2.2.2.1\) <a name="figure.479"></a>[`Figure 479.`](#figure.479) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237919c64.svg`](plots/3237919c64.svg).
+![](plots/3237919c64.svg)

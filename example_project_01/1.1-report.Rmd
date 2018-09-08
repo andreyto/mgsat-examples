@@ -1,0 +1,34 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+## \(1.1\) Subset: All samples, no aggregation, no tests, only plots
+
+
+
+
+### \(1.1.1\) Iterating over taxonomic levels
+
+
+
+
+#### \(1.1.1.1\) Taxonomic level: 2 of Subset: All samples, no aggregation, no tests, only plots
+
+[`Subreport`](./1.1.1.1-report.html)
+
+
+#### \(1.1.1.2\) Taxonomic level: 4 of Subset: All samples, no aggregation, no tests, only plots
+
+[`Subreport`](./1.1.1.2-report.html)
+
+
+#### \(1.1.1.3\) Taxonomic level: 6 of Subset: All samples, no aggregation, no tests, only plots
+
+[`Subreport`](./1.1.1.3-report.html)
+
+
+#### \(1.1.1.4\) Taxonomic level: otu of Subset: All samples, no aggregation, no tests, only plots
+
+[`Subreport`](./1.1.1.4-report.html)

@@ -1,0 +1,19 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+## \(1.7\) Subset: Patient samples aggregated as geometric medians post-normalization, split by drug before diet status
+
+
+
+
+### \(1.7.1\) Iterating over taxonomic levels
+
+
+
+
+#### \(1.7.1.1\) Taxonomic level: 6 of Subset: Patient samples aggregated as geometric medians post-normalization, split by drug before diet status
+
+[`Subreport`](./1.7.1.1-report.html)

@@ -1,0 +1,3 @@
+"Sample.type","Min.Count.Sum","Max.Count.Sum","Mean.Count.Sum","Median.Count.Sum","Q25.Count.Sum","Q75.Count.Sum"
+"control",2272,17414,7868,6068,4472.25,11643.75
+"patient",2240,22592,7541.82608695652,3642,2634.5,10925.5

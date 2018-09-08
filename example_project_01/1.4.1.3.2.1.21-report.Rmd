@@ -1,0 +1,754 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.4.1.3.2.1.21\) Plots of Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.4.1.3.2.1.21.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.1\) Entire pool of samples
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.2\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.3.2.1.21.2.2.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.2.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.0\) <a name="table.240"></a>[`Table 240.`](#table.240) Data table used for plots. Data for all pooled samples. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.3.2.1.21.2.2.2.1.1.0-3234b0dcd1e.1.4.1.3.2.1.21.2.2.csv`](data/1.4.1.3.2.1.21.2.2.2.1.1.0-3234b0dcd1e.1.4.1.3.2.1.21.2.2.csv)
+
+
+
+
+| .record.id       | feature  | l2fc        |
+|:-----------------|:---------|:------------|
+| SB11.before.diet | N\_0     | \-0.0076750 |
+| SB16.before.diet | N\_0     | 0.3480865   |
+| SB18.before.diet | N\_0     | \-0.5212565 |
+| SB28.before.diet | N\_0     | \-0.2328718 |
+| SB29.before.diet | N\_0     | 1.6539099   |
+| SB34.before.diet | N\_0     | 0.1571710   |
+| SB36.before.diet | N\_0     | \-0.3610002 |
+| SB39.before.diet | N\_0     | 0.5340419   |
+| SB4.before.diet  | N\_0     | 0.8992148   |
+| SB41.before.diet | N\_0     | \-0.2760230 |
+| SB43.before.diet | N\_0     | \-0.0482601 |
+| SB44.before.diet | N\_0     | \-0.2396756 |
+| SB5.before.diet  | N\_0     | 0.6115110   |
+| SB9.before.diet  | N\_0     | 0.5547278   |
+| SB11.before.diet | N\_0.25  | \-0.0650435 |
+| SB16.before.diet | N\_0.25  | 0.4305600   |
+| SB18.before.diet | N\_0.25  | \-1.0194469 |
+| SB28.before.diet | N\_0.25  | \-0.4169106 |
+| SB29.before.diet | N\_0.25  | 1.6552423   |
+| SB34.before.diet | N\_0.25  | 0.2272344   |
+| SB36.before.diet | N\_0.25  | \-0.3358437 |
+| SB39.before.diet | N\_0.25  | 0.6966606   |
+| SB4.before.diet  | N\_0.25  | 1.2180988   |
+| SB41.before.diet | N\_0.25  | \-0.2694241 |
+| SB43.before.diet | N\_0.25  | \-0.1440967 |
+| SB44.before.diet | N\_0.25  | \-0.4737334 |
+| SB5.before.diet  | N\_0.25  | 0.8732202   |
+| SB9.before.diet  | N\_0.25  | 0.7805925   |
+| SB11.before.diet | N\_0.5   | \-0.1685488 |
+| SB16.before.diet | N\_0.5   | 0.3546864   |
+| SB18.before.diet | N\_0.5   | \-1.5752688 |
+| SB28.before.diet | N\_0.5   | \-0.3743272 |
+| SB29.before.diet | N\_0.5   | 1.1220989   |
+| SB34.before.diet | N\_0.5   | 0.2693997   |
+| SB36.before.diet | N\_0.5   | \-0.2064812 |
+| SB39.before.diet | N\_0.5   | 0.8565193   |
+| SB4.before.diet  | N\_0.5   | 1.1867101   |
+| SB41.before.diet | N\_0.5   | \-0.2279777 |
+| SB43.before.diet | N\_0.5   | \-0.3132971 |
+| SB44.before.diet | N\_0.5   | \-0.8638242 |
+| SB5.before.diet  | N\_0.5   | 1.2256564   |
+| SB9.before.diet  | N\_0.5   | 1.0160234   |
+| SB11.before.diet | N\_1     | \-0.3772457 |
+| SB16.before.diet | N\_1     | \-0.1316451 |
+| SB18.before.diet | N\_1     | \-2.0354925 |
+| SB28.before.diet | N\_1     | 0.1598985   |
+| SB29.before.diet | N\_1     | 0.0459187   |
+| SB34.before.diet | N\_1     | 0.1933201   |
+| SB36.before.diet | N\_1     | 0.0025508   |
+| SB39.before.diet | N\_1     | 0.9765652   |
+| SB4.before.diet  | N\_1     | 0.4759275   |
+| SB41.before.diet | N\_1     | \-0.0979754 |
+| SB43.before.diet | N\_1     | \-0.6827017 |
+| SB44.before.diet | N\_1     | \-1.5533243 |
+| SB5.before.diet  | N\_1     | 1.8463379   |
+| SB9.before.diet  | N\_1     | 1.3145478   |
+| SB11.before.diet | N\_2     | \-0.3304349 |
+| SB16.before.diet | N\_2     | \-0.3551647 |
+| SB18.before.diet | N\_2     | \-1.8716221 |
+| SB28.before.diet | N\_2     | 0.6421860   |
+| SB29.before.diet | N\_2     | \-0.3746549 |
+| SB34.before.diet | N\_2     | 0.0780092   |
+| SB36.before.diet | N\_2     | \-0.0577498 |
+| SB39.before.diet | N\_2     | 0.8045594   |
+| SB4.before.diet  | N\_2     | 0.1615020   |
+| SB41.before.diet | N\_2     | \-0.0316386 |
+| SB43.before.diet | N\_2     | \-0.9722183 |
+| SB44.before.diet | N\_2     | \-1.7133320 |
+| SB5.before.diet  | N\_2     | 2.1562494   |
+| SB9.before.diet  | N\_2     | 1.2631519   |
+| SB11.before.diet | N\_4     | \-0.1400163 |
+| SB16.before.diet | N\_4     | \-0.2930996 |
+| SB18.before.diet | N\_4     | \-1.6096349 |
+| SB28.before.diet | N\_4     | 0.6192234   |
+| SB29.before.diet | N\_4     | \-0.3728553 |
+| SB34.before.diet | N\_4     | 0.0519709   |
+| SB36.before.diet | N\_4     | \-0.2104588 |
+| SB39.before.diet | N\_4     | 0.6384434   |
+| SB4.before.diet  | N\_4     | 0.1080544   |
+| SB41.before.diet | N\_4     | \-0.0205202 |
+| SB43.before.diet | N\_4     | \-1.0084253 |
+| SB44.before.diet | N\_4     | \-1.5371088 |
+| SB5.before.diet  | N\_4     | 2.0475122   |
+| SB9.before.diet  | N\_4     | 1.0190013   |
+| SB11.before.diet | N\_8     | \-0.0844503 |
+| SB16.before.diet | N\_8     | \-0.2526492 |
+| SB18.before.diet | N\_8     | \-1.4361547 |
+| SB28.before.diet | N\_8     | 0.5420799   |
+| SB29.before.diet | N\_8     | \-0.3292086 |
+| SB34.before.diet | N\_8     | 0.0445451   |
+| SB36.before.diet | N\_8     | \-0.2583259 |
+| SB39.before.diet | N\_8     | 0.5531758   |
+| SB4.before.diet  | N\_8     | 0.0926171   |
+| SB41.before.diet | N\_8     | \-0.0175829 |
+| SB43.before.diet | N\_8     | \-0.9373780 |
+| SB44.before.diet | N\_8     | \-1.3823433 |
+| SB5.before.diet  | N\_8     | 1.8661135   |
+| SB9.before.diet  | N\_8     | 0.8830117   |
+| SB11.before.diet | N\_Inf   | \-0.0716940 |
+| SB16.before.diet | N\_Inf   | \-0.2210522 |
+| SB18.before.diet | N\_Inf   | \-1.2604795 |
+| SB28.before.diet | N\_Inf   | 0.4743894   |
+| SB29.before.diet | N\_Inf   | \-0.2881601 |
+| SB34.before.diet | N\_Inf   | 0.0389764   |
+| SB36.before.diet | N\_Inf   | \-0.2389022 |
+| SB39.before.diet | N\_Inf   | 0.4840702   |
+| SB4.before.diet  | N\_Inf   | 0.0810394   |
+| SB41.before.diet | N\_Inf   | \-0.0153837 |
+| SB43.before.diet | N\_Inf   | \-0.8233896 |
+| SB44.before.diet | N\_Inf   | \-1.2138795 |
+| SB5.before.diet  | N\_Inf   | 1.6399664   |
+| SB9.before.diet  | N\_Inf   | 0.7727269   |
+| SB11.before.diet | NE\_0.25 | \-0.0580629 |
+| SB16.before.diet | NE\_0.25 | 0.0804739   |
+| SB18.before.diet | NE\_0.25 | \-0.4968010 |
+| SB28.before.diet | NE\_0.25 | \-0.1834798 |
+| SB29.before.diet | NE\_0.25 | \-0.0034139 |
+| SB34.before.diet | NE\_0.25 | 0.0681398   |
+| SB36.before.diet | NE\_0.25 | 0.0213113   |
+| SB39.before.diet | NE\_0.25 | 0.1559748   |
+| SB4.before.diet  | NE\_0.25 | 0.3118199   |
+| SB41.before.diet | NE\_0.25 | 0.0074359   |
+| SB43.before.diet | NE\_0.25 | \-0.0947365 |
+| SB44.before.diet | NE\_0.25 | \-0.2334653 |
+| SB5.before.diet  | NE\_0.25 | 0.2564894   |
+| SB9.before.diet  | NE\_0.25 | 0.2198809   |
+| SB11.before.diet | NE\_0.5  | \-0.1623359 |
+| SB16.before.diet | NE\_0.5  | 0.0004776   |
+| SB18.before.diet | NE\_0.5  | \-1.0480772 |
+| SB28.before.diet | NE\_0.5  | \-0.1402940 |
+| SB29.before.diet | NE\_0.5  | \-0.5402037 |
+| SB34.before.diet | NE\_0.5  | 0.1085280   |
+| SB36.before.diet | NE\_0.5  | 0.1476659   |
+| SB39.before.diet | NE\_0.5  | 0.3079463   |
+| SB4.before.diet  | NE\_0.5  | 0.2676527   |
+| SB41.before.diet | NE\_0.5  | 0.0500777   |
+| SB43.before.diet | NE\_0.5  | \-0.2634219 |
+| SB44.before.diet | NE\_0.5  | \-0.6230980 |
+| SB5.before.diet  | NE\_0.5  | 0.6041029   |
+| SB9.before.diet  | NE\_0.5  | 0.4500457   |
+| SB11.before.diet | NE\_1    | \-0.3722349 |
+| SB16.before.diet | NE\_1    | \-0.4904583 |
+| SB18.before.diet | NE\_1    | \-1.4992576 |
+| SB28.before.diet | NE\_1    | 0.3944830   |
+| SB29.before.diet | NE\_1    | \-1.6181548 |
+| SB34.before.diet | NE\_1    | 0.0334600   |
+| SB36.before.diet | NE\_1    | 0.3550983   |
+| SB39.before.diet | NE\_1    | 0.4172732   |
+| SB4.before.diet  | NE\_1    | \-0.4519847 |
+| SB41.before.diet | NE\_1    | 0.1797185   |
+| SB43.before.diet | NE\_1    | \-0.6330088 |
+| SB44.before.diet | NE\_1    | \-1.3126390 |
+| SB5.before.diet  | NE\_1    | 1.2215903   |
+| SB9.before.diet  | NE\_1    | 0.7449994   |
+| SB11.before.diet | NE\_2    | \-0.3263374 |
+| SB16.before.diet | NE\_2    | \-0.7138983 |
+| SB18.before.diet | NE\_2    | \-1.3316416 |
+| SB28.before.diet | NE\_2    | 0.8771701   |
+| SB29.before.diet | NE\_2    | \-2.0387634 |
+| SB34.before.diet | NE\_2    | \-0.0769682 |
+| SB36.before.diet | NE\_2    | 0.2946857   |
+| SB39.before.diet | NE\_2    | 0.2439923   |
+| SB4.before.diet  | NE\_2    | \-0.7675982 |
+| SB41.before.diet | NE\_2    | 0.2445872   |
+| SB43.before.diet | NE\_2    | \-0.9240809 |
+| SB44.before.diet | NE\_2    | \-1.4717210 |
+| SB5.before.diet  | NE\_2    | 1.5327491   |
+| SB9.before.diet  | NE\_2    | 0.6951462   |
+| SB11.before.diet | NE\_4    | \-0.1358420 |
+| SB16.before.diet | NE\_4    | \-0.6515895 |
+| SB18.before.diet | NE\_4    | \-1.0686691 |
+| SB28.before.diet | NE\_4    | 0.8542210   |
+| SB29.before.diet | NE\_4    | \-2.0369209 |
+| SB34.before.diet | NE\_4    | \-0.1011699 |
+| SB36.before.diet | NE\_4    | 0.1414095   |
+| SB39.before.diet | NE\_4    | 0.0793540   |
+| SB4.before.diet  | NE\_4    | \-0.8212649 |
+| SB41.before.diet | NE\_4    | 0.2552103   |
+| SB43.before.diet | NE\_4    | \-0.9628342 |
+| SB44.before.diet | NE\_4    | \-1.2940856 |
+| SB5.before.diet  | NE\_4    | 1.4240996   |
+| SB9.before.diet  | NE\_4    | 0.4516693   |
+| SB11.before.diet | NE\_8    | \-0.0800269 |
+| SB16.before.diet | NE\_8    | \-0.6110654 |
+| SB18.before.diet | NE\_8    | \-0.8948597 |
+| SB28.before.diet | NE\_8    | 0.7770790   |
+| SB29.before.diet | NE\_8    | \-1.9931985 |
+| SB34.before.diet | NE\_8    | \-0.1080232 |
+| SB36.before.diet | NE\_8    | 0.0933700   |
+| SB39.before.diet | NE\_8    | \-0.0053785 |
+| SB4.before.diet  | NE\_8    | \-0.8367663 |
+| SB41.before.diet | NE\_8    | 0.2579894   |
+| SB43.before.diet | NE\_8    | \-0.8936277 |
+| SB44.before.diet | NE\_8    | \-1.1388512 |
+| SB5.before.diet  | NE\_8    | 1.2420011   |
+| SB9.before.diet  | NE\_8    | 0.3157548   |
+| SB11.before.diet | NE\_Inf  | \-0.0672732 |
+| SB16.before.diet | NE\_Inf  | \-0.5794113 |
+| SB18.before.diet | NE\_Inf  | \-0.7189372 |
+| SB28.before.diet | NE\_Inf  | 0.7093968   |
+
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.1\) <a name="widget.254"></a>[`Widget 254.`](#widget.254) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.4.1.3.2.1.21.2.2.2.1.1.1-3237cb92772Dynamic.Pivot.Table.html`](./1.4.1.3.2.1.21.2.2.2.1.1.1-3237cb92772Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.1\) <a name="widget.255"></a>[`Widget 255.`](#widget.255) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.4.1.3.2.1.21.2.2.2.1.1.1-32372769ea1Dynamic.Pivot.Table.html`](./1.4.1.3.2.1.21.2.2.2.1.1.1-32372769ea1Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.1\) <a name="table.241"></a>[`Table 241.`](#table.241) Summary table. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.3.2.1.21.2.2.2.1.1.1-3231826019e.1.4.1.3.2.1.21.2.2.csv`](data/1.4.1.3.2.1.21.2.2.2.1.1.1-3231826019e.1.4.1.3.2.1.21.2.2.csv)
+
+
+
+
+| feature  | mean       | sd     | median    | incidence |
+|:---------|:-----------|:-------|:----------|:----------|
+| N\_0     | 0.219421   | 0.5932 | 0.07475   | 0.5000    |
+| N\_0.25  | 0.225508   | 0.7470 | 0.08110   | 0.5000    |
+| N\_0.5   | 0.164384   | 0.8478 | 0.05043   | 0.5000    |
+| NE\_8    | \-0.276829 | 0.8417 | \-0.09403 | 0.3571    |
+| NE\_Inf  | \-0.271447 | 0.7636 | \-0.09363 | 0.3571    |
+| N\_1     | 0.009763   | 1.0218 | 0.02423   | 0.5714    |
+| NE\_4    | \-0.276172 | 0.9201 | \-0.11851 | 0.4286    |
+| N\_4     | \-0.050565 | 0.9711 | \-0.08027 | 0.4286    |
+| NE\_2    | \-0.268763 | 0.9984 | \-0.20165 | 0.4286    |
+| N\_8     | \-0.051182 | 0.8742 | \-0.05102 | 0.4286    |
+| N\_2     | \-0.042940 | 1.0768 | \-0.04469 | 0.4286    |
+| N\_Inf   | \-0.045841 | 0.7676 | \-0.04354 | 0.4286    |
+| NE\_0.5  | \-0.060067 | 0.4484 | 0.02528   | 0.5714    |
+| NE\_0.25 | 0.003683   | 0.2138 | 0.01437   | 0.5714    |
+| NE\_1    | \-0.216508 | 0.8528 | \-0.16939 | 0.5000    |
+
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.1\) <a name="figure.748"></a>[`Figure 748.`](#figure.748) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/323322ac685.svg`](plots/323322ac685.svg).
+![](plots/323322ac685.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.1\) <a name="figure.749"></a>[`Figure 749.`](#figure.749) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3233a2a03e4.svg`](plots/3233a2a03e4.svg).
+![](plots/3233a2a03e4.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.1\) <a name="figure.750"></a>[`Figure 750.`](#figure.750) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3234c661a0e.svg`](plots/3234c661a0e.svg).
+![](plots/3234c661a0e.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.1.1\) <a name="figure.751"></a>[`Figure 751.`](#figure.751) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237524c692.svg`](plots/3237524c692.svg).
+![](plots/3237524c692.svg)
+
+
+##### \(1.4.1.3.2.1.21.2.2.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.2.1\) <a name="figure.752"></a>[`Figure 752.`](#figure.752) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3232c350105.svg`](plots/3232c350105.svg).
+![](plots/3232c350105.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.2.1\) <a name="figure.753"></a>[`Figure 753.`](#figure.753) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3234d6d1368.svg`](plots/3234d6d1368.svg).
+![](plots/3234d6d1368.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.2.2.1.2.1\) <a name="figure.754"></a>[`Figure 754.`](#figure.754) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237d0fb5e3.svg`](plots/3237d0fb5e3.svg).
+![](plots/3237d0fb5e3.svg)
+
+
+##### \(1.4.1.3.2.1.21.2.3\) Grouping variables Drug.Before.Diet
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.4\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.4.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.3.2.1.21.2.4.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.4.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.0\) <a name="table.242"></a>[`Table 242.`](#table.242) Data table used for plots. Data grouped by Drug.Before.Diet. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.3.2.1.21.2.4.2.1.1.0-3231ffd5120.1.4.1.3.2.1.21.2.4.csv`](data/1.4.1.3.2.1.21.2.4.2.1.1.0-3231ffd5120.1.4.1.3.2.1.21.2.4.csv)
+
+
+
+
+| .record.id       | Drug.Before.Diet | feature  | l2fc        |
+|:-----------------|:-----------------|:---------|:------------|
+| SB11.before.diet | DrugBefore\_NO   | N\_0     | \-0.0076750 |
+| SB16.before.diet | DrugBefore\_YES  | N\_0     | 0.3480865   |
+| SB18.before.diet | DrugBefore\_NO   | N\_0     | \-0.5212565 |
+| SB28.before.diet | DrugBefore\_YES  | N\_0     | \-0.2328718 |
+| SB29.before.diet | DrugBefore\_YES  | N\_0     | 1.6539099   |
+| SB34.before.diet | DrugBefore\_YES  | N\_0     | 0.1571710   |
+| SB36.before.diet | DrugBefore\_YES  | N\_0     | \-0.3610002 |
+| SB39.before.diet | DrugBefore\_YES  | N\_0     | 0.5340419   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_0     | 0.8992148   |
+| SB41.before.diet | DrugBefore\_YES  | N\_0     | \-0.2760230 |
+| SB43.before.diet | DrugBefore\_YES  | N\_0     | \-0.0482601 |
+| SB44.before.diet | DrugBefore\_YES  | N\_0     | \-0.2396756 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_0     | 0.6115110   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_0     | 0.5547278   |
+| SB11.before.diet | DrugBefore\_NO   | N\_0.25  | \-0.0650435 |
+| SB16.before.diet | DrugBefore\_YES  | N\_0.25  | 0.4305600   |
+| SB18.before.diet | DrugBefore\_NO   | N\_0.25  | \-1.0194469 |
+| SB28.before.diet | DrugBefore\_YES  | N\_0.25  | \-0.4169106 |
+| SB29.before.diet | DrugBefore\_YES  | N\_0.25  | 1.6552423   |
+| SB34.before.diet | DrugBefore\_YES  | N\_0.25  | 0.2272344   |
+| SB36.before.diet | DrugBefore\_YES  | N\_0.25  | \-0.3358437 |
+| SB39.before.diet | DrugBefore\_YES  | N\_0.25  | 0.6966606   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_0.25  | 1.2180988   |
+| SB41.before.diet | DrugBefore\_YES  | N\_0.25  | \-0.2694241 |
+| SB43.before.diet | DrugBefore\_YES  | N\_0.25  | \-0.1440967 |
+| SB44.before.diet | DrugBefore\_YES  | N\_0.25  | \-0.4737334 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_0.25  | 0.8732202   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_0.25  | 0.7805925   |
+| SB11.before.diet | DrugBefore\_NO   | N\_0.5   | \-0.1685488 |
+| SB16.before.diet | DrugBefore\_YES  | N\_0.5   | 0.3546864   |
+| SB18.before.diet | DrugBefore\_NO   | N\_0.5   | \-1.5752688 |
+| SB28.before.diet | DrugBefore\_YES  | N\_0.5   | \-0.3743272 |
+| SB29.before.diet | DrugBefore\_YES  | N\_0.5   | 1.1220989   |
+| SB34.before.diet | DrugBefore\_YES  | N\_0.5   | 0.2693997   |
+| SB36.before.diet | DrugBefore\_YES  | N\_0.5   | \-0.2064812 |
+| SB39.before.diet | DrugBefore\_YES  | N\_0.5   | 0.8565193   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_0.5   | 1.1867101   |
+| SB41.before.diet | DrugBefore\_YES  | N\_0.5   | \-0.2279777 |
+| SB43.before.diet | DrugBefore\_YES  | N\_0.5   | \-0.3132971 |
+| SB44.before.diet | DrugBefore\_YES  | N\_0.5   | \-0.8638242 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_0.5   | 1.2256564   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_0.5   | 1.0160234   |
+| SB11.before.diet | DrugBefore\_NO   | N\_1     | \-0.3772457 |
+| SB16.before.diet | DrugBefore\_YES  | N\_1     | \-0.1316451 |
+| SB18.before.diet | DrugBefore\_NO   | N\_1     | \-2.0354925 |
+| SB28.before.diet | DrugBefore\_YES  | N\_1     | 0.1598985   |
+| SB29.before.diet | DrugBefore\_YES  | N\_1     | 0.0459187   |
+| SB34.before.diet | DrugBefore\_YES  | N\_1     | 0.1933201   |
+| SB36.before.diet | DrugBefore\_YES  | N\_1     | 0.0025508   |
+| SB39.before.diet | DrugBefore\_YES  | N\_1     | 0.9765652   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_1     | 0.4759275   |
+| SB41.before.diet | DrugBefore\_YES  | N\_1     | \-0.0979754 |
+| SB43.before.diet | DrugBefore\_YES  | N\_1     | \-0.6827017 |
+| SB44.before.diet | DrugBefore\_YES  | N\_1     | \-1.5533243 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_1     | 1.8463379   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_1     | 1.3145478   |
+| SB11.before.diet | DrugBefore\_NO   | N\_2     | \-0.3304349 |
+| SB16.before.diet | DrugBefore\_YES  | N\_2     | \-0.3551647 |
+| SB18.before.diet | DrugBefore\_NO   | N\_2     | \-1.8716221 |
+| SB28.before.diet | DrugBefore\_YES  | N\_2     | 0.6421860   |
+| SB29.before.diet | DrugBefore\_YES  | N\_2     | \-0.3746549 |
+| SB34.before.diet | DrugBefore\_YES  | N\_2     | 0.0780092   |
+| SB36.before.diet | DrugBefore\_YES  | N\_2     | \-0.0577498 |
+| SB39.before.diet | DrugBefore\_YES  | N\_2     | 0.8045594   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_2     | 0.1615020   |
+| SB41.before.diet | DrugBefore\_YES  | N\_2     | \-0.0316386 |
+| SB43.before.diet | DrugBefore\_YES  | N\_2     | \-0.9722183 |
+| SB44.before.diet | DrugBefore\_YES  | N\_2     | \-1.7133320 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_2     | 2.1562494   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_2     | 1.2631519   |
+| SB11.before.diet | DrugBefore\_NO   | N\_4     | \-0.1400163 |
+| SB16.before.diet | DrugBefore\_YES  | N\_4     | \-0.2930996 |
+| SB18.before.diet | DrugBefore\_NO   | N\_4     | \-1.6096349 |
+| SB28.before.diet | DrugBefore\_YES  | N\_4     | 0.6192234   |
+| SB29.before.diet | DrugBefore\_YES  | N\_4     | \-0.3728553 |
+| SB34.before.diet | DrugBefore\_YES  | N\_4     | 0.0519709   |
+| SB36.before.diet | DrugBefore\_YES  | N\_4     | \-0.2104588 |
+| SB39.before.diet | DrugBefore\_YES  | N\_4     | 0.6384434   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_4     | 0.1080544   |
+| SB41.before.diet | DrugBefore\_YES  | N\_4     | \-0.0205202 |
+| SB43.before.diet | DrugBefore\_YES  | N\_4     | \-1.0084253 |
+| SB44.before.diet | DrugBefore\_YES  | N\_4     | \-1.5371088 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_4     | 2.0475122   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_4     | 1.0190013   |
+| SB11.before.diet | DrugBefore\_NO   | N\_8     | \-0.0844503 |
+| SB16.before.diet | DrugBefore\_YES  | N\_8     | \-0.2526492 |
+| SB18.before.diet | DrugBefore\_NO   | N\_8     | \-1.4361547 |
+| SB28.before.diet | DrugBefore\_YES  | N\_8     | 0.5420799   |
+| SB29.before.diet | DrugBefore\_YES  | N\_8     | \-0.3292086 |
+| SB34.before.diet | DrugBefore\_YES  | N\_8     | 0.0445451   |
+| SB36.before.diet | DrugBefore\_YES  | N\_8     | \-0.2583259 |
+| SB39.before.diet | DrugBefore\_YES  | N\_8     | 0.5531758   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_8     | 0.0926171   |
+| SB41.before.diet | DrugBefore\_YES  | N\_8     | \-0.0175829 |
+| SB43.before.diet | DrugBefore\_YES  | N\_8     | \-0.9373780 |
+| SB44.before.diet | DrugBefore\_YES  | N\_8     | \-1.3823433 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_8     | 1.8661135   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_8     | 0.8830117   |
+| SB11.before.diet | DrugBefore\_NO   | N\_Inf   | \-0.0716940 |
+| SB16.before.diet | DrugBefore\_YES  | N\_Inf   | \-0.2210522 |
+| SB18.before.diet | DrugBefore\_NO   | N\_Inf   | \-1.2604795 |
+| SB28.before.diet | DrugBefore\_YES  | N\_Inf   | 0.4743894   |
+| SB29.before.diet | DrugBefore\_YES  | N\_Inf   | \-0.2881601 |
+| SB34.before.diet | DrugBefore\_YES  | N\_Inf   | 0.0389764   |
+| SB36.before.diet | DrugBefore\_YES  | N\_Inf   | \-0.2389022 |
+| SB39.before.diet | DrugBefore\_YES  | N\_Inf   | 0.4840702   |
+| SB4.before.diet  | DrugBefore\_YES  | N\_Inf   | 0.0810394   |
+| SB41.before.diet | DrugBefore\_YES  | N\_Inf   | \-0.0153837 |
+| SB43.before.diet | DrugBefore\_YES  | N\_Inf   | \-0.8233896 |
+| SB44.before.diet | DrugBefore\_YES  | N\_Inf   | \-1.2138795 |
+| SB5.before.diet  | DrugBefore\_NO   | N\_Inf   | 1.6399664   |
+| SB9.before.diet  | DrugBefore\_NO   | N\_Inf   | 0.7727269   |
+| SB11.before.diet | DrugBefore\_NO   | NE\_0.25 | \-0.0580629 |
+| SB16.before.diet | DrugBefore\_YES  | NE\_0.25 | 0.0804739   |
+| SB18.before.diet | DrugBefore\_NO   | NE\_0.25 | \-0.4968010 |
+| SB28.before.diet | DrugBefore\_YES  | NE\_0.25 | \-0.1834798 |
+| SB29.before.diet | DrugBefore\_YES  | NE\_0.25 | \-0.0034139 |
+| SB34.before.diet | DrugBefore\_YES  | NE\_0.25 | 0.0681398   |
+| SB36.before.diet | DrugBefore\_YES  | NE\_0.25 | 0.0213113   |
+| SB39.before.diet | DrugBefore\_YES  | NE\_0.25 | 0.1559748   |
+| SB4.before.diet  | DrugBefore\_YES  | NE\_0.25 | 0.3118199   |
+| SB41.before.diet | DrugBefore\_YES  | NE\_0.25 | 0.0074359   |
+| SB43.before.diet | DrugBefore\_YES  | NE\_0.25 | \-0.0947365 |
+| SB44.before.diet | DrugBefore\_YES  | NE\_0.25 | \-0.2334653 |
+| SB5.before.diet  | DrugBefore\_NO   | NE\_0.25 | 0.2564894   |
+| SB9.before.diet  | DrugBefore\_NO   | NE\_0.25 | 0.2198809   |
+| SB11.before.diet | DrugBefore\_NO   | NE\_0.5  | \-0.1623359 |
+| SB16.before.diet | DrugBefore\_YES  | NE\_0.5  | 0.0004776   |
+| SB18.before.diet | DrugBefore\_NO   | NE\_0.5  | \-1.0480772 |
+| SB28.before.diet | DrugBefore\_YES  | NE\_0.5  | \-0.1402940 |
+| SB29.before.diet | DrugBefore\_YES  | NE\_0.5  | \-0.5402037 |
+| SB34.before.diet | DrugBefore\_YES  | NE\_0.5  | 0.1085280   |
+| SB36.before.diet | DrugBefore\_YES  | NE\_0.5  | 0.1476659   |
+| SB39.before.diet | DrugBefore\_YES  | NE\_0.5  | 0.3079463   |
+| SB4.before.diet  | DrugBefore\_YES  | NE\_0.5  | 0.2676527   |
+| SB41.before.diet | DrugBefore\_YES  | NE\_0.5  | 0.0500777   |
+| SB43.before.diet | DrugBefore\_YES  | NE\_0.5  | \-0.2634219 |
+| SB44.before.diet | DrugBefore\_YES  | NE\_0.5  | \-0.6230980 |
+| SB5.before.diet  | DrugBefore\_NO   | NE\_0.5  | 0.6041029   |
+| SB9.before.diet  | DrugBefore\_NO   | NE\_0.5  | 0.4500457   |
+| SB11.before.diet | DrugBefore\_NO   | NE\_1    | \-0.3722349 |
+| SB16.before.diet | DrugBefore\_YES  | NE\_1    | \-0.4904583 |
+| SB18.before.diet | DrugBefore\_NO   | NE\_1    | \-1.4992576 |
+| SB28.before.diet | DrugBefore\_YES  | NE\_1    | 0.3944830   |
+| SB29.before.diet | DrugBefore\_YES  | NE\_1    | \-1.6181548 |
+| SB34.before.diet | DrugBefore\_YES  | NE\_1    | 0.0334600   |
+| SB36.before.diet | DrugBefore\_YES  | NE\_1    | 0.3550983   |
+| SB39.before.diet | DrugBefore\_YES  | NE\_1    | 0.4172732   |
+| SB4.before.diet  | DrugBefore\_YES  | NE\_1    | \-0.4519847 |
+| SB41.before.diet | DrugBefore\_YES  | NE\_1    | 0.1797185   |
+| SB43.before.diet | DrugBefore\_YES  | NE\_1    | \-0.6330088 |
+| SB44.before.diet | DrugBefore\_YES  | NE\_1    | \-1.3126390 |
+| SB5.before.diet  | DrugBefore\_NO   | NE\_1    | 1.2215903   |
+| SB9.before.diet  | DrugBefore\_NO   | NE\_1    | 0.7449994   |
+| SB11.before.diet | DrugBefore\_NO   | NE\_2    | \-0.3263374 |
+| SB16.before.diet | DrugBefore\_YES  | NE\_2    | \-0.7138983 |
+| SB18.before.diet | DrugBefore\_NO   | NE\_2    | \-1.3316416 |
+| SB28.before.diet | DrugBefore\_YES  | NE\_2    | 0.8771701   |
+| SB29.before.diet | DrugBefore\_YES  | NE\_2    | \-2.0387634 |
+| SB34.before.diet | DrugBefore\_YES  | NE\_2    | \-0.0769682 |
+| SB36.before.diet | DrugBefore\_YES  | NE\_2    | 0.2946857   |
+| SB39.before.diet | DrugBefore\_YES  | NE\_2    | 0.2439923   |
+| SB4.before.diet  | DrugBefore\_YES  | NE\_2    | \-0.7675982 |
+| SB41.before.diet | DrugBefore\_YES  | NE\_2    | 0.2445872   |
+| SB43.before.diet | DrugBefore\_YES  | NE\_2    | \-0.9240809 |
+| SB44.before.diet | DrugBefore\_YES  | NE\_2    | \-1.4717210 |
+| SB5.before.diet  | DrugBefore\_NO   | NE\_2    | 1.5327491   |
+| SB9.before.diet  | DrugBefore\_NO   | NE\_2    | 0.6951462   |
+| SB11.before.diet | DrugBefore\_NO   | NE\_4    | \-0.1358420 |
+| SB16.before.diet | DrugBefore\_YES  | NE\_4    | \-0.6515895 |
+| SB18.before.diet | DrugBefore\_NO   | NE\_4    | \-1.0686691 |
+| SB28.before.diet | DrugBefore\_YES  | NE\_4    | 0.8542210   |
+| SB29.before.diet | DrugBefore\_YES  | NE\_4    | \-2.0369209 |
+| SB34.before.diet | DrugBefore\_YES  | NE\_4    | \-0.1011699 |
+| SB36.before.diet | DrugBefore\_YES  | NE\_4    | 0.1414095   |
+| SB39.before.diet | DrugBefore\_YES  | NE\_4    | 0.0793540   |
+| SB4.before.diet  | DrugBefore\_YES  | NE\_4    | \-0.8212649 |
+| SB41.before.diet | DrugBefore\_YES  | NE\_4    | 0.2552103   |
+| SB43.before.diet | DrugBefore\_YES  | NE\_4    | \-0.9628342 |
+| SB44.before.diet | DrugBefore\_YES  | NE\_4    | \-1.2940856 |
+| SB5.before.diet  | DrugBefore\_NO   | NE\_4    | 1.4240996   |
+| SB9.before.diet  | DrugBefore\_NO   | NE\_4    | 0.4516693   |
+| SB11.before.diet | DrugBefore\_NO   | NE\_8    | \-0.0800269 |
+| SB16.before.diet | DrugBefore\_YES  | NE\_8    | \-0.6110654 |
+| SB18.before.diet | DrugBefore\_NO   | NE\_8    | \-0.8948597 |
+| SB28.before.diet | DrugBefore\_YES  | NE\_8    | 0.7770790   |
+| SB29.before.diet | DrugBefore\_YES  | NE\_8    | \-1.9931985 |
+| SB34.before.diet | DrugBefore\_YES  | NE\_8    | \-0.1080232 |
+| SB36.before.diet | DrugBefore\_YES  | NE\_8    | 0.0933700   |
+| SB39.before.diet | DrugBefore\_YES  | NE\_8    | \-0.0053785 |
+| SB4.before.diet  | DrugBefore\_YES  | NE\_8    | \-0.8367663 |
+| SB41.before.diet | DrugBefore\_YES  | NE\_8    | 0.2579894   |
+| SB43.before.diet | DrugBefore\_YES  | NE\_8    | \-0.8936277 |
+| SB44.before.diet | DrugBefore\_YES  | NE\_8    | \-1.1388512 |
+| SB5.before.diet  | DrugBefore\_NO   | NE\_8    | 1.2420011   |
+| SB9.before.diet  | DrugBefore\_NO   | NE\_8    | 0.3157548   |
+| SB11.before.diet | DrugBefore\_NO   | NE\_Inf  | \-0.0672732 |
+| SB16.before.diet | DrugBefore\_YES  | NE\_Inf  | \-0.5794113 |
+| SB18.before.diet | DrugBefore\_NO   | NE\_Inf  | \-0.7189372 |
+| SB28.before.diet | DrugBefore\_YES  | NE\_Inf  | 0.7093968   |
+
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.1\) <a name="widget.256"></a>[`Widget 256.`](#widget.256) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.3.2.1.21.2.4.2.1.1.1-3234a05dd45Dynamic.Pivot.Table.html`](./1.4.1.3.2.1.21.2.4.2.1.1.1-3234a05dd45Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.1\) <a name="widget.257"></a>[`Widget 257.`](#widget.257) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.3.2.1.21.2.4.2.1.1.1-32377ea26f9Dynamic.Pivot.Table.html`](./1.4.1.3.2.1.21.2.4.2.1.1.1-32377ea26f9Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.1\) <a name="table.243"></a>[`Table 243.`](#table.243) Summary table. Data grouped by Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.3.2.1.21.2.4.2.1.1.1-3236342aeb7.1.4.1.3.2.1.21.2.4.csv`](data/1.4.1.3.2.1.21.2.4.2.1.1.1-3236342aeb7.1.4.1.3.2.1.21.2.4.csv)
+
+
+
+
+| feature  | Drug.Before.Diet | mean      | sd     | median    | incidence |
+|:---------|:-----------------|:----------|:-------|:----------|:----------|
+| N\_0     | DrugBefore\_NO   | 0.15933   | 0.5329 | 0.27353   | 0.5       |
+| N\_0     | DrugBefore\_YES  | 0.24346   | 0.6414 | 0.05446   | 0.5       |
+| N\_0.25  | DrugBefore\_NO   | 0.14233   | 0.8821 | 0.35777   | 0.5       |
+| N\_0.25  | DrugBefore\_YES  | 0.25878   | 0.7364 | 0.04157   | 0.5       |
+| N\_0.5   | DrugBefore\_NO   | 0.12447   | 1.2887 | 0.42374   | 0.5       |
+| N\_0.5   | DrugBefore\_YES  | 0.18035   | 0.6955 | 0.03146   | 0.5       |
+| NE\_8    | DrugBefore\_NO   | 0.14572   | 0.8878 | 0.11786   | 0.5       |
+| NE\_8    | DrugBefore\_YES  | \-0.44585 | 0.8059 | \-0.35954 | 0.3       |
+| NE\_Inf  | DrugBefore\_NO   | 0.10865   | 0.7182 | 0.06911   | 0.5       |
+| NE\_Inf  | DrugBefore\_YES  | \-0.42349 | 0.7619 | \-0.34629 | 0.3       |
+| N\_1     | DrugBefore\_NO   | 0.18704   | 1.7590 | 0.46865   | 0.5       |
+| N\_1     | DrugBefore\_YES  | \-0.06115 | 0.6761 | 0.02423   | 0.6       |
+| NE\_4    | DrugBefore\_NO   | 0.16781   | 1.0456 | 0.15791   | 0.5       |
+| NE\_4    | DrugBefore\_YES  | \-0.45377 | 0.8578 | \-0.37638 | 0.4       |
+| N\_4     | DrugBefore\_NO   | 0.32922   | 1.5714 | 0.43949   | 0.5       |
+| N\_4     | DrugBefore\_YES  | \-0.20248 | 0.6704 | \-0.11549 | 0.4       |
+| NE\_2    | DrugBefore\_NO   | 0.14248   | 1.2425 | 0.18440   | 0.5       |
+| NE\_2    | DrugBefore\_YES  | \-0.43326 | 0.9055 | \-0.39543 | 0.4       |
+| N\_8     | DrugBefore\_NO   | 0.30713   | 1.4088 | 0.39928   | 0.5       |
+| N\_8     | DrugBefore\_YES  | \-0.19451 | 0.6019 | \-0.13512 | 0.4       |
+| N\_2     | DrugBefore\_NO   | 0.30434   | 1.7783 | 0.46636   | 0.5       |
+| N\_2     | DrugBefore\_YES  | \-0.18185 | 0.7388 | \-0.04469 | 0.4       |
+| N\_Inf   | DrugBefore\_NO   | 0.27013   | 1.2368 | 0.35052   | 0.5       |
+| N\_Inf   | DrugBefore\_YES  | \-0.17223 | 0.5283 | \-0.11822 | 0.4       |
+| NE\_0.5  | DrugBefore\_NO   | \-0.03907 | 0.7497 | 0.14385   | 0.5       |
+| NE\_0.5  | DrugBefore\_YES  | \-0.06847 | 0.3206 | 0.02528   | 0.6       |
+| NE\_0.25 | DrugBefore\_NO   | \-0.01962 | 0.3477 | 0.08091   | 0.5       |
+| NE\_0.25 | DrugBefore\_YES  | 0.01301   | 0.1594 | 0.01437   | 0.6       |
+| NE\_1    | DrugBefore\_NO   | 0.02377   | 1.2154 | 0.18638   | 0.5       |
+| NE\_1    | DrugBefore\_YES  | \-0.31262 | 0.7226 | \-0.20926 | 0.5       |
+
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.1\) <a name="figure.755"></a>[`Figure 755.`](#figure.755) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/32316e26e0b.svg`](plots/32316e26e0b.svg).
+![](plots/32316e26e0b.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.1\) <a name="figure.756"></a>[`Figure 756.`](#figure.756) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3235d9f7e7d.svg`](plots/3235d9f7e7d.svg).
+![](plots/3235d9f7e7d.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.1\) <a name="figure.757"></a>[`Figure 757.`](#figure.757) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3231794236f.svg`](plots/3231794236f.svg).
+![](plots/3231794236f.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.1.1\) <a name="figure.758"></a>[`Figure 758.`](#figure.758) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/32377c7e97e.svg`](plots/32377c7e97e.svg).
+![](plots/32377c7e97e.svg)
+
+
+##### \(1.4.1.3.2.1.21.2.4.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.2.1\) <a name="figure.759"></a>[`Figure 759.`](#figure.759) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3237e2b2e21.svg`](plots/3237e2b2e21.svg).
+![](plots/3237e2b2e21.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.2.1\) <a name="figure.760"></a>[`Figure 760.`](#figure.760) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3236bcb0761.svg`](plots/3236bcb0761.svg).
+![](plots/3236bcb0761.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.1.2.1\) <a name="figure.761"></a>[`Figure 761.`](#figure.761) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3238ff860e.svg`](plots/3238ff860e.svg).
+![](plots/3238ff860e.svg)
+
+
+##### \(1.4.1.3.2.1.21.2.4.2.2\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.3.2.1.21.2.4.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.2.1.1\) <a name="figure.762"></a>[`Figure 762.`](#figure.762) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3232dafd815.svg`](plots/3232dafd815.svg).
+![](plots/3232dafd815.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.2.1.1\) <a name="figure.763"></a>[`Figure 763.`](#figure.763) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3233ba3768a.svg`](plots/3233ba3768a.svg).
+![](plots/3233ba3768a.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.2.1.1\) <a name="figure.764"></a>[`Figure 764.`](#figure.764) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323771bdd36.svg`](plots/323771bdd36.svg).
+![](plots/323771bdd36.svg)
+
+
+##### \(1.4.1.3.2.1.21.2.4.2.2.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.2.2.1\) <a name="figure.765"></a>[`Figure 765.`](#figure.765) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/323e106d77.svg`](plots/323e106d77.svg).
+![](plots/323e106d77.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.2.2.1\) <a name="figure.766"></a>[`Figure 766.`](#figure.766) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3236137a25b.svg`](plots/3236137a25b.svg).
+![](plots/3236137a25b.svg)
+
+
+
+
+\(1.4.1.3.2.1.21.2.4.2.2.2.1\) <a name="figure.767"></a>[`Figure 767.`](#figure.767) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3235f24fec9.svg`](plots/3235f24fec9.svg).
+![](plots/3235f24fec9.svg)

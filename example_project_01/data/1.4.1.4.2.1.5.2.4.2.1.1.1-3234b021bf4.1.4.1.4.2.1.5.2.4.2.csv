@@ -1,0 +1,5 @@
+"feature","DietStatus","Drug.Before.Diet","mean","sd","median","incidence"
+"N_0.25","after.diet","DrugBefore_NO",84.3494021014726,53.1691899715739,92.2015288477331,1
+"N_0.25","after.diet","DrugBefore_YES",83.1483807818753,39.8966411288173,86.4904522435554,1
+"N_0.25","before.diet","DrugBefore_NO",92.0201805701687,23.7368778326464,93.7578732489171,1
+"N_0.25","before.diet","DrugBefore_YES",81.2514336583425,35.0359393432651,86.8443146904746,1

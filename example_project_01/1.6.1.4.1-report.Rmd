@@ -1,0 +1,57 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.6.1.4.1\) Loading counts and metadata
+
+
+
+Filtering abundance matrix with arguments [ list()]. 
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 100 records for 2669 features
+
+
+Loaded OTU taxonomy file [`example_cons.taxonomy.file`](example_cons.taxonomy.file).
+
+
+Loaded 100 records for 2669 features from count file [`example_otu.shared.file`](example_otu.shared.file) for taxonomic level otu 
+                       with taxa name sanitize setting TRUE with count basis seq with taxa count source shared
+
+
+Filtering abundance matrix with arguments [ list()]. 
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 100 records for 2669 features
+
+
+After merging with metadata, 100 records left
+
+
+After aggregating/subsetting, sample count is: 78
+
+
+Filtering abundance matrix with arguments [ min_row_sum:2000, max_row_sum:4e+05]. sample
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 67 records for 2200 features
+
+
+Wrote counts and metadata for raw counts Patient samples.After initial filtering to files [`data/1.6.1.4.1.1-3235c345689samples.raw.16s.l.otu.count.tsv`](data/1.6.1.4.1.1-3235c345689samples.raw.16s.l.otu.count.tsv),[`data/1.6.1.4.1.1-3235c345689samples.raw.16s.l.otu.attr.tsv`](data/1.6.1.4.1.1-3235c345689samples.raw.16s.l.otu.attr.tsv)
+
+
+Wrote counts and metadata for proportions counts Patient samples.After initial filtering to files [`data/1.6.1.4.1.1-32345016738samples.proportions.16s.l.otu.count.tsv`](data/1.6.1.4.1.1-32345016738samples.proportions.16s.l.otu.count.tsv),[`data/1.6.1.4.1.1-32345016738samples.proportions.16s.l.otu.attr.tsv`](data/1.6.1.4.1.1-32345016738samples.proportions.16s.l.otu.attr.tsv)

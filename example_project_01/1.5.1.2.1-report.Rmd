@@ -1,0 +1,57 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.5.1.2.1\) Loading counts and metadata
+
+
+
+Filtering abundance matrix with arguments [ list()]. 
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 100 records for 2669 features
+
+
+Loaded OTU taxonomy file [`example_cons.taxonomy.file`](example_cons.taxonomy.file).
+
+
+Loaded 100 records for 36 features from count file [`example_otu.shared.file`](example_otu.shared.file) for taxonomic level 4 
+                       with taxa name sanitize setting TRUE with count basis seq with taxa count source shared
+
+
+Filtering abundance matrix with arguments [ list()]. 
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 100 records for 36 features
+
+
+After merging with metadata, 100 records left
+
+
+After aggregating/subsetting, sample count is: 40
+
+
+Filtering abundance matrix with arguments [ min_row_sum:2000, max_row_sum:4e+05]. sample
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 33 records for 33 features
+
+
+Wrote counts and metadata for raw counts Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples Additional tests.After initial filtering to files [`data/1.5.1.2.1.1-3235d1ea89esamples.raw.16s.l.4.count.tsv`](data/1.5.1.2.1.1-3235d1ea89esamples.raw.16s.l.4.count.tsv),[`data/1.5.1.2.1.1-3235d1ea89esamples.raw.16s.l.4.attr.tsv`](data/1.5.1.2.1.1-3235d1ea89esamples.raw.16s.l.4.attr.tsv)
+
+
+Wrote counts and metadata for proportions counts Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples Additional tests.After initial filtering to files [`data/1.5.1.2.1.1-323398241e1samples.proportions.16s.l.4.count.tsv`](data/1.5.1.2.1.1-323398241e1samples.proportions.16s.l.4.count.tsv),[`data/1.5.1.2.1.1-323398241e1samples.proportions.16s.l.4.attr.tsv`](data/1.5.1.2.1.1-323398241e1samples.proportions.16s.l.4.attr.tsv)

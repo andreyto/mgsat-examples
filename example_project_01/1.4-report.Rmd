@@ -1,0 +1,34 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+## \(1.4\) Subset: Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples
+
+
+
+
+### \(1.4.1\) Iterating over taxonomic levels
+
+
+
+
+#### \(1.4.1.1\) Taxonomic level: 2 of Subset: Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples
+
+[`Subreport`](./1.4.1.1-report.html)
+
+
+#### \(1.4.1.2\) Taxonomic level: 4 of Subset: Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples
+
+[`Subreport`](./1.4.1.2-report.html)
+
+
+#### \(1.4.1.3\) Taxonomic level: 6 of Subset: Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples
+
+[`Subreport`](./1.4.1.3-report.html)
+
+
+#### \(1.4.1.4\) Taxonomic level: otu of Subset: Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples
+
+[`Subreport`](./1.4.1.4-report.html)

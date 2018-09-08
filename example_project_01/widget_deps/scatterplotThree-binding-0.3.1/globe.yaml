@@ -1,0 +1,9 @@
+dependencies:
+  - name: threejs
+    version: 85
+    src: "htmlwidgets/lib/threejs-85"
+    script:
+      - three.min.js
+      - Detector.js
+      - Projector.js
+      - CanvasRenderer.js

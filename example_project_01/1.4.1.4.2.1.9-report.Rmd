@@ -1,0 +1,248 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.4.1.4.2.1.9\) Plots of Abundance-based Hill number of order N_4.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.4.1.4.2.1.9.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.1\) Grouping variables DietStatus
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.2\) Iterating over Abundance-based Hill number of order N_4. profile sorting order
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.2.1\) Abundance-based Hill number of order N_4. profile sorting order: original
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.4.2.1.9.2.2.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.2.2.1.1\) Abundance-based Hill number of order N_4. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.4.2.1.9.2.2.2.1.1.0\) <a name="table.292"></a>[`Table 292.`](#table.292) Data table used for plots. Data grouped by DietStatus. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.9.2.2.2.1.1.0-323740e6b30.1.4.1.4.2.1.9.2.2.2.csv`](data/1.4.1.4.2.1.9.2.2.2.1.1.0-323740e6b30.1.4.1.4.2.1.9.2.2.2.csv)
+
+
+
+
+| .record.id | DietStatus  | feature | index  |
+|:-----------|:------------|:--------|:-------|
+| SM1        | before.diet | N\_4    | 8.781  |
+| SM11       | after.diet  | N\_4    | 6.905  |
+| SM12       | before.diet | N\_4    | 6.481  |
+| SM13       | before.diet | N\_4    | 5.657  |
+| SM14       | before.diet | N\_4    | 3.541  |
+| SM17       | before.diet | N\_4    | 5.773  |
+| SM19       | after.diet  | N\_4    | 5.155  |
+| SM2        | before.diet | N\_4    | 3.232  |
+| SM23       | after.diet  | N\_4    | 1.575  |
+| SM3        | after.diet  | N\_4    | 13.175 |
+| SM33       | before.diet | N\_4    | 2.662  |
+| SM38       | after.diet  | N\_4    | 5.280  |
+| SM41       | before.diet | N\_4    | 9.113  |
+| SM45       | after.diet  | N\_4    | 1.004  |
+| SM49       | before.diet | N\_4    | 7.385  |
+| SM52       | before.diet | N\_4    | 11.703 |
+| SM53       | after.diet  | N\_4    | 6.073  |
+| SM56       | after.diet  | N\_4    | 1.708  |
+| SM57       | before.diet | N\_4    | 3.510  |
+| SM58       | after.diet  | N\_4    | 2.728  |
+| SM62       | before.diet | N\_4    | 2.303  |
+| SM64       | after.diet  | N\_4    | 4.001  |
+| SM77       | after.diet  | N\_4    | 8.246  |
+| SM79       | after.diet  | N\_4    | 5.445  |
+| SM8        | before.diet | N\_4    | 5.327  |
+| SM83       | before.diet | N\_4    | 6.053  |
+| SM84       | before.diet | N\_4    | 14.062 |
+| SM86       | after.diet  | N\_4    | 5.359  |
+| SM87       | before.diet | N\_4    | 8.788  |
+| SM88       | after.diet  | N\_4    | 7.882  |
+| SM9        | after.diet  | N\_4    | 7.979  |
+| SM90       | after.diet  | N\_4    | 15.134 |
+| SM96       | before.diet | N\_4    | 2.814  |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.9.2.2.2.1.1.1\) <a name="widget.302"></a>[`Widget 302.`](#widget.302) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by DietStatus. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.9.2.2.2.1.1.1-3233ea27e3cDynamic.Pivot.Table.html`](./1.4.1.4.2.1.9.2.2.2.1.1.1-3233ea27e3cDynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.4.2.1.9.2.2.2.1.1.1\) <a name="widget.303"></a>[`Widget 303.`](#widget.303) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by DietStatus. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.9.2.2.2.1.1.1-323652eaaf2Dynamic.Pivot.Table.html`](./1.4.1.4.2.1.9.2.2.2.1.1.1-323652eaaf2Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.4.2.1.9.2.2.2.1.1.1\) <a name="table.293"></a>[`Table 293.`](#table.293) Summary table. Data grouped by DietStatus. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.9.2.2.2.1.1.1-323907400b.1.4.1.4.2.1.9.2.2.2.csv`](data/1.4.1.4.2.1.9.2.2.2.1.1.1-323907400b.1.4.1.4.2.1.9.2.2.2.csv)
+
+
+
+
+| feature | DietStatus  | mean  | sd    | median | incidence |
+|:--------|:------------|:------|:------|:-------|:----------|
+| N\_4    | after.diet  | 6.103 | 3.896 | 5.402  | 1         |
+| N\_4    | before.diet | 6.305 | 3.343 | 5.773  | 1         |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.9.2.2.2.1.1.1\) <a name="figure.848"></a>[`Figure 848.`](#figure.848) Abundance-based Hill number of order N_4. Data grouped by DietStatus.  boxplot plot.  Image file: [`plots/3237a557c9c.svg`](plots/3237a557c9c.svg).
+![](plots/3237a557c9c.svg)
+
+
+##### \(1.4.1.4.2.1.9.2.3\) Grouping variables DietStatus,Drug.Before.Diet
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.4\) Iterating over Abundance-based Hill number of order N_4. profile sorting order
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.4.1\) Abundance-based Hill number of order N_4. profile sorting order: original
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.4.2.1.9.2.4.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.4.2.1.9.2.4.2.1.1\) Abundance-based Hill number of order N_4. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.4.2.1.9.2.4.2.1.1.0\) <a name="table.294"></a>[`Table 294.`](#table.294) Data table used for plots. Data grouped by DietStatus,Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.9.2.4.2.1.1.0-32375dd5b9d.1.4.1.4.2.1.9.2.4.2.csv`](data/1.4.1.4.2.1.9.2.4.2.1.1.0-32375dd5b9d.1.4.1.4.2.1.9.2.4.2.csv)
+
+
+
+
+| .record.id | DietStatus  | Drug.Before.Diet | feature | index  |
+|:-----------|:------------|:-----------------|:--------|:-------|
+| SM1        | before.diet | DrugBefore\_YES  | N\_4    | 8.781  |
+| SM11       | after.diet  | DrugBefore\_YES  | N\_4    | 6.905  |
+| SM12       | before.diet | DrugBefore\_YES  | N\_4    | 6.481  |
+| SM13       | before.diet | DrugBefore\_NO   | N\_4    | 5.657  |
+| SM14       | before.diet | DrugBefore\_NO   | N\_4    | 3.541  |
+| SM17       | before.diet | DrugBefore\_YES  | N\_4    | 5.773  |
+| SM19       | after.diet  | DrugBefore\_NO   | N\_4    | 5.155  |
+| SM2        | before.diet | DrugBefore\_NO   | N\_4    | 3.232  |
+| SM23       | after.diet  | DrugBefore\_YES  | N\_4    | 1.575  |
+| SM3        | after.diet  | DrugBefore\_YES  | N\_4    | 13.175 |
+| SM33       | before.diet | DrugBefore\_YES  | N\_4    | 2.662  |
+| SM38       | after.diet  | DrugBefore\_YES  | N\_4    | 5.280  |
+| SM41       | before.diet | DrugBefore\_YES  | N\_4    | 9.113  |
+| SM45       | after.diet  | DrugBefore\_NO   | N\_4    | 1.004  |
+| SM49       | before.diet | DrugBefore\_YES  | N\_4    | 7.385  |
+| SM52       | before.diet | DrugBefore\_NO   | N\_4    | 11.703 |
+| SM53       | after.diet  | DrugBefore\_YES  | N\_4    | 6.073  |
+| SM56       | after.diet  | DrugBefore\_YES  | N\_4    | 1.708  |
+| SM57       | before.diet | DrugBefore\_YES  | N\_4    | 3.510  |
+| SM58       | after.diet  | DrugBefore\_NO   | N\_4    | 2.728  |
+| SM62       | before.diet | DrugBefore\_YES  | N\_4    | 2.303  |
+| SM64       | after.diet  | DrugBefore\_YES  | N\_4    | 4.001  |
+| SM77       | after.diet  | DrugBefore\_YES  | N\_4    | 8.246  |
+| SM79       | after.diet  | DrugBefore\_NO   | N\_4    | 5.445  |
+| SM8        | before.diet | DrugBefore\_NO   | N\_4    | 5.327  |
+| SM83       | before.diet | DrugBefore\_YES  | N\_4    | 6.053  |
+| SM84       | before.diet | DrugBefore\_YES  | N\_4    | 14.062 |
+| SM86       | after.diet  | DrugBefore\_YES  | N\_4    | 5.359  |
+| SM87       | before.diet | DrugBefore\_YES  | N\_4    | 8.788  |
+| SM88       | after.diet  | DrugBefore\_YES  | N\_4    | 7.882  |
+| SM9        | after.diet  | DrugBefore\_NO   | N\_4    | 7.979  |
+| SM90       | after.diet  | DrugBefore\_NO   | N\_4    | 15.134 |
+| SM96       | before.diet | DrugBefore\_NO   | N\_4    | 2.814  |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.9.2.4.2.1.1.1\) <a name="widget.304"></a>[`Widget 304.`](#widget.304) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by DietStatus,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.9.2.4.2.1.1.1-32366f9f486Dynamic.Pivot.Table.html`](./1.4.1.4.2.1.9.2.4.2.1.1.1-32366f9f486Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.4.2.1.9.2.4.2.1.1.1\) <a name="widget.305"></a>[`Widget 305.`](#widget.305) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by DietStatus,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.9.2.4.2.1.1.1-3231d8cb409Dynamic.Pivot.Table.html`](./1.4.1.4.2.1.9.2.4.2.1.1.1-3231d8cb409Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.4.2.1.9.2.4.2.1.1.1\) <a name="table.295"></a>[`Table 295.`](#table.295) Summary table. Data grouped by DietStatus,Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.9.2.4.2.1.1.1-3237faf073f.1.4.1.4.2.1.9.2.4.2.csv`](data/1.4.1.4.2.1.9.2.4.2.1.1.1-3237faf073f.1.4.1.4.2.1.9.2.4.2.csv)
+
+
+
+
+| feature | DietStatus  | Drug.Before.Diet | mean  | sd    | median | incidence |
+|:--------|:------------|:-----------------|:------|:------|:-------|:----------|
+| N\_4    | after.diet  | DrugBefore\_NO   | 6.241 | 4.974 | 5.300  | 1         |
+| N\_4    | after.diet  | DrugBefore\_YES  | 6.020 | 3.396 | 5.716  | 1         |
+| N\_4    | before.diet | DrugBefore\_NO   | 5.379 | 3.306 | 4.434  | 1         |
+| N\_4    | before.diet | DrugBefore\_YES  | 6.810 | 3.408 | 6.481  | 1         |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.9.2.4.2.1.1.1\) <a name="figure.849"></a>[`Figure 849.`](#figure.849) Abundance-based Hill number of order N_4. Data grouped by DietStatus,Drug.Before.Diet.  boxplot plot.  Image file: [`plots/32319cf64c5.svg`](plots/32319cf64c5.svg).
+![](plots/32319cf64c5.svg)

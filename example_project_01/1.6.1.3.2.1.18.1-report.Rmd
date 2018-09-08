@@ -1,0 +1,507 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.6.1.3.2.1.18.1\) Plots of Abundance-based rarefaction curves.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.6.1.3.2.1.18.1.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.6.1.3.2.1.18.1.2.1\) Grouping variables visit,Drug.Before.Diet
+
+
+
+
+##### \(1.6.1.3.2.1.18.1.2.2\) Iterating over Abundance-based rarefaction curves. profile sorting order
+
+
+
+
+##### \(1.6.1.3.2.1.18.1.2.2.1\) Abundance-based rarefaction curves. profile sorting order: original
+
+
+
+
+##### \(1.6.1.3.2.1.18.1.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.6.1.3.2.1.18.1.2.2.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.6.1.3.2.1.18.1.2.2.2.1.1\) Abundance-based rarefaction curves. Plot is in original orientation. Iterating over plot geometry
+
+
+
+\(1.6.1.3.2.1.18.1.2.2.2.1.1.0\) <a name="table.396"></a>[`Table 396.`](#table.396) Data table used for plots. Data grouped by visit,Drug.Before.Diet. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.3.2.1.18.1.2.2.2.1.1.0-32316bfc364.1.6.1.3.2.1.18.1.2.csv`](data/1.6.1.3.2.1.18.1.2.2.2.1.1.0-32316bfc364.1.6.1.3.2.1.18.1.2.csv)
+
+
+
+
+| .record.id | visit | Drug.Before.Diet | feature          | Richness |
+|:-----------|:------|:-----------------|:-----------------|:---------|
+| SM1        | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM10       | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM100      | 4     | DrugBefore\_YES  | 1                | 1.000    |
+| SM11       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM12       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM13       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM14       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM16       | 4     | DrugBefore\_NO   | 1                | 1.000    |
+| SM17       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM18       | 2     | DrugBefore\_NO   | 1                | 1.000    |
+| SM19       | 2     | DrugBefore\_NO   | 1                | 1.000    |
+| SM2        | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM21       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM22       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM23       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM24       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM25       | 4     | DrugBefore\_NO   | 1                | 1.000    |
+| SM29       | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM3        | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM30       | 4     | DrugBefore\_YES  | 1                | 1.000    |
+| SM33       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM36       | 4     | DrugBefore\_NO   | 1                | 1.000    |
+| SM38       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM39       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM40       | 4     | DrugBefore\_NO   | 1                | 1.000    |
+| SM41       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM42       | 4     | DrugBefore\_NO   | 1                | 1.000    |
+| SM43       | 4     | DrugBefore\_YES  | 1                | 1.000    |
+| SM45       | 2     | DrugBefore\_NO   | 1                | 1.000    |
+| SM49       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM5        | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM50       | 3     | DrugBefore\_NO   | 1                | 1.000    |
+| SM51       | 4     | DrugBefore\_YES  | 1                | 1.000    |
+| SM52       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM53       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM54       | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM56       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM57       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM58       | 2     | DrugBefore\_NO   | 1                | 1.000    |
+| SM59       | 3     | DrugBefore\_NO   | 1                | 1.000    |
+| SM60       | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM62       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM64       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM65       | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM67       | 4     | DrugBefore\_YES  | 1                | 1.000    |
+| SM68       | 4     | DrugBefore\_NO   | 1                | 1.000    |
+| SM69       | 4     | DrugBefore\_YES  | 1                | 1.000    |
+| SM71       | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM73       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM75       | 3     | DrugBefore\_NO   | 1                | 1.000    |
+| SM77       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM79       | 2     | DrugBefore\_NO   | 1                | 1.000    |
+| SM8        | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM82       | 4     | DrugBefore\_YES  | 1                | 1.000    |
+| SM83       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM84       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM86       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM87       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM88       | 2     | DrugBefore\_YES  | 1                | 1.000    |
+| SM9        | 2     | DrugBefore\_NO   | 1                | 1.000    |
+| SM90       | 2     | DrugBefore\_NO   | 1                | 1.000    |
+| SM91       | 3     | DrugBefore\_YES  | 1                | 1.000    |
+| SM92       | 3     | DrugBefore\_NO   | 1                | 1.000    |
+| SM93       | 1     | DrugBefore\_YES  | 1                | 1.000    |
+| SM96       | 1     | DrugBefore\_NO   | 1                | 1.000    |
+| SM98       | 3     | DrugBefore\_NO   | 1                | 1.000    |
+| SM99       | 3     | DrugBefore\_NO   | 1                | 1.000    |
+| SM1        | 1     | DrugBefore\_YES  | 1128.62068965517 | 26.870   |
+| SM10       | 3     | DrugBefore\_YES  | 1128.62068965517 | 29.274   |
+| SM100      | 4     | DrugBefore\_YES  | 1128.62068965517 | 25.283   |
+| SM11       | 2     | DrugBefore\_YES  | 1128.62068965517 | 24.293   |
+| SM12       | 1     | DrugBefore\_YES  | 1128.62068965517 | 21.091   |
+| SM13       | 1     | DrugBefore\_NO   | 1128.62068965517 | 37.432   |
+| SM14       | 1     | DrugBefore\_NO   | 1128.62068965517 | 37.645   |
+| SM16       | 4     | DrugBefore\_NO   | 1128.62068965517 | 28.108   |
+| SM17       | 1     | DrugBefore\_YES  | 1128.62068965517 | 29.292   |
+| SM18       | 2     | DrugBefore\_NO   | 1128.62068965517 | 32.134   |
+| SM19       | 2     | DrugBefore\_NO   | 1128.62068965517 | 30.523   |
+| SM2        | 1     | DrugBefore\_NO   | 1128.62068965517 | 18.973   |
+| SM21       | 1     | DrugBefore\_NO   | 1128.62068965517 | 36.965   |
+| SM22       | 1     | DrugBefore\_YES  | 1128.62068965517 | 34.511   |
+| SM23       | 2     | DrugBefore\_YES  | 1128.62068965517 | 6.440    |
+| SM24       | 1     | DrugBefore\_NO   | 1128.62068965517 | 31.260   |
+| SM25       | 4     | DrugBefore\_NO   | 1128.62068965517 | 26.553   |
+| SM29       | 3     | DrugBefore\_YES  | 1128.62068965517 | 17.948   |
+| SM3        | 2     | DrugBefore\_YES  | 1128.62068965517 | 30.171   |
+| SM30       | 4     | DrugBefore\_YES  | 1128.62068965517 | 30.596   |
+| SM33       | 1     | DrugBefore\_YES  | 1128.62068965517 | 16.509   |
+| SM36       | 4     | DrugBefore\_NO   | 1128.62068965517 | 26.950   |
+| SM38       | 2     | DrugBefore\_YES  | 1128.62068965517 | 10.523   |
+| SM39       | 1     | DrugBefore\_NO   | 1128.62068965517 | 27.418   |
+| SM40       | 4     | DrugBefore\_NO   | 1128.62068965517 | 24.216   |
+| SM41       | 1     | DrugBefore\_YES  | 1128.62068965517 | 38.686   |
+| SM42       | 4     | DrugBefore\_NO   | 1128.62068965517 | 29.820   |
+| SM43       | 4     | DrugBefore\_YES  | 1128.62068965517 | 29.841   |
+| SM45       | 2     | DrugBefore\_NO   | 1128.62068965517 | 2.184    |
+| SM49       | 1     | DrugBefore\_YES  | 1128.62068965517 | 21.888   |
+| SM5        | 3     | DrugBefore\_YES  | 1128.62068965517 | 28.483   |
+| SM50       | 3     | DrugBefore\_NO   | 1128.62068965517 | 26.196   |
+| SM51       | 4     | DrugBefore\_YES  | 1128.62068965517 | 28.273   |
+| SM52       | 1     | DrugBefore\_NO   | 1128.62068965517 | 41.240   |
+| SM53       | 2     | DrugBefore\_YES  | 1128.62068965517 | 23.583   |
+| SM54       | 3     | DrugBefore\_YES  | 1128.62068965517 | 21.273   |
+| SM56       | 2     | DrugBefore\_YES  | 1128.62068965517 | 21.808   |
+| SM57       | 1     | DrugBefore\_YES  | 1128.62068965517 | 21.716   |
+| SM58       | 2     | DrugBefore\_NO   | 1128.62068965517 | 24.713   |
+| SM59       | 3     | DrugBefore\_NO   | 1128.62068965517 | 37.426   |
+| SM60       | 3     | DrugBefore\_YES  | 1128.62068965517 | 19.979   |
+| SM62       | 1     | DrugBefore\_YES  | 1128.62068965517 | 11.557   |
+| SM64       | 2     | DrugBefore\_YES  | 1128.62068965517 | 22.019   |
+| SM65       | 3     | DrugBefore\_YES  | 1128.62068965517 | 27.140   |
+| SM67       | 4     | DrugBefore\_YES  | 1128.62068965517 | 14.102   |
+| SM68       | 4     | DrugBefore\_NO   | 1128.62068965517 | 38.044   |
+| SM69       | 4     | DrugBefore\_YES  | 1128.62068965517 | 21.032   |
+| SM71       | 3     | DrugBefore\_YES  | 1128.62068965517 | 27.038   |
+| SM73       | 1     | DrugBefore\_NO   | 1128.62068965517 | 21.494   |
+| SM75       | 3     | DrugBefore\_NO   | 1128.62068965517 | 27.602   |
+| SM77       | 2     | DrugBefore\_YES  | 1128.62068965517 | 26.262   |
+| SM79       | 2     | DrugBefore\_NO   | 1128.62068965517 | 26.485   |
+| SM8        | 1     | DrugBefore\_NO   | 1128.62068965517 | 29.466   |
+| SM82       | 4     | DrugBefore\_YES  | 1128.62068965517 | 21.292   |
+| SM83       | 1     | DrugBefore\_YES  | 1128.62068965517 | 23.880   |
+| SM84       | 1     | DrugBefore\_YES  | 1128.62068965517 | 28.729   |
+| SM86       | 2     | DrugBefore\_YES  | 1128.62068965517 | 28.605   |
+| SM87       | 1     | DrugBefore\_YES  | 1128.62068965517 | 17.573   |
+| SM88       | 2     | DrugBefore\_YES  | 1128.62068965517 | 23.742   |
+| SM9        | 2     | DrugBefore\_NO   | 1128.62068965517 | 19.355   |
+| SM90       | 2     | DrugBefore\_NO   | 1128.62068965517 | 37.931   |
+| SM91       | 3     | DrugBefore\_YES  | 1128.62068965517 | 35.913   |
+| SM92       | 3     | DrugBefore\_NO   | 1128.62068965517 | 20.064   |
+| SM93       | 1     | DrugBefore\_YES  | 1128.62068965517 | 23.010   |
+| SM96       | 1     | DrugBefore\_NO   | 1128.62068965517 | 28.562   |
+| SM98       | 3     | DrugBefore\_NO   | 1128.62068965517 | 31.504   |
+| SM99       | 3     | DrugBefore\_NO   | 1128.62068965517 | 33.331   |
+| SM1        | 1     | DrugBefore\_YES  | 2161             | 31.518   |
+| SM10       | 3     | DrugBefore\_YES  | 2161             | 34.024   |
+| SM100      | 4     | DrugBefore\_YES  | 2161             | 28.614   |
+| SM11       | 2     | DrugBefore\_YES  | 2161             | 30.042   |
+| SM12       | 1     | DrugBefore\_YES  | 2161             | 25.008   |
+| SM13       | 1     | DrugBefore\_NO   | 2161             | 43.574   |
+| SM14       | 1     | DrugBefore\_NO   | 2161             | 41.386   |
+| SM16       | 4     | DrugBefore\_NO   | 2161             | 31.899   |
+| SM17       | 1     | DrugBefore\_YES  | 2161             | 34.126   |
+| SM18       | 2     | DrugBefore\_NO   | 2161             | 37.861   |
+| SM19       | 2     | DrugBefore\_NO   | 2161             | 34.000   |
+| SM2        | 1     | DrugBefore\_NO   | 2161             | 23.507   |
+| SM21       | 1     | DrugBefore\_NO   | 2161             | 42.829   |
+| SM22       | 1     | DrugBefore\_YES  | 2161             | 41.745   |
+| SM23       | 2     | DrugBefore\_YES  | 2161             | 8.573    |
+| SM24       | 1     | DrugBefore\_NO   | 2161             | 37.962   |
+| SM25       | 4     | DrugBefore\_NO   | 2161             | 30.180   |
+| SM29       | 3     | DrugBefore\_YES  | 2161             | 21.318   |
+| SM3        | 2     | DrugBefore\_YES  | 2161             | 35.224   |
+| SM30       | 4     | DrugBefore\_YES  | 2161             | 36.051   |
+| SM33       | 1     | DrugBefore\_YES  | 2161             | 20.733   |
+| SM36       | 4     | DrugBefore\_NO   | 2161             | 31.841   |
+| SM38       | 2     | DrugBefore\_YES  | 2161             | 13.744   |
+| SM39       | 1     | DrugBefore\_NO   | 2161             | 33.256   |
+| SM40       | 4     | DrugBefore\_NO   | 2161             | 29.326   |
+| SM41       | 1     | DrugBefore\_YES  | 2161             | 43.855   |
+| SM42       | 4     | DrugBefore\_NO   | 2161             | 35.183   |
+| SM43       | 4     | DrugBefore\_YES  | 2161             | 33.707   |
+| SM45       | 2     | DrugBefore\_NO   | 2161             | 2.414    |
+| SM49       | 1     | DrugBefore\_YES  | 2161             | 25.708   |
+| SM5        | 3     | DrugBefore\_YES  | 2161             | 33.384   |
+| SM50       | 3     | DrugBefore\_NO   | 2161             | 28.493   |
+| SM51       | 4     | DrugBefore\_YES  | 2161             | 34.375   |
+| SM52       | 1     | DrugBefore\_NO   | 2161             | 48.622   |
+| SM53       | 2     | DrugBefore\_YES  | 2161             | 27.454   |
+| SM54       | 3     | DrugBefore\_YES  | 2161             | 25.064   |
+| SM56       | 2     | DrugBefore\_YES  | 2161             | 24.387   |
+| SM57       | 1     | DrugBefore\_YES  | 2161             | 27.076   |
+| SM58       | 2     | DrugBefore\_NO   | 2161             | 28.095   |
+| SM59       | 3     | DrugBefore\_NO   | 2161             | 42.223   |
+| SM60       | 3     | DrugBefore\_YES  | 2161             | 24.626   |
+| SM62       | 1     | DrugBefore\_YES  | 2161             | 16.733   |
+| SM64       | 2     | DrugBefore\_YES  | 2161             | 26.821   |
+| SM65       | 3     | DrugBefore\_YES  | 2161             | 30.904   |
+| SM67       | 4     | DrugBefore\_YES  | 2161             | 16.670   |
+| SM68       | 4     | DrugBefore\_NO   | 2161             | 46.256   |
+| SM69       | 4     | DrugBefore\_YES  | 2161             | 25.077   |
+| SM71       | 3     | DrugBefore\_YES  | 2161             | 32.684   |
+| SM73       | 1     | DrugBefore\_NO   | 2161             | 25.785   |
+| SM75       | 3     | DrugBefore\_NO   | 2161             | 31.701   |
+| SM77       | 2     | DrugBefore\_YES  | 2161             | 30.062   |
+| SM79       | 2     | DrugBefore\_NO   | 2161             | 31.722   |
+| SM8        | 1     | DrugBefore\_NO   | 2161             | 33.783   |
+| SM82       | 4     | DrugBefore\_YES  | 2161             | 25.977   |
+| SM83       | 1     | DrugBefore\_YES  | 2161             | 28.147   |
+| SM84       | 1     | DrugBefore\_YES  | 2161             | 33.736   |
+| SM86       | 2     | DrugBefore\_YES  | 2161             | 33.182   |
+| SM87       | 1     | DrugBefore\_YES  | 2161             | 21.535   |
+| SM88       | 2     | DrugBefore\_YES  | 2161             | 28.228   |
+| SM9        | 2     | DrugBefore\_NO   | 2161             | 23.283   |
+| SM90       | 2     | DrugBefore\_NO   | 2161             | 43.781   |
+| SM91       | 3     | DrugBefore\_YES  | 2161             | 41.677   |
+| SM92       | 3     | DrugBefore\_NO   | 2161             | 23.621   |
+| SM93       | 1     | DrugBefore\_YES  | 2161             | 25.785   |
+| SM96       | 1     | DrugBefore\_NO   | 2161             | 33.165   |
+| SM98       | 3     | DrugBefore\_NO   | 2161             | 38.022   |
+
+
+
+
+
+
+
+\(1.6.1.3.2.1.18.1.2.2.2.1.1.1\) <a name="widget.412"></a>[`Widget 412.`](#widget.412) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by visit,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.6.1.3.2.1.18.1.2.2.2.1.1.1-32339ed2ec9Dynamic.Pivot.Table.html`](./1.6.1.3.2.1.18.1.2.2.2.1.1.1-32339ed2ec9Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.6.1.3.2.1.18.1.2.2.2.1.1.1\) <a name="widget.413"></a>[`Widget 413.`](#widget.413) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by visit,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.6.1.3.2.1.18.1.2.2.2.1.1.1-3236918fdb1Dynamic.Pivot.Table.html`](./1.6.1.3.2.1.18.1.2.2.2.1.1.1-3236918fdb1Dynamic.Pivot.Table.html)
+
+
+\(1.6.1.3.2.1.18.1.2.2.2.1.1.1\) <a name="table.397"></a>[`Table 397.`](#table.397) Summary table. Data grouped by visit,Drug.Before.Diet. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.3.2.1.18.1.2.2.2.1.1.1-3231e3e4d47.1.6.1.3.2.1.18.1.2.csv`](data/1.6.1.3.2.1.18.1.2.2.2.1.1.1-3231e3e4d47.1.6.1.3.2.1.18.1.2.csv)
+
+
+
+
+| feature          | visit | Drug.Before.Diet | mean  | sd         | median | incidence |
+|:-----------------|:------|:-----------------|:------|:-----------|:-------|:----------|
+| 2161             | 1     | DrugBefore\_NO   | 36.39 | 7.997e\+00 | 35.87  | 1         |
+| 2161             | 1     | DrugBefore\_YES  | 28.90 | 7.927e\+00 | 27.08  | 1         |
+| 2161             | 2     | DrugBefore\_NO   | 28.74 | 1.335e\+01 | 31.72  | 1         |
+| 2161             | 2     | DrugBefore\_YES  | 25.77 | 8.388e\+00 | 27.84  | 1         |
+| 2161             | 3     | DrugBefore\_NO   | 33.72 | 6.994e\+00 | 34.86  | 1         |
+| 2161             | 3     | DrugBefore\_YES  | 30.46 | 6.535e\+00 | 31.79  | 1         |
+| 2161             | 4     | DrugBefore\_NO   | 34.11 | 6.278e\+00 | 31.87  | 1         |
+| 2161             | 4     | DrugBefore\_YES  | 28.64 | 6.789e\+00 | 28.61  | 1         |
+| 1128.62068965517 | 1     | DrugBefore\_NO   | 31.05 | 7.319e\+00 | 30.36  | 1         |
+| 1128.62068965517 | 1     | DrugBefore\_YES  | 24.25 | 7.390e\+00 | 23.01  | 1         |
+| 1128.62068965517 | 2     | DrugBefore\_NO   | 24.76 | 1.157e\+01 | 26.48  | 1         |
+| 1128.62068965517 | 2     | DrugBefore\_YES  | 21.74 | 7.547e\+00 | 23.66  | 1         |
+| 1128.62068965517 | 3     | DrugBefore\_NO   | 29.35 | 6.082e\+00 | 29.55  | 1         |
+| 1128.62068965517 | 3     | DrugBefore\_YES  | 25.88 | 5.866e\+00 | 27.09  | 1         |
+| 1128.62068965517 | 4     | DrugBefore\_NO   | 28.95 | 4.823e\+00 | 27.53  | 1         |
+| 1128.62068965517 | 4     | DrugBefore\_YES  | 24.35 | 5.928e\+00 | 25.28  | 1         |
+| 1                | 1     | DrugBefore\_NO   | 1.00  | 2.233e\-14 | 1.00   | 1         |
+| 1                | 1     | DrugBefore\_YES  | 1.00  | 1.634e\-14 | 1.00   | 1         |
+| 1                | 2     | DrugBefore\_NO   | 1.00  | 2.223e\-14 | 1.00   | 1         |
+| 1                | 2     | DrugBefore\_YES  | 1.00  | 2.205e\-14 | 1.00   | 1         |
+| 1                | 3     | DrugBefore\_NO   | 1.00  | 2.191e\-14 | 1.00   | 1         |
+| 1                | 3     | DrugBefore\_YES  | 1.00  | 1.003e\-14 | 1.00   | 1         |
+| 1                | 4     | DrugBefore\_NO   | 1.00  | 2.426e\-14 | 1.00   | 1         |
+| 1                | 4     | DrugBefore\_YES  | 1.00  | 1.143e\-14 | 1.00   | 1         |
+| 2240             | 1     | DrugBefore\_NO   | 36.68 | 8.046e\+00 | 36.16  | 1         |
+| 2240             | 1     | DrugBefore\_YES  | 29.17 | 7.959e\+00 | 27.37  | 1         |
+| 2240             | 2     | DrugBefore\_NO   | 28.10 | 1.453e\+01 | 30.16  | 1         |
+| 2240             | 2     | DrugBefore\_YES  | 26.01 | 8.436e\+00 | 28.09  | 1         |
+| 2240             | 3     | DrugBefore\_NO   | 33.97 | 7.055e\+00 | 35.17  | 1         |
+| 2240             | 3     | DrugBefore\_YES  | 30.72 | 6.564e\+00 | 32.05  | 1         |
+| 2240             | 4     | DrugBefore\_NO   | 34.41 | 6.377e\+00 | 32.12  | 1         |
+| 2240             | 4     | DrugBefore\_YES  | 28.89 | 6.847e\+00 | 28.80  | 1         |
+| 2256.24137931034 | 1     | DrugBefore\_NO   | 35.93 | 8.095e\+00 | 34.03  | 1         |
+| 2256.24137931034 | 1     | DrugBefore\_YES  | 29.23 | 7.965e\+00 | 27.42  | 1         |
+| 2256.24137931034 | 2     | DrugBefore\_NO   | 28.15 | 1.455e\+01 | 30.21  | 1         |
+| 2256.24137931034 | 2     | DrugBefore\_YES  | 26.05 | 8.445e\+00 | 28.13  | 1         |
+| 2256.24137931034 | 3     | DrugBefore\_NO   | 34.02 | 7.068e\+00 | 35.24  | 1         |
+| 2256.24137931034 | 3     | DrugBefore\_YES  | 30.77 | 6.569e\+00 | 32.10  | 1         |
+| 2256.24137931034 | 4     | DrugBefore\_NO   | 34.47 | 6.397e\+00 | 32.17  | 1         |
+| 2256.24137931034 | 4     | DrugBefore\_YES  | 28.94 | 6.858e\+00 | 28.83  | 1         |
+| 2394             | 1     | DrugBefore\_NO   | 36.39 | 8.162e\+00 | 34.37  | 1         |
+| 2394             | 1     | DrugBefore\_YES  | 29.68 | 8.018e\+00 | 27.89  | 1         |
+| 2394             | 2     | DrugBefore\_NO   | 28.55 | 1.477e\+01 | 30.64  | 1         |
+| 2394             | 2     | DrugBefore\_YES  | 26.45 | 8.524e\+00 | 28.54  | 1         |
+| 2394             | 3     | DrugBefore\_NO   | 34.46 | 7.173e\+00 | 35.75  | 1         |
+| 2394             | 3     | DrugBefore\_YES  | 31.21 | 6.613e\+00 | 32.52  | 1         |
+| 2394             | 4     | DrugBefore\_NO   | 34.97 | 6.566e\+00 | 32.59  | 1         |
+| 2394             | 4     | DrugBefore\_YES  | 29.36 | 6.956e\+00 | 29.13  | 1         |
+| 2411             | 1     | DrugBefore\_NO   | 36.45 | 8.171e\+00 | 34.41  | 1         |
+| 2411             | 1     | DrugBefore\_YES  | 29.73 | 8.024e\+00 | 27.95  | 1         |
+| 2411             | 2     | DrugBefore\_NO   | 28.60 | 1.479e\+01 | 30.69  | 1         |
+| 2411             | 2     | DrugBefore\_YES  | 26.49 | 8.534e\+00 | 28.59  | 1         |
+| 2411             | 3     | DrugBefore\_NO   | 34.51 | 7.186e\+00 | 35.80  | 1         |
+| 2411             | 3     | DrugBefore\_YES  | 32.57 | 5.912e\+00 | 33.57  | 1         |
+| 2411             | 4     | DrugBefore\_NO   | 35.03 | 6.586e\+00 | 32.64  | 1         |
+| 2411             | 4     | DrugBefore\_YES  | 29.41 | 6.968e\+00 | 29.17  | 1         |
+| 2417             | 1     | DrugBefore\_NO   | 36.47 | 8.173e\+00 | 34.42  | 1         |
+| 2417             | 1     | DrugBefore\_YES  | 29.75 | 8.026e\+00 | 27.97  | 1         |
+| 2417             | 2     | DrugBefore\_NO   | 28.62 | 1.480e\+01 | 30.71  | 1         |
+| 2417             | 2     | DrugBefore\_YES  | 28.46 | 6.281e\+00 | 29.10  | 1         |
+| 2417             | 3     | DrugBefore\_NO   | 34.53 | 7.191e\+00 | 35.82  | 1         |
+| 2417             | 3     | DrugBefore\_YES  | 32.59 | 5.914e\+00 | 33.59  | 1         |
+| 2417             | 4     | DrugBefore\_NO   | 35.06 | 6.593e\+00 | 32.66  | 1         |
+| 2417             | 4     | DrugBefore\_YES  | 29.43 | 6.972e\+00 | 29.18  | 1         |
+| 2424             | 1     | DrugBefore\_NO   | 36.49 | 8.177e\+00 | 34.44  | 1         |
+| 2424             | 1     | DrugBefore\_YES  | 29.34 | 8.222e\+00 | 27.17  | 1         |
+| 2424             | 2     | DrugBefore\_NO   | 28.64 | 1.481e\+01 | 30.73  | 1         |
+| 2424             | 2     | DrugBefore\_YES  | 28.48 | 6.284e\+00 | 29.12  | 1         |
+| 2424             | 3     | DrugBefore\_NO   | 34.55 | 7.196e\+00 | 35.85  | 1         |
+| 2424             | 3     | DrugBefore\_YES  | 32.61 | 5.916e\+00 | 33.61  | 1         |
+| 2424             | 4     | DrugBefore\_NO   | 35.08 | 6.602e\+00 | 32.68  | 1         |
+| 2424             | 4     | DrugBefore\_YES  | 29.45 | 6.977e\+00 | 29.20  | 1         |
+| 2431             | 1     | DrugBefore\_NO   | 36.51 | 8.180e\+00 | 34.46  | 1         |
+| 2431             | 1     | DrugBefore\_YES  | 29.36 | 8.225e\+00 | 27.19  | 1         |
+| 2431             | 2     | DrugBefore\_NO   | 25.38 | 1.394e\+01 | 28.69  | 1         |
+| 2431             | 2     | DrugBefore\_YES  | 28.50 | 6.286e\+00 | 29.15  | 1         |
+| 2431             | 3     | DrugBefore\_NO   | 34.57 | 7.201e\+00 | 35.87  | 1         |
+| 2431             | 3     | DrugBefore\_YES  | 32.63 | 5.919e\+00 | 33.64  | 1         |
+| 2431             | 4     | DrugBefore\_NO   | 35.10 | 6.610e\+00 | 32.70  | 1         |
+| 2431             | 4     | DrugBefore\_YES  | 29.47 | 6.982e\+00 | 29.21  | 1         |
+| 2491             | 1     | DrugBefore\_NO   | 36.70 | 8.209e\+00 | 34.69  | 1         |
+| 2491             | 1     | DrugBefore\_YES  | 29.55 | 8.248e\+00 | 27.35  | 1         |
+| 2491             | 2     | DrugBefore\_NO   | 25.88 | 1.617e\+01 | 30.93  | 1         |
+| 2491             | 2     | DrugBefore\_YES  | 28.67 | 6.311e\+00 | 29.34  | 1         |
+| 2491             | 3     | DrugBefore\_NO   | 34.75 | 7.247e\+00 | 36.06  | 1         |
+| 2491             | 3     | DrugBefore\_YES  | 32.81 | 5.938e\+00 | 33.83  | 1         |
+| 2491             | 4     | DrugBefore\_NO   | 35.31 | 6.682e\+00 | 32.87  | 1         |
+| 2491             | 4     | DrugBefore\_YES  | 29.65 | 7.024e\+00 | 29.34  | 1         |
+| 2542             | 1     | DrugBefore\_NO   | 36.86 | 8.233e\+00 | 34.90  | 1         |
+| 2542             | 1     | DrugBefore\_YES  | 30.75 | 7.791e\+00 | 28.35  | 1         |
+| 2542             | 2     | DrugBefore\_NO   | 26.00 | 1.625e\+01 | 31.08  | 1         |
+| 2542             | 2     | DrugBefore\_YES  | 28.81 | 6.332e\+00 | 29.51  | 1         |
+| 2542             | 3     | DrugBefore\_NO   | 34.90 | 7.285e\+00 | 36.22  | 1         |
+| 2542             | 3     | DrugBefore\_YES  | 32.96 | 5.954e\+00 | 33.99  | 1         |
+| 2542             | 4     | DrugBefore\_NO   | 35.48 | 6.742e\+00 | 33.02  | 1         |
+| 2542             | 4     | DrugBefore\_YES  | 29.79 | 7.059e\+00 | 29.44  | 1         |
+| 2605             | 1     | DrugBefore\_NO   | 37.05 | 8.263e\+00 | 35.16  | 1         |
+| 2605             | 1     | DrugBefore\_YES  | 31.81 | 7.659e\+00 | 29.00  | 1         |
+| 2605             | 2     | DrugBefore\_NO   | 26.15 | 1.635e\+01 | 31.26  | 1         |
+| 2605             | 2     | DrugBefore\_YES  | 28.98 | 6.357e\+00 | 29.70  | 1         |
+| 2605             | 3     | DrugBefore\_NO   | 35.08 | 7.333e\+00 | 36.41  | 1         |
+| 2605             | 3     | DrugBefore\_YES  | 33.15 | 5.974e\+00 | 34.18  | 1         |
+| 2605             | 4     | DrugBefore\_NO   | 35.69 | 6.816e\+00 | 33.19  | 1         |
+| 2605             | 4     | DrugBefore\_YES  | 29.97 | 7.102e\+00 | 29.57  | 1         |
+| 2628             | 1     | DrugBefore\_NO   | 37.11 | 8.274e\+00 | 35.25  | 1         |
+| 2628             | 1     | DrugBefore\_YES  | 30.51 | 6.741e\+00 | 28.60  | 1         |
+| 2628             | 2     | DrugBefore\_NO   | 26.21 | 1.639e\+01 | 31.33  | 1         |
+| 2628             | 2     | DrugBefore\_YES  | 29.04 | 6.366e\+00 | 29.78  | 1         |
+| 2628             | 3     | DrugBefore\_NO   | 35.15 | 7.351e\+00 | 36.48  | 1         |
+| 2628             | 3     | DrugBefore\_YES  | 33.21 | 5.981e\+00 | 34.25  | 1         |
+| 2628             | 4     | DrugBefore\_NO   | 35.77 | 6.842e\+00 | 33.25  | 1         |
+| 2628             | 4     | DrugBefore\_YES  | 30.03 | 7.118e\+00 | 29.61  | 1         |
+| 2641             | 1     | DrugBefore\_NO   | 37.15 | 8.280e\+00 | 35.30  | 1         |
+| 2641             | 1     | DrugBefore\_YES  | 31.49 | 6.553e\+00 | 29.10  | 1         |
+| 2641             | 2     | DrugBefore\_NO   | 26.24 | 1.641e\+01 | 31.36  | 1         |
+| 2641             | 2     | DrugBefore\_YES  | 29.08 | 6.371e\+00 | 29.82  | 1         |
+| 2641             | 3     | DrugBefore\_NO   | 35.18 | 7.360e\+00 | 36.52  | 1         |
+| 2641             | 3     | DrugBefore\_YES  | 33.25 | 5.985e\+00 | 34.29  | 1         |
+| 2641             | 4     | DrugBefore\_NO   | 35.81 | 6.857e\+00 | 33.29  | 1         |
+| 2641             | 4     | DrugBefore\_YES  | 30.07 | 7.127e\+00 | 29.64  | 1         |
+| 2670             | 1     | DrugBefore\_NO   | 36.64 | 8.657e\+00 | 35.18  | 1         |
+| 2670             | 1     | DrugBefore\_YES  | 31.56 | 6.566e\+00 | 29.18  | 1         |
+| 2670             | 2     | DrugBefore\_NO   | 26.31 | 1.645e\+01 | 31.45  | 1         |
+| 2670             | 2     | DrugBefore\_YES  | 29.16 | 6.382e\+00 | 29.91  | 1         |
+| 2670             | 3     | DrugBefore\_NO   | 35.26 | 7.382e\+00 | 36.61  | 1         |
+| 2670             | 3     | DrugBefore\_YES  | 33.33 | 5.993e\+00 | 34.37  | 1         |
+| 2670             | 4     | DrugBefore\_NO   | 35.90 | 6.891e\+00 | 33.37  | 1         |
+| 2670             | 4     | DrugBefore\_YES  | 30.15 | 7.147e\+00 | 29.70  | 1         |
+| 2697             | 1     | DrugBefore\_NO   | 36.72 | 8.676e\+00 | 35.26  | 1         |
+| 2697             | 1     | DrugBefore\_YES  | 31.63 | 6.578e\+00 | 29.25  | 1         |
+| 2697             | 2     | DrugBefore\_NO   | 26.37 | 1.649e\+01 | 31.52  | 1         |
+| 2697             | 2     | DrugBefore\_YES  | 29.23 | 6.392e\+00 | 29.99  | 1         |
+| 2697             | 3     | DrugBefore\_NO   | 33.59 | 6.748e\+00 | 33.31  | 1         |
+| 2697             | 3     | DrugBefore\_YES  | 33.40 | 6.001e\+00 | 34.45  | 1         |
+| 2697             | 4     | DrugBefore\_NO   | 35.99 | 6.922e\+00 | 33.44  | 1         |
+| 2697             | 4     | DrugBefore\_YES  | 30.22 | 7.165e\+00 | 29.75  | 1         |
+| 2778             | 1     | DrugBefore\_NO   | 37.23 | 9.400e\+00 | 35.84  | 1         |
+| 2778             | 1     | DrugBefore\_YES  | 31.84 | 6.613e\+00 | 29.46  | 1         |
+| 2778             | 2     | DrugBefore\_NO   | 26.56 | 1.662e\+01 | 31.74  | 1         |
+| 2778             | 2     | DrugBefore\_YES  | 29.44 | 6.423e\+00 | 30.23  | 1         |
+| 2778             | 3     | DrugBefore\_NO   | 33.81 | 6.814e\+00 | 33.54  | 1         |
+| 2778             | 3     | DrugBefore\_YES  | 33.62 | 6.023e\+00 | 34.68  | 1         |
+| 2778             | 4     | DrugBefore\_NO   | 36.24 | 7.013e\+00 | 33.65  | 1         |
+| 2778             | 4     | DrugBefore\_YES  | 30.44 | 7.219e\+00 | 29.90  | 1         |
+| 2938             | 1     | DrugBefore\_NO   | 37.73 | 9.515e\+00 | 36.44  | 1         |
+| 2938             | 1     | DrugBefore\_YES  | 32.63 | 7.111e\+00 | 30.34  | 1         |
+| 2938             | 2     | DrugBefore\_NO   | 26.91 | 1.685e\+01 | 32.17  | 1         |
+| 2938             | 2     | DrugBefore\_YES  | 29.84 | 6.482e\+00 | 30.70  | 1         |
+| 2938             | 3     | DrugBefore\_NO   | 34.21 | 6.941e\+00 | 33.98  | 1         |
+| 2938             | 3     | DrugBefore\_YES  | 34.04 | 6.065e\+00 | 35.11  | 1         |
+| 2938             | 4     | DrugBefore\_NO   | 36.73 | 7.189e\+00 | 34.05  | 1         |
+| 2938             | 4     | DrugBefore\_YES  | 30.86 | 7.326e\+00 | 30.20  | 1         |
+| 2945             | 1     | DrugBefore\_NO   | 37.75 | 9.520e\+00 | 36.47  | 1         |
+| 2945             | 1     | DrugBefore\_YES  | 32.65 | 7.114e\+00 | 30.35  | 1         |
+| 2945             | 2     | DrugBefore\_NO   | 26.93 | 1.686e\+01 | 32.19  | 1         |
+| 2945             | 2     | DrugBefore\_YES  | 29.86 | 6.484e\+00 | 30.72  | 1         |
+| 2945             | 3     | DrugBefore\_NO   | 34.23 | 6.947e\+00 | 34.00  | 1         |
+| 2945             | 3     | DrugBefore\_YES  | 35.24 | 5.708e\+00 | 35.43  | 1         |
+| 2945             | 4     | DrugBefore\_NO   | 36.75 | 7.196e\+00 | 34.07  | 1         |
+| 2945             | 4     | DrugBefore\_YES  | 30.88 | 7.330e\+00 | 30.21  | 1         |
+| 3042             | 1     | DrugBefore\_NO   | 38.04 | 9.588e\+00 | 36.82  | 1         |
+| 3042             | 1     | DrugBefore\_YES  | 32.87 | 7.159e\+00 | 30.60  | 1         |
+| 3042             | 2     | DrugBefore\_NO   | 27.13 | 1.700e\+01 | 32.44  | 1         |
+| 3042             | 2     | DrugBefore\_YES  | 30.09 | 6.518e\+00 | 31.00  | 1         |
+| 3042             | 3     | DrugBefore\_NO   | 34.52 | 8.108e\+00 | 35.51  | 1         |
+| 3042             | 3     | DrugBefore\_YES  | 35.48 | 5.742e\+00 | 35.68  | 1         |
+| 3042             | 4     | DrugBefore\_NO   | 37.03 | 7.299e\+00 | 34.31  | 1         |
+| 3042             | 4     | DrugBefore\_YES  | 31.12 | 7.394e\+00 | 30.39  | 1         |
+| 3064             | 1     | DrugBefore\_NO   | 38.10 | 9.604e\+00 | 36.90  | 1         |
+| 3064             | 1     | DrugBefore\_YES  | 32.92 | 7.169e\+00 | 30.65  | 1         |
+| 3064             | 2     | DrugBefore\_NO   | 27.18 | 1.703e\+01 | 32.49  | 1         |
+| 3064             | 2     | DrugBefore\_YES  | 30.14 | 6.526e\+00 | 31.06  | 1         |
+| 3064             | 3     | DrugBefore\_NO   | 34.57 | 8.127e\+00 | 35.56  | 1         |
+| 3064             | 3     | DrugBefore\_YES  | 37.23 | 4.438e\+00 | 36.04  | 1         |
+| 3064             | 4     | DrugBefore\_NO   | 37.09 | 7.322e\+00 | 34.36  | 1         |
+| 3064             | 4     | DrugBefore\_YES  | 31.18 | 7.409e\+00 | 30.43  | 1         |
+| 3105             | 1     | DrugBefore\_NO   | 38.22 | 9.632e\+00 | 37.04  | 1         |
+| 3105             | 1     | DrugBefore\_YES  | 33.02 | 7.187e\+00 | 30.75  | 1         |
+| 3105             | 2     | DrugBefore\_NO   | 27.27 | 1.709e\+01 | 32.60  | 1         |
+| 3105             | 2     | DrugBefore\_YES  | 30.76 | 6.788e\+00 | 31.79  | 1         |
+| 3105             | 3     | DrugBefore\_NO   | 34.67 | 8.164e\+00 | 35.65  | 1         |
+| 3105             | 3     | DrugBefore\_YES  | 37.33 | 4.448e\+00 | 36.14  | 1         |
+| 3105             | 4     | DrugBefore\_NO   | 37.20 | 7.365e\+00 | 34.46  | 1         |
+| 3105             | 4     | DrugBefore\_YES  | 31.28 | 7.435e\+00 | 30.50  | 1         |
+| 3107             | 1     | DrugBefore\_NO   | 38.23 | 9.634e\+00 | 37.05  | 1         |
+| 3107             | 1     | DrugBefore\_YES  | 30.69 | 4.046e\+00 | 29.21  | 1         |
+| 3107             | 2     | DrugBefore\_NO   | 27.27 | 1.709e\+01 | 32.60  | 1         |
+| 3107             | 2     | DrugBefore\_YES  | 30.77 | 6.789e\+00 | 31.80  | 1         |
+| 3107             | 3     | DrugBefore\_NO   | 34.67 | 8.166e\+00 | 35.65  | 1         |
+| 3107             | 3     | DrugBefore\_YES  | 37.34 | 4.449e\+00 | 36.15  | 1         |
+| 3107             | 4     | DrugBefore\_NO   | 37.21 | 7.367e\+00 | 34.46  | 1         |
+| 3107             | 4     | DrugBefore\_YES  | 31.28 | 7.437e\+00 | 30.50  | 1         |
+| 3209             | 1     | DrugBefore\_NO   | 38.52 | 9.705e\+00 | 37.41  | 1         |
+| 3209             | 1     | DrugBefore\_YES  | 30.90 | 4.089e\+00 | 29.42  | 1         |
+| 3209             | 2     | DrugBefore\_NO   | 27.48 | 1.723e\+01 | 32.86  | 1         |
+| 3209             | 2     | DrugBefore\_YES  | 31.01 | 6.820e\+00 | 32.05  | 1         |
+| 3209             | 3     | DrugBefore\_NO   | 34.91 | 8.255e\+00 | 35.87  | 1         |
+| 3209             | 3     | DrugBefore\_YES  | 37.59 | 4.475e\+00 | 36.39  | 1         |
+| 3209             | 4     | DrugBefore\_NO   | 37.93 | 8.265e\+00 | 34.10  | 1         |
+| 3209             | 4     | DrugBefore\_YES  | 31.53 | 7.503e\+00 | 30.68  | 1         |
+
+
+
+
+
+
+
+\(1.6.1.3.2.1.18.1.2.2.2.1.1.1\)  Abundance-based rarefaction curves. Data grouped by visit,Drug.Before.Diet.  line_obs plot.
+
+
+
+##### \(1.6.1.3.2.1.18.1.2.2.2.1.2\) Abundance-based rarefaction curves. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.6.1.3.2.1.18.1.2.2.2.1.2.1\)  Abundance-based rarefaction curves. Data grouped by visit,Drug.Before.Diet.  line_obs plot.

@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/base.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/skeleton.css" />
+<style>
+.container { width: 100%; }
+.container .twelve.columns {   width: 80%; }
+.container .three.columns {   width: 20%; }
+</style>
+
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/layout.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/slimbox2.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/custom.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/caption.css"/>
+
+<link rel="shortcut icon" href="https://cdn.rapporter.net/pander/images/favicon.gif" />
+<link rel="apple-touch-icon" href="https://cdn.rapporter.net/pander/images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn.rapporter.net/pander/images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn.rapporter.net/pander/images/apple-touch-icon-114x114.png" />
+
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/custom.js"></script>
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/slimbox2.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" src="https://cdn.rapporter.net/mathjax/2.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/jcaption.min.js" /></script>
+</head>
+<body>
+<p>noone@mail.com Analysis of Dieting study 16S data % Fri Sep 7 05:46:18 2018</p>
+<h4 id="taxonomic-level-4-of-subset-patients-samples-at-visits-1-before-diet-and-2-after-diet-only-paired-samples-additional-tests">(1.5.1.2) Taxonomic level: 4 of Subset: Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples Additional tests</h4>
+<h5 id="loading-counts-and-metadata">(1.5.1.2.1) Loading counts and metadata</h5>
+<p><a href="./1.5.1.2.1-report.html"><code>Subreport</code></a></p>
+<h5 id="data-analysis">(1.5.1.2.2) Data analysis</h5>
+<p>Filtering abundance matrix with arguments [ min_mean :10, min_quant_incidence_frac:0.25, min_quant_mean_frac :0.25]. Filtering features</p>
+<p>Note that some community richness estimators will not work correctly if provided with abundance-filtered counts</p>
+<p>After filtering, left 33 records for 12 features</p>
+<p>Wrote counts and metadata for raw counts After final feature filtering to files <a href="data/1.5.1.2.2.1-3234075d454samples.raw.16s.l.4.count.tsv"><code>data/1.5.1.2.2.1-3234075d454samples.raw.16s.l.4.count.tsv</code></a>,<a href="data/1.5.1.2.2.1-3234075d454samples.raw.16s.l.4.attr.tsv"><code>data/1.5.1.2.2.1-3234075d454samples.raw.16s.l.4.attr.tsv</code></a></p>
+<p>Wrote counts and metadata for proportions counts After final feature filtering to files <a href="data/1.5.1.2.2.1-32340006c03samples.proportions.16s.l.4.count.tsv"><code>data/1.5.1.2.2.1-32340006c03samples.proportions.16s.l.4.count.tsv</code></a>,<a href="data/1.5.1.2.2.1-32340006c03samples.proportions.16s.l.4.attr.tsv"><code>data/1.5.1.2.2.1-32340006c03samples.proportions.16s.l.4.attr.tsv</code></a></p>
+<h5 id="deseq2-tests-and-data-normalization">(1.5.1.2.2.2) DESeq2 tests and data normalization</h5>
+<p>Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” <em>Genome Biology</em>, <em>15</em>, 550. doi: 10.1186/s13059-014-0550-8 (URL: http://doi.org/10.1186/s13059-014-0550-8).</p>
+<p>(1.5.1.2.2.2.1) <a name="table.348"></a><a href="#table.348"><code>Table 348.</code></a> DESeq2 results for task: Drug.Before.Diet + DietStatus;[ alpha:0.05]. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) <a href="data/1.5.1.2.2.2.1-32378276aa9.1.5.1.2.2.2.1.a.nam.csv"><code>data/1.5.1.2.2.2.1-32378276aa9.1.5.1.2.2.2.1.a.nam.csv</code></a></p>
+<table style="width:100%;">
+<colgroup>
+<col width="3%"></col>
+<col width="1%"></col>
+<col width="2%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="6%"></col>
+<col width="5%"></col>
+<col width="1%"></col>
+<col width="7%"></col>
+<col width="5%"></col>
+<col width="3%"></col>
+<col width="8%"></col>
+<col width="7%"></col>
+<col width="2%"></col>
+<col width="8%"></col>
+<col width="6%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+<col width="1%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">feature</th>
+<th align="left">baseMean</th>
+<th align="left">log2FoldChange</th>
+<th align="left">lfcSE</th>
+<th align="left">stat</th>
+<th align="left">pvalue</th>
+<th align="left">padj</th>
+<th align="left">i.baseMean</th>
+<th align="left">baseVar</th>
+<th align="left">allZero</th>
+<th align="left">dispGeneEst</th>
+<th align="left">dispGeneIter</th>
+<th align="left">dispFit</th>
+<th align="left">dispersion</th>
+<th align="left">dispIter</th>
+<th align="left">dispOutlier</th>
+<th align="left">dispMAP</th>
+<th align="left">Intercept</th>
+<th align="left">Drug.Before.Diet_DrugBefore_YES_vs_DrugBefore_NO</th>
+<th align="left">DietStatus_before.diet_vs_after.diet</th>
+<th align="left">SE_Intercept</th>
+<th align="left">SE_Drug.Before.Diet_DrugBefore_YES_vs_DrugBefore_NO</th>
+<th align="left">SE_DietStatus_before.diet_vs_after.diet</th>
+<th align="left">WaldStatistic_Intercept</th>
+<th align="left">WaldStatistic_Drug.Before.Diet_DrugBefore_YES_vs_DrugBefore_NO</th>
+<th align="left">WaldStatistic_DietStatus_before.diet_vs_after.diet</th>
+<th align="left">WaldPvalue_Intercept</th>
+<th align="left">WaldPvalue_Drug.Before.Diet_DrugBefore_YES_vs_DrugBefore_NO</th>
+<th align="left">WaldPvalue_DietStatus_before.diet_vs_after.diet</th>
+<th align="left">betaConv</th>
+<th align="left">betaIter</th>
+<th align="left">deviance</th>
+<th align="left">maxCooks</th>
+<th align="left">replace</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Lactobacillales</td>
+<td align="left">260.23</td>
+<td align="left">-4.5840</td>
+<td align="left">1.1497</td>
+<td align="left">-3.9872</td>
+<td align="left">6.685e-05</td>
+<td align="left">0.0006685</td>
+<td align="left">260.23</td>
+<td align="left">1.292e+06</td>
+<td align="left">FALSE</td>
+<td align="left">5.192</td>
+<td align="left">15</td>
+<td align="left">5.192</td>
+<td align="left">5.192</td>
+<td align="left">5</td>
+<td align="left">FALSE</td>
+<td align="left">5.192</td>
+<td align="left">11.6518</td>
+<td align="left">-2.9168</td>
+<td align="left">-4.5840</td>
+<td align="left">1.1096</td>
+<td align="left">1.1928</td>
+<td align="left">1.1497</td>
+<td align="left">10.5012</td>
+<td align="left">-2.4454</td>
+<td align="left">-3.9872</td>
+<td align="left">8.530e-26</td>
+<td align="left">0.01447</td>
+<td align="left">6.685e-05</td>
+<td align="left">TRUE</td>
+<td align="left">100</td>
+<td align="left">313.6</td>
+<td align="left">1.15521</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="even">
+<td align="left">Erysipelotrichales</td>
+<td align="left">71.46</td>
+<td align="left">1.7388</td>
+<td align="left">0.7636</td>
+<td align="left">2.2772</td>
+<td align="left">2.278e-02</td>
+<td align="left">0.1138849</td>
+<td align="left">71.46</td>
+<td align="left">3.847e+04</td>
+<td align="left">FALSE</td>
+<td align="left">2.037</td>
+<td align="left">12</td>
+<td align="left">3.632</td>
+<td align="left">2.273</td>
+<td align="left">11</td>
+<td align="left">FALSE</td>
+<td align="left">2.273</td>
+<td align="left">5.4080</td>
+<td align="left">-0.8699</td>
+<td align="left">1.7388</td>
+<td align="left">0.7388</td>
+<td align="left">0.7923</td>
+<td align="left">0.7636</td>
+<td align="left">7.3201</td>
+<td align="left">-1.0979</td>
+<td align="left">2.2772</td>
+<td align="left">2.479e-13</td>
+<td align="left">0.27225</td>
+<td align="left">2.278e-02</td>
+<td align="left">TRUE</td>
+<td align="left">14</td>
+<td align="left">322.3</td>
+<td align="left">2.93138</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="odd">
+<td align="left">Unclassified_Bacteria</td>
+<td align="left">38.83</td>
+<td align="left">1.3198</td>
+<td align="left">0.6957</td>
+<td align="left">1.8972</td>
+<td align="left">5.780e-02</td>
+<td align="left">0.1758255</td>
+<td align="left">38.83</td>
+<td align="left">8.230e+03</td>
+<td align="left">FALSE</td>
+<td align="left">1.583</td>
+<td align="left">12</td>
+<td align="left">3.473</td>
+<td align="left">1.847</td>
+<td align="left">11</td>
+<td align="left">FALSE</td>
+<td align="left">1.847</td>
+<td align="left">5.2081</td>
+<td align="left">-1.7179</td>
+<td align="left">1.3198</td>
+<td align="left">0.6694</td>
+<td align="left">0.7193</td>
+<td align="left">0.6957</td>
+<td align="left">7.7807</td>
+<td align="left">-2.3883</td>
+<td align="left">1.8972</td>
+<td align="left">7.214e-15</td>
+<td align="left">0.01693</td>
+<td align="left">5.780e-02</td>
+<td align="left">TRUE</td>
+<td align="left">9</td>
+<td align="left">285.7</td>
+<td align="left">0.24180</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="even">
+<td align="left">Selenomonadales</td>
+<td align="left">84.77</td>
+<td align="left">-1.7064</td>
+<td align="left">0.9837</td>
+<td align="left">-1.7347</td>
+<td align="left">8.280e-02</td>
+<td align="left">0.1758255</td>
+<td align="left">84.77</td>
+<td align="left">7.583e+04</td>
+<td align="left">FALSE</td>
+<td align="left">3.703</td>
+<td align="left">12</td>
+<td align="left">4.211</td>
+<td align="left">3.789</td>
+<td align="left">11</td>
+<td align="left">FALSE</td>
+<td align="left">3.789</td>
+<td align="left">7.5702</td>
+<td align="left">-1.3918</td>
+<td align="left">-1.7064</td>
+<td align="left">0.9491</td>
+<td align="left">1.0205</td>
+<td align="left">0.9837</td>
+<td align="left">7.9758</td>
+<td align="left">-1.3638</td>
+<td align="left">-1.7347</td>
+<td align="left">1.514e-15</td>
+<td align="left">0.17264</td>
+<td align="left">8.280e-02</td>
+<td align="left">TRUE</td>
+<td align="left">23</td>
+<td align="left">293.3</td>
+<td align="left">0.54258</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="odd">
+<td align="left">Verrucomicrobiales</td>
+<td align="left">24.58</td>
+<td align="left">3.8790</td>
+<td align="left">2.2730</td>
+<td align="left">1.7065</td>
+<td align="left">8.791e-02</td>
+<td align="left">0.1758255</td>
+<td align="left">24.58</td>
+<td align="left">1.154e+04</td>
+<td align="left">FALSE</td>
+<td align="left">20.155</td>
+<td align="left">13</td>
+<td align="left">4.858</td>
+<td align="left">20.155</td>
+<td align="left">12</td>
+<td align="left">TRUE</td>
+<td align="left">12.109</td>
+<td align="left">0.8045</td>
+<td align="left">1.0796</td>
+<td align="left">3.8790</td>
+<td align="left">2.2184</td>
+<td align="left">2.3649</td>
+<td align="left">2.2730</td>
+<td align="left">0.3626</td>
+<td align="left">0.4565</td>
+<td align="left">1.7065</td>
+<td align="left">7.169e-01</td>
+<td align="left">0.64802</td>
+<td align="left">8.791e-02</td>
+<td align="left">TRUE</td>
+<td align="left">100</td>
+<td align="left">121.1</td>
+<td align="left">0.67248</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="even">
+<td align="left">Enterobacteriales</td>
+<td align="left">15.66</td>
+<td align="left">1.7804</td>
+<td align="left">1.2510</td>
+<td align="left">1.4232</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">15.66</td>
+<td align="left">5.102e+03</td>
+<td align="left">FALSE</td>
+<td align="left">6.458</td>
+<td align="left">10</td>
+<td align="left">4.643</td>
+<td align="left">5.925</td>
+<td align="left">10</td>
+<td align="left">FALSE</td>
+<td align="left">5.925</td>
+<td align="left">3.4954</td>
+<td align="left">-2.2315</td>
+<td align="left">1.7804</td>
+<td align="left">1.2003</td>
+<td align="left">1.2911</td>
+<td align="left">1.2510</td>
+<td align="left">2.9122</td>
+<td align="left">-1.7283</td>
+<td align="left">1.4232</td>
+<td align="left">3.589e-03</td>
+<td align="left">0.08394</td>
+<td align="left">1.547e-01</td>
+<td align="left">TRUE</td>
+<td align="left">100</td>
+<td align="left">159.3</td>
+<td align="left">58.85396</td>
+<td align="left">TRUE</td>
+</tr>
+<tr class="odd">
+<td align="left">Clostridiales</td>
+<td align="left">959.28</td>
+<td align="left">-0.5383</td>
+<td align="left">0.5437</td>
+<td align="left">-0.9902</td>
+<td align="left">3.221e-01</td>
+<td align="left">0.5368311</td>
+<td align="left">959.28</td>
+<td align="left">4.659e+05</td>
+<td align="left">FALSE</td>
+<td align="left">1.130</td>
+<td align="left">8</td>
+<td align="left">1.358</td>
+<td align="left">1.168</td>
+<td align="left">11</td>
+<td align="left">FALSE</td>
+<td align="left">1.168</td>
+<td align="left">10.4372</td>
+<td align="left">-0.4677</td>
+<td align="left">-0.5383</td>
+<td align="left">0.5260</td>
+<td align="left">0.5648</td>
+<td align="left">0.5437</td>
+<td align="left">19.8425</td>
+<td align="left">-0.8282</td>
+<td align="left">-0.9902</td>
+<td align="left">1.280e-87</td>
+<td align="left">0.40755</td>
+<td align="left">3.221e-01</td>
+<td align="left">TRUE</td>
+<td align="left">5</td>
+<td align="left">517.4</td>
+<td align="left">0.02560</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="even">
+<td align="left">Bacteroidales</td>
+<td align="left">7670.58</td>
+<td align="left">-0.4963</td>
+<td align="left">0.7022</td>
+<td align="left">-0.7068</td>
+<td align="left">4.797e-01</td>
+<td align="left">0.6547585</td>
+<td align="left">7670.58</td>
+<td align="left">1.546e+08</td>
+<td align="left">FALSE</td>
+<td align="left">1.800</td>
+<td align="left">12</td>
+<td align="left">1.800</td>
+<td align="left">1.952</td>
+<td align="left">12</td>
+<td align="left">FALSE</td>
+<td align="left">1.952</td>
+<td align="left">12.3602</td>
+<td align="left">1.0858</td>
+<td align="left">-0.4963</td>
+<td align="left">0.6796</td>
+<td align="left">0.7296</td>
+<td align="left">0.7022</td>
+<td align="left">18.1875</td>
+<td align="left">1.4882</td>
+<td align="left">-0.7068</td>
+<td align="left">6.483e-74</td>
+<td align="left">0.13669</td>
+<td align="left">4.797e-01</td>
+<td align="left">TRUE</td>
+<td align="left">8</td>
+<td align="left">641.3</td>
+<td align="left">0.38604</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="odd">
+<td align="left">Rhizobiales</td>
+<td align="left">14.67</td>
+<td align="left">-0.6398</td>
+<td align="left">1.1458</td>
+<td align="left">-0.5584</td>
+<td align="left">5.766e-01</td>
+<td align="left">0.6547585</td>
+<td align="left">14.67</td>
+<td align="left">8.335e+02</td>
+<td align="left">FALSE</td>
+<td align="left">5.332</td>
+<td align="left">14</td>
+<td align="left">4.386</td>
+<td align="left">5.082</td>
+<td align="left">7</td>
+<td align="left">FALSE</td>
+<td align="left">5.082</td>
+<td align="left">3.7404</td>
+<td align="left">0.6262</td>
+<td align="left">-0.6398</td>
+<td align="left">1.1092</td>
+<td align="left">1.1908</td>
+<td align="left">1.1458</td>
+<td align="left">3.3722</td>
+<td align="left">0.5258</td>
+<td align="left">-0.5584</td>
+<td align="left">7.457e-04</td>
+<td align="left">0.59900</td>
+<td align="left">5.766e-01</td>
+<td align="left">TRUE</td>
+<td align="left">13</td>
+<td align="left">201.0</td>
+<td align="left">1.92216</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="even">
+<td align="left">Unclassified_Firmicutes</td>
+<td align="left">17.18</td>
+<td align="left">-0.4042</td>
+<td align="left">0.8163</td>
+<td align="left">-0.4951</td>
+<td align="left">6.205e-01</td>
+<td align="left">0.6547585</td>
+<td align="left">17.18</td>
+<td align="left">1.112e+03</td>
+<td align="left">FALSE</td>
+<td align="left">2.044</td>
+<td align="left">9</td>
+<td align="left">4.896</td>
+<td align="left">2.496</td>
+<td align="left">9</td>
+<td align="left">FALSE</td>
+<td align="left">2.496</td>
+<td align="left">5.1546</td>
+<td align="left">-1.8632</td>
+<td align="left">-0.4042</td>
+<td align="left">0.7792</td>
+<td align="left">0.8415</td>
+<td align="left">0.8163</td>
+<td align="left">6.6155</td>
+<td align="left">-2.2141</td>
+<td align="left">-0.4951</td>
+<td align="left">3.703e-11</td>
+<td align="left">0.02682</td>
+<td align="left">6.205e-01</td>
+<td align="left">TRUE</td>
+<td align="left">10</td>
+<td align="left">237.6</td>
+<td align="left">0.03369</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="odd">
+<td align="left">Burkholderiales</td>
+<td align="left">97.97</td>
+<td align="left">-0.5554</td>
+<td align="left">1.2420</td>
+<td align="left">-0.4472</td>
+<td align="left">6.548e-01</td>
+<td align="left">0.6547585</td>
+<td align="left">97.97</td>
+<td align="left">4.107e+04</td>
+<td align="left">FALSE</td>
+<td align="left">6.517</td>
+<td align="left">12</td>
+<td align="left">4.680</td>
+<td align="left">6.087</td>
+<td align="left">11</td>
+<td align="left">FALSE</td>
+<td align="left">6.087</td>
+<td align="left">5.9623</td>
+<td align="left">1.2851</td>
+<td align="left">-0.5554</td>
+<td align="left">1.2024</td>
+<td align="left">1.2907</td>
+<td align="left">1.2420</td>
+<td align="left">4.9585</td>
+<td align="left">0.9957</td>
+<td align="left">-0.4472</td>
+<td align="left">7.103e-07</td>
+<td align="left">0.31941</td>
+<td align="left">6.548e-01</td>
+<td align="left">TRUE</td>
+<td align="left">100</td>
+<td align="left">281.3</td>
+<td align="left">1.51980</td>
+<td align="left">FALSE</td>
+</tr>
+</tbody>
+</table>
+<h5 id="default-transformations-for-further-data-analysis">(1.5.1.2.2.3) Default transformations for further data analysis</h5>
+<p>Specific methods can override these and use their own normalization.</p>
+<p>Count normalization method for data analysis (unless modified by specific methods) : [ drop.features:List of 1, ..$ :&quot;other&quot;, method.args :List of 1, ..$ theta:1, method :&quot;norm.ihs.prop&quot;]</p>
+<p>Wrote counts and metadata for raw counts Normalized after default transformations to files <a href="data/1.5.1.2.2.3-3235bd67550samples.raw.16s.l.4.count.tsv"><code>data/1.5.1.2.2.3-3235bd67550samples.raw.16s.l.4.count.tsv</code></a>,<a href="data/1.5.1.2.2.3-3235bd67550samples.raw.16s.l.4.attr.tsv"><code>data/1.5.1.2.2.3-3235bd67550samples.raw.16s.l.4.attr.tsv</code></a></p>
+<h5 id="ordinations">(1.5.1.2.3) Ordinations,</h5>
+<p><a href="./1.5.1.2.3-report.html"><code>Subreport</code></a></p>
+<p align="center">
+  Design: <a href="https://rapporter.net"><i>Rapporter</i> Team</a> © 2011-2014 | Backend: <a href="https://github.com/rapporter/pander">pander</a> | License: <a href="http://www.gnu.org/licenses/agpl.html" target="_blank">AGPL3</a> or <a href="http://opensource.org/licenses/OSL-3.0" target="_blank">OSL</a> | Styled with <a href="http://www.getskeleton.com/" target="_blank">skeleton</a>
+</p>
+</body>
+</html>

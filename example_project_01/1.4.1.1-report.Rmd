@@ -1,0 +1,383 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+#### \(1.4.1.1\) Taxonomic level: 2 of Subset: Patients' samples at visits 1 (before diet) and 2 (after diet), only paired samples
+
+
+
+
+##### \(1.4.1.1.1\) Loading counts and metadata
+
+[`Subreport`](./1.4.1.1.1-report.html)
+
+
+##### \(1.4.1.1.2\) Data analysis
+
+
+
+Filtering abundance matrix with arguments [ min_mean                :10, min_quant_incidence_frac:0.25, min_quant_mean_frac     :0.25]. Filtering features
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 33 records for 6 features
+
+
+Wrote counts and metadata for raw counts After final feature filtering to files [`data/1.4.1.1.2.1-3232aae0a00samples.raw.16s.l.2.count.tsv`](data/1.4.1.1.2.1-3232aae0a00samples.raw.16s.l.2.count.tsv),[`data/1.4.1.1.2.1-3232aae0a00samples.raw.16s.l.2.attr.tsv`](data/1.4.1.1.2.1-3232aae0a00samples.raw.16s.l.2.attr.tsv)
+
+
+Wrote counts and metadata for proportions counts After final feature filtering to files [`data/1.4.1.1.2.1-323643d63afsamples.proportions.16s.l.2.count.tsv`](data/1.4.1.1.2.1-323643d63afsamples.proportions.16s.l.2.count.tsv),[`data/1.4.1.1.2.1-323643d63afsamples.proportions.16s.l.2.attr.tsv`](data/1.4.1.1.2.1-323643d63afsamples.proportions.16s.l.2.attr.tsv)
+
+
+
+##### \(1.4.1.1.2.2\) DESeq2 tests and data normalization
+
+
+
+Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” _Genome Biology_, *15*,
+550. doi: 10.1186/s13059-014-0550-8 (URL: http://doi.org/10.1186/s13059-014-0550-8).
+
+
+\(1.4.1.1.2.2.1\) <a name="table.142"></a>[`Table 142.`](#table.142) DESeq2 results for task: DietStatus;\[ alpha:0.05\]. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.1.2.2.1-3235bbed7ac.1.4.1.1.2.2.1.a.nam.csv`](data/1.4.1.1.2.2.1-3235bbed7ac.1.4.1.1.2.2.1.a.nam.csv)
+
+
+
+
+| feature                | baseMean | log2FoldChange | lfcSE  | stat     | pvalue   | padj     | i.baseMean | baseVar    | allZero | dispGeneEst | dispGeneIter | dispFit    | dispersion | dispIter | dispOutlier | dispMAP | Intercept | DietStatus\_before.diet\_vs\_after.diet | SE\_Intercept | SE\_DietStatus\_before.diet\_vs\_after.diet | WaldStatistic\_Intercept | WaldStatistic\_DietStatus\_before.diet\_vs\_after.diet | WaldPvalue\_Intercept | WaldPvalue\_DietStatus\_before.diet\_vs\_after.diet | betaConv | betaIter | deviance | maxCooks | replace |
+|:-----------------------|:---------|:---------------|:-------|:---------|:---------|:---------|:-----------|:-----------|:--------|:------------|:-------------|:-----------|:-----------|:---------|:------------|:--------|:----------|:----------------------------------------|:--------------|:--------------------------------------------|:-------------------------|:-------------------------------------------------------|:----------------------|:----------------------------------------------------|:---------|:---------|:---------|:---------|:--------|
+| Firmicutes             | 1794.718 | \-1.5035       | 0.4574 | \-3.2871 | 0.001012 | 0.005062 | 1794.718   | 9.993e\+06 | FALSE   | 0.8263      | 11           | 8.350e\-01 | 0.8275     | 8        | FALSE       | 0.8275  | 11.3944   | \-1.5035                                | 0.3282        | 0.4574                                      | 34.7196                  | \-3.2871                                               | 3.990e\-264           | 0.001012                                            | TRUE     | 4        | 550.82   | NA       | FALSE   |
+| Unclassified\_Bacteria | 25.382   | 1.7695         | 0.5883 | 3.0078   | 0.002632 | 0.006579 | 25.382     | 2.293e\+03 | FALSE   | 1.0245      | 10           | 2.970e\+00 | 1.2983     | 11       | FALSE       | 1.2983  | 3.5155    | 1.7695                                  | 0.4274        | 0.5883                                      | 8.2255                   | 3.0078                                                 | 1.944e\-16            | 0.002632                                            | TRUE     | 5        | 271.90   | NA       | FALSE   |
+| Verrucomicrobia        | 4.539    | 3.7951         | 2.9215 | 1.2990   | 0.193935 | 0.323225 | 4.539      | 3.748e\+02 | FALSE   | 17.9039     | 9            | 1.325e\+07 | 33.0000    | 100      | FALSE       | 33.0000 | \-0.7313  | 3.7951                                  | 2.1151        | 2.9215                                      | \-0.3457                 | 1.2990                                                 | 7.295e\-01            | 0.193935                                            | TRUE     | 13       | 85.56    | NA       | TRUE    |
+| Bacteroidetes          | 4077.006 | 0.6145         | 0.5473 | 1.1228   | 0.261523 | 0.326903 | 4077.006   | 1.345e\+07 | FALSE   | 1.1492      | 11           | 1.376e\+00 | 1.1858     | 11       | FALSE       | 1.1858  | 11.6444   | 0.6145                                  | 0.3928        | 0.5473                                      | 29.6426                  | 1.1228                                                 | 4.226e\-193           | 0.261523                                            | TRUE     | 5        | 613.17   | NA       | TRUE    |
+| Proteobacteria         | 91.127   | 0.1043         | 0.6313 | 0.1652   | 0.868798 | 0.868798 | 91.127     | 1.171e\+04 | FALSE   | 1.4785      | 9            | 2.008e\+00 | 1.5633     | 12       | FALSE       | 1.5633  | 6.4587    | 0.1043                                  | 0.4530        | 0.6313                                      | 14.2568                  | 0.1652                                                 | 4.064e\-46            | 0.868798                                            | TRUE     | 5        | 362.30   | NA       | TRUE    |
+
+
+
+
+
+
+
+\(1.4.1.1.2.2.1\) <a name="figure.589"></a>[`Figure 589.`](#figure.589) Clustered heatmap of normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/3236bc289f8.svg`](plots/3236bc289f8.svg).
+![](plots/3236bc289f8.svg)
+
+
+
+
+\(1.4.1.1.2.2.1\)  G-test of independence between automatic cluster splits and attribute 'DietStatus'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 5.778          | 3            | 0.1229  |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits to files [`data/1.4.1.1.2.2.1-3237d126de8samples.raw.htmap.count.tsv`](data/1.4.1.1.2.2.1-3237d126de8samples.raw.htmap.count.tsv),[`data/1.4.1.1.2.2.1-3237d126de8samples.raw.htmap.attr.tsv`](data/1.4.1.1.2.2.1-3237d126de8samples.raw.htmap.attr.tsv)
+
+
+
+##### \(1.4.1.1.2.3\) Default transformations for further data analysis
+
+
+
+Specific methods can override these and use their own normalization.
+
+
+Count normalization method for data analysis (unless modified by specific methods) : [ drop.features:List of 1,  ..$ :"other", method.args  :List of 1,  ..$ theta:1, method       :"norm.ihs.prop"]
+
+
+Wrote counts and metadata for raw counts Normalized after default transformations to files [`data/1.4.1.1.2.3-3231475e179samples.raw.16s.l.2.count.tsv`](data/1.4.1.1.2.3-3231475e179samples.raw.16s.l.2.count.tsv),[`data/1.4.1.1.2.3-3231475e179samples.raw.16s.l.2.attr.tsv`](data/1.4.1.1.2.3-3231475e179samples.raw.16s.l.2.attr.tsv)
+
+
+
+##### \(1.4.1.1.3\) GeneSelector stability ranking
+
+
+
+Slawski M, Boulesteix. A (????). _GeneSelector: Stability and Aggregation of ranked gene lists_. R package version 2.31.0.
+
+
+Wilcoxon test (rank-sum for independent samples and signed-rank for paired samples) 
+                   is applied to each feature (feature, gene) on random
+                   subsamples of the data. Consensus ranking is found with a
+                   Monte Carlo procedure ((method AggregateMC in GeneSelector package). 
+                   features ordered according to the consensus ranking
+                   are returned, along with the p-values, statistic and effect size 
+                   computed on the full
+                   original dataset. In a special case when no replications are requested,
+                   features are ordered by the adjuested p-value. 
+                   P-values are reported with and without the 
+                   multiple testing correction of Benjamini & Hochberg. The effect sizes
+                   for Wilcoxon tests are reported as: common-language effect
+                   size (proportion of pairs where observations from the second group
+                   are larger than observations from the first group; no effect
+                   corresponds to 0.5); rank-biserial
+                   correlation (common language effect size minus its complement; no
+                   effect corresponds to 0; range is [-1;1]) and
+                   absolute value of r (as defined in Cohen, J. (1988). Statistical power 
+                   analysis for the behavioral sciences (2nd ed.). Hillsdale, NJ: Erlbaum.).
+                   For paired samples, when calculating the common language effect size,
+                   only paired observations are used, and one half of the number of ties is 
+                   added to the numerator (Grissom, R. J., and J. J. Kim. "Effect Sizes for Research: Univariate 
+                   and Multivariate Applications, 2nd Edn New York." NY: Taylor and Francis (2012)).
+                   Logarithm in base 2 of the fold change (l2fc) is also reported if requested.
+                   For independent samples, the fold change is computed between the sample means of
+                   the groups (last to first). For paired samples - as the sample median of the logfold change
+                   in each matched pair of observations.
+
+
+Stability selection parameters are: [ comp.log.fold.change:TRUE, maxrank             :20, samp.fold.ratio     :0.5, replicates          :400, type                :"paired", block.attr          :"SubjectID"]
+
+
+\(1.4.1.1.3\)  Summary of response variable (unpaired samples) DietStatus.
+
+
+
+```````
+ after.diet before.diet 
+         16          17 
+```````
+
+
+
+\(1.4.1.1.3\) <a name="table.143"></a>[`Table 143.`](#table.143) GeneSelector stability ranking for response DietStatus. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.1.3-3234eaf639d.1.4.1.1.3.a.name.ta.csv`](data/1.4.1.1.3-3234eaf639d.1.4.1.1.3.a.name.ta.csv)
+
+
+
+
+| name                   | statistic | pval    | pval.adjusted | common.lang.eff.size | rank.biserial.corr.eff.size | r.eff.size | l2fc.after.diet.by.before.diet | mean.before.diet | mean.after.diet | l2fc.paired.median | median.paired.after.diet | median.paired.before.diet |
+|:-----------------------|:----------|:--------|:--------------|:---------------------|:----------------------------|:-----------|:-------------------------------|:-----------------|:----------------|:-------------------|:-------------------------|:--------------------------|
+| Unclassified\_Bacteria | 85        | 0.04187 | 0.2094        | 0.6429               | 0.2857                      | 0.54383    | \-2.1883                       | 0.01018          | 0.0022340       | 0.74363            | 0.002054                 | 0.002894                  |
+| Firmicutes             | 36        | 0.32581 | 0.6250        | 0.4286               | \-0.1429                    | 0.26261    | 0.8325                         | 0.19722          | 0.3512086       | \-0.55144          | 0.206802                 | 0.122391                  |
+| Bacteroidetes          | 58        | 0.76086 | 0.8552        | 0.5000               | 0.0000                      | 0.08134    | \-0.2691                       | 0.66629          | 0.5529131       | \-0.01833          | 0.707857                 | 0.749973                  |
+| Proteobacteria         | 49        | 0.85522 | 0.8552        | 0.4286               | \-0.1429                    | 0.04876    | \-0.8915                       | 0.03552          | 0.0191492       | \-0.48068          | 0.015220                 | 0.012558                  |
+| Verrucomicrobia        | 8         | 0.37500 | 0.6250        | 0.5714               | 0.1429                      | 0.44357    | \-4.9239                       | 0.01259          | 0.0004147       | 0.00000            | 0.000000                 | 0.000000                  |
+
+
+
+
+
+##### \(1.4.1.1.4\) Plots of Abundance difference between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'.
+
+[`Subreport`](./1.4.1.1.4-report.html)
+
+
+##### \(1.4.1.1.5\) Plots of Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'.
+
+[`Subreport`](./1.4.1.1.5-report.html)
+
+
+##### \(1.4.1.1.6\) Stability selection analysis for response ( DietStatus )
+
+
+
+
+##### \(1.4.1.1.7\) PermANOVA (adonis) analysis of  normalized counts
+
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+Non-parametric multivariate test for association between
+                           normalized counts and meta-data variables. Dissimilarity index is euclidean.
+
+
+\(1.4.1.1.7\)  Association with diet status unpaired by subject with formula count\~DietStatus .
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+           Df SumOfSqs     R2     F Pr(>F)
+DietStatus  1   0.3053 0.0661 2.194 0.1547
+Residual   31   4.3143 0.9339             
+Total      32   4.6197 1.0000             
+```````
+
+
+
+
+
+
+\(1.4.1.1.7\)  Association with diet status unpaired by subject Adonis summary.
+
+
+|     &nbsp;     | Df | SumOfSqs | R2     | F     | Pr(>F) |
+|:--------------:|:---|:---------|:-------|:------|:-------|
+| **DietStatus** | 1  | 0.3053   | 0.0661 | 2.194 | 0.1547 |
+|  **Residual**  | 31 | 4.314    | 0.9339 | NA    | NA     |
+|   **Total**    | 32 | 4.62     | 1      | NA    | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+\(1.4.1.1.7\)  Association with diet status paired by subject with formula count\~DietStatus with strata =  SubjectID.
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Blocks:  m_a$attr[, strata] 
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+           Df SumOfSqs     R2     F Pr(>F)
+DietStatus  1   0.3053 0.0661 2.194 0.2382
+Residual   31   4.3143 0.9339             
+Total      32   4.6197 1.0000             
+```````
+
+
+
+
+
+
+\(1.4.1.1.7\)  Association with diet status paired by subject Adonis summary.
+
+
+|     &nbsp;     | Df | SumOfSqs | R2     | F     | Pr(>F) |
+|:--------------:|:---|:---------|:-------|:------|:-------|
+| **DietStatus** | 1  | 0.3053   | 0.0661 | 2.194 | 0.2382 |
+|  **Residual**  | 31 | 4.314    | 0.9339 | NA    | NA     |
+|   **Total**    | 32 | 4.62     | 1      | NA    | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+\(1.4.1.1.7\)  Association with Drug use before diet and diet status with formula count\~Drug.Before.Diet \*  DietStatus .
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+                            Df SumOfSqs      R2      F  Pr(>F)  
+Drug.Before.Diet             1   0.5408 0.11707 4.2222 0.03599 *
+DietStatus                   1   0.2874 0.06222 2.2441 0.14696  
+Drug.Before.Diet:DietStatus  1   0.0770 0.01666 0.6008 0.44989  
+Residual                    29   3.7145 0.80405                 
+Total                       32   4.6197 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```````
+
+
+
+
+
+
+\(1.4.1.1.7\)  Association with Drug use before diet and diet status Adonis summary.
+
+
+|             &nbsp;              | Df | SumOfSqs | R2     | F      | Pr(>F) |
+|:-------------------------------:|:---|:---------|:-------|:-------|:-------|
+|      **Drug.Before.Diet**       | 1  | 0.5408   | 0.1171 | 4.222  | 0.036  |
+|         **DietStatus**          | 1  | 0.2874   | 0.0622 | 2.244  | 0.147  |
+| **Drug.Before.Diet:DietStatus** | 1  | 0.077    | 0.0167 | 0.6008 | 0.4499 |
+|          **Residual**           | 29 | 3.715    | 0.8041 | NA     | NA     |
+|            **Total**            | 32 | 4.62     | 1      | NA     | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+
+
+
+\(1.4.1.1.7\) <a name="figure.630"></a>[`Figure 630.`](#figure.630) Clustered heatmap of normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/323614e5618.svg`](plots/323614e5618.svg).
+![](plots/323614e5618.svg)
+
+
+
+
+\(1.4.1.1.7\)  G-test of independence between automatic cluster splits and attribute 'DietStatus'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 1.781          | 1            | 0.182   |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+person) (????). _morpheus: Interactive heat maps using 'morpheus.js' and 'htmlwidgets'_. R package version 0.1.1.1, <URL:
+https://github.com/cmap/morpheus.R>.
+
+
+
+
+
+\(1.4.1.1.7\) <a name="widget.167"></a>[`Widget 167.`](#widget.167) Dynamic Morpheus heatmap of normalized abundance values. 
+                    It is available here through the link only because it can take a while to render for large datasets.
+                    This is very customizable. What you will see initially is just a default starting configuration. Explore its menus. Click to see HTML widget file in full window: [`./1.4.1.1.7-32342d33bdeDynamic.Morpheus.hea.html`](./1.4.1.1.7-32342d33bdeDynamic.Morpheus.hea.html)
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits (clustering by abundance profile) to files [`data/1.4.1.1.7-3233d923de3samples.raw.htmap.count.tsv`](data/1.4.1.1.7-3233d923de3samples.raw.htmap.count.tsv),[`data/1.4.1.1.7-3233d923de3samples.raw.htmap.attr.tsv`](data/1.4.1.1.7-3233d923de3samples.raw.htmap.attr.tsv)
+
+
+
+##### \(1.4.1.1.8\) Ordinations, 
+
+[`Subreport`](./1.4.1.1.8-report.html)
+
+
+##### \(1.4.1.1.9\) Network Analysis Feature correlation with overlaid differential abundance results 
+
+[`Subreport`](./1.4.1.1.9-report.html)
+
+
+##### \(1.4.1.1.10\) Comparison and test of significant difference for profile dissimilarities within and between blocks defined by attribute SubjectID across groups defined by attribute DietStatus
+
+
+
+Count normalization method for Dist.Matr.Within.Between : [ drop.features:List of 1,  ..$ :"other", method.args  :List of 1,  ..$ theta:1, method       :"norm.ihs.prop"]
+
+
+ Dissimilarity index is euclidian. The matrix of 
+  dissimilarities D is formed where rows correspond to observations with level after.diet
+  of DietStatus, and columns - to level before.diet. The elements of 
+  this matrix corresponding to rows and columns with the same 
+  level of SubjectID are called "within" block dissimilarities, while
+  the elements drawn from combinations of rows and columns
+  where SubjectID are not equal are called "between" blocks dissimilarities. The null hypothesis is that the observed difference of "between" and "within" 
+  block dissimilarities is consistent with what could be expected 
+  if the block structure was assigned to the observations at random. The alternative hypothesis is that the "between"/"within" 
+  difference is larger than would have been expected from a random block assignment. We simulate 8000 matrices in which both "between" and "within" 
+  dissimilarities come from the null distribution 
+  by permuting the SubjectID labels of the columns
+  of matrix D. The rank biserial correlation (Grissom, R. J., and J. J. Kim. 
+  "Effect Sizes for Research: Univariate 
+  and Multivariate Applications, 2nd Edn New York." NY: Taylor and Francis (2012)) is
+  computed between the observed "between" and "within" dissimilarities both in the observed and
+  simulated samples. Positive values of this correlation statistic would indicate 
+  "between" dissimilarities being stochastically larger than "within" dissimilarities.
+  The p-value is estimated as the fraction of the simulated statistic values that are as high or higher 
+  than the observed value. The estimated p-value was 0.701250 and the observed value of the statistic was -0.067504.
+
+
+
+
+
+\(1.4.1.1.10\) <a name="figure.634"></a>[`Figure 634.`](#figure.634) Emprical distribution density plots of the 
+             profile-profile
+             dissimilarities observed between and within SubjectID blocks.
+             Distances were computed only across levels of DietStatus variable.  Image file: [`plots/323625c8e35.svg`](plots/323625c8e35.svg).
+![](plots/323625c8e35.svg)

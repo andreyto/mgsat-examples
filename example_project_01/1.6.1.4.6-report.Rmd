@@ -1,0 +1,51 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.6.1.4.6\) Ordinations, 
+
+
+
+McMurdie PJ, Holmes S (2013). “phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data.” _PLoS
+ONE_, *8*(4), e61217. <URL: http://dx.plos.org/10.1371/journal.pone.0061217>.
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+
+
+
+\(1.6.1.4.6.1\)  Ordination plot. Ordination performed with parameters [ method:"RDA"]. 
+               Plot used parameters [ color:"visit", label:"FullLabel"].
+
+
+
+
+
+\(1.6.1.4.6.1\) <a name="widget.463"></a>[`Widget 463.`](#widget.463) Ordination plot in 3D. Ordination performed with parameters [ method:"RDA"]. 
+               Plot used parameters [ type      :"samples", color     :"visit", label     :"FullLabel", size      : NULL, lines.args:List of 2,  ..$ line.group:"SubjectID",  ..$ line.order:"visit", axes      :1 2 3]. Click to see HTML widget file in full window: [`./1.6.1.4.6.1-3231de2936Ordination.plot.in.3.html`](./1.6.1.4.6.1-3231de2936Ordination.plot.in.3.html)
+
+
+
+<iframe src="./1.6.1.4.6.1-3231de2936Ordination.plot.in.3.html" width="800" height="800"> </iframe>
+
+
+
+
+\(1.6.1.4.6.1\)  Ordination plot. Ordination performed with parameters [ method :"RDA", formula:Class 'formula' ~visit]. 
+               Plot used parameters [ color:"visit", label:"FullLabel"].
+
+
+
+
+
+\(1.6.1.4.6.1\) <a name="widget.464"></a>[`Widget 464.`](#widget.464) Ordination plot in 3D. Ordination performed with parameters [ method :"RDA", formula:Class 'formula' ~visit]. 
+               Plot used parameters [ type      :"samples", color     :"visit", label     :"FullLabel", size      : NULL, lines.args:List of 2,  ..$ line.group:"SubjectID",  ..$ line.order:"visit", axes      :1 2 3]. Click to see HTML widget file in full window: [`./1.6.1.4.6.1-32314877908Ordination.plot.in.3.html`](./1.6.1.4.6.1-32314877908Ordination.plot.in.3.html)
+
+
+
+<iframe src="./1.6.1.4.6.1-32314877908Ordination.plot.in.3.html" width="800" height="800"> </iframe>

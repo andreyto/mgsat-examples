@@ -1,0 +1,364 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+#### \(1.6.1.3\) Taxonomic level: 6 of Subset: Patient samples
+
+
+
+
+##### \(1.6.1.3.1\) Loading counts and metadata
+
+[`Subreport`](./1.6.1.3.1-report.html)
+
+
+##### \(1.6.1.3.2\) Data analysis
+
+
+
+
+##### \(1.6.1.3.2.1\) Richness and diversity estimates Before count filtering
+
+[`Subreport`](./1.6.1.3.2.1-report.html)
+
+Filtering abundance matrix with arguments [ min_mean                :10, min_quant_incidence_frac:0.25, min_quant_mean_frac     :0.25]. Filtering features
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 67 records for 43 features
+
+
+Wrote counts and metadata for raw counts After final feature filtering to files [`data/1.6.1.3.2.1-3234b63d6f8samples.raw.16s.l.6.count.tsv`](data/1.6.1.3.2.1-3234b63d6f8samples.raw.16s.l.6.count.tsv),[`data/1.6.1.3.2.1-3234b63d6f8samples.raw.16s.l.6.attr.tsv`](data/1.6.1.3.2.1-3234b63d6f8samples.raw.16s.l.6.attr.tsv)
+
+
+Wrote counts and metadata for proportions counts After final feature filtering to files [`data/1.6.1.3.2.1-323686e5068samples.proportions.16s.l.6.count.tsv`](data/1.6.1.3.2.1-323686e5068samples.proportions.16s.l.6.count.tsv),[`data/1.6.1.3.2.1-323686e5068samples.proportions.16s.l.6.attr.tsv`](data/1.6.1.3.2.1-323686e5068samples.proportions.16s.l.6.attr.tsv)
+
+
+
+##### \(1.6.1.3.2.2\) DESeq2 tests and data normalization
+
+
+
+Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” _Genome Biology_, *15*,
+550. doi: 10.1186/s13059-014-0550-8 (URL: http://doi.org/10.1186/s13059-014-0550-8).
+
+
+\(1.6.1.3.2.2.1\) <a name="table.398"></a>[`Table 398.`](#table.398) DESeq2 results for task: visit;\[ alpha:0.05\]. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.3.2.2.1-323416f2538.1.6.1.3.2.2.1.a.nam.csv`](data/1.6.1.3.2.2.1-323416f2538.1.6.1.3.2.2.1.a.nam.csv)
+
+
+
+
+| feature                              | baseMean  | log2FoldChange | lfcSE  | stat      | pvalue     | padj      | i.baseMean | baseVar    | allZero | dispGeneEst | dispGeneIter | dispFit | dispersion | dispIter | dispOutlier | dispMAP | Intercept | visit      | SE\_Intercept | SE\_visit | WaldStatistic\_Intercept | WaldStatistic\_visit | WaldPvalue\_Intercept | WaldPvalue\_visit | betaConv | betaIter | deviance | maxCooks | replace |
+|:-------------------------------------|:----------|:---------------|:-------|:----------|:-----------|:----------|:-----------|:-----------|:--------|:------------|:-------------|:--------|:-----------|:---------|:------------|:--------|:----------|:-----------|:--------------|:----------|:-------------------------|:---------------------|:----------------------|:------------------|:---------|:---------|:---------|:---------|:--------|
+| Prevotella                           | 265.2901  | \-1.893732     | 0.4331 | \-4.37256 | 1.228e\-05 | 0.0005157 | 265.2901   | 1.121e\+06 | FALSE   | 7.7131      | 13           | 3.895   | 7.591      | 10       | FALSE       | 7.591   | 11.06575  | \-1.893732 | 1.0891        | 0.4331    | 10.16029                 | \-4.37256            | 2.982e\-24            | 1.228e\-05        | TRUE     | 100      | 493.19   | NA       | TRUE    |
+| Enterococcus                         | 32.4847   | \-2.529965     | 0.6229 | \-4.06132 | 4.880e\-05 | 0.0007571 | 32.4847    | 4.610e\+04 | FALSE   | 16.0838     | 8            | 4.611   | 15.055     | 7        | FALSE       | 15.055  | 8.94993   | \-2.529965 | 1.5462        | 0.6229    | 5.78817                  | \-4.06132            | 7.116e\-09            | 4.880e\-05        | TRUE     | 100      | 216.49   | NA       | TRUE    |
+| Haemophilus                          | 11.4371   | 1.459095       | 0.3614 | 4.03725   | 5.408e\-05 | 0.0007571 | 11.4371    | 1.589e\+03 | FALSE   | 4.8950      | 11           | 7.777   | 4.980      | 11       | FALSE       | 4.980   | \-0.46749 | 1.459095   | 0.9298        | 0.3614    | \-0.50279                | 4.03725              | 6.151e\-01            | 5.408e\-05        | TRUE     | 17       | 342.24   | NA       | TRUE    |
+| Roseburia                            | 66.9943   | 0.610121       | 0.1753 | 3.48003   | 5.014e\-04 | 0.0052643 | 66.9943    | 4.531e\+03 | FALSE   | 1.1971      | 12           | 2.770   | 1.221      | 9        | FALSE       | 1.221   | 4.53605   | 0.610121   | 0.4444        | 0.1753    | 10.20767                 | 3.48003              | 1.832e\-24            | 5.014e\-04        | TRUE     | 6        | 684.27   | NA       | FALSE   |
+| Lachnospiracea\_incertae\_sedis      | 145.1892  | 0.670187       | 0.2063 | 3.24892   | 1.158e\-03 | 0.0097310 | 145.1892   | 2.542e\+04 | FALSE   | 1.7056      | 15           | 2.299   | 1.717      | 9        | FALSE       | 1.717   | 5.51031   | 0.670187   | 0.5208        | 0.2063    | 10.58076                 | 3.24892              | 3.660e\-26            | 1.158e\-03        | TRUE     | 7        | 775.94   | NA       | FALSE   |
+| Unclassified\_Bacteria               | 31.6447   | \-0.555940     | 0.1789 | \-3.10820 | 1.882e\-03 | 0.0115240 | 31.6447    | 5.935e\+03 | FALSE   | 1.2116      | 13           | 4.672   | 1.249      | 12       | FALSE       | 1.249   | 6.09393   | \-0.555940 | 0.4497        | 0.1789    | 13.55211                 | \-3.10820            | 7.698e\-42            | 1.882e\-03        | TRUE     | 7        | 585.92   | NA       | FALSE   |
+| Unclassified\_Clostridiaceae\_1      | 5.2247    | 1.228076       | 0.3959 | 3.10223   | 1.921e\-03 | 0.0115240 | 5.2247     | 3.056e\+02 | FALSE   | 5.7854      | 9            | 9.179   | 5.907      | 9        | FALSE       | 5.907   | \-0.83807 | 1.228076   | 1.0207        | 0.3959    | \-0.82110                | 3.10223              | 4.116e\-01            | 1.921e\-03        | TRUE     | 17       | 271.16   | NA       | TRUE    |
+| Unclassified\_Lachnospiraceae        | 257.8237  | 0.437698       | 0.1496 | 2.92528   | 3.442e\-03 | 0.0180679 | 257.8237   | 4.967e\+04 | FALSE   | 0.8735      | 12           | 3.774   | 0.904      | 10       | FALSE       | 0.904   | 6.94218   | 0.437698   | 0.3776        | 0.1496    | 18.38725                 | 2.92528              | 1.662e\-75            | 3.442e\-03        | TRUE     | 4        | 869.94   | NA       | FALSE   |
+| Unclassified\_Bacteroidales          | 45.9580   | \-0.702442     | 0.2702 | \-2.60012 | 9.319e\-03 | 0.0434893 | 45.9580    | 9.640e\+03 | FALSE   | 2.9142      | 12           | 3.709   | 2.928      | 9        | FALSE       | 2.928   | 6.89749   | \-0.702442 | 0.6796        | 0.2702    | 10.14930                 | \-2.60012            | 3.338e\-24            | 9.319e\-03        | TRUE     | 8        | 572.82   | NA       | TRUE    |
+| Unclassified\_Ruminococcaceae        | 47.9269   | \-0.446568     | 0.1816 | \-2.45948 | 1.391e\-02 | 0.0584381 | 47.9269    | 5.390e\+03 | FALSE   | 1.2795      | 12           | 3.600   | 1.309      | 12       | FALSE       | 1.309   | 6.50121   | \-0.446568 | 0.4572        | 0.1816    | 14.21908                 | \-2.45948            | 6.976e\-46            | 1.391e\-02        | TRUE     | 6        | 644.55   | NA       | FALSE   |
+| Akkermansia                          | 3.3319    | \-1.743439     | 0.7775 | \-2.24244 | 2.493e\-02 | 0.0951988 | 3.3319     | 1.534e\+02 | FALSE   | 25.9782     | 7            | 10.619  | 23.482     | 8        | FALSE       | 23.482  | 4.74368   | \-1.743439 | 1.9372        | 0.7775    | 2.44870                  | \-2.24244            | 1.434e\-02            | 2.493e\-02        | TRUE     | 17       | 129.07   | NA       | TRUE    |
+| Escherichia\_Shigella                | 9.1482    | 0.878279       | 0.4481 | 1.95988   | 5.001e\-02 | 0.1561023 | 9.1482     | 7.548e\+02 | FALSE   | 7.9118      | 11           | 8.036   | 7.916      | 6        | FALSE       | 7.916   | 0.85036   | 0.878279   | 1.1393        | 0.4481    | 0.74641                  | 1.95988              | 4.554e\-01            | 5.001e\-02        | TRUE     | 19       | 290.36   | NA       | TRUE    |
+| Unclassified\_Burkholderiales        | 2.8281    | \-1.920253     | 0.9863 | \-1.94690 | 5.155e\-02 | 0.1561023 | 2.8281     | 2.254e\+02 | FALSE   | 49.8238     | 9            | 11.184  | 38.348     | 10       | FALSE       | 38.348  | 4.35904   | \-1.920253 | 2.4673        | 0.9863    | 1.76670                  | \-1.94690            | 7.728e\-02            | 5.155e\-02        | TRUE     | 23       | 84.10    | NA       | TRUE    |
+| Klebsiella                           | 1.2852    | 1.052271       | 0.5452 | 1.92996   | 5.361e\-02 | 0.1561023 | 1.2852     | 3.868e\+01 | FALSE   | 10.9017     | 13           | 12.857  | 11.084     | 6        | FALSE       | 11.084  | \-2.61203 | 1.052271   | 1.4032        | 0.5452    | \-1.86143                | 1.92996              | 6.268e\-02            | 5.361e\-02        | TRUE     | 10       | 130.67   | NA       | TRUE    |
+| Alistipes                            | 185.0306  | \-0.847470     | 0.4430 | \-1.91298 | 5.575e\-02 | 0.1561023 | 185.0306   | 2.447e\+05 | FALSE   | 8.2325      | 15           | 2.715   | 7.974      | 9        | FALSE       | 7.974   | 9.19983   | \-0.847470 | 1.1156        | 0.4430    | 8.24684                  | \-1.91298            | 1.626e\-16            | 5.575e\-02        | TRUE     | 42       | 582.71   | NA       | FALSE   |
+| Flavonifractor                       | 10.0930   | \-0.323015     | 0.2015 | \-1.60336 | 1.089e\-01 | 0.2857440 | 10.0930    | 1.925e\+02 | FALSE   | 1.4419      | 11           | 7.925   | 1.516      | 12       | FALSE       | 1.516   | 4.03695   | \-0.323015 | 0.5083        | 0.2015    | 7.94194                  | \-1.60336            | 1.990e\-15            | 1.089e\-01        | TRUE     | 6        | 447.62   | NA       | FALSE   |
+| Gemmiger                             | 10.4177   | \-0.591970     | 0.3822 | \-1.54895 | 1.214e\-01 | 0.2866197 | 10.4177    | 5.622e\+02 | FALSE   | 5.7108      | 12           | 7.910   | 5.783      | 11       | FALSE       | 5.783   | 4.60373   | \-0.591970 | 0.9611        | 0.3822    | 4.78989                  | \-1.54895            | 1.669e\-06            | 1.214e\-01        | TRUE     | 14       | 360.25   | NA       | FALSE   |
+| Lactobacillus                        | 0.9595    | \-0.852023     | 0.5522 | \-1.54297 | 1.228e\-01 | 0.2866197 | 0.9595     | 1.009e\+01 | FALSE   | 10.9454     | 11           | 13.231  | 11.157     | 6        | FALSE       | 11.157  | 1.80646   | \-0.852023 | 1.3751        | 0.5522    | 1.31368                  | \-1.54297            | 1.890e\-01            | 1.228e\-01        | TRUE     | 7        | 136.98   | NA       | TRUE    |
+| Turicibacter                         | 2.3150    | \-0.573864     | 0.4421 | \-1.29817 | 1.942e\-01 | 0.4098054 | 2.3150     | 4.057e\+01 | FALSE   | 7.1271      | 11           | 11.746  | 7.340      | 10       | FALSE       | 7.340   | 2.46767   | \-0.573864 | 1.1076        | 0.4421    | 2.22794                  | \-1.29817            | 2.588e\-02            | 1.942e\-01        | TRUE     | 12       | 212.90   | NA       | TRUE    |
+| Veillonella                          | 11.2256   | 0.484121       | 0.3737 | 1.29551   | 1.951e\-01 | 0.4098054 | 11.2256    | 1.198e\+03 | FALSE   | 5.4720      | 14           | 7.816   | 5.532      | 10       | FALSE       | 5.532   | 2.35580   | 0.484121   | 0.9474        | 0.3737    | 2.48664                  | 1.29551              | 1.290e\-02            | 1.951e\-01        | TRUE     | 23       | 355.55   | NA       | TRUE    |
+| Streptococcus                        | 6.2019    | \-0.292425     | 0.2388 | \-1.22464 | 2.207e\-01 | 0.4414229 | 6.2019     | 1.523e\+02 | FALSE   | 2.0140      | 14           | 8.836   | 2.109      | 10       | FALSE       | 2.109   | 3.30974   | \-0.292425 | 0.6030        | 0.2388    | 5.48837                  | \-1.22464            | 4.057e\-08            | 2.207e\-01        | TRUE     | 8        | 381.72   | NA       | TRUE    |
+| Clostridium\_IV                      | 21.5568   | \-0.360099     | 0.3093 | \-1.16434 | 2.443e\-01 | 0.4663621 | 21.5568    | 1.897e\+03 | FALSE   | 3.7827      | 11           | 5.530   | 3.821      | 7        | FALSE       | 3.821   | 5.17699   | \-0.360099 | 0.7792        | 0.3093    | 6.64362                  | \-1.16434            | 3.061e\-11            | 2.443e\-01        | TRUE     | 12       | 472.95   | NA       | FALSE   |
+| Bacteroides                          | 6599.3684 | \-0.252521     | 0.2375 | \-1.06334 | 2.876e\-01 | 0.5252296 | 6599.3684  | 1.459e\+08 | FALSE   | 2.2941      | 15           | 2.303   | 2.294      | 6        | FALSE       | 2.294   | 13.23134  | \-0.252521 | 0.5981        | 0.2375    | 22.12181                 | \-1.06334            | 1.950e\-108           | 2.876e\-01        | TRUE     | 8        | 1270.86  | NA       | FALSE   |
+| Clostridium\_XVIII                   | 16.6680   | \-0.219837     | 0.2257 | \-0.97402 | 3.300e\-01 | 0.5633924 | 16.6680    | 8.943e\+02 | FALSE   | 1.9289      | 13           | 6.416   | 1.990      | 8        | FALSE       | 1.990   | 4.55677   | \-0.219837 | 0.5699        | 0.2257    | 7.99611                  | \-0.97402            | 1.284e\-15            | 3.300e\-01        | TRUE     | 6        | 502.69   | NA       | FALSE   |
+| Bifidobacterium                      | 7.8682    | 0.300125       | 0.3181 | 0.94347   | 3.454e\-01 | 0.5633924 | 7.8682     | 2.324e\+02 | FALSE   | 3.8310      | 11           | 8.344   | 3.933      | 11       | FALSE       | 3.933   | 2.27672   | 0.300125   | 0.8085        | 0.3181    | 2.81582                  | 0.94347              | 4.865e\-03            | 3.454e\-01        | TRUE     | 13       | 368.72   | NA       | FALSE   |
+| Blautia                              | 86.1543   | \-0.177857     | 0.1931 | \-0.92093 | 3.571e\-01 | 0.5633924 | 86.1543    | 2.243e\+04 | FALSE   | 1.4857      | 12           | 2.340   | 1.501      | 10       | FALSE       | 1.501   | 6.82238   | \-0.177857 | 0.4869        | 0.1931    | 14.01300                 | \-0.92093            | 1.298e\-44            | 3.571e\-01        | TRUE     | 6        | 725.76   | NA       | FALSE   |
+| Parabacteroides                      | 128.0932  | 0.320913       | 0.3604 | 0.89049   | 3.732e\-01 | 0.5633924 | 128.0932   | 8.021e\+04 | FALSE   | 5.3782      | 14           | 2.190   | 5.271      | 12       | FALSE       | 5.271   | 6.23494   | 0.320913   | 0.9081        | 0.3604    | 6.86554                  | 0.89049              | 6.624e\-12            | 3.732e\-01        | TRUE     | 33       | 616.44   | NA       | TRUE    |
+| Sutterella                           | 40.8570   | \-0.516585     | 0.5831 | \-0.88593 | 3.757e\-01 | 0.5633924 | 40.8570    | 9.146e\+03 | FALSE   | 14.5797     | 7            | 4.020   | 13.794     | 11       | FALSE       | 13.794  | 6.42125   | \-0.516585 | 1.4685        | 0.5831    | 4.37272                  | \-0.88593            | 1.227e\-05            | 3.757e\-01        | TRUE     | 100      | 343.31   | NA       | TRUE    |
+| Ruminococcus                         | 30.8528   | 0.201976       | 0.2345 | 0.86142   | 3.890e\-01 | 0.5633924 | 30.8528    | 3.055e\+03 | FALSE   | 2.1474      | 10           | 4.727   | 2.188      | 9        | FALSE       | 2.188   | 4.48592   | 0.201976   | 0.5930        | 0.2345    | 7.56513                  | 0.86142              | 3.875e\-14            | 3.890e\-01        | TRUE     | 9        | 574.42   | NA       | TRUE    |
+| Faecalibacterium                     | 227.9920  | 0.126101       | 0.1904 | 0.66226   | 5.078e\-01 | 0.7109236 | 227.9920   | 6.455e\+04 | FALSE   | 1.4429      | 12           | 3.310   | 1.468      | 12       | FALSE       | 1.468   | 7.54010   | 0.126101   | 0.4799        | 0.1904    | 15.71032                 | 0.66226              | 1.285e\-55            | 5.078e\-01        | TRUE     | 5        | 856.21   | NA       | FALSE   |
+| Barnesiella                          | 2.8318    | 0.413861       | 0.6757 | 0.61246   | 5.402e\-01 | 0.7309702 | 2.8318     | 1.454e\+02 | FALSE   | 18.8878     | 10           | 11.180  | 18.100     | 10       | FALSE       | 18.100  | 0.51944   | 0.413861   | 1.7109        | 0.6757    | 0.30361                  | 0.61246              | 7.614e\-01            | 5.402e\-01        | TRUE     | 13       | 149.39   | NA       | TRUE    |
+| Paraprevotella                       | 2.0824    | 0.443438       | 0.7549 | 0.58741   | 5.569e\-01 | 0.7309702 | 2.0824     | 7.752e\+01 | FALSE   | 24.2825     | 7            | 11.977  | 22.589     | 7        | FALSE       | 22.589  | 0.03568   | 0.443438   | 1.9112        | 0.7549    | 0.01867                  | 0.58741              | 9.851e\-01            | 5.569e\-01        | TRUE     | 9        | 130.15   | NA       | TRUE    |
+| Erysipelotrichaceae\_incertae\_sedis | 19.9370   | \-0.106838     | 0.2332 | \-0.45806 | 6.469e\-01 | 0.7845288 | 19.9370    | 9.572e\+02 | FALSE   | 2.0871      | 8            | 5.781   | 2.142      | 9        | FALSE       | 2.142   | 4.51898   | \-0.106838 | 0.5893        | 0.2332    | 7.66785                  | \-0.45806            | 1.749e\-14            | 6.469e\-01        | TRUE     | 8        | 517.69   | NA       | TRUE    |
+| Unclassified\_Clostridiales          | 66.3145   | \-0.075623     | 0.1680 | \-0.45012 | 6.526e\-01 | 0.7845288 | 66.3145    | 7.354e\+03 | FALSE   | 1.1035      | 12           | 2.792   | 1.127      | 10       | FALSE       | 1.127   | 6.22631   | \-0.075623 | 0.4240        | 0.1680    | 14.68366                 | \-0.45012            | 8.204e\-49            | 6.526e\-01        | TRUE     | 5        | 697.77   | NA       | FALSE   |
+| Megamonas                            | 4.0906    | \-0.577335     | 1.2872 | \-0.44853 | 6.538e\-01 | 0.7845288 | 4.0906     | 5.956e\+02 | FALSE   | 67.0000     | 9            | 9.901   | 67.000     | 9        | FALSE       | 67.000  | 3.18417   | \-0.577335 | 3.2407        | 1.2872    | 0.98254                  | \-0.44853            | 3.258e\-01            | 6.538e\-01        | TRUE     | 12       | 72.92    | NA       | TRUE    |
+| Phascolarctobacterium                | 7.9707    | 0.236518       | 0.6104 | 0.38746   | 6.984e\-01 | 0.8119665 | 7.9707     | 3.582e\+02 | FALSE   | 15.5643     | 9            | 8.314   | 14.972     | 9        | FALSE       | 14.972  | 2.44868   | 0.236518   | 1.5413        | 0.6104    | 1.58874                  | 0.38746              | 1.121e\-01            | 6.984e\-01        | TRUE     | 34       | 245.17   | NA       | TRUE    |
+| Clostridium\_XI                      | 62.2228   | 0.090278       | 0.2475 | 0.36474   | 7.153e\-01 | 0.8119665 | 62.2228    | 1.538e\+04 | FALSE   | 2.4596      | 12           | 2.935   | 2.469      | 9        | FALSE       | 2.469   | 5.75580   | 0.090278   | 0.6244        | 0.2475    | 9.21860                  | 0.36474              | 3.010e\-20            | 7.153e\-01        | TRUE     | 10       | 652.18   | NA       | FALSE   |
+| Unclassified\_Firmicutes             | 20.8742   | 0.036887       | 0.2144 | 0.17208   | 8.634e\-01 | 0.9368292 | 20.8742    | 1.434e\+03 | FALSE   | 1.7531      | 13           | 5.631   | 1.803      | 9        | FALSE       | 1.803   | 4.31314   | 0.036887   | 0.5426        | 0.2144    | 7.94897                  | 0.17208              | 1.881e\-15            | 8.634e\-01        | TRUE     | 9        | 536.14   | NA       | FALSE   |
+| Clostridium\_sensu\_stricto          | 14.7758   | 0.065008       | 0.3969 | 0.16377   | 8.699e\-01 | 0.9368292 | 14.7758    | 9.999e\+02 | FALSE   | 6.2932      | 13           | 6.891   | 6.312      | 10       | FALSE       | 6.312   | 3.73680   | 0.065008   | 1.0022        | 0.3969    | 3.72874                  | 0.16377              | 1.924e\-04            | 8.699e\-01        | TRUE     | 15       | 381.75   | NA       | FALSE   |
+| Clostridium\_XlVa                    | 34.8201   | 0.012028       | 0.1801 | 0.06678   | 9.468e\-01 | 0.9834734 | 34.8201    | 1.847e\+03 | FALSE   | 1.2424      | 12           | 4.442   | 1.280      | 10       | FALSE       | 1.280   | 5.10327   | 0.012028   | 0.4555        | 0.1801    | 11.20304                 | 0.06678              | 3.940e\-29            | 9.468e\-01        | TRUE     | 5        | 612.11   | NA       | FALSE   |
+| Dorea                                | 16.8522   | 0.009422       | 0.2292 | 0.04110   | 9.672e\-01 | 0.9834734 | 16.8522    | 8.387e\+02 | FALSE   | 1.9966      | 13           | 6.376   | 2.057      | 8        | FALSE       | 2.057   | 4.07816   | 0.009422   | 0.5803        | 0.2292    | 7.02770                  | 0.04110              | 2.100e\-12            | 9.672e\-01        | TRUE     | 7        | 504.24   | NA       | FALSE   |
+| Odoribacter                          | 3.4590    | 0.016322       | 0.7880 | 0.02071   | 9.835e\-01 | 0.9834734 | 3.4590     | 1.415e\+02 | FALSE   | 27.3590     | 8            | 10.486  | 24.890     | 8        | FALSE       | 24.890  | 1.78856   | 0.016322   | 1.9880        | 0.7880    | 0.89969                  | 0.02071              | 3.683e\-01            | 9.835e\-01        | TRUE     | 16       | 155.90   | NA       | TRUE    |
+
+
+
+
+
+
+
+\(1.6.1.3.2.2.1\) <a name="figure.980"></a>[`Figure 980.`](#figure.980) Clustered heatmap of normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/32337cdc0f.svg`](plots/32337cdc0f.svg).
+![](plots/32337cdc0f.svg)
+
+
+
+
+\(1.6.1.3.2.2.1\)  G-test of independence between automatic cluster splits and attribute 'visit'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 7.22           | 6            | 0.301   |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits to files [`data/1.6.1.3.2.2.1-32317f0e691samples.raw.htmap.count.tsv`](data/1.6.1.3.2.2.1-32317f0e691samples.raw.htmap.count.tsv),[`data/1.6.1.3.2.2.1-32317f0e691samples.raw.htmap.attr.tsv`](data/1.6.1.3.2.2.1-32317f0e691samples.raw.htmap.attr.tsv)
+
+
+
+##### \(1.6.1.3.2.3\) Default transformations for further data analysis
+
+
+
+Specific methods can override these and use their own normalization.
+
+
+Count normalization method for data analysis (unless modified by specific methods) : [ drop.features:List of 1,  ..$ :"other", method.args  :List of 1,  ..$ theta:1, method       :"norm.ihs.prop"]
+
+
+Wrote counts and metadata for raw counts Normalized after default transformations to files [`data/1.6.1.3.2.3-3236af05ae3samples.raw.16s.l.6.count.tsv`](data/1.6.1.3.2.3-3236af05ae3samples.raw.16s.l.6.count.tsv),[`data/1.6.1.3.2.3-3236af05ae3samples.raw.16s.l.6.attr.tsv`](data/1.6.1.3.2.3-3236af05ae3samples.raw.16s.l.6.attr.tsv)
+
+
+
+##### \(1.6.1.3.3\) Stability selection analysis for response ( visit )
+
+
+
+\(1.6.1.3.3\)  Summary of response variable visit.
+
+
+
+```````
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  1.000   1.000   2.000   2.254   3.000   4.000 
+```````
+
+
+
+Hofner B, Hothorn T (2017). _stabs: Stability Selection with Error Control_. R package version 0.6-3, <URL:
+https://CRAN.R-project.org/package=stabs>.
+
+Hofner B, Boccuto L, Göker M (2015). “Controlling false discoveries in high-dimensional situations: Boosting with stability selection.” _BMC
+Bioinformatics_, *16*, 144. <URL: http://dx.doi.org/10.1186/s12859-015-0575-3>.
+
+Thomas J, Mayr A, Bischl B, Schmid M, Smith A, Hofner B (2017). “Gradient boosting for distributional regression - faster tuning and improved
+variable selection via noncyclical updates.” _Statistics and Computing_. doi: 10.1007/s11222-017-9754-6 (URL:
+http://doi.org/10.1007/s11222-017-9754-6), Online First.
+
+
+This multivariate feature selection method implements 
+                  stability selection procedure by Meinshausen and Buehlmann (2010) 
+                  and the improved error bounds by Shah and Samworth (2013). 
+                  The features (e.g. taxonomic features)
+                   are ranked according to their probability to be selected
+                   by models built on multiple random subsamples of the input dataset.
+
+
+Base selection method parameters that were chosen based on
+                         cross-validation are: [ alpha:0.4]
+
+
+All base selection method parameters are: [ family     :"gaussian", standardize:TRUE, alpha      :0.4]
+
+
+Stability selection method parameters are: [ PFER         :0.05, sampling.type:"SS", assumption   :"r-concave", B            :400, q            :8]
+
+
+\(1.6.1.3.3\) <a name="table.399"></a>[`Table 399.`](#table.399) Selection probability for the variables. Probability cutoff=0.94875 corresponds to per family error rate PFER=0.0499. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.3.3-3234419e69e.1.6.1.3.3.a.name.ta.csv`](data/1.6.1.3.3-3234419e69e.1.6.1.3.3.a.name.ta.csv)
+
+
+
+
+|                  &nbsp;                  | Prob\(selection\) |
+|:----------------------------------------:|:------------------|
+|              **Roseburia**               | 0.86375           |
+|   **Lachnospiracea\_incertae\_sedis**    | 0.74625           |
+|             **Haemophilus**              | 0.60250           |
+|              **Alistipes**               | 0.54750           |
+|    **Unclassified\_Lachnospiraceae**     | 0.37000           |
+|             **Akkermansia**              | 0.31875           |
+|        **Escherichia\_Shigella**         | 0.30250           |
+|    **Unclassified\_Burkholderiales**     | 0.27750           |
+|           **Clostridium\_IV**            | 0.26500           |
+|        **Phascolarctobacterium**         | 0.26125           |
+|              **Klebsiella**              | 0.23500           |
+|        **Unclassified\_Bacteria**        | 0.22375           |
+|              **Prevotella**              | 0.20500           |
+|   **Unclassified\_Clostridiaceae\_1**    | 0.18875           |
+|              **Sutterella**              | 0.18750           |
+|     **Unclassified\_Bacteroidales**      | 0.17750           |
+|               **Gemmiger**               | 0.14500           |
+| **Erysipelotrichaceae\_incertae\_sedis** | 0.13250           |
+|                **Dorea**                 | 0.12375           |
+|           **Bifidobacterium**            | 0.10500           |
+|             **Odoribacter**              | 0.10250           |
+|            **Streptococcus**             | 0.10125           |
+|            **Flavonifractor**            | 0.10125           |
+|           **Parabacteroides**            | 0.09375           |
+|            **Paraprevotella**            | 0.08875           |
+|           **Faecalibacterium**           | 0.08750           |
+|             **Ruminococcus**             | 0.08375           |
+|          **Clostridium\_XlVa**           | 0.07625           |
+|          **Clostridium\_XVIII**          | 0.07375           |
+|           **Clostridium\_XI**            | 0.07125           |
+|    **Unclassified\_Ruminococcaceae**     | 0.07000           |
+|            **Lactobacillus**             | 0.06625           |
+|     **Clostridium\_sensu\_stricto**      | 0.06125           |
+|              **Megamonas**               | 0.05625           |
+|             **Barnesiella**              | 0.05625           |
+|             **Enterococcus**             | 0.05125           |
+|             **Turicibacter**             | 0.03625           |
+|       **Unclassified\_Firmicutes**       | 0.02625           |
+|             **Bacteroides**              | 0.01625           |
+|             **Veillonella**              | 0.01625           |
+|     **Unclassified\_Clostridiales**      | 0.01500           |
+|               **Blautia**                | 0.00625           |
+
+
+
+
+
+
+
+\(1.6.1.3.3\) <a name="figure.981"></a>[`Figure 981.`](#figure.981) Selection probability for the top ranked variables. Probability cutoff=0.94875 corresponds to per family error rate PFER=0.0499 (vertical line).  Image file: [`plots/3234d5e2378.svg`](plots/3234d5e2378.svg).
+![](plots/3234d5e2378.svg)
+
+
+##### \(1.6.1.3.4\) PermANOVA (adonis) analysis of  normalized counts
+
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+Non-parametric multivariate test for association between
+                           normalized counts and meta-data variables. Dissimilarity index is euclidean.
+
+
+\(1.6.1.3.4\)  Association with visit paired by subject with formula count\~visit with strata =  SubjectID.
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Blocks:  m_a$attr[, strata] 
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+         Df SumOfSqs      R2      F Pr(>F)
+visit     1   0.1831 0.01739 1.1506 0.3604
+Residual 65  10.3459 0.98261              
+Total    66  10.5291 1.00000              
+```````
+
+
+
+
+
+
+\(1.6.1.3.4\)  Association with visit paired by subject Adonis summary.
+
+
+|    &nbsp;    | Df | SumOfSqs | R2     | F     | Pr(>F) |
+|:------------:|:---|:---------|:-------|:------|:-------|
+|  **visit**   | 1  | 0.1831   | 0.0174 | 1.151 | 0.3604 |
+| **Residual** | 65 | 10.35    | 0.9826 | NA    | NA     |
+|  **Total**   | 66 | 10.53    | 1      | NA    | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+Count normalization method for abundance plots : [ drop.features:List of 1,  ..$ :"other", method.args  : list(), method       :"norm.prop"]
+
+
+
+##### \(1.6.1.3.5\) Plots of Abundance.
+
+[`Subreport`](./1.6.1.3.5-report.html)
+
+
+
+
+\(1.6.1.3.5\) <a name="figure.1008"></a>[`Figure 1008.`](#figure.1008) Clustered heatmap of normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/32326f32f1e.svg`](plots/32326f32f1e.svg).
+![](plots/32326f32f1e.svg)
+
+
+
+
+\(1.6.1.3.5\)  G-test of independence between automatic cluster splits and attribute 'visit'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 16.37          | 24           | 0.8743  |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+person) (????). _morpheus: Interactive heat maps using 'morpheus.js' and 'htmlwidgets'_. R package version 0.1.1.1, <URL:
+https://github.com/cmap/morpheus.R>.
+
+
+
+
+
+\(1.6.1.3.5\) <a name="widget.418"></a>[`Widget 418.`](#widget.418) Dynamic Morpheus heatmap of normalized abundance values. 
+                    It is available here through the link only because it can take a while to render for large datasets.
+                    This is very customizable. What you will see initially is just a default starting configuration. Explore its menus. Click to see HTML widget file in full window: [`./1.6.1.3.5-323775ac79eDynamic.Morpheus.hea.html`](./1.6.1.3.5-323775ac79eDynamic.Morpheus.hea.html)
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits (clustering by abundance profile) to files [`data/1.6.1.3.5-3237f40bf7asamples.raw.htmap.count.tsv`](data/1.6.1.3.5-3237f40bf7asamples.raw.htmap.count.tsv),[`data/1.6.1.3.5-3237f40bf7asamples.raw.htmap.attr.tsv`](data/1.6.1.3.5-3237f40bf7asamples.raw.htmap.attr.tsv)
+
+
+
+
+
+\(1.6.1.3.5\) <a name="figure.1009"></a>[`Figure 1009.`](#figure.1009) Clustered heatmap of diversity and normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/3235bd08b6c.svg`](plots/3235bd08b6c.svg).
+![](plots/3235bd08b6c.svg)
+
+
+
+
+\(1.6.1.3.5\)  G-test of independence between automatic cluster splits and attribute 'visit'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 1.111          | 3            | 0.7743  |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits (clustering by Renyi diversity indices) to files [`data/1.6.1.3.5-32310734f1esamples.raw.htmap.count.tsv`](data/1.6.1.3.5-32310734f1esamples.raw.htmap.count.tsv),[`data/1.6.1.3.5-32310734f1esamples.raw.htmap.attr.tsv`](data/1.6.1.3.5-32310734f1esamples.raw.htmap.attr.tsv)
+
+
+
+##### \(1.6.1.3.6\) Ordinations, 
+
+[`Subreport`](./1.6.1.3.6-report.html)
+
+
+##### \(1.6.1.3.7\) Network Analysis Feature correlation with overlaid differential abundance results 
+
+[`Subreport`](./1.6.1.3.7-report.html)

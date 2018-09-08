@@ -1,0 +1,123 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+#### \(1.1.1.4\) Taxonomic level: otu of Subset: All samples, no aggregation, no tests, only plots
+
+
+
+
+##### \(1.1.1.4.1\) Loading counts and metadata
+
+[`Subreport`](./1.1.1.4.1-report.html)
+
+
+##### \(1.1.1.4.2\) Data analysis
+
+
+
+
+##### \(1.1.1.4.2.1\) Richness and diversity estimates Before count filtering
+
+[`Subreport`](./1.1.1.4.2.1-report.html)
+
+Filtering abundance matrix with arguments [ min_mean                :10, min_quant_incidence_frac:0.25, min_quant_mean_frac     :0.25]. Filtering features
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 87 records for 120 features
+
+
+Wrote counts and metadata for raw counts After final feature filtering to files [`data/1.1.1.4.2.1-32378e5b444samples.raw.16s.l.otu.count.tsv`](data/1.1.1.4.2.1-32378e5b444samples.raw.16s.l.otu.count.tsv),[`data/1.1.1.4.2.1-32378e5b444samples.raw.16s.l.otu.attr.tsv`](data/1.1.1.4.2.1-32378e5b444samples.raw.16s.l.otu.attr.tsv)
+
+
+Wrote counts and metadata for proportions counts After final feature filtering to files [`data/1.1.1.4.2.1-3234be14d9dsamples.proportions.16s.l.otu.count.tsv`](data/1.1.1.4.2.1-3234be14d9dsamples.proportions.16s.l.otu.count.tsv),[`data/1.1.1.4.2.1-3234be14d9dsamples.proportions.16s.l.otu.attr.tsv`](data/1.1.1.4.2.1-3234be14d9dsamples.proportions.16s.l.otu.attr.tsv)
+
+
+
+##### \(1.1.1.4.2.2\) Default transformations for further data analysis
+
+
+
+Specific methods can override these and use their own normalization.
+
+
+Count normalization method for data analysis (unless modified by specific methods) : [ drop.features:List of 1,  ..$ :"other", method.args  :List of 1,  ..$ theta:1, method       :"norm.ihs.prop"]
+
+
+Wrote counts and metadata for raw counts Normalized after default transformations to files [`data/1.1.1.4.2.2-3234196d035samples.raw.16s.l.otu.count.tsv`](data/1.1.1.4.2.2-3234196d035samples.raw.16s.l.otu.count.tsv),[`data/1.1.1.4.2.2-3234196d035samples.raw.16s.l.otu.attr.tsv`](data/1.1.1.4.2.2-3234196d035samples.raw.16s.l.otu.attr.tsv)
+
+
+Count normalization method for abundance plots : [ drop.features:List of 1,  ..$ :"other", method.args  : list(), method       :"norm.prop"]
+
+
+
+##### \(1.1.1.4.3\) Plots of Abundance.
+
+[`Subreport`](./1.1.1.4.3-report.html)
+
+
+
+
+\(1.1.1.4.3\) <a name="figure.233"></a>[`Figure 233.`](#figure.233) Clustered heatmap of normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/32341ce43f8.svg`](plots/32341ce43f8.svg).
+![](plots/32341ce43f8.svg)
+
+
+
+
+\(1.1.1.4.3\)  G-test of independence between automatic cluster splits and attribute 'Sample.type'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 13.64          | 8            | 0.0917  |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+person) (????). _morpheus: Interactive heat maps using 'morpheus.js' and 'htmlwidgets'_. R package version 0.1.1.1, <URL:
+https://github.com/cmap/morpheus.R>.
+
+
+
+
+
+\(1.1.1.4.3\) <a name="widget.71"></a>[`Widget 71.`](#widget.71) Dynamic Morpheus heatmap of normalized abundance values. 
+                    It is available here through the link only because it can take a while to render for large datasets.
+                    This is very customizable. What you will see initially is just a default starting configuration. Explore its menus. Click to see HTML widget file in full window: [`./1.1.1.4.3-3231e89fbe2Dynamic.Morpheus.hea.html`](./1.1.1.4.3-3231e89fbe2Dynamic.Morpheus.hea.html)
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits (clustering by abundance profile) to files [`data/1.1.1.4.3-3237d61e776samples.raw.htmap.count.tsv`](data/1.1.1.4.3-3237d61e776samples.raw.htmap.count.tsv),[`data/1.1.1.4.3-3237d61e776samples.raw.htmap.attr.tsv`](data/1.1.1.4.3-3237d61e776samples.raw.htmap.attr.tsv)
+
+
+
+
+
+\(1.1.1.4.3\) <a name="figure.234"></a>[`Figure 234.`](#figure.234) Clustered heatmap of diversity and normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/3231895e722.svg`](plots/3231895e722.svg).
+![](plots/3231895e722.svg)
+
+
+
+
+\(1.1.1.4.3\)  G-test of independence between automatic cluster splits and attribute 'Sample.type'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 0.2963         | 1            | 0.5862  |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits (clustering by Renyi diversity indices) to files [`data/1.1.1.4.3-3236105dd4dsamples.raw.htmap.count.tsv`](data/1.1.1.4.3-3236105dd4dsamples.raw.htmap.count.tsv),[`data/1.1.1.4.3-3236105dd4dsamples.raw.htmap.attr.tsv`](data/1.1.1.4.3-3236105dd4dsamples.raw.htmap.attr.tsv)
+
+
+
+##### \(1.1.1.4.4\) Ordinations, 
+
+[`Subreport`](./1.1.1.4.4-report.html)

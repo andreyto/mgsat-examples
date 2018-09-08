@@ -1,0 +1,1078 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.1.1.3.2.1.3\) Plots of Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.1.1.3.2.1.3.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.1\) Grouping variables Sample.type,visit
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.2\) Iterating over Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.2.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order: original
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.1.1.3.2.1.3.2.2.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.2.2.1.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.1.0\) <a name="table.25"></a>[`Table 25.`](#table.25) Data table used for plots. Data grouped by Sample.type,visit. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.1.1.3.2.1.3.2.2.2.1.1.0-3233d4420dc.1.1.1.3.2.1.3.2.2.2.csv`](data/1.1.1.3.2.1.3.2.2.2.1.1.0-3233d4420dc.1.1.1.3.2.1.3.2.2.2.csv)
+
+
+
+
+| .record.id | Sample.type | visit | feature  | index   |
+|:-----------|:------------|:------|:---------|:--------|
+| SM1        | patient     | 1     | NE\_0.25 | 0.55757 |
+| SM10       | patient     | 3     | NE\_0.25 | 0.63272 |
+| SM100      | patient     | 4     | NE\_0.25 | 0.61152 |
+| SM11       | patient     | 2     | NE\_0.25 | 0.46790 |
+| SM12       | patient     | 1     | NE\_0.25 | 0.46776 |
+| SM13       | patient     | 1     | NE\_0.25 | 0.63832 |
+| SM14       | patient     | 1     | NE\_0.25 | 0.68524 |
+| SM15       | control     | 1     | NE\_0.25 | 0.65767 |
+| SM16       | patient     | 4     | NE\_0.25 | 0.61350 |
+| SM17       | patient     | 1     | NE\_0.25 | 0.53305 |
+| SM18       | patient     | 2     | NE\_0.25 | 0.55288 |
+| SM19       | patient     | 2     | NE\_0.25 | 0.63397 |
+| SM2        | patient     | 1     | NE\_0.25 | 0.44850 |
+| SM20       | control     | 1     | NE\_0.25 | 0.58738 |
+| SM21       | patient     | 1     | NE\_0.25 | 0.62720 |
+| SM22       | patient     | 1     | NE\_0.25 | 0.59642 |
+| SM23       | patient     | 2     | NE\_0.25 | 0.46292 |
+| SM24       | patient     | 1     | NE\_0.25 | 0.52137 |
+| SM25       | patient     | 4     | NE\_0.25 | 0.64553 |
+| SM26       | control     | 1     | NE\_0.25 | 0.59905 |
+| SM28       | control     | 1     | NE\_0.25 | 0.69187 |
+| SM29       | patient     | 3     | NE\_0.25 | 0.47754 |
+| SM3        | patient     | 2     | NE\_0.25 | 0.62768 |
+| SM30       | patient     | 4     | NE\_0.25 | 0.63925 |
+| SM31       | control     | 2     | NE\_0.25 | 0.61747 |
+| SM33       | patient     | 1     | NE\_0.25 | 0.53847 |
+| SM35       | control     | 1     | NE\_0.25 | 0.59690 |
+| SM36       | patient     | 4     | NE\_0.25 | 0.66816 |
+| SM37       | control     | 1     | NE\_0.25 | 0.68144 |
+| SM38       | patient     | 2     | NE\_0.25 | 0.36024 |
+| SM39       | patient     | 1     | NE\_0.25 | 0.52939 |
+| SM40       | patient     | 4     | NE\_0.25 | 0.54442 |
+| SM41       | patient     | 1     | NE\_0.25 | 0.64388 |
+| SM42       | patient     | 4     | NE\_0.25 | 0.56698 |
+| SM43       | patient     | 4     | NE\_0.25 | 0.62567 |
+| SM44       | control     | 1     | NE\_0.25 | 0.69703 |
+| SM45       | patient     | 2     | NE\_0.25 | 0.59341 |
+| SM48       | control     | 1     | NE\_0.25 | 0.64170 |
+| SM49       | patient     | 1     | NE\_0.25 | 0.44763 |
+| SM5        | patient     | 3     | NE\_0.25 | 0.58371 |
+| SM50       | patient     | 3     | NE\_0.25 | 0.77151 |
+| SM51       | patient     | 4     | NE\_0.25 | 0.54544 |
+| SM52       | patient     | 1     | NE\_0.25 | 0.66591 |
+| SM53       | patient     | 2     | NE\_0.25 | 0.56580 |
+| SM54       | patient     | 3     | NE\_0.25 | 0.54523 |
+| SM55       | control     | 1     | NE\_0.25 | 0.57677 |
+| SM56       | patient     | 2     | NE\_0.25 | 0.61252 |
+| SM57       | patient     | 1     | NE\_0.25 | 0.46167 |
+| SM58       | patient     | 2     | NE\_0.25 | 0.58782 |
+| SM59       | patient     | 3     | NE\_0.25 | 0.68135 |
+| SM60       | patient     | 3     | NE\_0.25 | 0.46960 |
+| SM62       | patient     | 1     | NE\_0.25 | 0.35795 |
+| SM63       | control     | 1     | NE\_0.25 | 0.63337 |
+| SM64       | patient     | 2     | NE\_0.25 | 0.50479 |
+| SM65       | patient     | 3     | NE\_0.25 | 0.65815 |
+| SM66       | control     | 1     | NE\_0.25 | 0.62230 |
+| SM67       | patient     | 4     | NE\_0.25 | 0.52272 |
+| SM68       | patient     | 4     | NE\_0.25 | 0.62452 |
+| SM69       | patient     | 4     | NE\_0.25 | 0.48493 |
+| SM7        | control     | 1     | NE\_0.25 | 0.67374 |
+| SM70       | control     | 1     | NE\_0.25 | 0.64923 |
+| SM71       | patient     | 3     | NE\_0.25 | 0.47688 |
+| SM72       | control     | 1     | NE\_0.25 | 0.59900 |
+| SM73       | patient     | 1     | NE\_0.25 | 0.50870 |
+| SM74       | control     | 2     | NE\_0.25 | 0.69018 |
+| SM75       | patient     | 3     | NE\_0.25 | 0.65639 |
+| SM76       | control     | 1     | NE\_0.25 | 0.50991 |
+| SM77       | patient     | 2     | NE\_0.25 | 0.57570 |
+| SM79       | patient     | 2     | NE\_0.25 | 0.55671 |
+| SM8        | patient     | 1     | NE\_0.25 | 0.54816 |
+| SM81       | control     | 1     | NE\_0.25 | 0.74592 |
+| SM82       | patient     | 4     | NE\_0.25 | 0.44303 |
+| SM83       | patient     | 1     | NE\_0.25 | 0.52158 |
+| SM84       | patient     | 1     | NE\_0.25 | 0.58960 |
+| SM86       | patient     | 2     | NE\_0.25 | 0.61298 |
+| SM87       | patient     | 1     | NE\_0.25 | 0.57305 |
+| SM88       | patient     | 2     | NE\_0.25 | 0.53158 |
+| SM89       | control     | 1     | NE\_0.25 | 0.49993 |
+| SM9        | patient     | 2     | NE\_0.25 | 0.54071 |
+| SM90       | patient     | 2     | NE\_0.25 | 0.66518 |
+| SM91       | patient     | 3     | NE\_0.25 | 0.59163 |
+| SM92       | patient     | 3     | NE\_0.25 | 0.50876 |
+| SM93       | patient     | 1     | NE\_0.25 | 0.60506 |
+| SM95       | control     | 1     | NE\_0.25 | 0.63111 |
+| SM96       | patient     | 1     | NE\_0.25 | 0.56944 |
+| SM98       | patient     | 3     | NE\_0.25 | 0.55035 |
+| SM99       | patient     | 3     | NE\_0.25 | 0.61968 |
+| SM1        | patient     | 1     | NE\_0.5  | 0.29325 |
+| SM10       | patient     | 3     | NE\_0.5  | 0.42820 |
+| SM100      | patient     | 4     | NE\_0.5  | 0.38605 |
+| SM11       | patient     | 2     | NE\_0.5  | 0.20445 |
+| SM12       | patient     | 1     | NE\_0.5  | 0.20931 |
+| SM13       | patient     | 1     | NE\_0.5  | 0.40329 |
+| SM14       | patient     | 1     | NE\_0.5  | 0.47599 |
+| SM15       | control     | 1     | NE\_0.5  | 0.45398 |
+| SM16       | patient     | 4     | NE\_0.5  | 0.39534 |
+| SM17       | patient     | 1     | NE\_0.5  | 0.25941 |
+| SM18       | patient     | 2     | NE\_0.5  | 0.29403 |
+| SM19       | patient     | 2     | NE\_0.5  | 0.41635 |
+| SM2        | patient     | 1     | NE\_0.5  | 0.20076 |
+| SM20       | control     | 1     | NE\_0.5  | 0.35238 |
+| SM21       | patient     | 1     | NE\_0.5  | 0.39861 |
+| SM22       | patient     | 1     | NE\_0.5  | 0.35255 |
+| SM23       | patient     | 2     | NE\_0.5  | 0.29674 |
+| SM24       | patient     | 1     | NE\_0.5  | 0.26118 |
+| SM25       | patient     | 4     | NE\_0.5  | 0.44004 |
+| SM26       | control     | 1     | NE\_0.5  | 0.36741 |
+| SM28       | control     | 1     | NE\_0.5  | 0.50007 |
+| SM29       | patient     | 3     | NE\_0.5  | 0.21921 |
+| SM3        | patient     | 2     | NE\_0.5  | 0.42253 |
+| SM30       | patient     | 4     | NE\_0.5  | 0.43934 |
+| SM31       | control     | 2     | NE\_0.5  | 0.39247 |
+| SM33       | patient     | 1     | NE\_0.5  | 0.33470 |
+| SM35       | control     | 1     | NE\_0.5  | 0.35069 |
+| SM36       | patient     | 4     | NE\_0.5  | 0.48852 |
+| SM37       | control     | 1     | NE\_0.5  | 0.48327 |
+| SM38       | patient     | 2     | NE\_0.5  | 0.14944 |
+| SM39       | patient     | 1     | NE\_0.5  | 0.28347 |
+| SM40       | patient     | 4     | NE\_0.5  | 0.30050 |
+| SM41       | patient     | 1     | NE\_0.5  | 0.40424 |
+| SM42       | patient     | 4     | NE\_0.5  | 0.31149 |
+| SM43       | patient     | 4     | NE\_0.5  | 0.37916 |
+| SM44       | control     | 1     | NE\_0.5  | 0.51309 |
+| SM45       | patient     | 2     | NE\_0.5  | 0.48033 |
+| SM48       | control     | 1     | NE\_0.5  | 0.41461 |
+| SM49       | patient     | 1     | NE\_0.5  | 0.18054 |
+| SM5        | patient     | 3     | NE\_0.5  | 0.35081 |
+| SM50       | patient     | 3     | NE\_0.5  | 0.63128 |
+| SM51       | patient     | 4     | NE\_0.5  | 0.29052 |
+| SM52       | patient     | 1     | NE\_0.5  | 0.46922 |
+| SM53       | patient     | 2     | NE\_0.5  | 0.33410 |
+| SM54       | patient     | 3     | NE\_0.5  | 0.31236 |
+| SM55       | control     | 1     | NE\_0.5  | 0.31913 |
+| SM56       | patient     | 2     | NE\_0.5  | 0.37005 |
+| SM57       | patient     | 1     | NE\_0.5  | 0.20377 |
+| SM58       | patient     | 2     | NE\_0.5  | 0.34779 |
+| SM59       | patient     | 3     | NE\_0.5  | 0.47894 |
+| SM60       | patient     | 3     | NE\_0.5  | 0.21848 |
+| SM62       | patient     | 1     | NE\_0.5  | 0.14466 |
+| SM63       | control     | 1     | NE\_0.5  | 0.39898 |
+| SM64       | patient     | 2     | NE\_0.5  | 0.25998 |
+| SM65       | patient     | 3     | NE\_0.5  | 0.46191 |
+| SM66       | control     | 1     | NE\_0.5  | 0.37403 |
+| SM67       | patient     | 4     | NE\_0.5  | 0.30490 |
+| SM68       | patient     | 4     | NE\_0.5  | 0.41685 |
+| SM69       | patient     | 4     | NE\_0.5  | 0.23115 |
+| SM7        | control     | 1     | NE\_0.5  | 0.49150 |
+| SM70       | control     | 1     | NE\_0.5  | 0.42581 |
+| SM71       | patient     | 3     | NE\_0.5  | 0.20953 |
+| SM72       | control     | 1     | NE\_0.5  | 0.36486 |
+| SM73       | patient     | 1     | NE\_0.5  | 0.25408 |
+| SM74       | control     | 2     | NE\_0.5  | 0.50654 |
+| SM75       | patient     | 3     | NE\_0.5  | 0.45533 |
+| SM76       | control     | 1     | NE\_0.5  | 0.24481 |
+| SM77       | patient     | 2     | NE\_0.5  | 0.32403 |
+| SM79       | patient     | 2     | NE\_0.5  | 0.30782 |
+| SM8        | patient     | 1     | NE\_0.5  | 0.27859 |
+| SM81       | control     | 1     | NE\_0.5  | 0.61656 |
+| SM82       | patient     | 4     | NE\_0.5  | 0.18808 |
+| SM83       | patient     | 1     | NE\_0.5  | 0.25774 |
+| SM84       | patient     | 1     | NE\_0.5  | 0.35454 |
+| SM86       | patient     | 2     | NE\_0.5  | 0.39687 |
+| SM87       | patient     | 1     | NE\_0.5  | 0.36855 |
+| SM88       | patient     | 2     | NE\_0.5  | 0.27169 |
+| SM89       | control     | 1     | NE\_0.5  | 0.21744 |
+| SM9        | patient     | 2     | NE\_0.5  | 0.31374 |
+| SM90       | patient     | 2     | NE\_0.5  | 0.45211 |
+| SM91       | patient     | 3     | NE\_0.5  | 0.33454 |
+| SM92       | patient     | 3     | NE\_0.5  | 0.25783 |
+| SM93       | patient     | 1     | NE\_0.5  | 0.37183 |
+| SM95       | control     | 1     | NE\_0.5  | 0.39678 |
+| SM96       | patient     | 1     | NE\_0.5  | 0.32374 |
+| SM98       | patient     | 3     | NE\_0.5  | 0.29952 |
+| SM99       | patient     | 3     | NE\_0.5  | 0.36922 |
+| SM1        | patient     | 1     | NE\_1    | 0.10146 |
+| SM10       | patient     | 3     | NE\_1    | 0.26112 |
+| SM100      | patient     | 4     | NE\_1    | 0.19551 |
+| SM11       | patient     | 2     | NE\_1    | 0.06996 |
+| SM12       | patient     | 1     | NE\_1    | 0.07816 |
+| SM13       | patient     | 1     | NE\_1    | 0.18262 |
+| SM14       | patient     | 1     | NE\_1    | 0.25765 |
+| SM15       | control     | 1     | NE\_1    | 0.26077 |
+| SM16       | patient     | 4     | NE\_1    | 0.22155 |
+| SM17       | patient     | 1     | NE\_1    | 0.08116 |
+| SM18       | patient     | 2     | NE\_1    | 0.11208 |
+| SM19       | patient     | 2     | NE\_1    | 0.23152 |
+| SM2        | patient     | 1     | NE\_1    | 0.08164 |
+| SM20       | control     | 1     | NE\_1    | 0.17280 |
+| SM21       | patient     | 1     | NE\_1    | 0.19457 |
+| SM22       | patient     | 1     | NE\_1    | 0.14534 |
+| SM23       | patient     | 2     | NE\_1    | 0.22655 |
+| SM24       | patient     | 1     | NE\_1    | 0.09702 |
+| SM25       | patient     | 4     | NE\_1    | 0.25082 |
+| SM26       | control     | 1     | NE\_1    | 0.17750 |
+| SM28       | control     | 1     | NE\_1    | 0.31218 |
+| SM29       | patient     | 3     | NE\_1    | 0.08329 |
+| SM3        | patient     | 2     | NE\_1    | 0.26176 |
+| SM30       | patient     | 4     | NE\_1    | 0.26871 |
+| SM31       | control     | 2     | NE\_1    | 0.20064 |
+| SM33       | patient     | 1     | NE\_1    | 0.20597 |
+
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.1.1\) <a name="widget.26"></a>[`Widget 26.`](#widget.26) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by Sample.type,visit. Click to see HTML widget file in full window: [`./1.1.1.3.2.1.3.2.2.2.1.1.1-3237ce99540Dynamic.Pivot.Table.html`](./1.1.1.3.2.1.3.2.2.2.1.1.1-3237ce99540Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.1.1\) <a name="widget.27"></a>[`Widget 27.`](#widget.27) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by Sample.type,visit. Click to see HTML widget file in full window: [`./1.1.1.3.2.1.3.2.2.2.1.1.1-3232764aee4Dynamic.Pivot.Table.html`](./1.1.1.3.2.1.3.2.2.2.1.1.1-3232764aee4Dynamic.Pivot.Table.html)
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.1.1\) <a name="table.26"></a>[`Table 26.`](#table.26) Summary table. Data grouped by Sample.type,visit. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.1.1.3.2.1.3.2.2.2.1.1.1-323f5633b4.1.1.1.3.2.1.3.2.2.2.csv`](data/1.1.1.3.2.1.3.2.2.2.1.1.1-323f5633b4.1.1.1.3.2.1.3.2.2.2.csv)
+
+
+
+
+| feature  | Sample.type | visit | mean    | sd      | median  | incidence |
+|:---------|:------------|:------|:--------|:--------|:--------|:----------|
+| NE\_0.25 | control     | 1     | 0.62746 | 0.06257 | 0.63224 | 1         |
+| NE\_0.25 | control     | 2     | 0.65383 | 0.05142 | 0.65383 | 1         |
+| NE\_0.25 | patient     | 1     | 0.54939 | 0.07932 | 0.54816 | 1         |
+| NE\_0.25 | patient     | 2     | 0.55605 | 0.07528 | 0.56580 | 1         |
+| NE\_0.25 | patient     | 3     | 0.58739 | 0.08906 | 0.58767 | 1         |
+| NE\_0.25 | patient     | 4     | 0.57967 | 0.06799 | 0.61152 | 1         |
+| NE\_0.5  | control     | 1     | 0.40474 | 0.09702 | 0.39788 | 1         |
+| NE\_0.5  | control     | 2     | 0.44951 | 0.08066 | 0.44951 | 1         |
+| NE\_0.5  | patient     | 1     | 0.30800 | 0.09053 | 0.29325 | 1         |
+| NE\_0.5  | patient     | 2     | 0.33189 | 0.08651 | 0.32403 | 1         |
+| NE\_0.5  | patient     | 3     | 0.35908 | 0.12138 | 0.34267 | 1         |
+| NE\_0.5  | patient     | 4     | 0.35169 | 0.08839 | 0.37916 | 1         |
+| NE\_1    | control     | 1     | 0.21381 | 0.10454 | 0.18123 | 1         |
+| NE\_1    | control     | 2     | 0.26819 | 0.09554 | 0.26819 | 1         |
+| NE\_1    | patient     | 1     | 0.13965 | 0.06429 | 0.13039 | 1         |
+| NE\_1    | patient     | 2     | 0.17611 | 0.08931 | 0.15736 | 1         |
+| NE\_1    | patient     | 3     | 0.18691 | 0.11195 | 0.14644 | 1         |
+| NE\_1    | patient     | 4     | 0.18206 | 0.07905 | 0.17564 | 1         |
+| NE\_2    | control     | 1     | 0.12473 | 0.08650 | 0.10030 | 1         |
+| NE\_2    | control     | 2     | 0.16895 | 0.08538 | 0.16895 | 1         |
+| NE\_2    | patient     | 1     | 0.08150 | 0.03856 | 0.06686 | 1         |
+| NE\_2    | patient     | 2     | 0.12025 | 0.09265 | 0.08059 | 1         |
+| NE\_2    | patient     | 3     | 0.11355 | 0.07611 | 0.08468 | 1         |
+| NE\_2    | patient     | 4     | 0.11291 | 0.05813 | 0.10739 | 1         |
+| NE\_4    | control     | 1     | 0.09436 | 0.07090 | 0.07520 | 1         |
+| NE\_4    | control     | 2     | 0.12175 | 0.06567 | 0.12175 | 1         |
+| NE\_4    | patient     | 1     | 0.06517 | 0.02675 | 0.05484 | 1         |
+| NE\_4    | patient     | 2     | 0.10332 | 0.09334 | 0.07526 | 1         |
+| NE\_4    | patient     | 3     | 0.08599 | 0.04950 | 0.06602 | 1         |
+| NE\_4    | patient     | 4     | 0.08830 | 0.04362 | 0.07941 | 1         |
+| NE\_8    | control     | 1     | 0.08338 | 0.06275 | 0.06735 | 1         |
+| NE\_8    | control     | 2     | 0.09932 | 0.05002 | 0.09932 | 1         |
+| NE\_8    | patient     | 1     | 0.05945 | 0.02150 | 0.05034 | 1         |
+| NE\_8    | patient     | 2     | 0.09648 | 0.09318 | 0.06375 | 1         |
+| NE\_8    | patient     | 3     | 0.07545 | 0.03829 | 0.05925 | 1         |
+| NE\_8    | patient     | 4     | 0.07800 | 0.03535 | 0.07077 | 1         |
+| NE\_Inf  | control     | 1     | 0.07377 | 0.05344 | 0.05924 | 1         |
+| NE\_Inf  | control     | 2     | 0.08233 | 0.03683 | 0.08233 | 1         |
+| NE\_Inf  | patient     | 1     | 0.05507 | 0.01750 | 0.04825 | 1         |
+| NE\_Inf  | patient     | 2     | 0.09070 | 0.09316 | 0.05809 | 1         |
+| NE\_Inf  | patient     | 3     | 0.06748 | 0.03014 | 0.05508 | 1         |
+| NE\_Inf  | patient     | 4     | 0.06952 | 0.02772 | 0.06484 | 1         |
+
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.1.1\) <a name="figure.102"></a>[`Figure 102.`](#figure.102) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type,visit.  line plot.  Image file: [`plots/3233ab0d002.svg`](plots/3233ab0d002.svg).
+![](plots/3233ab0d002.svg)
+
+
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.1.1\) <a name="figure.103"></a>[`Figure 103.`](#figure.103) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type,visit.  line_obs plot.  Image file: [`plots/323306376d1.svg`](plots/323306376d1.svg).
+![](plots/323306376d1.svg)
+
+
+##### \(1.1.1.3.2.1.3.2.2.2.1.2\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.2.1\) <a name="figure.104"></a>[`Figure 104.`](#figure.104) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type,visit.  line plot.  Image file: [`plots/323411bda51.svg`](plots/323411bda51.svg).
+![](plots/323411bda51.svg)
+
+
+
+
+\(1.1.1.3.2.1.3.2.2.2.1.2.1\) <a name="figure.105"></a>[`Figure 105.`](#figure.105) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type,visit.  line_obs plot.  Image file: [`plots/3231ffbefaf.svg`](plots/3231ffbefaf.svg).
+![](plots/3231ffbefaf.svg)
+
+
+##### \(1.1.1.3.2.1.3.2.3\) Grouping variables Sample.type.Drug.Before,visit
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.4\) Iterating over Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.4.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order: original
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.1.1.3.2.1.3.2.4.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.4.2.1.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.1.0\) <a name="table.27"></a>[`Table 27.`](#table.27) Data table used for plots. Data grouped by Sample.type.Drug.Before,visit. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.1.1.3.2.1.3.2.4.2.1.1.0-3234c94f6f6.1.1.1.3.2.1.3.2.4.2.csv`](data/1.1.1.3.2.1.3.2.4.2.1.1.0-3234c94f6f6.1.1.1.3.2.1.3.2.4.2.csv)
+
+
+
+
+| .record.id | Sample.type.Drug.Before | visit | feature  | index   |
+|:-----------|:------------------------|:------|:---------|:--------|
+| SM1        | patient TRUE .          | 1     | NE\_0.25 | 0.55757 |
+| SM10       | patient TRUE .          | 3     | NE\_0.25 | 0.63272 |
+| SM100      | patient TRUE .          | 4     | NE\_0.25 | 0.61152 |
+| SM11       | patient TRUE .          | 2     | NE\_0.25 | 0.46790 |
+| SM12       | patient TRUE .          | 1     | NE\_0.25 | 0.46776 |
+| SM13       | patient FALSE .         | 1     | NE\_0.25 | 0.63832 |
+| SM14       | patient FALSE .         | 1     | NE\_0.25 | 0.68524 |
+| SM15       | 1                       | 1     | NE\_0.25 | 0.65767 |
+| SM16       | patient FALSE .         | 4     | NE\_0.25 | 0.61350 |
+| SM17       | patient TRUE .          | 1     | NE\_0.25 | 0.53305 |
+| SM18       | patient FALSE .         | 2     | NE\_0.25 | 0.55288 |
+| SM19       | patient FALSE .         | 2     | NE\_0.25 | 0.63397 |
+| SM2        | patient FALSE .         | 1     | NE\_0.25 | 0.44850 |
+| SM20       | 1                       | 1     | NE\_0.25 | 0.58738 |
+| SM21       | patient FALSE .         | 1     | NE\_0.25 | 0.62720 |
+| SM22       | patient TRUE .          | 1     | NE\_0.25 | 0.59642 |
+| SM23       | patient TRUE .          | 2     | NE\_0.25 | 0.46292 |
+| SM24       | patient FALSE .         | 1     | NE\_0.25 | 0.52137 |
+| SM25       | patient FALSE .         | 4     | NE\_0.25 | 0.64553 |
+| SM26       | 1                       | 1     | NE\_0.25 | 0.59905 |
+| SM28       | 1                       | 1     | NE\_0.25 | 0.69187 |
+| SM29       | patient TRUE .          | 3     | NE\_0.25 | 0.47754 |
+| SM3        | patient TRUE .          | 2     | NE\_0.25 | 0.62768 |
+| SM30       | patient TRUE .          | 4     | NE\_0.25 | 0.63925 |
+| SM31       | 1                       | 2     | NE\_0.25 | 0.61747 |
+| SM33       | patient TRUE .          | 1     | NE\_0.25 | 0.53847 |
+| SM35       | 1                       | 1     | NE\_0.25 | 0.59690 |
+| SM36       | patient FALSE .         | 4     | NE\_0.25 | 0.66816 |
+| SM37       | 1                       | 1     | NE\_0.25 | 0.68144 |
+| SM38       | patient TRUE .          | 2     | NE\_0.25 | 0.36024 |
+| SM39       | patient FALSE .         | 1     | NE\_0.25 | 0.52939 |
+| SM40       | patient FALSE .         | 4     | NE\_0.25 | 0.54442 |
+| SM41       | patient TRUE .          | 1     | NE\_0.25 | 0.64388 |
+| SM42       | patient FALSE .         | 4     | NE\_0.25 | 0.56698 |
+| SM43       | patient TRUE .          | 4     | NE\_0.25 | 0.62567 |
+| SM44       | 1                       | 1     | NE\_0.25 | 0.69703 |
+| SM45       | patient FALSE .         | 2     | NE\_0.25 | 0.59341 |
+| SM48       | 1                       | 1     | NE\_0.25 | 0.64170 |
+| SM49       | patient TRUE .          | 1     | NE\_0.25 | 0.44763 |
+| SM5        | patient TRUE .          | 3     | NE\_0.25 | 0.58371 |
+| SM50       | patient FALSE .         | 3     | NE\_0.25 | 0.77151 |
+| SM51       | patient TRUE .          | 4     | NE\_0.25 | 0.54544 |
+| SM52       | patient FALSE .         | 1     | NE\_0.25 | 0.66591 |
+| SM53       | patient TRUE .          | 2     | NE\_0.25 | 0.56580 |
+| SM54       | patient TRUE .          | 3     | NE\_0.25 | 0.54523 |
+| SM55       | 1                       | 1     | NE\_0.25 | 0.57677 |
+| SM56       | patient TRUE .          | 2     | NE\_0.25 | 0.61252 |
+| SM57       | patient TRUE .          | 1     | NE\_0.25 | 0.46167 |
+| SM58       | patient FALSE .         | 2     | NE\_0.25 | 0.58782 |
+| SM59       | patient FALSE .         | 3     | NE\_0.25 | 0.68135 |
+| SM60       | patient TRUE .          | 3     | NE\_0.25 | 0.46960 |
+| SM62       | patient TRUE .          | 1     | NE\_0.25 | 0.35795 |
+| SM63       | 1                       | 1     | NE\_0.25 | 0.63337 |
+| SM64       | patient TRUE .          | 2     | NE\_0.25 | 0.50479 |
+| SM65       | patient TRUE .          | 3     | NE\_0.25 | 0.65815 |
+| SM66       | 1                       | 1     | NE\_0.25 | 0.62230 |
+| SM67       | patient TRUE .          | 4     | NE\_0.25 | 0.52272 |
+| SM68       | patient FALSE .         | 4     | NE\_0.25 | 0.62452 |
+| SM69       | patient TRUE .          | 4     | NE\_0.25 | 0.48493 |
+| SM7        | 1                       | 1     | NE\_0.25 | 0.67374 |
+| SM70       | 1                       | 1     | NE\_0.25 | 0.64923 |
+| SM71       | patient TRUE .          | 3     | NE\_0.25 | 0.47688 |
+| SM72       | 1                       | 1     | NE\_0.25 | 0.59900 |
+| SM73       | patient FALSE .         | 1     | NE\_0.25 | 0.50870 |
+| SM74       | 1                       | 2     | NE\_0.25 | 0.69018 |
+| SM75       | patient FALSE .         | 3     | NE\_0.25 | 0.65639 |
+| SM76       | 1                       | 1     | NE\_0.25 | 0.50991 |
+| SM77       | patient TRUE .          | 2     | NE\_0.25 | 0.57570 |
+| SM79       | patient FALSE .         | 2     | NE\_0.25 | 0.55671 |
+| SM8        | patient FALSE .         | 1     | NE\_0.25 | 0.54816 |
+| SM81       | 1                       | 1     | NE\_0.25 | 0.74592 |
+| SM82       | patient TRUE .          | 4     | NE\_0.25 | 0.44303 |
+| SM83       | patient TRUE .          | 1     | NE\_0.25 | 0.52158 |
+| SM84       | patient TRUE .          | 1     | NE\_0.25 | 0.58960 |
+| SM86       | patient TRUE .          | 2     | NE\_0.25 | 0.61298 |
+| SM87       | patient TRUE .          | 1     | NE\_0.25 | 0.57305 |
+| SM88       | patient TRUE .          | 2     | NE\_0.25 | 0.53158 |
+| SM89       | 1                       | 1     | NE\_0.25 | 0.49993 |
+| SM9        | patient FALSE .         | 2     | NE\_0.25 | 0.54071 |
+| SM90       | patient FALSE .         | 2     | NE\_0.25 | 0.66518 |
+| SM91       | patient TRUE .          | 3     | NE\_0.25 | 0.59163 |
+| SM92       | patient FALSE .         | 3     | NE\_0.25 | 0.50876 |
+| SM93       | patient TRUE .          | 1     | NE\_0.25 | 0.60506 |
+| SM95       | 1                       | 1     | NE\_0.25 | 0.63111 |
+| SM96       | patient FALSE .         | 1     | NE\_0.25 | 0.56944 |
+| SM98       | patient FALSE .         | 3     | NE\_0.25 | 0.55035 |
+| SM99       | patient FALSE .         | 3     | NE\_0.25 | 0.61968 |
+| SM1        | patient TRUE .          | 1     | NE\_0.5  | 0.29325 |
+| SM10       | patient TRUE .          | 3     | NE\_0.5  | 0.42820 |
+| SM100      | patient TRUE .          | 4     | NE\_0.5  | 0.38605 |
+| SM11       | patient TRUE .          | 2     | NE\_0.5  | 0.20445 |
+| SM12       | patient TRUE .          | 1     | NE\_0.5  | 0.20931 |
+| SM13       | patient FALSE .         | 1     | NE\_0.5  | 0.40329 |
+| SM14       | patient FALSE .         | 1     | NE\_0.5  | 0.47599 |
+| SM15       | 1                       | 1     | NE\_0.5  | 0.45398 |
+| SM16       | patient FALSE .         | 4     | NE\_0.5  | 0.39534 |
+| SM17       | patient TRUE .          | 1     | NE\_0.5  | 0.25941 |
+| SM18       | patient FALSE .         | 2     | NE\_0.5  | 0.29403 |
+| SM19       | patient FALSE .         | 2     | NE\_0.5  | 0.41635 |
+| SM2        | patient FALSE .         | 1     | NE\_0.5  | 0.20076 |
+| SM20       | 1                       | 1     | NE\_0.5  | 0.35238 |
+| SM21       | patient FALSE .         | 1     | NE\_0.5  | 0.39861 |
+| SM22       | patient TRUE .          | 1     | NE\_0.5  | 0.35255 |
+| SM23       | patient TRUE .          | 2     | NE\_0.5  | 0.29674 |
+| SM24       | patient FALSE .         | 1     | NE\_0.5  | 0.26118 |
+| SM25       | patient FALSE .         | 4     | NE\_0.5  | 0.44004 |
+| SM26       | 1                       | 1     | NE\_0.5  | 0.36741 |
+| SM28       | 1                       | 1     | NE\_0.5  | 0.50007 |
+| SM29       | patient TRUE .          | 3     | NE\_0.5  | 0.21921 |
+| SM3        | patient TRUE .          | 2     | NE\_0.5  | 0.42253 |
+| SM30       | patient TRUE .          | 4     | NE\_0.5  | 0.43934 |
+| SM31       | 1                       | 2     | NE\_0.5  | 0.39247 |
+| SM33       | patient TRUE .          | 1     | NE\_0.5  | 0.33470 |
+| SM35       | 1                       | 1     | NE\_0.5  | 0.35069 |
+| SM36       | patient FALSE .         | 4     | NE\_0.5  | 0.48852 |
+| SM37       | 1                       | 1     | NE\_0.5  | 0.48327 |
+| SM38       | patient TRUE .          | 2     | NE\_0.5  | 0.14944 |
+| SM39       | patient FALSE .         | 1     | NE\_0.5  | 0.28347 |
+| SM40       | patient FALSE .         | 4     | NE\_0.5  | 0.30050 |
+| SM41       | patient TRUE .          | 1     | NE\_0.5  | 0.40424 |
+| SM42       | patient FALSE .         | 4     | NE\_0.5  | 0.31149 |
+| SM43       | patient TRUE .          | 4     | NE\_0.5  | 0.37916 |
+| SM44       | 1                       | 1     | NE\_0.5  | 0.51309 |
+| SM45       | patient FALSE .         | 2     | NE\_0.5  | 0.48033 |
+| SM48       | 1                       | 1     | NE\_0.5  | 0.41461 |
+| SM49       | patient TRUE .          | 1     | NE\_0.5  | 0.18054 |
+| SM5        | patient TRUE .          | 3     | NE\_0.5  | 0.35081 |
+| SM50       | patient FALSE .         | 3     | NE\_0.5  | 0.63128 |
+| SM51       | patient TRUE .          | 4     | NE\_0.5  | 0.29052 |
+| SM52       | patient FALSE .         | 1     | NE\_0.5  | 0.46922 |
+| SM53       | patient TRUE .          | 2     | NE\_0.5  | 0.33410 |
+| SM54       | patient TRUE .          | 3     | NE\_0.5  | 0.31236 |
+| SM55       | 1                       | 1     | NE\_0.5  | 0.31913 |
+| SM56       | patient TRUE .          | 2     | NE\_0.5  | 0.37005 |
+| SM57       | patient TRUE .          | 1     | NE\_0.5  | 0.20377 |
+| SM58       | patient FALSE .         | 2     | NE\_0.5  | 0.34779 |
+| SM59       | patient FALSE .         | 3     | NE\_0.5  | 0.47894 |
+| SM60       | patient TRUE .          | 3     | NE\_0.5  | 0.21848 |
+| SM62       | patient TRUE .          | 1     | NE\_0.5  | 0.14466 |
+| SM63       | 1                       | 1     | NE\_0.5  | 0.39898 |
+| SM64       | patient TRUE .          | 2     | NE\_0.5  | 0.25998 |
+| SM65       | patient TRUE .          | 3     | NE\_0.5  | 0.46191 |
+| SM66       | 1                       | 1     | NE\_0.5  | 0.37403 |
+| SM67       | patient TRUE .          | 4     | NE\_0.5  | 0.30490 |
+| SM68       | patient FALSE .         | 4     | NE\_0.5  | 0.41685 |
+| SM69       | patient TRUE .          | 4     | NE\_0.5  | 0.23115 |
+| SM7        | 1                       | 1     | NE\_0.5  | 0.49150 |
+| SM70       | 1                       | 1     | NE\_0.5  | 0.42581 |
+| SM71       | patient TRUE .          | 3     | NE\_0.5  | 0.20953 |
+| SM72       | 1                       | 1     | NE\_0.5  | 0.36486 |
+| SM73       | patient FALSE .         | 1     | NE\_0.5  | 0.25408 |
+| SM74       | 1                       | 2     | NE\_0.5  | 0.50654 |
+| SM75       | patient FALSE .         | 3     | NE\_0.5  | 0.45533 |
+| SM76       | 1                       | 1     | NE\_0.5  | 0.24481 |
+| SM77       | patient TRUE .          | 2     | NE\_0.5  | 0.32403 |
+| SM79       | patient FALSE .         | 2     | NE\_0.5  | 0.30782 |
+| SM8        | patient FALSE .         | 1     | NE\_0.5  | 0.27859 |
+| SM81       | 1                       | 1     | NE\_0.5  | 0.61656 |
+| SM82       | patient TRUE .          | 4     | NE\_0.5  | 0.18808 |
+| SM83       | patient TRUE .          | 1     | NE\_0.5  | 0.25774 |
+| SM84       | patient TRUE .          | 1     | NE\_0.5  | 0.35454 |
+| SM86       | patient TRUE .          | 2     | NE\_0.5  | 0.39687 |
+| SM87       | patient TRUE .          | 1     | NE\_0.5  | 0.36855 |
+| SM88       | patient TRUE .          | 2     | NE\_0.5  | 0.27169 |
+| SM89       | 1                       | 1     | NE\_0.5  | 0.21744 |
+| SM9        | patient FALSE .         | 2     | NE\_0.5  | 0.31374 |
+| SM90       | patient FALSE .         | 2     | NE\_0.5  | 0.45211 |
+| SM91       | patient TRUE .          | 3     | NE\_0.5  | 0.33454 |
+| SM92       | patient FALSE .         | 3     | NE\_0.5  | 0.25783 |
+| SM93       | patient TRUE .          | 1     | NE\_0.5  | 0.37183 |
+| SM95       | 1                       | 1     | NE\_0.5  | 0.39678 |
+| SM96       | patient FALSE .         | 1     | NE\_0.5  | 0.32374 |
+| SM98       | patient FALSE .         | 3     | NE\_0.5  | 0.29952 |
+| SM99       | patient FALSE .         | 3     | NE\_0.5  | 0.36922 |
+| SM1        | patient TRUE .          | 1     | NE\_1    | 0.10146 |
+| SM10       | patient TRUE .          | 3     | NE\_1    | 0.26112 |
+| SM100      | patient TRUE .          | 4     | NE\_1    | 0.19551 |
+| SM11       | patient TRUE .          | 2     | NE\_1    | 0.06996 |
+| SM12       | patient TRUE .          | 1     | NE\_1    | 0.07816 |
+| SM13       | patient FALSE .         | 1     | NE\_1    | 0.18262 |
+| SM14       | patient FALSE .         | 1     | NE\_1    | 0.25765 |
+| SM15       | 1                       | 1     | NE\_1    | 0.26077 |
+| SM16       | patient FALSE .         | 4     | NE\_1    | 0.22155 |
+| SM17       | patient TRUE .          | 1     | NE\_1    | 0.08116 |
+| SM18       | patient FALSE .         | 2     | NE\_1    | 0.11208 |
+| SM19       | patient FALSE .         | 2     | NE\_1    | 0.23152 |
+| SM2        | patient FALSE .         | 1     | NE\_1    | 0.08164 |
+| SM20       | 1                       | 1     | NE\_1    | 0.17280 |
+| SM21       | patient FALSE .         | 1     | NE\_1    | 0.19457 |
+| SM22       | patient TRUE .          | 1     | NE\_1    | 0.14534 |
+| SM23       | patient TRUE .          | 2     | NE\_1    | 0.22655 |
+| SM24       | patient FALSE .         | 1     | NE\_1    | 0.09702 |
+| SM25       | patient FALSE .         | 4     | NE\_1    | 0.25082 |
+| SM26       | 1                       | 1     | NE\_1    | 0.17750 |
+| SM28       | 1                       | 1     | NE\_1    | 0.31218 |
+| SM29       | patient TRUE .          | 3     | NE\_1    | 0.08329 |
+| SM3        | patient TRUE .          | 2     | NE\_1    | 0.26176 |
+| SM30       | patient TRUE .          | 4     | NE\_1    | 0.26871 |
+| SM31       | 1                       | 2     | NE\_1    | 0.20064 |
+| SM33       | patient TRUE .          | 1     | NE\_1    | 0.20597 |
+
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.1.1\) <a name="widget.28"></a>[`Widget 28.`](#widget.28) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by Sample.type.Drug.Before,visit. Click to see HTML widget file in full window: [`./1.1.1.3.2.1.3.2.4.2.1.1.1-3235aa73a16Dynamic.Pivot.Table.html`](./1.1.1.3.2.1.3.2.4.2.1.1.1-3235aa73a16Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.1.1\) <a name="widget.29"></a>[`Widget 29.`](#widget.29) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by Sample.type.Drug.Before,visit. Click to see HTML widget file in full window: [`./1.1.1.3.2.1.3.2.4.2.1.1.1-32375fadb2aDynamic.Pivot.Table.html`](./1.1.1.3.2.1.3.2.4.2.1.1.1-32375fadb2aDynamic.Pivot.Table.html)
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.1.1\) <a name="table.28"></a>[`Table 28.`](#table.28) Summary table. Data grouped by Sample.type.Drug.Before,visit. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.1.1.3.2.1.3.2.4.2.1.1.1-32326eb34f4.1.1.1.3.2.1.3.2.4.2.csv`](data/1.1.1.3.2.1.3.2.4.2.1.1.1-32326eb34f4.1.1.1.3.2.1.3.2.4.2.csv)
+
+
+
+
+| feature  | Sample.type.Drug.Before | visit | mean    | sd      | median  | incidence |
+|:---------|:------------------------|:------|:--------|:--------|:--------|:----------|
+| NE\_0.25 | 1                       | 1     | 0.62746 | 0.06257 | 0.63224 | 1         |
+| NE\_0.25 | 1                       | 2     | 0.65383 | 0.05142 | 0.65383 | 1         |
+| NE\_0.25 | patient FALSE .         | 1     | 0.57422 | 0.07692 | 0.55880 | 1         |
+| NE\_0.25 | patient FALSE .         | 2     | 0.59010 | 0.04567 | 0.58782 | 1         |
+| NE\_0.25 | patient FALSE .         | 3     | 0.63134 | 0.09434 | 0.63804 | 1         |
+| NE\_0.25 | patient FALSE .         | 4     | 0.61052 | 0.04694 | 0.61901 | 1         |
+| NE\_0.25 | patient TRUE .          | 1     | 0.53028 | 0.07867 | 0.53847 | 1         |
+| NE\_0.25 | patient TRUE .          | 2     | 0.53221 | 0.08457 | 0.54869 | 1         |
+| NE\_0.25 | patient TRUE .          | 3     | 0.55443 | 0.07400 | 0.56447 | 1         |
+| NE\_0.25 | patient TRUE .          | 4     | 0.55322 | 0.07511 | 0.54544 | 1         |
+| NE\_0.5  | 1                       | 1     | 0.40474 | 0.09702 | 0.39788 | 1         |
+| NE\_0.5  | 1                       | 2     | 0.44951 | 0.08066 | 0.44951 | 1         |
+| NE\_0.5  | patient FALSE .         | 1     | 0.33489 | 0.09579 | 0.30361 | 1         |
+| NE\_0.5  | patient FALSE .         | 2     | 0.37317 | 0.07560 | 0.34779 | 1         |
+| NE\_0.5  | patient FALSE .         | 3     | 0.41535 | 0.13611 | 0.41228 | 1         |
+| NE\_0.5  | patient FALSE .         | 4     | 0.39212 | 0.07363 | 0.40609 | 1         |
+| NE\_0.5  | patient TRUE .          | 1     | 0.28731 | 0.08413 | 0.29325 | 1         |
+| NE\_0.5  | patient TRUE .          | 2     | 0.30299 | 0.08509 | 0.31038 | 1         |
+| NE\_0.5  | patient TRUE .          | 3     | 0.31688 | 0.09685 | 0.32345 | 1         |
+| NE\_0.5  | patient TRUE .          | 4     | 0.31703 | 0.08985 | 0.30490 | 1         |
+| NE\_1    | 1                       | 1     | 0.21381 | 0.10454 | 0.18123 | 1         |
+| NE\_1    | 1                       | 2     | 0.26819 | 0.09554 | 0.26819 | 1         |
+| NE\_1    | patient FALSE .         | 1     | 0.15652 | 0.07357 | 0.13390 | 1         |
+| NE\_1    | patient FALSE .         | 2     | 0.20831 | 0.11246 | 0.16036 | 1         |
+| NE\_1    | patient FALSE .         | 3     | 0.23163 | 0.13862 | 0.20331 | 1         |
+| NE\_1    | patient FALSE .         | 4     | 0.21719 | 0.08171 | 0.23618 | 1         |
+| NE\_1    | patient TRUE .          | 1     | 0.12667 | 0.05565 | 0.10146 | 1         |
+| NE\_1    | patient TRUE .          | 2     | 0.15357 | 0.06617 | 0.14286 | 1         |
+| NE\_1    | patient TRUE .          | 3     | 0.15337 | 0.08094 | 0.13761 | 1         |
+| NE\_1    | patient TRUE .          | 4     | 0.15196 | 0.06814 | 0.15022 | 1         |
+| NE\_2    | 1                       | 1     | 0.12473 | 0.08650 | 0.10030 | 1         |
+| NE\_2    | 1                       | 2     | 0.16895 | 0.08538 | 0.16895 | 1         |
+| NE\_2    | patient FALSE .         | 1     | 0.08902 | 0.04420 | 0.07991 | 1         |
+| NE\_2    | patient FALSE .         | 2     | 0.14264 | 0.13113 | 0.10212 | 1         |
+| NE\_2    | patient FALSE .         | 3     | 0.13966 | 0.09806 | 0.11581 | 1         |
+| NE\_2    | patient FALSE .         | 4     | 0.13696 | 0.06581 | 0.14007 | 1         |
+| NE\_2    | patient TRUE .          | 1     | 0.07571 | 0.03431 | 0.06495 | 1         |
+| NE\_2    | patient TRUE .          | 2     | 0.10458 | 0.05598 | 0.07842 | 1         |
+| NE\_2    | patient TRUE .          | 3     | 0.09397 | 0.05354 | 0.07580 | 1         |
+| NE\_2    | patient TRUE .          | 4     | 0.09228 | 0.04556 | 0.06732 | 1         |
+| NE\_4    | 1                       | 1     | 0.09436 | 0.07090 | 0.07520 | 1         |
+| NE\_4    | 1                       | 2     | 0.12175 | 0.06567 | 0.12175 | 1         |
+| NE\_4    | patient FALSE .         | 1     | 0.06888 | 0.02995 | 0.06131 | 1         |
+| NE\_4    | patient FALSE .         | 2     | 0.12315 | 0.13763 | 0.07526 | 1         |
+| NE\_4    | patient FALSE .         | 3     | 0.10103 | 0.06164 | 0.08785 | 1         |
+| NE\_4    | patient FALSE .         | 4     | 0.10518 | 0.05100 | 0.10142 | 1         |
+| NE\_4    | patient TRUE .          | 1     | 0.06233 | 0.02488 | 0.04936 | 1         |
+| NE\_4    | patient TRUE .          | 2     | 0.08944 | 0.04840 | 0.07027 | 1         |
+| NE\_4    | patient TRUE .          | 3     | 0.07471 | 0.03869 | 0.06187 | 1         |
+| NE\_4    | patient TRUE .          | 4     | 0.07383 | 0.03329 | 0.05339 | 1         |
+| NE\_8    | 1                       | 1     | 0.08338 | 0.06275 | 0.06735 | 1         |
+| NE\_8    | 1                       | 2     | 0.09932 | 0.05002 | 0.09932 | 1         |
+| NE\_8    | patient FALSE .         | 1     | 0.06155 | 0.02295 | 0.05454 | 1         |
+| NE\_8    | patient FALSE .         | 2     | 0.11654 | 0.13988 | 0.06375 | 1         |
+| NE\_8    | patient FALSE .         | 3     | 0.08586 | 0.04609 | 0.07539 | 1         |
+| NE\_8    | patient FALSE .         | 4     | 0.09075 | 0.04113 | 0.08709 | 1         |
+| NE\_8    | patient TRUE .          | 1     | 0.05783 | 0.02111 | 0.04711 | 1         |
+| NE\_8    | patient TRUE .          | 2     | 0.08244 | 0.04310 | 0.06807 | 1         |
+| NE\_8    | patient TRUE .          | 3     | 0.06765 | 0.03230 | 0.05747 | 1         |
+| NE\_8    | patient TRUE .          | 4     | 0.06708 | 0.02806 | 0.05123 | 1         |
+| NE\_Inf  | 1                       | 1     | 0.07377 | 0.05344 | 0.05924 | 1         |
+| NE\_Inf  | 1                       | 2     | 0.08233 | 0.03683 | 0.08233 | 1         |
+| NE\_Inf  | patient FALSE .         | 1     | 0.05583 | 0.01719 | 0.05085 | 1         |
+| NE\_Inf  | patient FALSE .         | 2     | 0.11166 | 0.14160 | 0.05610 | 1         |
+| NE\_Inf  | patient FALSE .         | 3     | 0.07474 | 0.03562 | 0.06653 | 1         |
+| NE\_Inf  | patient FALSE .         | 4     | 0.07835 | 0.03128 | 0.07689 | 1         |
+| NE\_Inf  | patient TRUE .          | 1     | 0.05449 | 0.01842 | 0.04552 | 1         |
+| NE\_Inf  | patient TRUE .          | 2     | 0.07603 | 0.03847 | 0.06651 | 1         |
+| NE\_Inf  | patient TRUE .          | 3     | 0.06204 | 0.02649 | 0.05441 | 1         |
+| NE\_Inf  | patient TRUE .          | 4     | 0.06195 | 0.02401 | 0.04967 | 1         |
+
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.1.1\) <a name="figure.106"></a>[`Figure 106.`](#figure.106) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type.Drug.Before,visit.  line plot.  Image file: [`plots/32362f9757f.svg`](plots/32362f9757f.svg).
+![](plots/32362f9757f.svg)
+
+
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.1.1\) <a name="figure.107"></a>[`Figure 107.`](#figure.107) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type.Drug.Before,visit.  line_obs plot.  Image file: [`plots/32351194244.svg`](plots/32351194244.svg).
+![](plots/32351194244.svg)
+
+
+##### \(1.1.1.3.2.1.3.2.4.2.1.2\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.2.1\) <a name="figure.108"></a>[`Figure 108.`](#figure.108) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type.Drug.Before,visit.  line plot.  Image file: [`plots/3233b879ef3.svg`](plots/3233b879ef3.svg).
+![](plots/3233b879ef3.svg)
+
+
+
+
+\(1.1.1.3.2.1.3.2.4.2.1.2.1\) <a name="figure.109"></a>[`Figure 109.`](#figure.109) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Sample.type.Drug.Before,visit.  line_obs plot.  Image file: [`plots/3232d98199b.svg`](plots/3232d98199b.svg).
+![](plots/3232d98199b.svg)
+
+
+##### \(1.1.1.3.2.1.3.2.5\) Grouping variables Drug.Before.Diet,Sample.type.1
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.6\) Iterating over Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.6.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order: original
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.6.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.1.1.3.2.1.3.2.6.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.1.1.3.2.1.3.2.6.2.1.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.1.0\) <a name="table.29"></a>[`Table 29.`](#table.29) Data table used for plots. Data grouped by Drug.Before.Diet,Sample.type.1. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.1.1.3.2.1.3.2.6.2.1.1.0-32337c07319.1.1.1.3.2.1.3.2.6.2.csv`](data/1.1.1.3.2.1.3.2.6.2.1.1.0-32337c07319.1.1.1.3.2.1.3.2.6.2.csv)
+
+
+
+
+| .record.id | Drug.Before.Diet | Sample.type.1       | feature  | index   |
+|:-----------|:-----------------|:--------------------|:---------|:--------|
+| SM1        | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.55757 |
+| SM10       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.63272 |
+| SM100      | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.61152 |
+| SM11       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.46790 |
+| SM12       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.46776 |
+| SM13       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.63832 |
+| SM14       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.68524 |
+| SM15       | DrugBefore\_YES  | control             | NE\_0.25 | 0.65767 |
+| SM16       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.61350 |
+| SM17       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.53305 |
+| SM18       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.55288 |
+| SM19       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.63397 |
+| SM2        | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.44850 |
+| SM20       | DrugBefore\_NO   | control             | NE\_0.25 | 0.58738 |
+| SM21       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.62720 |
+| SM22       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.59642 |
+| SM23       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.46292 |
+| SM24       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.52137 |
+| SM25       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.64553 |
+| SM26       | DrugBefore\_NO   | control             | NE\_0.25 | 0.59905 |
+| SM28       | DrugBefore\_NO   | control             | NE\_0.25 | 0.69187 |
+| SM29       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.47754 |
+| SM3        | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.62768 |
+| SM30       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.63925 |
+| SM31       | DrugBefore\_NO   | control             | NE\_0.25 | 0.61747 |
+| SM33       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.53847 |
+| SM35       | DrugBefore\_NO   | control             | NE\_0.25 | 0.59690 |
+| SM36       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.66816 |
+| SM37       | DrugBefore\_NO   | control             | NE\_0.25 | 0.68144 |
+| SM38       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.36024 |
+| SM39       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.52939 |
+| SM40       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.54442 |
+| SM41       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.64388 |
+| SM42       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.56698 |
+| SM43       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.62567 |
+| SM44       | DrugBefore\_NO   | control             | NE\_0.25 | 0.69703 |
+| SM45       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.59341 |
+| SM48       | DrugBefore\_NO   | control             | NE\_0.25 | 0.64170 |
+| SM49       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.44763 |
+| SM5        | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.58371 |
+| SM50       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.77151 |
+| SM51       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.54544 |
+| SM52       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.66591 |
+| SM53       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.56580 |
+| SM54       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.54523 |
+| SM55       | DrugBefore\_NO   | control             | NE\_0.25 | 0.57677 |
+| SM56       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.61252 |
+| SM57       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.46167 |
+| SM58       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.58782 |
+| SM59       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.68135 |
+| SM60       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.46960 |
+| SM62       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.35795 |
+| SM63       | DrugBefore\_NO   | control             | NE\_0.25 | 0.63337 |
+| SM64       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.50479 |
+| SM65       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.65815 |
+| SM66       | DrugBefore\_NO   | control             | NE\_0.25 | 0.62230 |
+| SM67       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.52272 |
+| SM68       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.62452 |
+| SM69       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.48493 |
+| SM7        | DrugBefore\_NO   | control             | NE\_0.25 | 0.67374 |
+| SM70       | DrugBefore\_NO   | control             | NE\_0.25 | 0.64923 |
+| SM71       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.47688 |
+| SM72       | DrugBefore\_NO   | control             | NE\_0.25 | 0.59900 |
+| SM73       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.50870 |
+| SM74       | DrugBefore\_NO   | control             | NE\_0.25 | 0.69018 |
+| SM75       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.65639 |
+| SM76       | DrugBefore\_NO   | control             | NE\_0.25 | 0.50991 |
+| SM77       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.57570 |
+| SM79       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.55671 |
+| SM8        | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.54816 |
+| SM81       | DrugBefore\_NO   | control             | NE\_0.25 | 0.74592 |
+| SM82       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.44303 |
+| SM83       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.52158 |
+| SM84       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.58960 |
+| SM86       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.61298 |
+| SM87       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.57305 |
+| SM88       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.53158 |
+| SM89       | DrugBefore\_NO   | control             | NE\_0.25 | 0.49993 |
+| SM9        | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.54071 |
+| SM90       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.66518 |
+| SM91       | DrugBefore\_YES  | patient.after.diet  | NE\_0.25 | 0.59163 |
+| SM92       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.50876 |
+| SM93       | DrugBefore\_YES  | patient.before.diet | NE\_0.25 | 0.60506 |
+| SM95       | DrugBefore\_NO   | control             | NE\_0.25 | 0.63111 |
+| SM96       | DrugBefore\_NO   | patient.before.diet | NE\_0.25 | 0.56944 |
+| SM98       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.55035 |
+| SM99       | DrugBefore\_NO   | patient.after.diet  | NE\_0.25 | 0.61968 |
+| SM1        | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.29325 |
+| SM10       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.42820 |
+| SM100      | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.38605 |
+| SM11       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.20445 |
+| SM12       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.20931 |
+| SM13       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.40329 |
+| SM14       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.47599 |
+| SM15       | DrugBefore\_YES  | control             | NE\_0.5  | 0.45398 |
+| SM16       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.39534 |
+| SM17       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.25941 |
+| SM18       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.29403 |
+| SM19       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.41635 |
+| SM2        | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.20076 |
+| SM20       | DrugBefore\_NO   | control             | NE\_0.5  | 0.35238 |
+| SM21       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.39861 |
+| SM22       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.35255 |
+| SM23       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.29674 |
+| SM24       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.26118 |
+| SM25       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.44004 |
+| SM26       | DrugBefore\_NO   | control             | NE\_0.5  | 0.36741 |
+| SM28       | DrugBefore\_NO   | control             | NE\_0.5  | 0.50007 |
+| SM29       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.21921 |
+| SM3        | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.42253 |
+| SM30       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.43934 |
+| SM31       | DrugBefore\_NO   | control             | NE\_0.5  | 0.39247 |
+| SM33       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.33470 |
+| SM35       | DrugBefore\_NO   | control             | NE\_0.5  | 0.35069 |
+| SM36       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.48852 |
+| SM37       | DrugBefore\_NO   | control             | NE\_0.5  | 0.48327 |
+| SM38       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.14944 |
+| SM39       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.28347 |
+| SM40       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.30050 |
+| SM41       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.40424 |
+| SM42       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.31149 |
+| SM43       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.37916 |
+| SM44       | DrugBefore\_NO   | control             | NE\_0.5  | 0.51309 |
+| SM45       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.48033 |
+| SM48       | DrugBefore\_NO   | control             | NE\_0.5  | 0.41461 |
+| SM49       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.18054 |
+| SM5        | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.35081 |
+| SM50       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.63128 |
+| SM51       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.29052 |
+| SM52       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.46922 |
+| SM53       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.33410 |
+| SM54       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.31236 |
+| SM55       | DrugBefore\_NO   | control             | NE\_0.5  | 0.31913 |
+| SM56       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.37005 |
+| SM57       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.20377 |
+| SM58       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.34779 |
+| SM59       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.47894 |
+| SM60       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.21848 |
+| SM62       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.14466 |
+| SM63       | DrugBefore\_NO   | control             | NE\_0.5  | 0.39898 |
+| SM64       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.25998 |
+| SM65       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.46191 |
+| SM66       | DrugBefore\_NO   | control             | NE\_0.5  | 0.37403 |
+| SM67       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.30490 |
+| SM68       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.41685 |
+| SM69       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.23115 |
+| SM7        | DrugBefore\_NO   | control             | NE\_0.5  | 0.49150 |
+| SM70       | DrugBefore\_NO   | control             | NE\_0.5  | 0.42581 |
+| SM71       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.20953 |
+| SM72       | DrugBefore\_NO   | control             | NE\_0.5  | 0.36486 |
+| SM73       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.25408 |
+| SM74       | DrugBefore\_NO   | control             | NE\_0.5  | 0.50654 |
+| SM75       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.45533 |
+| SM76       | DrugBefore\_NO   | control             | NE\_0.5  | 0.24481 |
+| SM77       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.32403 |
+| SM79       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.30782 |
+| SM8        | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.27859 |
+| SM81       | DrugBefore\_NO   | control             | NE\_0.5  | 0.61656 |
+| SM82       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.18808 |
+| SM83       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.25774 |
+| SM84       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.35454 |
+| SM86       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.39687 |
+| SM87       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.36855 |
+| SM88       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.27169 |
+| SM89       | DrugBefore\_NO   | control             | NE\_0.5  | 0.21744 |
+| SM9        | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.31374 |
+| SM90       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.45211 |
+| SM91       | DrugBefore\_YES  | patient.after.diet  | NE\_0.5  | 0.33454 |
+| SM92       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.25783 |
+| SM93       | DrugBefore\_YES  | patient.before.diet | NE\_0.5  | 0.37183 |
+| SM95       | DrugBefore\_NO   | control             | NE\_0.5  | 0.39678 |
+| SM96       | DrugBefore\_NO   | patient.before.diet | NE\_0.5  | 0.32374 |
+| SM98       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.29952 |
+| SM99       | DrugBefore\_NO   | patient.after.diet  | NE\_0.5  | 0.36922 |
+| SM1        | DrugBefore\_YES  | patient.before.diet | NE\_1    | 0.10146 |
+| SM10       | DrugBefore\_YES  | patient.after.diet  | NE\_1    | 0.26112 |
+| SM100      | DrugBefore\_YES  | patient.after.diet  | NE\_1    | 0.19551 |
+| SM11       | DrugBefore\_YES  | patient.after.diet  | NE\_1    | 0.06996 |
+| SM12       | DrugBefore\_YES  | patient.before.diet | NE\_1    | 0.07816 |
+| SM13       | DrugBefore\_NO   | patient.before.diet | NE\_1    | 0.18262 |
+| SM14       | DrugBefore\_NO   | patient.before.diet | NE\_1    | 0.25765 |
+| SM15       | DrugBefore\_YES  | control             | NE\_1    | 0.26077 |
+| SM16       | DrugBefore\_NO   | patient.after.diet  | NE\_1    | 0.22155 |
+| SM17       | DrugBefore\_YES  | patient.before.diet | NE\_1    | 0.08116 |
+| SM18       | DrugBefore\_NO   | patient.after.diet  | NE\_1    | 0.11208 |
+| SM19       | DrugBefore\_NO   | patient.after.diet  | NE\_1    | 0.23152 |
+| SM2        | DrugBefore\_NO   | patient.before.diet | NE\_1    | 0.08164 |
+| SM20       | DrugBefore\_NO   | control             | NE\_1    | 0.17280 |
+| SM21       | DrugBefore\_NO   | patient.before.diet | NE\_1    | 0.19457 |
+| SM22       | DrugBefore\_YES  | patient.before.diet | NE\_1    | 0.14534 |
+| SM23       | DrugBefore\_YES  | patient.after.diet  | NE\_1    | 0.22655 |
+| SM24       | DrugBefore\_NO   | patient.before.diet | NE\_1    | 0.09702 |
+| SM25       | DrugBefore\_NO   | patient.after.diet  | NE\_1    | 0.25082 |
+| SM26       | DrugBefore\_NO   | control             | NE\_1    | 0.17750 |
+| SM28       | DrugBefore\_NO   | control             | NE\_1    | 0.31218 |
+| SM29       | DrugBefore\_YES  | patient.after.diet  | NE\_1    | 0.08329 |
+| SM3        | DrugBefore\_YES  | patient.after.diet  | NE\_1    | 0.26176 |
+| SM30       | DrugBefore\_YES  | patient.after.diet  | NE\_1    | 0.26871 |
+| SM31       | DrugBefore\_NO   | control             | NE\_1    | 0.20064 |
+| SM33       | DrugBefore\_YES  | patient.before.diet | NE\_1    | 0.20597 |
+
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.1.1\) <a name="widget.30"></a>[`Widget 30.`](#widget.30) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by Drug.Before.Diet,Sample.type.1. Click to see HTML widget file in full window: [`./1.1.1.3.2.1.3.2.6.2.1.1.1-3235a88e108Dynamic.Pivot.Table.html`](./1.1.1.3.2.1.3.2.6.2.1.1.1-3235a88e108Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.1.1\) <a name="widget.31"></a>[`Widget 31.`](#widget.31) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by Drug.Before.Diet,Sample.type.1. Click to see HTML widget file in full window: [`./1.1.1.3.2.1.3.2.6.2.1.1.1-3236ab8ad38Dynamic.Pivot.Table.html`](./1.1.1.3.2.1.3.2.6.2.1.1.1-3236ab8ad38Dynamic.Pivot.Table.html)
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.1.1\) <a name="table.30"></a>[`Table 30.`](#table.30) Summary table. Data grouped by Drug.Before.Diet,Sample.type.1. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.1.1.3.2.1.3.2.6.2.1.1.1-32365d2bb8.1.1.1.3.2.1.3.2.6.2.csv`](data/1.1.1.3.2.1.3.2.6.2.1.1.1-32365d2bb8.1.1.1.3.2.1.3.2.6.2.csv)
+
+
+
+
+| feature  | Drug.Before.Diet | Sample.type.1       | mean    | sd      | median  | incidence |
+|:---------|:-----------------|:--------------------|:--------|:--------|:--------|:----------|
+| NE\_0.25 | DrugBefore\_NO   | control             | 0.62865 | 0.06220 | 0.63111 | 1         |
+| NE\_0.25 | DrugBefore\_NO   | patient.after.diet  | 0.60957 | 0.06392 | 0.61350 | 1         |
+| NE\_0.25 | DrugBefore\_NO   | patient.before.diet | 0.57422 | 0.07692 | 0.55880 | 1         |
+| NE\_0.25 | DrugBefore\_YES  | control             | 0.65767 | NA      | 0.65767 | 1         |
+| NE\_0.25 | DrugBefore\_YES  | patient.after.diet  | 0.54520 | 0.07620 | 0.54544 | 1         |
+| NE\_0.25 | DrugBefore\_YES  | patient.before.diet | 0.53028 | 0.07867 | 0.53847 | 1         |
+| NE\_0.5  | DrugBefore\_NO   | control             | 0.40686 | 0.09662 | 0.39678 | 1         |
+| NE\_0.5  | DrugBefore\_NO   | patient.after.diet  | 0.39247 | 0.09421 | 0.39534 | 1         |
+| NE\_0.5  | DrugBefore\_NO   | patient.before.diet | 0.33489 | 0.09579 | 0.30361 | 1         |
+| NE\_0.5  | DrugBefore\_YES  | control             | 0.45398 | NA      | 0.45398 | 1         |
+| NE\_0.5  | DrugBefore\_YES  | patient.after.diet  | 0.31137 | 0.08671 | 0.31236 | 1         |
+| NE\_0.5  | DrugBefore\_YES  | patient.before.diet | 0.28731 | 0.08413 | 0.29325 | 1         |
+| NE\_1    | DrugBefore\_NO   | control             | 0.21706 | 0.10499 | 0.18496 | 1         |
+| NE\_1    | DrugBefore\_NO   | patient.after.diet  | 0.21848 | 0.10727 | 0.22155 | 1         |
+| NE\_1    | DrugBefore\_NO   | patient.before.diet | 0.15652 | 0.07357 | 0.13390 | 1         |
+| NE\_1    | DrugBefore\_YES  | control             | 0.26077 | NA      | 0.26077 | 1         |
+| NE\_1    | DrugBefore\_YES  | patient.after.diet  | 0.15305 | 0.06866 | 0.15022 | 1         |
+| NE\_1    | DrugBefore\_YES  | patient.before.diet | 0.12667 | 0.05565 | 0.10146 | 1         |
+| NE\_2    | DrugBefore\_NO   | control             | 0.12800 | 0.08740 | 0.10648 | 1         |
+| NE\_2    | DrugBefore\_NO   | patient.after.diet  | 0.13991 | 0.09804 | 0.11426 | 1         |
+| NE\_2    | DrugBefore\_NO   | patient.before.diet | 0.08902 | 0.04420 | 0.07991 | 1         |
+| NE\_2    | DrugBefore\_YES  | control             | 0.15102 | NA      | 0.15102 | 1         |
+| NE\_2    | DrugBefore\_YES  | patient.after.diet  | 0.09774 | 0.05062 | 0.07624 | 1         |
+| NE\_2    | DrugBefore\_YES  | patient.before.diet | 0.07571 | 0.03431 | 0.06495 | 1         |
+| NE\_4    | DrugBefore\_NO   | control             | 0.09639 | 0.07107 | 0.07531 | 1         |
+| NE\_4    | DrugBefore\_NO   | patient.after.diet  | 0.11049 | 0.09052 | 0.08276 | 1         |
+| NE\_4    | DrugBefore\_NO   | patient.before.diet | 0.06888 | 0.02995 | 0.06131 | 1         |
+| NE\_4    | DrugBefore\_YES  | control             | 0.11043 | NA      | 0.11043 | 1         |
+| NE\_4    | DrugBefore\_YES  | patient.after.diet  | 0.08036 | 0.04062 | 0.06517 | 1         |
+| NE\_4    | DrugBefore\_YES  | patient.before.diet | 0.06233 | 0.02488 | 0.04936 | 1         |
+| NE\_8    | DrugBefore\_NO   | control             | 0.08442 | 0.06226 | 0.06395 | 1         |
+| NE\_8    | DrugBefore\_NO   | patient.after.diet  | 0.09871 | 0.08822 | 0.07566 | 1         |
+| NE\_8    | DrugBefore\_NO   | patient.before.diet | 0.06155 | 0.02295 | 0.05454 | 1         |
+| NE\_8    | DrugBefore\_YES  | control             | 0.09543 | NA      | 0.09543 | 1         |
+| NE\_8    | DrugBefore\_YES  | patient.after.diet  | 0.07341 | 0.03542 | 0.06103 | 1         |
+| NE\_8    | DrugBefore\_YES  | patient.before.diet | 0.05783 | 0.02111 | 0.04711 | 1         |
+| NE\_Inf  | DrugBefore\_NO   | control             | 0.07413 | 0.05267 | 0.05628 | 1         |
+| NE\_Inf  | DrugBefore\_NO   | patient.after.diet  | 0.08948 | 0.08725 | 0.07049 | 1         |
+| NE\_Inf  | DrugBefore\_NO   | patient.before.diet | 0.05583 | 0.01719 | 0.05085 | 1         |
+| NE\_Inf  | DrugBefore\_YES  | control             | 0.08415 | NA      | 0.08415 | 1         |
+| NE\_Inf  | DrugBefore\_YES  | patient.after.diet  | 0.06761 | 0.03087 | 0.05650 | 1         |
+| NE\_Inf  | DrugBefore\_YES  | patient.before.diet | 0.05449 | 0.01842 | 0.04552 | 1         |
+
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.1.1\) <a name="figure.110"></a>[`Figure 110.`](#figure.110) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Drug.Before.Diet,Sample.type.1.  line plot.  Image file: [`plots/3237ab3c340.svg`](plots/3237ab3c340.svg).
+![](plots/3237ab3c340.svg)
+
+
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.1.1\) <a name="figure.111"></a>[`Figure 111.`](#figure.111) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Drug.Before.Diet,Sample.type.1.  line_obs plot.  Image file: [`plots/32334b7811.svg`](plots/32334b7811.svg).
+![](plots/32334b7811.svg)
+
+
+##### \(1.1.1.3.2.1.3.2.6.2.1.2\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.2.1\) <a name="figure.112"></a>[`Figure 112.`](#figure.112) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Drug.Before.Diet,Sample.type.1.  line plot.  Image file: [`plots/32338b18b06.svg`](plots/32338b18b06.svg).
+![](plots/32338b18b06.svg)
+
+
+
+
+\(1.1.1.3.2.1.3.2.6.2.1.2.1\) <a name="figure.113"></a>[`Figure 113.`](#figure.113) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by Drug.Before.Diet,Sample.type.1.  line_obs plot.  Image file: [`plots/32321bf5879.svg`](plots/32321bf5879.svg).
+![](plots/32321bf5879.svg)

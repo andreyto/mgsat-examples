@@ -1,0 +1,38 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.2.1.3.8\) Network Analysis Feature correlation with overlaid differential abundance results 
+
+
+
+Build network of interactions between features or samples and plot it. 
+                           Network method is network.spiec.easi. Method parameters are: [ list()].
+
+
+Filtering abundance matrix with arguments [ drop.names:"other" "Unclassified_Lachnospiraceae" "Unclassified_Ruminococcaceae" "Unclassified_Clostridiales" ...]. Network Analysis
+
+
+After filtering, left 41 records for 31 features
+
+
+Kurtz Z, Mueller C, Miraldi E, Bonneau R (????). _SpiecEasi: Sparse Inverse Covariance for Ecological Statistical Inference_. R package version
+1.0.2.
+
+
+
+
+
+\(1.2.1.3.8.1\) <a name="figure.358"></a>[`Figure 358.`](#figure.358) Network analysis with method network.spiec.easi. Vertices are labeled by DESeq2 results for                                       baseMean log2FoldChange     lfcSE        stat       pvalue         padj  i.baseMean      baseVar allZero dispGeneEst. Showing names for the maximum of 30 top-ranked features.  Image file: [`plots/32321a02a.svg`](plots/32321a02a.svg).
+![](plots/32321a02a.svg)
+
+
+
+
+\(1.2.1.3.8.1\) <a name="widget.102"></a>[`Widget 102.`](#widget.102) Network analysis with method network.spiec.easi. Vertices are labeled by DESeq2 results for                                       baseMean log2FoldChange     lfcSE        stat       pvalue         padj  i.baseMean      baseVar allZero dispGeneEst. Showing names for the maximum of 30 top-ranked features. Click to see HTML widget file in full window: [`./1.2.1.3.8.1-3237bfd6493Network.analysis.wit.html`](./1.2.1.3.8.1-3237bfd6493Network.analysis.wit.html)
+
+
+
+<iframe src="./1.2.1.3.8.1-3237bfd6493Network.analysis.wit.html" width="800" height="800"> </iframe>

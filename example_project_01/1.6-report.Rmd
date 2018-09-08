@@ -1,0 +1,34 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+## \(1.6\) Subset: Patient samples
+
+
+
+
+### \(1.6.1\) Iterating over taxonomic levels
+
+
+
+
+#### \(1.6.1.1\) Taxonomic level: 2 of Subset: Patient samples
+
+[`Subreport`](./1.6.1.1-report.html)
+
+
+#### \(1.6.1.2\) Taxonomic level: 4 of Subset: Patient samples
+
+[`Subreport`](./1.6.1.2-report.html)
+
+
+#### \(1.6.1.3\) Taxonomic level: 6 of Subset: Patient samples
+
+[`Subreport`](./1.6.1.3-report.html)
+
+
+#### \(1.6.1.4\) Taxonomic level: otu of Subset: Patient samples
+
+[`Subreport`](./1.6.1.4-report.html)

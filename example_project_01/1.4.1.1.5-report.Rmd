@@ -1,0 +1,464 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.4.1.1.5\) Plots of Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.4.1.1.5.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.4.1.1.5.2.1\) Entire pool of samples
+
+
+
+
+##### \(1.4.1.1.5.2.2\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order
+
+
+
+
+##### \(1.4.1.1.5.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.4.1.1.5.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.1.5.2.2.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.1.5.2.2.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.1.5.2.2.2.1.1.0\) <a name="table.148"></a>[`Table 148.`](#table.148) Data table used for plots. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.1.5.2.2.2.1.1.0-3234446c2f1.1.4.1.1.5.2.2.2.1.1.csv`](data/1.4.1.1.5.2.2.2.1.1.0-3234446c2f1.1.4.1.1.5.2.2.2.1.1.csv)
+
+
+
+
+| .record.id       | feature                | l2fc      |
+|:-----------------|:-----------------------|:----------|
+| SB11.before.diet | Bacteroidetes          | 0.25574   |
+| SB16.before.diet | Bacteroidetes          | \-0.07063 |
+| SB18.before.diet | Bacteroidetes          | 1.83826   |
+| SB28.before.diet | Bacteroidetes          | \-0.07345 |
+| SB29.before.diet | Bacteroidetes          | 1.54675   |
+| SB34.before.diet | Bacteroidetes          | \-0.08302 |
+| SB36.before.diet | Bacteroidetes          | 0.09319   |
+| SB39.before.diet | Bacteroidetes          | \-0.40702 |
+| SB4.before.diet  | Bacteroidetes          | \-0.06401 |
+| SB41.before.diet | Bacteroidetes          | 0.02735   |
+| SB43.before.diet | Bacteroidetes          | 1.40287   |
+| SB44.before.diet | Bacteroidetes          | 7.78425   |
+| SB5.before.diet  | Bacteroidetes          | \-2.97410 |
+| SB9.before.diet  | Bacteroidetes          | \-3.46795 |
+| SB11.before.diet | Firmicutes             | \-0.78315 |
+| SB16.before.diet | Firmicutes             | 0.95245   |
+| SB18.before.diet | Firmicutes             | \-2.72489 |
+| SB28.before.diet | Firmicutes             | \-1.87302 |
+| SB29.before.diet | Firmicutes             | \-2.87600 |
+| SB34.before.diet | Firmicutes             | 0.57021   |
+| SB36.before.diet | Firmicutes             | \-1.13446 |
+| SB39.before.diet | Firmicutes             | 0.14854   |
+| SB4.before.diet  | Firmicutes             | 2.07429   |
+| SB41.before.diet | Firmicutes             | \-0.31972 |
+| SB43.before.diet | Firmicutes             | \-3.01945 |
+| SB44.before.diet | Firmicutes             | \-2.40358 |
+| SB5.before.diet  | Firmicutes             | 2.25699   |
+| SB9.before.diet  | Firmicutes             | 1.91137   |
+| SB11.before.diet | Proteobacteria         | \-2.09900 |
+| SB16.before.diet | Proteobacteria         | \-1.32810 |
+| SB18.before.diet | Proteobacteria         | \-2.65876 |
+| SB28.before.diet | Proteobacteria         | 3.54524   |
+| SB29.before.diet | Proteobacteria         | 33.91631  |
+| SB34.before.diet | Proteobacteria         | \-0.34323 |
+| SB36.before.diet | Proteobacteria         | 0.65513   |
+| SB39.before.diet | Proteobacteria         | \-0.83337 |
+| SB4.before.diet  | Proteobacteria         | 3.03813   |
+| SB41.before.diet | Proteobacteria         | \-1.42379 |
+| SB43.before.diet | Proteobacteria         | 2.25319   |
+| SB44.before.diet | Proteobacteria         | \-2.37795 |
+| SB5.before.diet  | Proteobacteria         | 6.00773   |
+| SB9.before.diet  | Proteobacteria         | \-0.61814 |
+| SB11.before.diet | Verrucomicrobia        | 3.39378   |
+| SB16.before.diet | Verrucomicrobia        | 0.00000   |
+| SB18.before.diet | Verrucomicrobia        | 0.00000   |
+| SB28.before.diet | Verrucomicrobia        | 0.00000   |
+| SB29.before.diet | Verrucomicrobia        | 0.00000   |
+| SB34.before.diet | Verrucomicrobia        | 0.00000   |
+| SB36.before.diet | Verrucomicrobia        | 0.00000   |
+| SB39.before.diet | Verrucomicrobia        | 42.83593  |
+| SB4.before.diet  | Verrucomicrobia        | 0.00000   |
+| SB41.before.diet | Verrucomicrobia        | \-5.40355 |
+| SB43.before.diet | Verrucomicrobia        | 32.02551  |
+| SB44.before.diet | Verrucomicrobia        | 0.00000   |
+| SB5.before.diet  | Verrucomicrobia        | 0.00000   |
+| SB9.before.diet  | Verrucomicrobia        | 0.00000   |
+| SB11.before.diet | Unclassified\_Bacteria | 0.47645   |
+| SB16.before.diet | Unclassified\_Bacteria | 2.74160   |
+| SB18.before.diet | Unclassified\_Bacteria | 1.39761   |
+| SB28.before.diet | Unclassified\_Bacteria | \-1.31551 |
+| SB29.before.diet | Unclassified\_Bacteria | 36.72367  |
+| SB34.before.diet | Unclassified\_Bacteria | \-1.74310 |
+| SB36.before.diet | Unclassified\_Bacteria | \-0.18150 |
+| SB39.before.diet | Unclassified\_Bacteria | 1.20881   |
+| SB4.before.diet  | Unclassified\_Bacteria | 3.13767   |
+| SB41.before.diet | Unclassified\_Bacteria | 1.01080   |
+| SB43.before.diet | Unclassified\_Bacteria | \-0.46890 |
+| SB44.before.diet | Unclassified\_Bacteria | 0.28933   |
+| SB5.before.diet  | Unclassified\_Bacteria | \-0.46197 |
+| SB9.before.diet  | Unclassified\_Bacteria | 5.13200   |
+
+
+
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.1.1\) <a name="widget.163"></a>[`Widget 163.`](#widget.163) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.4.1.1.5.2.2.2.1.1.1-323386e0fccDynamic.Pivot.Table.html`](./1.4.1.1.5.2.2.2.1.1.1-323386e0fccDynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.1.1\) <a name="widget.164"></a>[`Widget 164.`](#widget.164) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.4.1.1.5.2.2.2.1.1.1-3234b7699ccDynamic.Pivot.Table.html`](./1.4.1.1.5.2.2.2.1.1.1-3234b7699ccDynamic.Pivot.Table.html)
+
+
+\(1.4.1.1.5.2.2.2.1.1.1\) <a name="table.149"></a>[`Table 149.`](#table.149) Summary table. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.1.5.2.2.2.1.1.1-3237fb301a1.1.4.1.1.5.2.2.2.1.1.csv`](data/1.4.1.1.5.2.2.2.1.1.1-3237fb301a1.1.4.1.1.5.2.2.2.1.1.csv)
+
+
+
+
+| feature                | mean     | sd     | median    | incidence |
+|:-----------------------|:---------|:-------|:----------|:----------|
+| Unclassified\_Bacteria | 3.4248   | 9.759  | 0.74363   | 0.6429    |
+| Firmicutes             | \-0.5157 | 1.895  | \-0.55144 | 0.4286    |
+| Bacteroidetes          | 0.4149   | 2.588  | \-0.01833 | 0.5000    |
+| Proteobacteria         | 2.6952   | 9.340  | \-0.48068 | 0.4286    |
+| Verrucomicrobia        | 5.2037   | 13.929 | 0.00000   | 0.2143    |
+
+
+
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.1.1\) <a name="figure.610"></a>[`Figure 610.`](#figure.610) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/3235a0f84c.svg`](plots/3235a0f84c.svg).
+![](plots/3235a0f84c.svg)
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.1.1\) <a name="figure.611"></a>[`Figure 611.`](#figure.611) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3237cf779bf.svg`](plots/3237cf779bf.svg).
+![](plots/3237cf779bf.svg)
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.1.1\) <a name="figure.612"></a>[`Figure 612.`](#figure.612) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32369e513b2.svg`](plots/32369e513b2.svg).
+![](plots/32369e513b2.svg)
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.1.1\) <a name="figure.613"></a>[`Figure 613.`](#figure.613) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/32372c95cbb.svg`](plots/32372c95cbb.svg).
+![](plots/32372c95cbb.svg)
+
+
+##### \(1.4.1.1.5.2.2.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.2.1\) <a name="figure.614"></a>[`Figure 614.`](#figure.614) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3238191500.svg`](plots/3238191500.svg).
+![](plots/3238191500.svg)
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.2.1\) <a name="figure.615"></a>[`Figure 615.`](#figure.615) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3236bbe4b53.svg`](plots/3236bbe4b53.svg).
+![](plots/3236bbe4b53.svg)
+
+
+
+
+\(1.4.1.1.5.2.2.2.1.2.1\) <a name="figure.616"></a>[`Figure 616.`](#figure.616) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237f54555c.svg`](plots/3237f54555c.svg).
+![](plots/3237f54555c.svg)
+
+
+##### \(1.4.1.1.5.2.3\) Grouping variables Drug.Before.Diet
+
+
+
+
+##### \(1.4.1.1.5.2.4\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order
+
+
+
+
+##### \(1.4.1.1.5.2.4.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.4.1.1.5.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.1.5.2.4.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.1.5.2.4.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.1.5.2.4.2.1.1.0\) <a name="table.150"></a>[`Table 150.`](#table.150) Data table used for plots. Data grouped by Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.1.5.2.4.2.1.1.0-323499e4828.1.4.1.1.5.2.4.2.1.1.csv`](data/1.4.1.1.5.2.4.2.1.1.0-323499e4828.1.4.1.1.5.2.4.2.1.1.csv)
+
+
+
+
+| .record.id       | Drug.Before.Diet | feature                | l2fc      |
+|:-----------------|:-----------------|:-----------------------|:----------|
+| SB11.before.diet | DrugBefore\_NO   | Bacteroidetes          | 0.25574   |
+| SB16.before.diet | DrugBefore\_YES  | Bacteroidetes          | \-0.07063 |
+| SB18.before.diet | DrugBefore\_NO   | Bacteroidetes          | 1.83826   |
+| SB28.before.diet | DrugBefore\_YES  | Bacteroidetes          | \-0.07345 |
+| SB29.before.diet | DrugBefore\_YES  | Bacteroidetes          | 1.54675   |
+| SB34.before.diet | DrugBefore\_YES  | Bacteroidetes          | \-0.08302 |
+| SB36.before.diet | DrugBefore\_YES  | Bacteroidetes          | 0.09319   |
+| SB39.before.diet | DrugBefore\_YES  | Bacteroidetes          | \-0.40702 |
+| SB4.before.diet  | DrugBefore\_YES  | Bacteroidetes          | \-0.06401 |
+| SB41.before.diet | DrugBefore\_YES  | Bacteroidetes          | 0.02735   |
+| SB43.before.diet | DrugBefore\_YES  | Bacteroidetes          | 1.40287   |
+| SB44.before.diet | DrugBefore\_YES  | Bacteroidetes          | 7.78425   |
+| SB5.before.diet  | DrugBefore\_NO   | Bacteroidetes          | \-2.97410 |
+| SB9.before.diet  | DrugBefore\_NO   | Bacteroidetes          | \-3.46795 |
+| SB11.before.diet | DrugBefore\_NO   | Firmicutes             | \-0.78315 |
+| SB16.before.diet | DrugBefore\_YES  | Firmicutes             | 0.95245   |
+| SB18.before.diet | DrugBefore\_NO   | Firmicutes             | \-2.72489 |
+| SB28.before.diet | DrugBefore\_YES  | Firmicutes             | \-1.87302 |
+| SB29.before.diet | DrugBefore\_YES  | Firmicutes             | \-2.87600 |
+| SB34.before.diet | DrugBefore\_YES  | Firmicutes             | 0.57021   |
+| SB36.before.diet | DrugBefore\_YES  | Firmicutes             | \-1.13446 |
+| SB39.before.diet | DrugBefore\_YES  | Firmicutes             | 0.14854   |
+| SB4.before.diet  | DrugBefore\_YES  | Firmicutes             | 2.07429   |
+| SB41.before.diet | DrugBefore\_YES  | Firmicutes             | \-0.31972 |
+| SB43.before.diet | DrugBefore\_YES  | Firmicutes             | \-3.01945 |
+| SB44.before.diet | DrugBefore\_YES  | Firmicutes             | \-2.40358 |
+| SB5.before.diet  | DrugBefore\_NO   | Firmicutes             | 2.25699   |
+| SB9.before.diet  | DrugBefore\_NO   | Firmicutes             | 1.91137   |
+| SB11.before.diet | DrugBefore\_NO   | Proteobacteria         | \-2.09900 |
+| SB16.before.diet | DrugBefore\_YES  | Proteobacteria         | \-1.32810 |
+| SB18.before.diet | DrugBefore\_NO   | Proteobacteria         | \-2.65876 |
+| SB28.before.diet | DrugBefore\_YES  | Proteobacteria         | 3.54524   |
+| SB29.before.diet | DrugBefore\_YES  | Proteobacteria         | 33.91631  |
+| SB34.before.diet | DrugBefore\_YES  | Proteobacteria         | \-0.34323 |
+| SB36.before.diet | DrugBefore\_YES  | Proteobacteria         | 0.65513   |
+| SB39.before.diet | DrugBefore\_YES  | Proteobacteria         | \-0.83337 |
+| SB4.before.diet  | DrugBefore\_YES  | Proteobacteria         | 3.03813   |
+| SB41.before.diet | DrugBefore\_YES  | Proteobacteria         | \-1.42379 |
+| SB43.before.diet | DrugBefore\_YES  | Proteobacteria         | 2.25319   |
+| SB44.before.diet | DrugBefore\_YES  | Proteobacteria         | \-2.37795 |
+| SB5.before.diet  | DrugBefore\_NO   | Proteobacteria         | 6.00773   |
+| SB9.before.diet  | DrugBefore\_NO   | Proteobacteria         | \-0.61814 |
+| SB11.before.diet | DrugBefore\_NO   | Verrucomicrobia        | 3.39378   |
+| SB16.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 0.00000   |
+| SB18.before.diet | DrugBefore\_NO   | Verrucomicrobia        | 0.00000   |
+| SB28.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 0.00000   |
+| SB29.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 0.00000   |
+| SB34.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 0.00000   |
+| SB36.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 0.00000   |
+| SB39.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 42.83593  |
+| SB4.before.diet  | DrugBefore\_YES  | Verrucomicrobia        | 0.00000   |
+| SB41.before.diet | DrugBefore\_YES  | Verrucomicrobia        | \-5.40355 |
+| SB43.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 32.02551  |
+| SB44.before.diet | DrugBefore\_YES  | Verrucomicrobia        | 0.00000   |
+| SB5.before.diet  | DrugBefore\_NO   | Verrucomicrobia        | 0.00000   |
+| SB9.before.diet  | DrugBefore\_NO   | Verrucomicrobia        | 0.00000   |
+| SB11.before.diet | DrugBefore\_NO   | Unclassified\_Bacteria | 0.47645   |
+| SB16.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | 2.74160   |
+| SB18.before.diet | DrugBefore\_NO   | Unclassified\_Bacteria | 1.39761   |
+| SB28.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | \-1.31551 |
+| SB29.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | 36.72367  |
+| SB34.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | \-1.74310 |
+| SB36.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | \-0.18150 |
+| SB39.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | 1.20881   |
+| SB4.before.diet  | DrugBefore\_YES  | Unclassified\_Bacteria | 3.13767   |
+| SB41.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | 1.01080   |
+| SB43.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | \-0.46890 |
+| SB44.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria | 0.28933   |
+| SB5.before.diet  | DrugBefore\_NO   | Unclassified\_Bacteria | \-0.46197 |
+| SB9.before.diet  | DrugBefore\_NO   | Unclassified\_Bacteria | 5.13200   |
+
+
+
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.1.1\) <a name="widget.165"></a>[`Widget 165.`](#widget.165) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.1.5.2.4.2.1.1.1-3234cbf8f70Dynamic.Pivot.Table.html`](./1.4.1.1.5.2.4.2.1.1.1-3234cbf8f70Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.1.1\) <a name="widget.166"></a>[`Widget 166.`](#widget.166) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.1.5.2.4.2.1.1.1-32363812275Dynamic.Pivot.Table.html`](./1.4.1.1.5.2.4.2.1.1.1-32363812275Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.1.5.2.4.2.1.1.1\) <a name="table.151"></a>[`Table 151.`](#table.151) Summary table. Data grouped by Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.1.5.2.4.2.1.1.1-32362d6f960.1.4.1.1.5.2.4.2.1.1.csv`](data/1.4.1.1.5.2.4.2.1.1.1-32362d6f960.1.4.1.1.5.2.4.2.1.1.csv)
+
+
+
+
+| feature                | Drug.Before.Diet | mean     | sd     | median    | incidence |
+|:-----------------------|:-----------------|:---------|:-------|:----------|:----------|
+| Unclassified\_Bacteria | DrugBefore\_NO   | 1.6360   | 2.451  | 0.93703   | 0.75      |
+| Unclassified\_Bacteria | DrugBefore\_YES  | 4.1403   | 11.557 | 0.65007   | 0.60      |
+| Firmicutes             | DrugBefore\_NO   | 0.1651   | 2.358  | 0.56411   | 0.50      |
+| Firmicutes             | DrugBefore\_YES  | \-0.7881 | 1.745  | \-0.72709 | 0.40      |
+| Bacteroidetes          | DrugBefore\_NO   | \-1.0870 | 2.555  | \-1.35918 | 0.50      |
+| Bacteroidetes          | DrugBefore\_YES  | 1.0156   | 2.468  | \-0.01833 | 0.50      |
+| Proteobacteria         | DrugBefore\_NO   | 0.1580   | 3.994  | \-1.35857 | 0.25      |
+| Proteobacteria         | DrugBefore\_YES  | 3.7102   | 10.802 | 0.15595   | 0.50      |
+| Verrucomicrobia        | DrugBefore\_NO   | 0.8484   | 1.697  | 0.00000   | 0.25      |
+| Verrucomicrobia        | DrugBefore\_YES  | 6.9458   | 16.355 | 0.00000   | 0.20      |
+
+
+
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.1.1\) <a name="figure.617"></a>[`Figure 617.`](#figure.617) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/323721580aa.svg`](plots/323721580aa.svg).
+![](plots/323721580aa.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.1.1\) <a name="figure.618"></a>[`Figure 618.`](#figure.618) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3231c879cc.svg`](plots/3231c879cc.svg).
+![](plots/3231c879cc.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.1.1\) <a name="figure.619"></a>[`Figure 619.`](#figure.619) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32358f7e830.svg`](plots/32358f7e830.svg).
+![](plots/32358f7e830.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.1.1\) <a name="figure.620"></a>[`Figure 620.`](#figure.620) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/32351e78694.svg`](plots/32351e78694.svg).
+![](plots/32351e78694.svg)
+
+
+##### \(1.4.1.1.5.2.4.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.2.1\) <a name="figure.621"></a>[`Figure 621.`](#figure.621) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/32337bbac09.svg`](plots/32337bbac09.svg).
+![](plots/32337bbac09.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.2.1\) <a name="figure.622"></a>[`Figure 622.`](#figure.622) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3231331abab.svg`](plots/3231331abab.svg).
+![](plots/3231331abab.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.1.2.1\) <a name="figure.623"></a>[`Figure 623.`](#figure.623) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323357d1e56.svg`](plots/323357d1e56.svg).
+![](plots/323357d1e56.svg)
+
+
+##### \(1.4.1.1.5.2.4.2.2\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.1.5.2.4.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.1.5.2.4.2.2.1.1\) <a name="figure.624"></a>[`Figure 624.`](#figure.624) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/32316446a0d.svg`](plots/32316446a0d.svg).
+![](plots/32316446a0d.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.2.1.1\) <a name="figure.625"></a>[`Figure 625.`](#figure.625) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3235319e9a.svg`](plots/3235319e9a.svg).
+![](plots/3235319e9a.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.2.1.1\) <a name="figure.626"></a>[`Figure 626.`](#figure.626) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3236405daff.svg`](plots/3236405daff.svg).
+![](plots/3236405daff.svg)
+
+
+##### \(1.4.1.1.5.2.4.2.2.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.1.5.2.4.2.2.2.1\) <a name="figure.627"></a>[`Figure 627.`](#figure.627) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/323429b1dd4.svg`](plots/323429b1dd4.svg).
+![](plots/323429b1dd4.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.2.2.1\) <a name="figure.628"></a>[`Figure 628.`](#figure.628) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/323513f2f1e.svg`](plots/323513f2f1e.svg).
+![](plots/323513f2f1e.svg)
+
+
+
+
+\(1.4.1.1.5.2.4.2.2.2.1\) <a name="figure.629"></a>[`Figure 629.`](#figure.629) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3234c45078.svg`](plots/3234c45078.svg).
+![](plots/3234c45078.svg)

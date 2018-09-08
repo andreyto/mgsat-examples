@@ -1,0 +1,1999 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/base.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/skeleton.css" />
+<style>
+.container { width: 100%; }
+.container .twelve.columns {   width: 80%; }
+.container .three.columns {   width: 20%; }
+</style>
+
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/layout.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/slimbox2.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/custom.css" />
+<link rel="stylesheet" href="https://cdn.rapporter.net/pander/stylesheets/caption.css"/>
+
+<link rel="shortcut icon" href="https://cdn.rapporter.net/pander/images/favicon.gif" />
+<link rel="apple-touch-icon" href="https://cdn.rapporter.net/pander/images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn.rapporter.net/pander/images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn.rapporter.net/pander/images/apple-touch-icon-114x114.png" />
+
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/custom.js"></script>
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/slimbox2.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script type="text/javascript" src="https://cdn.rapporter.net/mathjax/2.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/javascript" src="https://cdn.rapporter.net/pander/javascripts/jcaption.min.js" /></script>
+</head>
+<body>
+<p>noone@mail.com Analysis of Dieting study 16S data % Fri Sep 7 05:46:18 2018</p>
+<h5 id="plots-of-abundance-based-evenness-indices-hill-numbers-observed-species-with-rarefication.">(1.6.1.4.2.1.3) Plots of Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication.</h5>
+<p>Plots are shown with relation to various combinations of meta data variables and in different graphical representations. Lots of plots here.</p>
+<h5 id="iterating-over-all-combinations-of-grouping-variables">(1.6.1.4.2.1.3.2) Iterating over all combinations of grouping variables</h5>
+<h5 id="grouping-variables-visitdrug.before.diet">(1.6.1.4.2.1.3.2.1) Grouping variables visit,Drug.Before.Diet</h5>
+<h5 id="iterating-over-abundance-based-evenness-indices-hill-numbers-observed-species-with-rarefication.-profile-sorting-order">(1.6.1.4.2.1.3.2.2) Iterating over Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order</h5>
+<h5 id="abundance-based-evenness-indices-hill-numbers-observed-species-with-rarefication.-profile-sorting-order-original">(1.6.1.4.2.1.3.2.2.1) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order: original</h5>
+<h5 id="iterating-over-dodged-vs-faceted-bars">(1.6.1.4.2.1.3.2.2.2) Iterating over dodged vs faceted bars</h5>
+<p>The same data are shown in multiple combinations of graphical representations. This is the same data, but each plot highlights slightly different aspects of it. It is not likely that you will need every plot - pick only what you need.</p>
+<h5 id="dodged-plots.-iterating-over-orientation-and-optionally-scaling">(1.6.1.4.2.1.3.2.2.2.1) dodged plots. Iterating over orientation and, optionally, scaling</h5>
+<h5 id="abundance-based-evenness-indices-hill-numbers-observed-species-with-rarefication.-plot-is-in-original-orientation-y-axis-sqrt-scaled.-iterating-over-plot-geometry">(1.6.1.4.2.1.3.2.2.2.1.1) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry</h5>
+<p>(1.6.1.4.2.1.3.2.2.2.1.1.0) <a name="table.409"></a><a href="#table.409"><code>Table 409.</code></a> Data table used for plots. Data grouped by visit,Drug.Before.Diet. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) <a href="data/1.6.1.4.2.1.3.2.2.2.1.1.0-32348124173.1.6.1.4.2.1.3.2.2.2.csv"><code>data/1.6.1.4.2.1.3.2.2.2.1.1.0-32348124173.1.6.1.4.2.1.3.2.2.2.csv</code></a></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">.record.id</th>
+<th align="left">visit</th>
+<th align="left">Drug.Before.Diet</th>
+<th align="left">feature</th>
+<th align="left">index</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">SM1</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67526</td>
+</tr>
+<tr class="even">
+<td align="left">SM10</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.72972</td>
+</tr>
+<tr class="odd">
+<td align="left">SM100</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.64723</td>
+</tr>
+<tr class="even">
+<td align="left">SM11</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66960</td>
+</tr>
+<tr class="odd">
+<td align="left">SM12</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66933</td>
+</tr>
+<tr class="even">
+<td align="left">SM13</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66540</td>
+</tr>
+<tr class="odd">
+<td align="left">SM14</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.65872</td>
+</tr>
+<tr class="even">
+<td align="left">SM16</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67224</td>
+</tr>
+<tr class="odd">
+<td align="left">SM17</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.64250</td>
+</tr>
+<tr class="even">
+<td align="left">SM18</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.60166</td>
+</tr>
+<tr class="odd">
+<td align="left">SM19</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.70131</td>
+</tr>
+<tr class="even">
+<td align="left">SM2</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.59333</td>
+</tr>
+<tr class="odd">
+<td align="left">SM21</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.74374</td>
+</tr>
+<tr class="even">
+<td align="left">SM22</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.72976</td>
+</tr>
+<tr class="odd">
+<td align="left">SM23</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.45368</td>
+</tr>
+<tr class="even">
+<td align="left">SM24</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.63624</td>
+</tr>
+<tr class="odd">
+<td align="left">SM25</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67872</td>
+</tr>
+<tr class="even">
+<td align="left">SM29</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.56135</td>
+</tr>
+<tr class="odd">
+<td align="left">SM3</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.71893</td>
+</tr>
+<tr class="even">
+<td align="left">SM30</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67804</td>
+</tr>
+<tr class="odd">
+<td align="left">SM33</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.55024</td>
+</tr>
+<tr class="even">
+<td align="left">SM36</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.64110</td>
+</tr>
+<tr class="odd">
+<td align="left">SM38</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.62327</td>
+</tr>
+<tr class="even">
+<td align="left">SM39</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.68729</td>
+</tr>
+<tr class="odd">
+<td align="left">SM40</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.68560</td>
+</tr>
+<tr class="even">
+<td align="left">SM41</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.71260</td>
+</tr>
+<tr class="odd">
+<td align="left">SM42</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67462</td>
+</tr>
+<tr class="even">
+<td align="left">SM43</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.71118</td>
+</tr>
+<tr class="odd">
+<td align="left">SM45</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.59157</td>
+</tr>
+<tr class="even">
+<td align="left">SM49</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.62103</td>
+</tr>
+<tr class="odd">
+<td align="left">SM5</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66824</td>
+</tr>
+<tr class="even">
+<td align="left">SM50</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67901</td>
+</tr>
+<tr class="odd">
+<td align="left">SM51</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.64345</td>
+</tr>
+<tr class="even">
+<td align="left">SM52</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.68090</td>
+</tr>
+<tr class="odd">
+<td align="left">SM53</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66334</td>
+</tr>
+<tr class="even">
+<td align="left">SM54</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.63813</td>
+</tr>
+<tr class="odd">
+<td align="left">SM56</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.58510</td>
+</tr>
+<tr class="even">
+<td align="left">SM57</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.58224</td>
+</tr>
+<tr class="odd">
+<td align="left">SM58</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.58458</td>
+</tr>
+<tr class="even">
+<td align="left">SM59</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.71889</td>
+</tr>
+<tr class="odd">
+<td align="left">SM60</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.61888</td>
+</tr>
+<tr class="even">
+<td align="left">SM62</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.59301</td>
+</tr>
+<tr class="odd">
+<td align="left">SM64</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.61768</td>
+</tr>
+<tr class="even">
+<td align="left">SM65</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.71159</td>
+</tr>
+<tr class="odd">
+<td align="left">SM67</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.63449</td>
+</tr>
+<tr class="even">
+<td align="left">SM68</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.63677</td>
+</tr>
+<tr class="odd">
+<td align="left">SM69</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.69292</td>
+</tr>
+<tr class="even">
+<td align="left">SM71</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.68032</td>
+</tr>
+<tr class="odd">
+<td align="left">SM73</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.62551</td>
+</tr>
+<tr class="even">
+<td align="left">SM75</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66738</td>
+</tr>
+<tr class="odd">
+<td align="left">SM77</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.70225</td>
+</tr>
+<tr class="even">
+<td align="left">SM79</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.65335</td>
+</tr>
+<tr class="odd">
+<td align="left">SM8</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66020</td>
+</tr>
+<tr class="even">
+<td align="left">SM82</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.61575</td>
+</tr>
+<tr class="odd">
+<td align="left">SM83</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.61383</td>
+</tr>
+<tr class="even">
+<td align="left">SM84</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.73627</td>
+</tr>
+<tr class="odd">
+<td align="left">SM86</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.68579</td>
+</tr>
+<tr class="even">
+<td align="left">SM87</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.68922</td>
+</tr>
+<tr class="odd">
+<td align="left">SM88</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.65711</td>
+</tr>
+<tr class="even">
+<td align="left">SM9</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67919</td>
+</tr>
+<tr class="odd">
+<td align="left">SM90</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.73510</td>
+</tr>
+<tr class="even">
+<td align="left">SM91</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.71504</td>
+</tr>
+<tr class="odd">
+<td align="left">SM92</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.56874</td>
+</tr>
+<tr class="even">
+<td align="left">SM93</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.66528</td>
+</tr>
+<tr class="odd">
+<td align="left">SM96</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.63853</td>
+</tr>
+<tr class="even">
+<td align="left">SM98</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.64107</td>
+</tr>
+<tr class="odd">
+<td align="left">SM99</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.25</td>
+<td align="left">0.67427</td>
+</tr>
+<tr class="even">
+<td align="left">SM1</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.43573</td>
+</tr>
+<tr class="odd">
+<td align="left">SM10</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.52159</td>
+</tr>
+<tr class="even">
+<td align="left">SM100</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.38427</td>
+</tr>
+<tr class="odd">
+<td align="left">SM11</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.43399</td>
+</tr>
+<tr class="even">
+<td align="left">SM12</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.42951</td>
+</tr>
+<tr class="odd">
+<td align="left">SM13</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.41907</td>
+</tr>
+<tr class="even">
+<td align="left">SM14</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.39163</td>
+</tr>
+<tr class="odd">
+<td align="left">SM16</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.43250</td>
+</tr>
+<tr class="even">
+<td align="left">SM17</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.38821</td>
+</tr>
+<tr class="odd">
+<td align="left">SM18</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.33175</td>
+</tr>
+<tr class="even">
+<td align="left">SM19</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.46891</td>
+</tr>
+<tr class="odd">
+<td align="left">SM2</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.32183</td>
+</tr>
+<tr class="even">
+<td align="left">SM21</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.53605</td>
+</tr>
+<tr class="odd">
+<td align="left">SM22</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.51269</td>
+</tr>
+<tr class="even">
+<td align="left">SM23</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.21208</td>
+</tr>
+<tr class="odd">
+<td align="left">SM24</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.36118</td>
+</tr>
+<tr class="even">
+<td align="left">SM25</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.43436</td>
+</tr>
+<tr class="odd">
+<td align="left">SM29</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.28726</td>
+</tr>
+<tr class="even">
+<td align="left">SM3</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.50297</td>
+</tr>
+<tr class="odd">
+<td align="left">SM30</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.44568</td>
+</tr>
+<tr class="even">
+<td align="left">SM33</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.30197</td>
+</tr>
+<tr class="odd">
+<td align="left">SM36</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.40576</td>
+</tr>
+<tr class="even">
+<td align="left">SM38</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.39034</td>
+</tr>
+<tr class="odd">
+<td align="left">SM39</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.46118</td>
+</tr>
+<tr class="even">
+<td align="left">SM40</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.46377</td>
+</tr>
+<tr class="odd">
+<td align="left">SM41</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.48885</td>
+</tr>
+<tr class="even">
+<td align="left">SM42</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.42943</td>
+</tr>
+<tr class="odd">
+<td align="left">SM43</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.48473</td>
+</tr>
+<tr class="even">
+<td align="left">SM45</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.47818</td>
+</tr>
+<tr class="odd">
+<td align="left">SM49</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.37047</td>
+</tr>
+<tr class="even">
+<td align="left">SM5</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.42704</td>
+</tr>
+<tr class="odd">
+<td align="left">SM50</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.47417</td>
+</tr>
+<tr class="even">
+<td align="left">SM51</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.40569</td>
+</tr>
+<tr class="odd">
+<td align="left">SM52</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.44237</td>
+</tr>
+<tr class="even">
+<td align="left">SM53</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.42528</td>
+</tr>
+<tr class="odd">
+<td align="left">SM54</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.37798</td>
+</tr>
+<tr class="even">
+<td align="left">SM56</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.30499</td>
+</tr>
+<tr class="odd">
+<td align="left">SM57</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.30973</td>
+</tr>
+<tr class="even">
+<td align="left">SM58</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.32265</td>
+</tr>
+<tr class="odd">
+<td align="left">SM59</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.49866</td>
+</tr>
+<tr class="even">
+<td align="left">SM60</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.36899</td>
+</tr>
+<tr class="odd">
+<td align="left">SM62</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.35363</td>
+</tr>
+<tr class="even">
+<td align="left">SM64</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.35737</td>
+</tr>
+<tr class="odd">
+<td align="left">SM65</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.50646</td>
+</tr>
+<tr class="even">
+<td align="left">SM67</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.39446</td>
+</tr>
+<tr class="odd">
+<td align="left">SM68</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.38594</td>
+</tr>
+<tr class="even">
+<td align="left">SM69</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.48257</td>
+</tr>
+<tr class="odd">
+<td align="left">SM71</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.45131</td>
+</tr>
+<tr class="even">
+<td align="left">SM73</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.38374</td>
+</tr>
+<tr class="odd">
+<td align="left">SM75</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.43802</td>
+</tr>
+<tr class="even">
+<td align="left">SM77</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.47444</td>
+</tr>
+<tr class="odd">
+<td align="left">SM79</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.40047</td>
+</tr>
+<tr class="even">
+<td align="left">SM8</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.42711</td>
+</tr>
+<tr class="odd">
+<td align="left">SM82</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.36461</td>
+</tr>
+<tr class="even">
+<td align="left">SM83</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.35494</td>
+</tr>
+<tr class="odd">
+<td align="left">SM84</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.54027</td>
+</tr>
+<tr class="even">
+<td align="left">SM86</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.44796</td>
+</tr>
+<tr class="odd">
+<td align="left">SM87</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.47508</td>
+</tr>
+<tr class="even">
+<td align="left">SM88</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.41097</td>
+</tr>
+<tr class="odd">
+<td align="left">SM9</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.46323</td>
+</tr>
+<tr class="even">
+<td align="left">SM90</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.52887</td>
+</tr>
+<tr class="odd">
+<td align="left">SM91</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.49614</td>
+</tr>
+<tr class="even">
+<td align="left">SM92</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.31138</td>
+</tr>
+<tr class="odd">
+<td align="left">SM93</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.41870</td>
+</tr>
+<tr class="even">
+<td align="left">SM96</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.36935</td>
+</tr>
+<tr class="odd">
+<td align="left">SM98</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.40046</td>
+</tr>
+<tr class="even">
+<td align="left">SM99</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_0.5</td>
+<td align="left">0.42573</td>
+</tr>
+<tr class="odd">
+<td align="left">SM1</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.19181</td>
+</tr>
+<tr class="even">
+<td align="left">SM10</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.28245</td>
+</tr>
+<tr class="odd">
+<td align="left">SM100</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.12518</td>
+</tr>
+<tr class="even">
+<td align="left">SM11</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.19720</td>
+</tr>
+<tr class="odd">
+<td align="left">SM12</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.18571</td>
+</tr>
+<tr class="even">
+<td align="left">SM13</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.16631</td>
+</tr>
+<tr class="odd">
+<td align="left">SM14</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.11945</td>
+</tr>
+<tr class="even">
+<td align="left">SM16</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.18251</td>
+</tr>
+<tr class="odd">
+<td align="left">SM17</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.15064</td>
+</tr>
+<tr class="even">
+<td align="left">SM18</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.11276</td>
+</tr>
+<tr class="odd">
+<td align="left">SM19</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.19845</td>
+</tr>
+<tr class="even">
+<td align="left">SM2</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.10674</td>
+</tr>
+<tr class="odd">
+<td align="left">SM21</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.27934</td>
+</tr>
+<tr class="even">
+<td align="left">SM22</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.24621</td>
+</tr>
+<tr class="odd">
+<td align="left">SM23</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.09493</td>
+</tr>
+<tr class="even">
+<td align="left">SM24</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.09866</td>
+</tr>
+<tr class="odd">
+<td align="left">SM25</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.17163</td>
+</tr>
+<tr class="even">
+<td align="left">SM29</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.08953</td>
+</tr>
+<tr class="odd">
+<td align="left">SM3</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.25725</td>
+</tr>
+<tr class="even">
+<td align="left">SM30</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.21067</td>
+</tr>
+<tr class="odd">
+<td align="left">SM33</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.13151</td>
+</tr>
+<tr class="even">
+<td align="left">SM36</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.19084</td>
+</tr>
+<tr class="odd">
+<td align="left">SM38</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.19393</td>
+</tr>
+<tr class="even">
+<td align="left">SM39</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.22718</td>
+</tr>
+<tr class="odd">
+<td align="left">SM40</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.23929</td>
+</tr>
+<tr class="even">
+<td align="left">SM41</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.22720</td>
+</tr>
+<tr class="odd">
+<td align="left">SM42</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.17412</td>
+</tr>
+<tr class="even">
+<td align="left">SM43</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.22028</td>
+</tr>
+<tr class="odd">
+<td align="left">SM45</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.43648</td>
+</tr>
+<tr class="even">
+<td align="left">SM49</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.16121</td>
+</tr>
+<tr class="odd">
+<td align="left">SM5</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.17959</td>
+</tr>
+<tr class="even">
+<td align="left">SM50</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.27347</td>
+</tr>
+<tr class="odd">
+<td align="left">SM51</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.18388</td>
+</tr>
+<tr class="even">
+<td align="left">SM52</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.19896</td>
+</tr>
+<tr class="odd">
+<td align="left">SM53</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.18736</td>
+</tr>
+<tr class="even">
+<td align="left">SM54</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.13611</td>
+</tr>
+<tr class="odd">
+<td align="left">SM56</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.07940</td>
+</tr>
+<tr class="even">
+<td align="left">SM57</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.10440</td>
+</tr>
+<tr class="odd">
+<td align="left">SM58</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.11547</td>
+</tr>
+<tr class="even">
+<td align="left">SM59</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.24427</td>
+</tr>
+<tr class="odd">
+<td align="left">SM60</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.15476</td>
+</tr>
+<tr class="even">
+<td align="left">SM62</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.15543</td>
+</tr>
+<tr class="odd">
+<td align="left">SM64</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.13062</td>
+</tr>
+<tr class="even">
+<td align="left">SM65</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.28985</td>
+</tr>
+<tr class="odd">
+<td align="left">SM67</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.18316</td>
+</tr>
+<tr class="even">
+<td align="left">SM68</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.16325</td>
+</tr>
+<tr class="odd">
+<td align="left">SM69</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.26859</td>
+</tr>
+<tr class="even">
+<td align="left">SM71</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.20848</td>
+</tr>
+<tr class="odd">
+<td align="left">SM73</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.17377</td>
+</tr>
+<tr class="even">
+<td align="left">SM75</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.20920</td>
+</tr>
+<tr class="odd">
+<td align="left">SM77</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.21905</td>
+</tr>
+<tr class="even">
+<td align="left">SM79</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.15537</td>
+</tr>
+<tr class="odd">
+<td align="left">SM8</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.19749</td>
+</tr>
+<tr class="even">
+<td align="left">SM82</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.14644</td>
+</tr>
+<tr class="odd">
+<td align="left">SM83</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.14029</td>
+</tr>
+<tr class="even">
+<td align="left">SM84</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.30977</td>
+</tr>
+<tr class="odd">
+<td align="left">SM86</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.18773</td>
+</tr>
+<tr class="even">
+<td align="left">SM87</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.25534</td>
+</tr>
+<tr class="odd">
+<td align="left">SM88</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.17487</td>
+</tr>
+<tr class="even">
+<td align="left">SM9</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.24883</td>
+</tr>
+<tr class="odd">
+<td align="left">SM90</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.28365</td>
+</tr>
+<tr class="even">
+<td align="left">SM91</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.25008</td>
+</tr>
+<tr class="odd">
+<td align="left">SM92</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.12034</td>
+</tr>
+<tr class="even">
+<td align="left">SM93</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">NE_1</td>
+<td align="left">0.16523</td>
+</tr>
+<tr class="odd">
+<td align="left">SM96</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.11011</td>
+</tr>
+<tr class="even">
+<td align="left">SM98</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">NE_1</td>
+<td align="left">0.18422</td>
+</tr>
+</tbody>
+</table>
+<p>(1.6.1.4.2.1.3.2.2.2.1.1.1) <a name="widget.424"></a><a href="#widget.424"><code>Widget 424.</code></a> Dynamic Pivot Table link (drag and drop field names and pick averaging functions or plot types; click on fields or legend elements to filter values). Starting rendering is Stacked Bar Chart. Data grouped by visit,Drug.Before.Diet. Click to see HTML widget file in full window: <a href="./1.6.1.4.2.1.3.2.2.2.1.1.1-32339480fb2Dynamic.Pivot.Table.html"><code>./1.6.1.4.2.1.3.2.2.2.1.1.1-32339480fb2Dynamic.Pivot.Table.html</code></a></p>
+<p>(1.6.1.4.2.1.3.2.2.2.1.1.1) <a name="widget.425"></a><a href="#widget.425"><code>Widget 425.</code></a> Dynamic Pivot Table link (drag and drop field names and pick averaging functions or plot types; click on fields or legend elements to filter values). Starting rendering is Table Barchart. Data grouped by visit,Drug.Before.Diet. Click to see HTML widget file in full window: <a href="./1.6.1.4.2.1.3.2.2.2.1.1.1-3234a17c6feDynamic.Pivot.Table.html"><code>./1.6.1.4.2.1.3.2.2.2.1.1.1-3234a17c6feDynamic.Pivot.Table.html</code></a></p>
+<p>(1.6.1.4.2.1.3.2.2.2.1.1.1) <a name="table.410"></a><a href="#table.410"><code>Table 410.</code></a> Summary table. Data grouped by visit,Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) <a href="data/1.6.1.4.2.1.3.2.2.2.1.1.1-3235f92b0d6.1.6.1.4.2.1.3.2.2.2.csv"><code>data/1.6.1.4.2.1.3.2.2.2.1.1.1-3235f92b0d6.1.6.1.4.2.1.3.2.2.2.csv</code></a></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">feature</th>
+<th align="left">visit</th>
+<th align="left">Drug.Before.Diet</th>
+<th align="left">mean</th>
+<th align="left">sd</th>
+<th align="left">median</th>
+<th align="left">incidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">NE_0.25</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.65898</td>
+<td align="left">0.040655</td>
+<td align="left">0.65946</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.25</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.65235</td>
+<td align="left">0.058044</td>
+<td align="left">0.66528</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_0.25</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.64954</td>
+<td align="left">0.058832</td>
+<td align="left">0.65335</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.25</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.63768</td>
+<td align="left">0.076280</td>
+<td align="left">0.66022</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_0.25</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.65823</td>
+<td align="left">0.050506</td>
+<td align="left">0.67083</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.25</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.66541</td>
+<td align="left">0.056947</td>
+<td align="left">0.67428</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_0.25</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.66484</td>
+<td align="left">0.020615</td>
+<td align="left">0.67343</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.25</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.66044</td>
+<td align="left">0.034334</td>
+<td align="left">0.64723</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_0.5</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.41135</td>
+<td align="left">0.060322</td>
+<td align="left">0.40535</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.5</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.41383</td>
+<td align="left">0.075755</td>
+<td align="left">0.41870</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_0.5</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.42772</td>
+<td align="left">0.078237</td>
+<td align="left">0.46323</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.5</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.39604</td>
+<td align="left">0.085927</td>
+<td align="left">0.41812</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_0.5</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.42474</td>
+<td align="left">0.065613</td>
+<td align="left">0.43188</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.5</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.42960</td>
+<td align="left">0.080953</td>
+<td align="left">0.43918</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_0.5</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.42529</td>
+<td align="left">0.026690</td>
+<td align="left">0.43096</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_0.5</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.42314</td>
+<td align="left">0.048124</td>
+<td align="left">0.40569</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_1</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.16780</td>
+<td align="left">0.059659</td>
+<td align="left">0.17004</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_1</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.18652</td>
+<td align="left">0.058043</td>
+<td align="left">0.16523</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_1</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.22157</td>
+<td align="left">0.114599</td>
+<td align="left">0.19845</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_1</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.17223</td>
+<td align="left">0.055090</td>
+<td align="left">0.18755</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_1</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.19830</td>
+<td align="left">0.056137</td>
+<td align="left">0.19671</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_1</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.19886</td>
+<td align="left">0.071901</td>
+<td align="left">0.19404</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_1</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.18694</td>
+<td align="left">0.027331</td>
+<td align="left">0.17831</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_1</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.19117</td>
+<td align="left">0.047773</td>
+<td align="left">0.18388</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_2</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.06865</td>
+<td align="left">0.033539</td>
+<td align="left">0.07175</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_2</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.08244</td>
+<td align="left">0.027259</td>
+<td align="left">0.07393</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_2</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.12807</td>
+<td align="left">0.137817</td>
+<td align="left">0.05967</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_2</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.07561</td>
+<td align="left">0.025058</td>
+<td align="left">0.07937</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_2</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.09018</td>
+<td align="left">0.036979</td>
+<td align="left">0.09052</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_2</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.09046</td>
+<td align="left">0.042271</td>
+<td align="left">0.07506</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_2</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.08005</td>
+<td align="left">0.025616</td>
+<td align="left">0.07305</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_2</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.08446</td>
+<td align="left">0.032645</td>
+<td align="left">0.07980</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_4</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.04338</td>
+<td align="left">0.020266</td>
+<td align="left">0.04388</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_4</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.05201</td>
+<td align="left">0.014762</td>
+<td align="left">0.05105</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_4</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.10034</td>
+<td align="left">0.146345</td>
+<td align="left">0.03443</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_4</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.04805</td>
+<td align="left">0.014876</td>
+<td align="left">0.04948</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_4</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.05556</td>
+<td align="left">0.022732</td>
+<td align="left">0.05552</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_4</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.05613</td>
+<td align="left">0.024304</td>
+<td align="left">0.04699</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_4</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.05068</td>
+<td align="left">0.020964</td>
+<td align="left">0.04612</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_4</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.05199</td>
+<td align="left">0.020613</td>
+<td align="left">0.04410</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_8</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.03544</td>
+<td align="left">0.015578</td>
+<td align="left">0.03615</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_8</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.04245</td>
+<td align="left">0.011594</td>
+<td align="left">0.04533</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_8</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.09177</td>
+<td align="left">0.149365</td>
+<td align="left">0.02933</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_8</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.03928</td>
+<td align="left">0.012045</td>
+<td align="left">0.04008</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_8</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.04424</td>
+<td align="left">0.017050</td>
+<td align="left">0.04432</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_8</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.04439</td>
+<td align="left">0.016415</td>
+<td align="left">0.04157</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_8</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.04102</td>
+<td align="left">0.017678</td>
+<td align="left">0.03657</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_8</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.04119</td>
+<td align="left">0.015422</td>
+<td align="left">0.03488</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_Inf</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.02922</td>
+<td align="left">0.011607</td>
+<td align="left">0.03059</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_Inf</td>
+<td align="left">1</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.03536</td>
+<td align="left">0.009439</td>
+<td align="left">0.03873</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_Inf</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.08610</td>
+<td align="left">0.151511</td>
+<td align="left">0.02514</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_Inf</td>
+<td align="left">2</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.03315</td>
+<td align="left">0.010680</td>
+<td align="left">0.03298</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_Inf</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.03644</td>
+<td align="left">0.013418</td>
+<td align="left">0.03482</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_Inf</td>
+<td align="left">3</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.03580</td>
+<td align="left">0.010769</td>
+<td align="left">0.03712</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NE_Inf</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_NO</td>
+<td align="left">0.03362</td>
+<td align="left">0.014021</td>
+<td align="left">0.02978</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">NE_Inf</td>
+<td align="left">4</td>
+<td align="left">DrugBefore_YES</td>
+<td align="left">0.03350</td>
+<td align="left">0.011632</td>
+<td align="left">0.02911</td>
+<td align="left">1</td>
+</tr>
+</tbody>
+</table>
+<p>(1.6.1.4.2.1.3.2.2.2.1.1.1) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by visit,Drug.Before.Diet. line plot.</p>
+<p>(1.6.1.4.2.1.3.2.2.2.1.1.1) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by visit,Drug.Before.Diet. line_obs plot.</p>
+<h5 id="abundance-based-evenness-indices-hill-numbers-observed-species-with-rarefication.-plot-is-in-flipped-orientation-y-axis-not-scaled.-iterating-over-plot-geometry">(1.6.1.4.2.1.3.2.2.2.1.2) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry</h5>
+<p>(1.6.1.4.2.1.3.2.2.2.1.2.1) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by visit,Drug.Before.Diet. line plot.</p>
+<p>(1.6.1.4.2.1.3.2.2.2.1.2.1) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by visit,Drug.Before.Diet. line_obs plot.</p>
+<p align="center">
+  Design: <a href="https://rapporter.net"><i>Rapporter</i> Team</a> © 2011-2014 | Backend: <a href="https://github.com/rapporter/pander">pander</a> | License: <a href="http://www.gnu.org/licenses/agpl.html" target="_blank">AGPL3</a> or <a href="http://opensource.org/licenses/OSL-3.0" target="_blank">OSL</a> | Styled with <a href="http://www.getskeleton.com/" target="_blank">skeleton</a>
+</p>
+</body>
+</html>

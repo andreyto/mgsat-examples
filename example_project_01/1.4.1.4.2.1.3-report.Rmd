@@ -1,0 +1,664 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.4.1.4.2.1.3\) Plots of Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.4.1.4.2.1.3.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.1\) Grouping variables DietStatus
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.2\) Iterating over Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.2.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order: original
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.4.2.1.3.2.2.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.2.2.1.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.1.0\) <a name="table.266"></a>[`Table 266.`](#table.266) Data table used for plots. Data grouped by DietStatus. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.3.2.2.2.1.1.0-3232d97e956.1.4.1.4.2.1.3.2.2.2.csv`](data/1.4.1.4.2.1.3.2.2.2.1.1.0-3232d97e956.1.4.1.4.2.1.3.2.2.2.csv)
+
+
+
+
+| .record.id | DietStatus  | feature  | index   |
+|:-----------|:------------|:---------|:--------|
+| SM1        | before.diet | NE\_0.25 | 0.67522 |
+| SM11       | after.diet  | NE\_0.25 | 0.66911 |
+| SM12       | before.diet | NE\_0.25 | 0.66973 |
+| SM13       | before.diet | NE\_0.25 | 0.66541 |
+| SM14       | before.diet | NE\_0.25 | 0.65878 |
+| SM17       | before.diet | NE\_0.25 | 0.64194 |
+| SM19       | after.diet  | NE\_0.25 | 0.70131 |
+| SM2        | before.diet | NE\_0.25 | 0.59283 |
+| SM23       | after.diet  | NE\_0.25 | 0.45369 |
+| SM3        | after.diet  | NE\_0.25 | 0.71839 |
+| SM33       | before.diet | NE\_0.25 | 0.54958 |
+| SM38       | after.diet  | NE\_0.25 | 0.62352 |
+| SM41       | before.diet | NE\_0.25 | 0.71258 |
+| SM45       | after.diet  | NE\_0.25 | 0.59698 |
+| SM49       | before.diet | NE\_0.25 | 0.62060 |
+| SM52       | before.diet | NE\_0.25 | 0.68077 |
+| SM53       | after.diet  | NE\_0.25 | 0.66261 |
+| SM56       | after.diet  | NE\_0.25 | 0.58500 |
+| SM57       | before.diet | NE\_0.25 | 0.58212 |
+| SM58       | after.diet  | NE\_0.25 | 0.58435 |
+| SM62       | before.diet | NE\_0.25 | 0.59278 |
+| SM64       | after.diet  | NE\_0.25 | 0.61793 |
+| SM77       | after.diet  | NE\_0.25 | 0.70235 |
+| SM79       | after.diet  | NE\_0.25 | 0.65333 |
+| SM8        | before.diet | NE\_0.25 | 0.66004 |
+| SM83       | before.diet | NE\_0.25 | 0.61347 |
+| SM84       | before.diet | NE\_0.25 | 0.73711 |
+| SM86       | after.diet  | NE\_0.25 | 0.68566 |
+| SM87       | before.diet | NE\_0.25 | 0.68905 |
+| SM88       | after.diet  | NE\_0.25 | 0.65779 |
+| SM9        | after.diet  | NE\_0.25 | 0.67952 |
+| SM90       | after.diet  | NE\_0.25 | 0.73489 |
+| SM96       | before.diet | NE\_0.25 | 0.63889 |
+| SM1        | before.diet | NE\_0.5  | 0.43553 |
+| SM11       | after.diet  | NE\_0.5  | 0.43348 |
+| SM12       | before.diet | NE\_0.5  | 0.43013 |
+| SM13       | before.diet | NE\_0.5  | 0.41909 |
+| SM14       | before.diet | NE\_0.5  | 0.39174 |
+| SM17       | before.diet | NE\_0.5  | 0.38749 |
+| SM19       | after.diet  | NE\_0.5  | 0.46891 |
+| SM2        | before.diet | NE\_0.5  | 0.32111 |
+| SM23       | after.diet  | NE\_0.5  | 0.21207 |
+| SM3        | after.diet  | NE\_0.5  | 0.50217 |
+| SM33       | before.diet | NE\_0.5  | 0.30128 |
+| SM38       | after.diet  | NE\_0.5  | 0.39082 |
+| SM41       | before.diet | NE\_0.5  | 0.48875 |
+| SM45       | after.diet  | NE\_0.5  | 0.48486 |
+| SM49       | before.diet | NE\_0.5  | 0.36994 |
+| SM52       | before.diet | NE\_0.5  | 0.44217 |
+| SM53       | after.diet  | NE\_0.5  | 0.42417 |
+| SM56       | after.diet  | NE\_0.5  | 0.30483 |
+| SM57       | before.diet | NE\_0.5  | 0.30963 |
+| SM58       | after.diet  | NE\_0.5  | 0.32232 |
+| SM62       | before.diet | NE\_0.5  | 0.35338 |
+| SM64       | after.diet  | NE\_0.5  | 0.35756 |
+| SM77       | after.diet  | NE\_0.5  | 0.47468 |
+| SM79       | after.diet  | NE\_0.5  | 0.40037 |
+| SM8        | before.diet | NE\_0.5  | 0.42681 |
+| SM83       | before.diet | NE\_0.5  | 0.35458 |
+| SM84       | before.diet | NE\_0.5  | 0.54144 |
+| SM86       | after.diet  | NE\_0.5  | 0.44769 |
+| SM87       | before.diet | NE\_0.5  | 0.47494 |
+| SM88       | after.diet  | NE\_0.5  | 0.41190 |
+| SM9        | after.diet  | NE\_0.5  | 0.46364 |
+| SM90       | after.diet  | NE\_0.5  | 0.52858 |
+| SM96       | before.diet | NE\_0.5  | 0.36960 |
+| SM1        | before.diet | NE\_1    | 0.19140 |
+| SM11       | after.diet  | NE\_1    | 0.19702 |
+| SM12       | before.diet | NE\_1    | 0.18631 |
+| SM13       | before.diet | NE\_1    | 0.16634 |
+| SM14       | before.diet | NE\_1    | 0.11953 |
+| SM17       | before.diet | NE\_1    | 0.15019 |
+| SM19       | after.diet  | NE\_1    | 0.19845 |
+| SM2        | before.diet | NE\_1    | 0.10626 |
+| SM23       | after.diet  | NE\_1    | 0.09488 |
+| SM3        | after.diet  | NE\_1    | 0.25647 |
+| SM33       | before.diet | NE\_1    | 0.13114 |
+| SM38       | after.diet  | NE\_1    | 0.19451 |
+| SM41       | before.diet | NE\_1    | 0.22697 |
+| SM45       | after.diet  | NE\_1    | 0.44351 |
+| SM49       | before.diet | NE\_1    | 0.16089 |
+| SM52       | before.diet | NE\_1    | 0.19887 |
+| SM53       | after.diet  | NE\_1    | 0.18640 |
+| SM56       | after.diet  | NE\_1    | 0.07929 |
+| SM57       | before.diet | NE\_1    | 0.10439 |
+| SM58       | after.diet  | NE\_1    | 0.11528 |
+| SM62       | before.diet | NE\_1    | 0.15525 |
+| SM64       | after.diet  | NE\_1    | 0.13059 |
+| SM77       | after.diet  | NE\_1    | 0.21952 |
+| SM79       | after.diet  | NE\_1    | 0.15528 |
+| SM8        | before.diet | NE\_1    | 0.19710 |
+| SM83       | before.diet | NE\_1    | 0.14016 |
+| SM84       | before.diet | NE\_1    | 0.31065 |
+| SM86       | after.diet  | NE\_1    | 0.18741 |
+| SM87       | before.diet | NE\_1    | 0.25538 |
+| SM88       | after.diet  | NE\_1    | 0.17551 |
+| SM9        | after.diet  | NE\_1    | 0.24908 |
+| SM90       | after.diet  | NE\_1    | 0.28342 |
+| SM96       | before.diet | NE\_1    | 0.10997 |
+| SM1        | before.diet | NE\_2    | 0.08560 |
+| SM11       | after.diet  | NE\_2    | 0.08302 |
+| SM12       | before.diet | NE\_2    | 0.07426 |
+| SM13       | before.diet | NE\_2    | 0.06029 |
+| SM14       | before.diet | NE\_2    | 0.03486 |
+| SM17       | before.diet | NE\_2    | 0.06276 |
+| SM19       | after.diet  | NE\_2    | 0.05967 |
+| SM2        | before.diet | NE\_2    | 0.04575 |
+| SM23       | after.diet  | NE\_2    | 0.06772 |
+| SM3        | after.diet  | NE\_2    | 0.11694 |
+| SM33       | before.diet | NE\_2    | 0.07199 |
+| SM38       | after.diet  | NE\_2    | 0.10335 |
+| SM41       | before.diet | NE\_2    | 0.08389 |
+| SM45       | after.diet  | NE\_2    | 0.43742 |
+| SM49       | before.diet | NE\_2    | 0.08860 |
+| SM52       | before.diet | NE\_2    | 0.09289 |
+| SM53       | after.diet  | NE\_2    | 0.07786 |
+| SM56       | after.diet  | NE\_2    | 0.02892 |
+| SM57       | before.diet | NE\_2    | 0.04693 |
+| SM58       | after.diet  | NE\_2    | 0.04662 |
+| SM62       | before.diet | NE\_2    | 0.07220 |
+| SM64       | after.diet  | NE\_2    | 0.05097 |
+| SM77       | after.diet  | NE\_2    | 0.08357 |
+| SM79       | after.diet  | NE\_2    | 0.05762 |
+| SM8        | before.diet | NE\_2    | 0.08292 |
+| SM83       | before.diet | NE\_2    | 0.07103 |
+| SM84       | before.diet | NE\_2    | 0.14862 |
+| SM86       | after.diet  | NE\_2    | 0.06289 |
+| SM87       | before.diet | NE\_2    | 0.12220 |
+| SM88       | after.diet  | NE\_2    | 0.08076 |
+| SM9        | after.diet  | NE\_2    | 0.12341 |
+| SM90       | after.diet  | NE\_2    | 0.12989 |
+| SM96       | before.diet | NE\_2    | 0.03155 |
+| SM1        | before.diet | NE\_4    | 0.05806 |
+| SM11       | after.diet  | NE\_4    | 0.04890 |
+| SM12       | before.diet | NE\_4    | 0.04453 |
+| SM13       | before.diet | NE\_4    | 0.03852 |
+| SM14       | before.diet | NE\_4    | 0.02180 |
+| SM17       | before.diet | NE\_4    | 0.04255 |
+| SM19       | after.diet  | NE\_4    | 0.03087 |
+| SM2        | before.diet | NE\_4    | 0.03182 |
+| SM23       | after.diet  | NE\_4    | 0.05899 |
+| SM3        | after.diet  | NE\_4    | 0.06635 |
+| SM33       | before.diet | NE\_4    | 0.05267 |
+| SM38       | after.diet  | NE\_4    | 0.06655 |
+| SM41       | before.diet | NE\_4    | 0.04749 |
+| SM45       | after.diet  | NE\_4    | 0.43662 |
+| SM49       | before.diet | NE\_4    | 0.06886 |
+| SM52       | before.diet | NE\_4    | 0.06353 |
+| SM53       | after.diet  | NE\_4    | 0.04989 |
+| SM56       | after.diet  | NE\_4    | 0.02238 |
+| SM57       | before.diet | NE\_4    | 0.03231 |
+| SM58       | after.diet  | NE\_4    | 0.03112 |
+| SM62       | before.diet | NE\_4    | 0.05098 |
+| SM64       | after.diet  | NE\_4    | 0.03235 |
+| SM77       | after.diet  | NE\_4    | 0.04423 |
+| SM79       | after.diet  | NE\_4    | 0.03319 |
+| SM8        | before.diet | NE\_4    | 0.04903 |
+| SM83       | before.diet | NE\_4    | 0.05376 |
+| SM84       | before.diet | NE\_4    | 0.08328 |
+| SM86       | after.diet  | NE\_4    | 0.03416 |
+| SM87       | before.diet | NE\_4    | 0.06613 |
+| SM88       | after.diet  | NE\_4    | 0.05653 |
+| SM9        | after.diet  | NE\_4    | 0.06986 |
+| SM90       | after.diet  | NE\_4    | 0.07324 |
+| SM96       | before.diet | NE\_4    | 0.02003 |
+| SM1        | before.diet | NE\_8    | 0.04851 |
+| SM11       | after.diet  | NE\_8    | 0.03837 |
+| SM12       | before.diet | NE\_8    | 0.03557 |
+| SM13       | before.diet | NE\_8    | 0.03303 |
+| SM14       | before.diet | NE\_8    | 0.01831 |
+| SM17       | before.diet | NE\_8    | 0.03545 |
+| SM19       | after.diet  | NE\_8    | 0.02445 |
+| SM2        | before.diet | NE\_8    | 0.02715 |
+| SM23       | after.diet  | NE\_8    | 0.05543 |
+| SM3        | after.diet  | NE\_8    | 0.04777 |
+| SM33       | before.diet | NE\_8    | 0.04604 |
+| SM38       | after.diet  | NE\_8    | 0.05322 |
+| SM41       | before.diet | NE\_8    | 0.03779 |
+| SM45       | after.diet  | NE\_8    | 0.43639 |
+| SM49       | before.diet | NE\_8    | 0.05991 |
+| SM52       | before.diet | NE\_8    | 0.05275 |
+| SM53       | after.diet  | NE\_8    | 0.04166 |
+| SM56       | after.diet  | NE\_8    | 0.02074 |
+| SM57       | before.diet | NE\_8    | 0.02728 |
+| SM58       | after.diet  | NE\_8    | 0.02698 |
+| SM62       | before.diet | NE\_8    | 0.04527 |
+| SM64       | after.diet  | NE\_8    | 0.02681 |
+| SM77       | after.diet  | NE\_8    | 0.03317 |
+| SM79       | after.diet  | NE\_8    | 0.02624 |
+| SM8        | before.diet | NE\_8    | 0.03912 |
+| SM83       | before.diet | NE\_8    | 0.04686 |
+| SM84       | before.diet | NE\_8    | 0.06247 |
+| SM86       | after.diet  | NE\_8    | 0.02699 |
+| SM87       | before.diet | NE\_8    | 0.04898 |
+| SM88       | after.diet  | NE\_8    | 0.04847 |
+| SM9        | after.diet  | NE\_8    | 0.05262 |
+| SM90       | after.diet  | NE\_8    | 0.05329 |
+| SM96       | before.diet | NE\_8    | 0.01728 |
+| SM1        | before.diet | NE\_Inf  | 0.04036 |
+| SM11       | after.diet  | NE\_Inf  | 0.03112 |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.1.1\) <a name="widget.278"></a>[`Widget 278.`](#widget.278) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by DietStatus. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.3.2.2.2.1.1.1-323410ed8caDynamic.Pivot.Table.html`](./1.4.1.4.2.1.3.2.2.2.1.1.1-323410ed8caDynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.1.1\) <a name="widget.279"></a>[`Widget 279.`](#widget.279) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by DietStatus. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.3.2.2.2.1.1.1-323aa3b027Dynamic.Pivot.Table.html`](./1.4.1.4.2.1.3.2.2.2.1.1.1-323aa3b027Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.1.1\) <a name="table.267"></a>[`Table 267.`](#table.267) Summary table. Data grouped by DietStatus. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.3.2.2.2.1.1.1-3236d7d274f.1.4.1.4.2.1.3.2.2.2.csv`](data/1.4.1.4.2.1.3.2.2.2.1.1.1-3236d7d274f.1.4.1.4.2.1.3.2.2.2.csv)
+
+
+
+
+| feature  | DietStatus  | mean    | sd      | median  | incidence |
+|:---------|:------------|:--------|:--------|:--------|:----------|
+| NE\_0.25 | after.diet  | 0.64540 | 0.06893 | 0.66020 | 1         |
+| NE\_0.25 | before.diet | 0.64594 | 0.04922 | 0.65878 | 1         |
+| NE\_0.5  | after.diet  | 0.41425 | 0.08235 | 0.42882 | 1         |
+| NE\_0.5  | before.diet | 0.40104 | 0.06564 | 0.39174 | 1         |
+| NE\_1    | after.diet  | 0.19791 | 0.08670 | 0.19096 | 1         |
+| NE\_1    | before.diet | 0.17122 | 0.05602 | 0.16089 | 1         |
+| NE\_2    | after.diet  | 0.10066 | 0.09422 | 0.07931 | 1         |
+| NE\_2    | before.diet | 0.07508 | 0.02953 | 0.07220 | 1         |
+| NE\_4    | after.diet  | 0.07220 | 0.09851 | 0.04939 | 1         |
+| NE\_4    | before.diet | 0.04855 | 0.01681 | 0.04903 | 1         |
+| NE\_8    | after.diet  | 0.06329 | 0.10023 | 0.04002 | 1         |
+| NE\_8    | before.diet | 0.04010 | 0.01308 | 0.03912 | 1         |
+| NE\_Inf  | after.diet  | 0.05725 | 0.10155 | 0.03293 | 1         |
+| NE\_Inf  | before.diet | 0.03361 | 0.01029 | 0.03266 | 1         |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.1.1\) <a name="figure.830"></a>[`Figure 830.`](#figure.830) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus.  line plot.  Image file: [`plots/3237a5e1c45.svg`](plots/3237a5e1c45.svg).
+![](plots/3237a5e1c45.svg)
+
+
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.1.1\) <a name="figure.831"></a>[`Figure 831.`](#figure.831) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus.  line_obs plot.  Image file: [`plots/32330b92b95.svg`](plots/32330b92b95.svg).
+![](plots/32330b92b95.svg)
+
+
+##### \(1.4.1.4.2.1.3.2.2.2.1.2\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.2.1\) <a name="figure.832"></a>[`Figure 832.`](#figure.832) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus.  line plot.  Image file: [`plots/32370f95d61.svg`](plots/32370f95d61.svg).
+![](plots/32370f95d61.svg)
+
+
+
+
+\(1.4.1.4.2.1.3.2.2.2.1.2.1\) <a name="figure.833"></a>[`Figure 833.`](#figure.833) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus.  line_obs plot.  Image file: [`plots/3232f08ec78.svg`](plots/3232f08ec78.svg).
+![](plots/3232f08ec78.svg)
+
+
+##### \(1.4.1.4.2.1.3.2.3\) Grouping variables DietStatus,Drug.Before.Diet
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.4\) Iterating over Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.4.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. profile sorting order: original
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.4.2.1.3.2.4.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.4.2.1.3.2.4.2.1.1\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.1.0\) <a name="table.268"></a>[`Table 268.`](#table.268) Data table used for plots. Data grouped by DietStatus,Drug.Before.Diet. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.3.2.4.2.1.1.0-32328fc76d6.1.4.1.4.2.1.3.2.4.2.csv`](data/1.4.1.4.2.1.3.2.4.2.1.1.0-32328fc76d6.1.4.1.4.2.1.3.2.4.2.csv)
+
+
+
+
+| .record.id | DietStatus  | Drug.Before.Diet | feature  | index   |
+|:-----------|:------------|:-----------------|:---------|:--------|
+| SM1        | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.67522 |
+| SM11       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.66911 |
+| SM12       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.66973 |
+| SM13       | before.diet | DrugBefore\_NO   | NE\_0.25 | 0.66541 |
+| SM14       | before.diet | DrugBefore\_NO   | NE\_0.25 | 0.65878 |
+| SM17       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.64194 |
+| SM19       | after.diet  | DrugBefore\_NO   | NE\_0.25 | 0.70131 |
+| SM2        | before.diet | DrugBefore\_NO   | NE\_0.25 | 0.59283 |
+| SM23       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.45369 |
+| SM3        | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.71839 |
+| SM33       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.54958 |
+| SM38       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.62352 |
+| SM41       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.71258 |
+| SM45       | after.diet  | DrugBefore\_NO   | NE\_0.25 | 0.59698 |
+| SM49       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.62060 |
+| SM52       | before.diet | DrugBefore\_NO   | NE\_0.25 | 0.68077 |
+| SM53       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.66261 |
+| SM56       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.58500 |
+| SM57       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.58212 |
+| SM58       | after.diet  | DrugBefore\_NO   | NE\_0.25 | 0.58435 |
+| SM62       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.59278 |
+| SM64       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.61793 |
+| SM77       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.70235 |
+| SM79       | after.diet  | DrugBefore\_NO   | NE\_0.25 | 0.65333 |
+| SM8        | before.diet | DrugBefore\_NO   | NE\_0.25 | 0.66004 |
+| SM83       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.61347 |
+| SM84       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.73711 |
+| SM86       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.68566 |
+| SM87       | before.diet | DrugBefore\_YES  | NE\_0.25 | 0.68905 |
+| SM88       | after.diet  | DrugBefore\_YES  | NE\_0.25 | 0.65779 |
+| SM9        | after.diet  | DrugBefore\_NO   | NE\_0.25 | 0.67952 |
+| SM90       | after.diet  | DrugBefore\_NO   | NE\_0.25 | 0.73489 |
+| SM96       | before.diet | DrugBefore\_NO   | NE\_0.25 | 0.63889 |
+| SM1        | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.43553 |
+| SM11       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.43348 |
+| SM12       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.43013 |
+| SM13       | before.diet | DrugBefore\_NO   | NE\_0.5  | 0.41909 |
+| SM14       | before.diet | DrugBefore\_NO   | NE\_0.5  | 0.39174 |
+| SM17       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.38749 |
+| SM19       | after.diet  | DrugBefore\_NO   | NE\_0.5  | 0.46891 |
+| SM2        | before.diet | DrugBefore\_NO   | NE\_0.5  | 0.32111 |
+| SM23       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.21207 |
+| SM3        | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.50217 |
+| SM33       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.30128 |
+| SM38       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.39082 |
+| SM41       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.48875 |
+| SM45       | after.diet  | DrugBefore\_NO   | NE\_0.5  | 0.48486 |
+| SM49       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.36994 |
+| SM52       | before.diet | DrugBefore\_NO   | NE\_0.5  | 0.44217 |
+| SM53       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.42417 |
+| SM56       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.30483 |
+| SM57       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.30963 |
+| SM58       | after.diet  | DrugBefore\_NO   | NE\_0.5  | 0.32232 |
+| SM62       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.35338 |
+| SM64       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.35756 |
+| SM77       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.47468 |
+| SM79       | after.diet  | DrugBefore\_NO   | NE\_0.5  | 0.40037 |
+| SM8        | before.diet | DrugBefore\_NO   | NE\_0.5  | 0.42681 |
+| SM83       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.35458 |
+| SM84       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.54144 |
+| SM86       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.44769 |
+| SM87       | before.diet | DrugBefore\_YES  | NE\_0.5  | 0.47494 |
+| SM88       | after.diet  | DrugBefore\_YES  | NE\_0.5  | 0.41190 |
+| SM9        | after.diet  | DrugBefore\_NO   | NE\_0.5  | 0.46364 |
+| SM90       | after.diet  | DrugBefore\_NO   | NE\_0.5  | 0.52858 |
+| SM96       | before.diet | DrugBefore\_NO   | NE\_0.5  | 0.36960 |
+| SM1        | before.diet | DrugBefore\_YES  | NE\_1    | 0.19140 |
+| SM11       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.19702 |
+| SM12       | before.diet | DrugBefore\_YES  | NE\_1    | 0.18631 |
+| SM13       | before.diet | DrugBefore\_NO   | NE\_1    | 0.16634 |
+| SM14       | before.diet | DrugBefore\_NO   | NE\_1    | 0.11953 |
+| SM17       | before.diet | DrugBefore\_YES  | NE\_1    | 0.15019 |
+| SM19       | after.diet  | DrugBefore\_NO   | NE\_1    | 0.19845 |
+| SM2        | before.diet | DrugBefore\_NO   | NE\_1    | 0.10626 |
+| SM23       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.09488 |
+| SM3        | after.diet  | DrugBefore\_YES  | NE\_1    | 0.25647 |
+| SM33       | before.diet | DrugBefore\_YES  | NE\_1    | 0.13114 |
+| SM38       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.19451 |
+| SM41       | before.diet | DrugBefore\_YES  | NE\_1    | 0.22697 |
+| SM45       | after.diet  | DrugBefore\_NO   | NE\_1    | 0.44351 |
+| SM49       | before.diet | DrugBefore\_YES  | NE\_1    | 0.16089 |
+| SM52       | before.diet | DrugBefore\_NO   | NE\_1    | 0.19887 |
+| SM53       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.18640 |
+| SM56       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.07929 |
+| SM57       | before.diet | DrugBefore\_YES  | NE\_1    | 0.10439 |
+| SM58       | after.diet  | DrugBefore\_NO   | NE\_1    | 0.11528 |
+| SM62       | before.diet | DrugBefore\_YES  | NE\_1    | 0.15525 |
+| SM64       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.13059 |
+| SM77       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.21952 |
+| SM79       | after.diet  | DrugBefore\_NO   | NE\_1    | 0.15528 |
+| SM8        | before.diet | DrugBefore\_NO   | NE\_1    | 0.19710 |
+| SM83       | before.diet | DrugBefore\_YES  | NE\_1    | 0.14016 |
+| SM84       | before.diet | DrugBefore\_YES  | NE\_1    | 0.31065 |
+| SM86       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.18741 |
+| SM87       | before.diet | DrugBefore\_YES  | NE\_1    | 0.25538 |
+| SM88       | after.diet  | DrugBefore\_YES  | NE\_1    | 0.17551 |
+| SM9        | after.diet  | DrugBefore\_NO   | NE\_1    | 0.24908 |
+| SM90       | after.diet  | DrugBefore\_NO   | NE\_1    | 0.28342 |
+| SM96       | before.diet | DrugBefore\_NO   | NE\_1    | 0.10997 |
+| SM1        | before.diet | DrugBefore\_YES  | NE\_2    | 0.08560 |
+| SM11       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.08302 |
+| SM12       | before.diet | DrugBefore\_YES  | NE\_2    | 0.07426 |
+| SM13       | before.diet | DrugBefore\_NO   | NE\_2    | 0.06029 |
+| SM14       | before.diet | DrugBefore\_NO   | NE\_2    | 0.03486 |
+| SM17       | before.diet | DrugBefore\_YES  | NE\_2    | 0.06276 |
+| SM19       | after.diet  | DrugBefore\_NO   | NE\_2    | 0.05967 |
+| SM2        | before.diet | DrugBefore\_NO   | NE\_2    | 0.04575 |
+| SM23       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.06772 |
+| SM3        | after.diet  | DrugBefore\_YES  | NE\_2    | 0.11694 |
+| SM33       | before.diet | DrugBefore\_YES  | NE\_2    | 0.07199 |
+| SM38       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.10335 |
+| SM41       | before.diet | DrugBefore\_YES  | NE\_2    | 0.08389 |
+| SM45       | after.diet  | DrugBefore\_NO   | NE\_2    | 0.43742 |
+| SM49       | before.diet | DrugBefore\_YES  | NE\_2    | 0.08860 |
+| SM52       | before.diet | DrugBefore\_NO   | NE\_2    | 0.09289 |
+| SM53       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.07786 |
+| SM56       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.02892 |
+| SM57       | before.diet | DrugBefore\_YES  | NE\_2    | 0.04693 |
+| SM58       | after.diet  | DrugBefore\_NO   | NE\_2    | 0.04662 |
+| SM62       | before.diet | DrugBefore\_YES  | NE\_2    | 0.07220 |
+| SM64       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.05097 |
+| SM77       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.08357 |
+| SM79       | after.diet  | DrugBefore\_NO   | NE\_2    | 0.05762 |
+| SM8        | before.diet | DrugBefore\_NO   | NE\_2    | 0.08292 |
+| SM83       | before.diet | DrugBefore\_YES  | NE\_2    | 0.07103 |
+| SM84       | before.diet | DrugBefore\_YES  | NE\_2    | 0.14862 |
+| SM86       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.06289 |
+| SM87       | before.diet | DrugBefore\_YES  | NE\_2    | 0.12220 |
+| SM88       | after.diet  | DrugBefore\_YES  | NE\_2    | 0.08076 |
+| SM9        | after.diet  | DrugBefore\_NO   | NE\_2    | 0.12341 |
+| SM90       | after.diet  | DrugBefore\_NO   | NE\_2    | 0.12989 |
+| SM96       | before.diet | DrugBefore\_NO   | NE\_2    | 0.03155 |
+| SM1        | before.diet | DrugBefore\_YES  | NE\_4    | 0.05806 |
+| SM11       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.04890 |
+| SM12       | before.diet | DrugBefore\_YES  | NE\_4    | 0.04453 |
+| SM13       | before.diet | DrugBefore\_NO   | NE\_4    | 0.03852 |
+| SM14       | before.diet | DrugBefore\_NO   | NE\_4    | 0.02180 |
+| SM17       | before.diet | DrugBefore\_YES  | NE\_4    | 0.04255 |
+| SM19       | after.diet  | DrugBefore\_NO   | NE\_4    | 0.03087 |
+| SM2        | before.diet | DrugBefore\_NO   | NE\_4    | 0.03182 |
+| SM23       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.05899 |
+| SM3        | after.diet  | DrugBefore\_YES  | NE\_4    | 0.06635 |
+| SM33       | before.diet | DrugBefore\_YES  | NE\_4    | 0.05267 |
+| SM38       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.06655 |
+| SM41       | before.diet | DrugBefore\_YES  | NE\_4    | 0.04749 |
+| SM45       | after.diet  | DrugBefore\_NO   | NE\_4    | 0.43662 |
+| SM49       | before.diet | DrugBefore\_YES  | NE\_4    | 0.06886 |
+| SM52       | before.diet | DrugBefore\_NO   | NE\_4    | 0.06353 |
+| SM53       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.04989 |
+| SM56       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.02238 |
+| SM57       | before.diet | DrugBefore\_YES  | NE\_4    | 0.03231 |
+| SM58       | after.diet  | DrugBefore\_NO   | NE\_4    | 0.03112 |
+| SM62       | before.diet | DrugBefore\_YES  | NE\_4    | 0.05098 |
+| SM64       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.03235 |
+| SM77       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.04423 |
+| SM79       | after.diet  | DrugBefore\_NO   | NE\_4    | 0.03319 |
+| SM8        | before.diet | DrugBefore\_NO   | NE\_4    | 0.04903 |
+| SM83       | before.diet | DrugBefore\_YES  | NE\_4    | 0.05376 |
+| SM84       | before.diet | DrugBefore\_YES  | NE\_4    | 0.08328 |
+| SM86       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.03416 |
+| SM87       | before.diet | DrugBefore\_YES  | NE\_4    | 0.06613 |
+| SM88       | after.diet  | DrugBefore\_YES  | NE\_4    | 0.05653 |
+| SM9        | after.diet  | DrugBefore\_NO   | NE\_4    | 0.06986 |
+| SM90       | after.diet  | DrugBefore\_NO   | NE\_4    | 0.07324 |
+| SM96       | before.diet | DrugBefore\_NO   | NE\_4    | 0.02003 |
+| SM1        | before.diet | DrugBefore\_YES  | NE\_8    | 0.04851 |
+| SM11       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.03837 |
+| SM12       | before.diet | DrugBefore\_YES  | NE\_8    | 0.03557 |
+| SM13       | before.diet | DrugBefore\_NO   | NE\_8    | 0.03303 |
+| SM14       | before.diet | DrugBefore\_NO   | NE\_8    | 0.01831 |
+| SM17       | before.diet | DrugBefore\_YES  | NE\_8    | 0.03545 |
+| SM19       | after.diet  | DrugBefore\_NO   | NE\_8    | 0.02445 |
+| SM2        | before.diet | DrugBefore\_NO   | NE\_8    | 0.02715 |
+| SM23       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.05543 |
+| SM3        | after.diet  | DrugBefore\_YES  | NE\_8    | 0.04777 |
+| SM33       | before.diet | DrugBefore\_YES  | NE\_8    | 0.04604 |
+| SM38       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.05322 |
+| SM41       | before.diet | DrugBefore\_YES  | NE\_8    | 0.03779 |
+| SM45       | after.diet  | DrugBefore\_NO   | NE\_8    | 0.43639 |
+| SM49       | before.diet | DrugBefore\_YES  | NE\_8    | 0.05991 |
+| SM52       | before.diet | DrugBefore\_NO   | NE\_8    | 0.05275 |
+| SM53       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.04166 |
+| SM56       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.02074 |
+| SM57       | before.diet | DrugBefore\_YES  | NE\_8    | 0.02728 |
+| SM58       | after.diet  | DrugBefore\_NO   | NE\_8    | 0.02698 |
+| SM62       | before.diet | DrugBefore\_YES  | NE\_8    | 0.04527 |
+| SM64       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.02681 |
+| SM77       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.03317 |
+| SM79       | after.diet  | DrugBefore\_NO   | NE\_8    | 0.02624 |
+| SM8        | before.diet | DrugBefore\_NO   | NE\_8    | 0.03912 |
+| SM83       | before.diet | DrugBefore\_YES  | NE\_8    | 0.04686 |
+| SM84       | before.diet | DrugBefore\_YES  | NE\_8    | 0.06247 |
+| SM86       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.02699 |
+| SM87       | before.diet | DrugBefore\_YES  | NE\_8    | 0.04898 |
+| SM88       | after.diet  | DrugBefore\_YES  | NE\_8    | 0.04847 |
+| SM9        | after.diet  | DrugBefore\_NO   | NE\_8    | 0.05262 |
+| SM90       | after.diet  | DrugBefore\_NO   | NE\_8    | 0.05329 |
+| SM96       | before.diet | DrugBefore\_NO   | NE\_8    | 0.01728 |
+| SM1        | before.diet | DrugBefore\_YES  | NE\_Inf  | 0.04036 |
+| SM11       | after.diet  | DrugBefore\_YES  | NE\_Inf  | 0.03112 |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.1.1\) <a name="widget.280"></a>[`Widget 280.`](#widget.280) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by DietStatus,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.3.2.4.2.1.1.1-32344dbd550Dynamic.Pivot.Table.html`](./1.4.1.4.2.1.3.2.4.2.1.1.1-32344dbd550Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.1.1\) <a name="widget.281"></a>[`Widget 281.`](#widget.281) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by DietStatus,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.4.2.1.3.2.4.2.1.1.1-3236726924bDynamic.Pivot.Table.html`](./1.4.1.4.2.1.3.2.4.2.1.1.1-3236726924bDynamic.Pivot.Table.html)
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.1.1\) <a name="table.269"></a>[`Table 269.`](#table.269) Summary table. Data grouped by DietStatus,Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.3.2.4.2.1.1.1-32374eed56.1.4.1.4.2.1.3.2.4.2.csv`](data/1.4.1.4.2.1.3.2.4.2.1.1.1-32374eed56.1.4.1.4.2.1.3.2.4.2.csv)
+
+
+
+
+| feature  | DietStatus  | Drug.Before.Diet | mean    | sd       | median  | incidence |
+|:---------|:------------|:-----------------|:--------|:---------|:--------|:----------|
+| NE\_0.25 | after.diet  | DrugBefore\_NO   | 0.65840 | 0.059025 | 0.66642 | 1         |
+| NE\_0.25 | after.diet  | DrugBefore\_YES  | 0.63760 | 0.076180 | 0.66020 | 1         |
+| NE\_0.25 | before.diet | DrugBefore\_NO   | 0.64945 | 0.030829 | 0.65941 | 1         |
+| NE\_0.25 | before.diet | DrugBefore\_YES  | 0.64402 | 0.058215 | 0.64194 | 1         |
+| NE\_0.5  | after.diet  | DrugBefore\_NO   | 0.44478 | 0.072852 | 0.46628 | 1         |
+| NE\_0.5  | after.diet  | DrugBefore\_YES  | 0.39593 | 0.085785 | 0.41803 | 1         |
+| NE\_0.5  | before.diet | DrugBefore\_NO   | 0.39509 | 0.044571 | 0.40541 | 1         |
+| NE\_0.5  | before.diet | DrugBefore\_YES  | 0.40428 | 0.076600 | 0.38749 | 1         |
+| NE\_1    | after.diet  | DrugBefore\_NO   | 0.24084 | 0.116481 | 0.22376 | 1         |
+| NE\_1    | after.diet  | DrugBefore\_YES  | 0.17216 | 0.055014 | 0.18691 | 1         |
+| NE\_1    | before.diet | DrugBefore\_NO   | 0.14968 | 0.043165 | 0.14294 | 1         |
+| NE\_1    | before.diet | DrugBefore\_YES  | 0.18298 | 0.060488 | 0.16089 | 1         |
+| NE\_2    | after.diet  | DrugBefore\_NO   | 0.14244 | 0.148838 | 0.09154 | 1         |
+| NE\_2    | after.diet  | DrugBefore\_YES  | 0.07560 | 0.025031 | 0.07931 | 1         |
+| NE\_2    | before.diet | DrugBefore\_NO   | 0.05804 | 0.025412 | 0.05302 | 1         |
+| NE\_2    | before.diet | DrugBefore\_YES  | 0.08437 | 0.028337 | 0.07426 | 1         |
+| NE\_4    | after.diet  | DrugBefore\_NO   | 0.11248 | 0.159993 | 0.05152 | 1         |
+| NE\_4    | after.diet  | DrugBefore\_YES  | 0.04803 | 0.014852 | 0.04939 | 1         |
+| NE\_4    | before.diet | DrugBefore\_NO   | 0.03746 | 0.016705 | 0.03517 | 1         |
+| NE\_4    | before.diet | DrugBefore\_YES  | 0.05460 | 0.014078 | 0.05267 | 1         |
+| NE\_8    | after.diet  | DrugBefore\_NO   | 0.10333 | 0.163705 | 0.03980 | 1         |
+| NE\_8    | after.diet  | DrugBefore\_YES  | 0.03926 | 0.012046 | 0.04002 | 1         |
+| NE\_8    | before.diet | DrugBefore\_NO   | 0.03127 | 0.013467 | 0.03009 | 1         |
+| NE\_8    | before.diet | DrugBefore\_YES  | 0.04492 | 0.010519 | 0.04604 | 1         |
+| NE\_Inf  | after.diet  | DrugBefore\_NO   | 0.09742 | 0.166230 | 0.03195 | 1         |
+| NE\_Inf  | after.diet  | DrugBefore\_YES  | 0.03315 | 0.010693 | 0.03293 | 1         |
+| NE\_Inf  | before.diet | DrugBefore\_NO   | 0.02643 | 0.010251 | 0.02616 | 1         |
+| NE\_Inf  | before.diet | DrugBefore\_YES  | 0.03752 | 0.008313 | 0.04032 | 1         |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.1.1\) <a name="figure.834"></a>[`Figure 834.`](#figure.834) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus,Drug.Before.Diet.  line plot.  Image file: [`plots/32336333a06.svg`](plots/32336333a06.svg).
+![](plots/32336333a06.svg)
+
+
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.1.1\) <a name="figure.835"></a>[`Figure 835.`](#figure.835) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus,Drug.Before.Diet.  line_obs plot.  Image file: [`plots/3233ac58cd2.svg`](plots/3233ac58cd2.svg).
+![](plots/3233ac58cd2.svg)
+
+
+##### \(1.4.1.4.2.1.3.2.4.2.1.2\) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.2.1\) <a name="figure.836"></a>[`Figure 836.`](#figure.836) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus,Drug.Before.Diet.  line plot.  Image file: [`plots/32358247a24.svg`](plots/32358247a24.svg).
+![](plots/32358247a24.svg)
+
+
+
+
+\(1.4.1.4.2.1.3.2.4.2.1.2.1\) <a name="figure.837"></a>[`Figure 837.`](#figure.837) Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication. Data grouped by DietStatus,Drug.Before.Diet.  line_obs plot.  Image file: [`plots/3232b95fec4.svg`](plots/3232b95fec4.svg).
+![](plots/3232b95fec4.svg)

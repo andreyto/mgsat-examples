@@ -1,0 +1,650 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.4.1.2.5\) Plots of Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.4.1.2.5.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.4.1.2.5.2.1\) Entire pool of samples
+
+
+
+
+##### \(1.4.1.2.5.2.2\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order
+
+
+
+
+##### \(1.4.1.2.5.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.4.1.2.5.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.2.5.2.2.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.2.5.2.2.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.2.5.2.2.2.1.1.0\) <a name="table.158"></a>[`Table 158.`](#table.158) Data table used for plots. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.2.5.2.2.2.1.1.0-3232807c75b.1.4.1.2.5.2.2.2.1.1.csv`](data/1.4.1.2.5.2.2.2.1.1.0-3232807c75b.1.4.1.2.5.2.2.2.1.1.csv)
+
+
+
+
+| .record.id       | feature                  | l2fc       |
+|:-----------------|:-------------------------|:-----------|
+| SB11.before.diet | Bacteroidales            | 0.25574    |
+| SB16.before.diet | Bacteroidales            | \-0.07187  |
+| SB18.before.diet | Bacteroidales            | 1.83826    |
+| SB28.before.diet | Bacteroidales            | \-0.07345  |
+| SB29.before.diet | Bacteroidales            | 1.54675    |
+| SB34.before.diet | Bacteroidales            | \-0.08291  |
+| SB36.before.diet | Bacteroidales            | 0.09319    |
+| SB39.before.diet | Bacteroidales            | \-0.40769  |
+| SB4.before.diet  | Bacteroidales            | \-0.06401  |
+| SB41.before.diet | Bacteroidales            | 0.02529    |
+| SB43.before.diet | Bacteroidales            | 1.40234    |
+| SB44.before.diet | Bacteroidales            | 8.07375    |
+| SB5.before.diet  | Bacteroidales            | \-2.97396  |
+| SB9.before.diet  | Bacteroidales            | \-3.47822  |
+| SB11.before.diet | Clostridiales            | \-0.82685  |
+| SB16.before.diet | Clostridiales            | 0.56231    |
+| SB18.before.diet | Clostridiales            | \-4.55997  |
+| SB28.before.diet | Clostridiales            | \-2.07830  |
+| SB29.before.diet | Clostridiales            | 5.73036    |
+| SB34.before.diet | Clostridiales            | 0.45140    |
+| SB36.before.diet | Clostridiales            | \-1.07855  |
+| SB39.before.diet | Clostridiales            | \-0.15541  |
+| SB4.before.diet  | Clostridiales            | 2.22516    |
+| SB41.before.diet | Clostridiales            | \-0.13608  |
+| SB43.before.diet | Clostridiales            | \-3.34615  |
+| SB44.before.diet | Clostridiales            | \-2.36071  |
+| SB5.before.diet  | Clostridiales            | 2.10759    |
+| SB9.before.diet  | Clostridiales            | 1.31247    |
+| SB11.before.diet | Lactobacillales          | \-34.11297 |
+| SB16.before.diet | Lactobacillales          | 1.30870    |
+| SB18.before.diet | Lactobacillales          | 5.71092    |
+| SB28.before.diet | Lactobacillales          | 35.04440   |
+| SB29.before.diet | Lactobacillales          | \-44.75939 |
+| SB34.before.diet | Lactobacillales          | 2.34436    |
+| SB36.before.diet | Lactobacillales          | 2.40346    |
+| SB39.before.diet | Lactobacillales          | 4.10044    |
+| SB4.before.diet  | Lactobacillales          | \-0.09638  |
+| SB41.before.diet | Lactobacillales          | \-2.89110  |
+| SB43.before.diet | Lactobacillales          | \-6.39088  |
+| SB44.before.diet | Lactobacillales          | \-38.40238 |
+| SB5.before.diet  | Lactobacillales          | 4.71936    |
+| SB9.before.diet  | Lactobacillales          | 5.73150    |
+| SB11.before.diet | Erysipelotrichales       | \-0.30112  |
+| SB16.before.diet | Erysipelotrichales       | 4.98093    |
+| SB18.before.diet | Erysipelotrichales       | \-0.84117  |
+| SB28.before.diet | Erysipelotrichales       | 0.26944    |
+| SB29.before.diet | Erysipelotrichales       | \-2.11130  |
+| SB34.before.diet | Erysipelotrichales       | 2.05299    |
+| SB36.before.diet | Erysipelotrichales       | \-37.65902 |
+| SB39.before.diet | Erysipelotrichales       | 3.15920    |
+| SB4.before.diet  | Erysipelotrichales       | 4.55270    |
+| SB41.before.diet | Erysipelotrichales       | \-2.85572  |
+| SB43.before.diet | Erysipelotrichales       | \-1.97859  |
+| SB44.before.diet | Erysipelotrichales       | 1.99359    |
+| SB5.before.diet  | Erysipelotrichales       | 6.92235    |
+| SB9.before.diet  | Erysipelotrichales       | 8.60451    |
+| SB11.before.diet | Selenomonadales          | 2.30649    |
+| SB16.before.diet | Selenomonadales          | \-0.27627  |
+| SB18.before.diet | Selenomonadales          | \-6.70741  |
+| SB28.before.diet | Selenomonadales          | \-2.71024  |
+| SB29.before.diet | Selenomonadales          | 34.91631   |
+| SB34.before.diet | Selenomonadales          | 3.82979    |
+| SB36.before.diet | Selenomonadales          | 33.99639   |
+| SB39.before.diet | Selenomonadales          | 1.93922    |
+| SB4.before.diet  | Selenomonadales          | 33.66048   |
+| SB41.before.diet | Selenomonadales          | \-1.93383  |
+| SB43.before.diet | Selenomonadales          | \-0.17246  |
+| SB44.before.diet | Selenomonadales          | \-5.00802  |
+| SB5.before.diet  | Selenomonadales          | 5.47656    |
+| SB9.before.diet  | Selenomonadales          | \-41.04894 |
+| SB11.before.diet | Enterobacteriales        | 1.11389    |
+| SB16.before.diet | Enterobacteriales        | 6.06353    |
+| SB18.before.diet | Enterobacteriales        | \-35.27866 |
+| SB28.before.diet | Enterobacteriales        | 3.54280    |
+| SB29.before.diet | Enterobacteriales        | 0.00000    |
+| SB34.before.diet | Enterobacteriales        | \-0.97756  |
+| SB36.before.diet | Enterobacteriales        | 0.00000    |
+| SB39.before.diet | Enterobacteriales        | 0.00000    |
+| SB4.before.diet  | Enterobacteriales        | 0.00000    |
+| SB41.before.diet | Enterobacteriales        | \-36.34011 |
+| SB43.before.diet | Enterobacteriales        | \-4.06227  |
+| SB44.before.diet | Enterobacteriales        | 1.82367    |
+| SB5.before.diet  | Enterobacteriales        | 10.53977   |
+| SB9.before.diet  | Enterobacteriales        | 2.81008    |
+| SB11.before.diet | Burkholderiales          | \-2.20796  |
+| SB16.before.diet | Burkholderiales          | \-2.90722  |
+| SB18.before.diet | Burkholderiales          | \-4.09266  |
+| SB28.before.diet | Burkholderiales          | 0.00000    |
+| SB29.before.diet | Burkholderiales          | 0.00000    |
+| SB34.before.diet | Burkholderiales          | 0.18448    |
+| SB36.before.diet | Burkholderiales          | 0.78049    |
+| SB39.before.diet | Burkholderiales          | \-1.95611  |
+| SB4.before.diet  | Burkholderiales          | 36.24544   |
+| SB41.before.diet | Burkholderiales          | 30.89262   |
+| SB43.before.diet | Burkholderiales          | 40.33816   |
+| SB44.before.diet | Burkholderiales          | 0.00000    |
+| SB5.before.diet  | Burkholderiales          | 32.19202   |
+| SB9.before.diet  | Burkholderiales          | \-2.43784  |
+| SB11.before.diet | Verrucomicrobiales       | 3.39378    |
+| SB16.before.diet | Verrucomicrobiales       | 0.00000    |
+| SB18.before.diet | Verrucomicrobiales       | 0.00000    |
+| SB28.before.diet | Verrucomicrobiales       | 0.00000    |
+| SB29.before.diet | Verrucomicrobiales       | 0.00000    |
+| SB34.before.diet | Verrucomicrobiales       | 0.00000    |
+| SB36.before.diet | Verrucomicrobiales       | 0.00000    |
+| SB39.before.diet | Verrucomicrobiales       | 42.83593   |
+| SB4.before.diet  | Verrucomicrobiales       | 0.00000    |
+| SB41.before.diet | Verrucomicrobiales       | \-5.40355  |
+| SB43.before.diet | Verrucomicrobiales       | 32.02551   |
+| SB44.before.diet | Verrucomicrobiales       | 0.00000    |
+| SB5.before.diet  | Verrucomicrobiales       | 0.00000    |
+| SB9.before.diet  | Verrucomicrobiales       | 0.00000    |
+| SB11.before.diet | Unclassified\_Bacteria   | 0.47645    |
+| SB16.before.diet | Unclassified\_Bacteria   | 2.74160    |
+| SB18.before.diet | Unclassified\_Bacteria   | 1.39761    |
+| SB28.before.diet | Unclassified\_Bacteria   | \-1.31551  |
+| SB29.before.diet | Unclassified\_Bacteria   | 36.72367   |
+| SB34.before.diet | Unclassified\_Bacteria   | \-1.74310  |
+| SB36.before.diet | Unclassified\_Bacteria   | \-0.18150  |
+| SB39.before.diet | Unclassified\_Bacteria   | 1.20881    |
+| SB4.before.diet  | Unclassified\_Bacteria   | 3.13767    |
+| SB41.before.diet | Unclassified\_Bacteria   | 1.01080    |
+| SB43.before.diet | Unclassified\_Bacteria   | \-0.46890  |
+| SB44.before.diet | Unclassified\_Bacteria   | 0.28933    |
+| SB5.before.diet  | Unclassified\_Bacteria   | \-0.46197  |
+| SB9.before.diet  | Unclassified\_Bacteria   | 5.13200    |
+| SB11.before.diet | Unclassified\_Firmicutes | \-2.39491  |
+| SB16.before.diet | Unclassified\_Firmicutes | 3.33422    |
+| SB18.before.diet | Unclassified\_Firmicutes | \-3.18016  |
+| SB28.before.diet | Unclassified\_Firmicutes | \-33.77494 |
+| SB29.before.diet | Unclassified\_Firmicutes | 34.91631   |
+| SB34.before.diet | Unclassified\_Firmicutes | 2.47173    |
+| SB36.before.diet | Unclassified\_Firmicutes | \-36.84086 |
+| SB39.before.diet | Unclassified\_Firmicutes | 2.87805    |
+| SB4.before.diet  | Unclassified\_Firmicutes | 34.66048   |
+| SB41.before.diet | Unclassified\_Firmicutes | 1.63693    |
+| SB43.before.diet | Unclassified\_Firmicutes | \-3.06227  |
+| SB44.before.diet | Unclassified\_Firmicutes | \-4.34624  |
+| SB5.before.diet  | Unclassified\_Firmicutes | 4.32463    |
+| SB9.before.diet  | Unclassified\_Firmicutes | \-0.93089  |
+| SB11.before.diet | Rhizobiales              | \-34.11297 |
+| SB16.before.diet | Rhizobiales              | 0.00000    |
+| SB18.before.diet | Rhizobiales              | \-1.59886  |
+| SB28.before.diet | Rhizobiales              | 0.00000    |
+| SB29.before.diet | Rhizobiales              | 0.00000    |
+| SB34.before.diet | Rhizobiales              | \-1.04311  |
+| SB36.before.diet | Rhizobiales              | \-0.36207  |
+| SB39.before.diet | Rhizobiales              | \-0.02995  |
+| SB4.before.diet  | Rhizobiales              | 1.55271    |
+| SB41.before.diet | Rhizobiales              | 1.57487    |
+| SB43.before.diet | Rhizobiales              | \-3.12786  |
+| SB44.before.diet | Rhizobiales              | 0.00000    |
+| SB5.before.diet  | Rhizobiales              | 1.61414    |
+| SB9.before.diet  | Rhizobiales              | 2.22512    |
+
+
+
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.1.1\) <a name="widget.175"></a>[`Widget 175.`](#widget.175) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.4.1.2.5.2.2.2.1.1.1-3234cd5fb08Dynamic.Pivot.Table.html`](./1.4.1.2.5.2.2.2.1.1.1-3234cd5fb08Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.1.1\) <a name="widget.176"></a>[`Widget 176.`](#widget.176) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.4.1.2.5.2.2.2.1.1.1-3231f4dc8c5Dynamic.Pivot.Table.html`](./1.4.1.2.5.2.2.2.1.1.1-3231f4dc8c5Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.2.5.2.2.2.1.1.1\) <a name="table.159"></a>[`Table 159.`](#table.159) Summary table. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.2.5.2.2.2.1.1.1-32331b19253.1.4.1.2.5.2.2.2.1.1.csv`](data/1.4.1.2.5.2.2.2.1.1.1-32331b19253.1.4.1.2.5.2.2.2.1.1.csv)
+
+
+
+
+| feature                  | mean      | sd     | median    | incidence |
+|:-------------------------|:----------|:-------|:----------|:----------|
+| Unclassified\_Bacteria   | 3.42478   | 9.759  | 0.74363   | 0.6429    |
+| Erysipelotrichales       | \-0.94366 | 11.124 | 1.13152   | 0.5714    |
+| Clostridiales            | \-0.15377 | 2.600  | \-0.14574 | 0.4286    |
+| Bacteroidales            | 0.43452   | 2.653  | \-0.01936 | 0.5000    |
+| Lactobacillales          | \-4.66357 | 20.999 | 1.82653   | 0.5714    |
+| Unclassified\_Firmicutes | \-0.02199 | 19.632 | 0.35302   | 0.5000    |
+| Selenomonadales          | 4.16201   | 19.778 | 0.88338   | 0.5000    |
+| Enterobacteriales        | \-3.62606 | 14.064 | 0.00000   | 0.4286    |
+| Burkholderiales          | 9.07367   | 17.141 | 0.00000   | 0.4286    |
+| Rhizobiales              | \-2.37914 | 9.242  | 0.00000   | 0.2857    |
+| Verrucomicrobiales       | 5.20369   | 13.929 | 0.00000   | 0.2143    |
+
+
+
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.1.1\) <a name="figure.656"></a>[`Figure 656.`](#figure.656) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/3232f7dbbec.svg`](plots/3232f7dbbec.svg).
+![](plots/3232f7dbbec.svg)
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.1.1\) <a name="figure.657"></a>[`Figure 657.`](#figure.657) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/323144e6916.svg`](plots/323144e6916.svg).
+![](plots/323144e6916.svg)
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.1.1\) <a name="figure.658"></a>[`Figure 658.`](#figure.658) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3236644813a.svg`](plots/3236644813a.svg).
+![](plots/3236644813a.svg)
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.1.1\) <a name="figure.659"></a>[`Figure 659.`](#figure.659) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237ee367d8.svg`](plots/3237ee367d8.svg).
+![](plots/3237ee367d8.svg)
+
+
+##### \(1.4.1.2.5.2.2.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.2.1\) <a name="figure.660"></a>[`Figure 660.`](#figure.660) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/323775bf91f.svg`](plots/323775bf91f.svg).
+![](plots/323775bf91f.svg)
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.2.1\) <a name="figure.661"></a>[`Figure 661.`](#figure.661) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3236f184af9.svg`](plots/3236f184af9.svg).
+![](plots/3236f184af9.svg)
+
+
+
+
+\(1.4.1.2.5.2.2.2.1.2.1\) <a name="figure.662"></a>[`Figure 662.`](#figure.662) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3236df87c08.svg`](plots/3236df87c08.svg).
+![](plots/3236df87c08.svg)
+
+
+##### \(1.4.1.2.5.2.3\) Grouping variables Drug.Before.Diet
+
+
+
+
+##### \(1.4.1.2.5.2.4\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order
+
+
+
+
+##### \(1.4.1.2.5.2.4.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.4.1.2.5.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.4.1.2.5.2.4.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.2.5.2.4.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.4.1.2.5.2.4.2.1.1.0\) <a name="table.160"></a>[`Table 160.`](#table.160) Data table used for plots. Data grouped by Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.2.5.2.4.2.1.1.0-3235ef32a9.1.4.1.2.5.2.4.2.1.1.csv`](data/1.4.1.2.5.2.4.2.1.1.0-3235ef32a9.1.4.1.2.5.2.4.2.1.1.csv)
+
+
+
+
+| .record.id       | Drug.Before.Diet | feature                  | l2fc       |
+|:-----------------|:-----------------|:-------------------------|:-----------|
+| SB11.before.diet | DrugBefore\_NO   | Bacteroidales            | 0.25574    |
+| SB16.before.diet | DrugBefore\_YES  | Bacteroidales            | \-0.07187  |
+| SB18.before.diet | DrugBefore\_NO   | Bacteroidales            | 1.83826    |
+| SB28.before.diet | DrugBefore\_YES  | Bacteroidales            | \-0.07345  |
+| SB29.before.diet | DrugBefore\_YES  | Bacteroidales            | 1.54675    |
+| SB34.before.diet | DrugBefore\_YES  | Bacteroidales            | \-0.08291  |
+| SB36.before.diet | DrugBefore\_YES  | Bacteroidales            | 0.09319    |
+| SB39.before.diet | DrugBefore\_YES  | Bacteroidales            | \-0.40769  |
+| SB4.before.diet  | DrugBefore\_YES  | Bacteroidales            | \-0.06401  |
+| SB41.before.diet | DrugBefore\_YES  | Bacteroidales            | 0.02529    |
+| SB43.before.diet | DrugBefore\_YES  | Bacteroidales            | 1.40234    |
+| SB44.before.diet | DrugBefore\_YES  | Bacteroidales            | 8.07375    |
+| SB5.before.diet  | DrugBefore\_NO   | Bacteroidales            | \-2.97396  |
+| SB9.before.diet  | DrugBefore\_NO   | Bacteroidales            | \-3.47822  |
+| SB11.before.diet | DrugBefore\_NO   | Clostridiales            | \-0.82685  |
+| SB16.before.diet | DrugBefore\_YES  | Clostridiales            | 0.56231    |
+| SB18.before.diet | DrugBefore\_NO   | Clostridiales            | \-4.55997  |
+| SB28.before.diet | DrugBefore\_YES  | Clostridiales            | \-2.07830  |
+| SB29.before.diet | DrugBefore\_YES  | Clostridiales            | 5.73036    |
+| SB34.before.diet | DrugBefore\_YES  | Clostridiales            | 0.45140    |
+| SB36.before.diet | DrugBefore\_YES  | Clostridiales            | \-1.07855  |
+| SB39.before.diet | DrugBefore\_YES  | Clostridiales            | \-0.15541  |
+| SB4.before.diet  | DrugBefore\_YES  | Clostridiales            | 2.22516    |
+| SB41.before.diet | DrugBefore\_YES  | Clostridiales            | \-0.13608  |
+| SB43.before.diet | DrugBefore\_YES  | Clostridiales            | \-3.34615  |
+| SB44.before.diet | DrugBefore\_YES  | Clostridiales            | \-2.36071  |
+| SB5.before.diet  | DrugBefore\_NO   | Clostridiales            | 2.10759    |
+| SB9.before.diet  | DrugBefore\_NO   | Clostridiales            | 1.31247    |
+| SB11.before.diet | DrugBefore\_NO   | Lactobacillales          | \-34.11297 |
+| SB16.before.diet | DrugBefore\_YES  | Lactobacillales          | 1.30870    |
+| SB18.before.diet | DrugBefore\_NO   | Lactobacillales          | 5.71092    |
+| SB28.before.diet | DrugBefore\_YES  | Lactobacillales          | 35.04440   |
+| SB29.before.diet | DrugBefore\_YES  | Lactobacillales          | \-44.75939 |
+| SB34.before.diet | DrugBefore\_YES  | Lactobacillales          | 2.34436    |
+| SB36.before.diet | DrugBefore\_YES  | Lactobacillales          | 2.40346    |
+| SB39.before.diet | DrugBefore\_YES  | Lactobacillales          | 4.10044    |
+| SB4.before.diet  | DrugBefore\_YES  | Lactobacillales          | \-0.09638  |
+| SB41.before.diet | DrugBefore\_YES  | Lactobacillales          | \-2.89110  |
+| SB43.before.diet | DrugBefore\_YES  | Lactobacillales          | \-6.39088  |
+| SB44.before.diet | DrugBefore\_YES  | Lactobacillales          | \-38.40238 |
+| SB5.before.diet  | DrugBefore\_NO   | Lactobacillales          | 4.71936    |
+| SB9.before.diet  | DrugBefore\_NO   | Lactobacillales          | 5.73150    |
+| SB11.before.diet | DrugBefore\_NO   | Erysipelotrichales       | \-0.30112  |
+| SB16.before.diet | DrugBefore\_YES  | Erysipelotrichales       | 4.98093    |
+| SB18.before.diet | DrugBefore\_NO   | Erysipelotrichales       | \-0.84117  |
+| SB28.before.diet | DrugBefore\_YES  | Erysipelotrichales       | 0.26944    |
+| SB29.before.diet | DrugBefore\_YES  | Erysipelotrichales       | \-2.11130  |
+| SB34.before.diet | DrugBefore\_YES  | Erysipelotrichales       | 2.05299    |
+| SB36.before.diet | DrugBefore\_YES  | Erysipelotrichales       | \-37.65902 |
+| SB39.before.diet | DrugBefore\_YES  | Erysipelotrichales       | 3.15920    |
+| SB4.before.diet  | DrugBefore\_YES  | Erysipelotrichales       | 4.55270    |
+| SB41.before.diet | DrugBefore\_YES  | Erysipelotrichales       | \-2.85572  |
+| SB43.before.diet | DrugBefore\_YES  | Erysipelotrichales       | \-1.97859  |
+| SB44.before.diet | DrugBefore\_YES  | Erysipelotrichales       | 1.99359    |
+| SB5.before.diet  | DrugBefore\_NO   | Erysipelotrichales       | 6.92235    |
+| SB9.before.diet  | DrugBefore\_NO   | Erysipelotrichales       | 8.60451    |
+| SB11.before.diet | DrugBefore\_NO   | Selenomonadales          | 2.30649    |
+| SB16.before.diet | DrugBefore\_YES  | Selenomonadales          | \-0.27627  |
+| SB18.before.diet | DrugBefore\_NO   | Selenomonadales          | \-6.70741  |
+| SB28.before.diet | DrugBefore\_YES  | Selenomonadales          | \-2.71024  |
+| SB29.before.diet | DrugBefore\_YES  | Selenomonadales          | 34.91631   |
+| SB34.before.diet | DrugBefore\_YES  | Selenomonadales          | 3.82979    |
+| SB36.before.diet | DrugBefore\_YES  | Selenomonadales          | 33.99639   |
+| SB39.before.diet | DrugBefore\_YES  | Selenomonadales          | 1.93922    |
+| SB4.before.diet  | DrugBefore\_YES  | Selenomonadales          | 33.66048   |
+| SB41.before.diet | DrugBefore\_YES  | Selenomonadales          | \-1.93383  |
+| SB43.before.diet | DrugBefore\_YES  | Selenomonadales          | \-0.17246  |
+| SB44.before.diet | DrugBefore\_YES  | Selenomonadales          | \-5.00802  |
+| SB5.before.diet  | DrugBefore\_NO   | Selenomonadales          | 5.47656    |
+| SB9.before.diet  | DrugBefore\_NO   | Selenomonadales          | \-41.04894 |
+| SB11.before.diet | DrugBefore\_NO   | Enterobacteriales        | 1.11389    |
+| SB16.before.diet | DrugBefore\_YES  | Enterobacteriales        | 6.06353    |
+| SB18.before.diet | DrugBefore\_NO   | Enterobacteriales        | \-35.27866 |
+| SB28.before.diet | DrugBefore\_YES  | Enterobacteriales        | 3.54280    |
+| SB29.before.diet | DrugBefore\_YES  | Enterobacteriales        | 0.00000    |
+| SB34.before.diet | DrugBefore\_YES  | Enterobacteriales        | \-0.97756  |
+| SB36.before.diet | DrugBefore\_YES  | Enterobacteriales        | 0.00000    |
+| SB39.before.diet | DrugBefore\_YES  | Enterobacteriales        | 0.00000    |
+| SB4.before.diet  | DrugBefore\_YES  | Enterobacteriales        | 0.00000    |
+| SB41.before.diet | DrugBefore\_YES  | Enterobacteriales        | \-36.34011 |
+| SB43.before.diet | DrugBefore\_YES  | Enterobacteriales        | \-4.06227  |
+| SB44.before.diet | DrugBefore\_YES  | Enterobacteriales        | 1.82367    |
+| SB5.before.diet  | DrugBefore\_NO   | Enterobacteriales        | 10.53977   |
+| SB9.before.diet  | DrugBefore\_NO   | Enterobacteriales        | 2.81008    |
+| SB11.before.diet | DrugBefore\_NO   | Burkholderiales          | \-2.20796  |
+| SB16.before.diet | DrugBefore\_YES  | Burkholderiales          | \-2.90722  |
+| SB18.before.diet | DrugBefore\_NO   | Burkholderiales          | \-4.09266  |
+| SB28.before.diet | DrugBefore\_YES  | Burkholderiales          | 0.00000    |
+| SB29.before.diet | DrugBefore\_YES  | Burkholderiales          | 0.00000    |
+| SB34.before.diet | DrugBefore\_YES  | Burkholderiales          | 0.18448    |
+| SB36.before.diet | DrugBefore\_YES  | Burkholderiales          | 0.78049    |
+| SB39.before.diet | DrugBefore\_YES  | Burkholderiales          | \-1.95611  |
+| SB4.before.diet  | DrugBefore\_YES  | Burkholderiales          | 36.24544   |
+| SB41.before.diet | DrugBefore\_YES  | Burkholderiales          | 30.89262   |
+| SB43.before.diet | DrugBefore\_YES  | Burkholderiales          | 40.33816   |
+| SB44.before.diet | DrugBefore\_YES  | Burkholderiales          | 0.00000    |
+| SB5.before.diet  | DrugBefore\_NO   | Burkholderiales          | 32.19202   |
+| SB9.before.diet  | DrugBefore\_NO   | Burkholderiales          | \-2.43784  |
+| SB11.before.diet | DrugBefore\_NO   | Verrucomicrobiales       | 3.39378    |
+| SB16.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 0.00000    |
+| SB18.before.diet | DrugBefore\_NO   | Verrucomicrobiales       | 0.00000    |
+| SB28.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 0.00000    |
+| SB29.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 0.00000    |
+| SB34.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 0.00000    |
+| SB36.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 0.00000    |
+| SB39.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 42.83593   |
+| SB4.before.diet  | DrugBefore\_YES  | Verrucomicrobiales       | 0.00000    |
+| SB41.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | \-5.40355  |
+| SB43.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 32.02551   |
+| SB44.before.diet | DrugBefore\_YES  | Verrucomicrobiales       | 0.00000    |
+| SB5.before.diet  | DrugBefore\_NO   | Verrucomicrobiales       | 0.00000    |
+| SB9.before.diet  | DrugBefore\_NO   | Verrucomicrobiales       | 0.00000    |
+| SB11.before.diet | DrugBefore\_NO   | Unclassified\_Bacteria   | 0.47645    |
+| SB16.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | 2.74160    |
+| SB18.before.diet | DrugBefore\_NO   | Unclassified\_Bacteria   | 1.39761    |
+| SB28.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | \-1.31551  |
+| SB29.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | 36.72367   |
+| SB34.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | \-1.74310  |
+| SB36.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | \-0.18150  |
+| SB39.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | 1.20881    |
+| SB4.before.diet  | DrugBefore\_YES  | Unclassified\_Bacteria   | 3.13767    |
+| SB41.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | 1.01080    |
+| SB43.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | \-0.46890  |
+| SB44.before.diet | DrugBefore\_YES  | Unclassified\_Bacteria   | 0.28933    |
+| SB5.before.diet  | DrugBefore\_NO   | Unclassified\_Bacteria   | \-0.46197  |
+| SB9.before.diet  | DrugBefore\_NO   | Unclassified\_Bacteria   | 5.13200    |
+| SB11.before.diet | DrugBefore\_NO   | Unclassified\_Firmicutes | \-2.39491  |
+| SB16.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | 3.33422    |
+| SB18.before.diet | DrugBefore\_NO   | Unclassified\_Firmicutes | \-3.18016  |
+| SB28.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | \-33.77494 |
+| SB29.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | 34.91631   |
+| SB34.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | 2.47173    |
+| SB36.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | \-36.84086 |
+| SB39.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | 2.87805    |
+| SB4.before.diet  | DrugBefore\_YES  | Unclassified\_Firmicutes | 34.66048   |
+| SB41.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | 1.63693    |
+| SB43.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | \-3.06227  |
+| SB44.before.diet | DrugBefore\_YES  | Unclassified\_Firmicutes | \-4.34624  |
+| SB5.before.diet  | DrugBefore\_NO   | Unclassified\_Firmicutes | 4.32463    |
+| SB9.before.diet  | DrugBefore\_NO   | Unclassified\_Firmicutes | \-0.93089  |
+| SB11.before.diet | DrugBefore\_NO   | Rhizobiales              | \-34.11297 |
+| SB16.before.diet | DrugBefore\_YES  | Rhizobiales              | 0.00000    |
+| SB18.before.diet | DrugBefore\_NO   | Rhizobiales              | \-1.59886  |
+| SB28.before.diet | DrugBefore\_YES  | Rhizobiales              | 0.00000    |
+| SB29.before.diet | DrugBefore\_YES  | Rhizobiales              | 0.00000    |
+| SB34.before.diet | DrugBefore\_YES  | Rhizobiales              | \-1.04311  |
+| SB36.before.diet | DrugBefore\_YES  | Rhizobiales              | \-0.36207  |
+| SB39.before.diet | DrugBefore\_YES  | Rhizobiales              | \-0.02995  |
+| SB4.before.diet  | DrugBefore\_YES  | Rhizobiales              | 1.55271    |
+| SB41.before.diet | DrugBefore\_YES  | Rhizobiales              | 1.57487    |
+| SB43.before.diet | DrugBefore\_YES  | Rhizobiales              | \-3.12786  |
+| SB44.before.diet | DrugBefore\_YES  | Rhizobiales              | 0.00000    |
+| SB5.before.diet  | DrugBefore\_NO   | Rhizobiales              | 1.61414    |
+| SB9.before.diet  | DrugBefore\_NO   | Rhizobiales              | 2.22512    |
+
+
+
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.1.1\) <a name="widget.177"></a>[`Widget 177.`](#widget.177) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.2.5.2.4.2.1.1.1-323710aee8aDynamic.Pivot.Table.html`](./1.4.1.2.5.2.4.2.1.1.1-323710aee8aDynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.1.1\) <a name="widget.178"></a>[`Widget 178.`](#widget.178) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.4.1.2.5.2.4.2.1.1.1-32328d7c4a7Dynamic.Pivot.Table.html`](./1.4.1.2.5.2.4.2.1.1.1-32328d7c4a7Dynamic.Pivot.Table.html)
+
+
+\(1.4.1.2.5.2.4.2.1.1.1\) <a name="table.161"></a>[`Table 161.`](#table.161) Summary table. Data grouped by Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.2.5.2.4.2.1.1.1-32341811bba.1.4.1.2.5.2.4.2.1.1.csv`](data/1.4.1.2.5.2.4.2.1.1.1-32341811bba.1.4.1.2.5.2.4.2.1.1.csv)
+
+
+
+
+| feature                  | Drug.Before.Diet | mean     | sd     | median     | incidence |
+|:-------------------------|:-----------------|:---------|:-------|:-----------|:----------|
+| Unclassified\_Bacteria   | DrugBefore\_NO   | 1.6360   | 2.451  | 0.937033   | 0.75      |
+| Unclassified\_Bacteria   | DrugBefore\_YES  | 4.1403   | 11.557 | 0.650068   | 0.60      |
+| Erysipelotrichales       | DrugBefore\_NO   | 3.5961   | 4.866  | 3.310611   | 0.50      |
+| Erysipelotrichales       | DrugBefore\_YES  | \-2.7596 | 12.571 | 1.131517   | 0.60      |
+| Clostridiales            | DrugBefore\_NO   | \-0.4917 | 2.982  | 0.242811   | 0.50      |
+| Clostridiales            | DrugBefore\_YES  | \-0.0186 | 2.595  | \-0.145743 | 0.40      |
+| Bacteroidales            | DrugBefore\_NO   | \-1.0895 | 2.559  | \-1.359108 | 0.50      |
+| Bacteroidales            | DrugBefore\_YES  | 1.0441   | 2.557  | \-0.019357 | 0.50      |
+| Lactobacillales          | DrugBefore\_NO   | \-4.4878 | 19.756 | 5.215139   | 0.75      |
+| Lactobacillales          | DrugBefore\_YES  | \-4.7339 | 22.512 | 0.606156   | 0.50      |
+| Unclassified\_Firmicutes | DrugBefore\_NO   | \-0.5453 | 3.378  | \-1.662897 | 0.25      |
+| Unclassified\_Firmicutes | DrugBefore\_YES  | 0.1873   | 23.510 | 2.054333   | 0.60      |
+| Selenomonadales          | DrugBefore\_NO   | \-9.9933 | 21.337 | \-2.200460 | 0.50      |
+| Selenomonadales          | DrugBefore\_YES  | 9.8241   | 16.989 | 0.883377   | 0.50      |
+| Enterobacteriales        | DrugBefore\_NO   | \-5.2037 | 20.465 | 1.961986   | 0.75      |
+| Enterobacteriales        | DrugBefore\_YES  | \-2.9950 | 12.023 | 0.000000   | 0.30      |
+| Burkholderiales          | DrugBefore\_NO   | 5.8634   | 17.572 | \-2.322897 | 0.25      |
+| Burkholderiales          | DrugBefore\_YES  | 10.3578  | 17.749 | 0.092241   | 0.50      |
+| Rhizobiales              | DrugBefore\_NO   | \-7.9681 | 17.510 | 0.007638   | 0.50      |
+| Rhizobiales              | DrugBefore\_YES  | \-0.1435 | 1.320  | 0.000000   | 0.20      |
+| Verrucomicrobiales       | DrugBefore\_NO   | 0.8484   | 1.697  | 0.000000   | 0.25      |
+| Verrucomicrobiales       | DrugBefore\_YES  | 6.9458   | 16.355 | 0.000000   | 0.20      |
+
+
+
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.1.1\) <a name="figure.663"></a>[`Figure 663.`](#figure.663) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/323525d3ece.svg`](plots/323525d3ece.svg).
+![](plots/323525d3ece.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.1.1\) <a name="figure.664"></a>[`Figure 664.`](#figure.664) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3232f7b1e52.svg`](plots/3232f7b1e52.svg).
+![](plots/3232f7b1e52.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.1.1\) <a name="figure.665"></a>[`Figure 665.`](#figure.665) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32314ecd115.svg`](plots/32314ecd115.svg).
+![](plots/32314ecd115.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.1.1\) <a name="figure.666"></a>[`Figure 666.`](#figure.666) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3233b704a45.svg`](plots/3233b704a45.svg).
+![](plots/3233b704a45.svg)
+
+
+##### \(1.4.1.2.5.2.4.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.2.1\) <a name="figure.667"></a>[`Figure 667.`](#figure.667) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3232476d345.svg`](plots/3232476d345.svg).
+![](plots/3232476d345.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.2.1\) <a name="figure.668"></a>[`Figure 668.`](#figure.668) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3231ff2a1a3.svg`](plots/3231ff2a1a3.svg).
+![](plots/3231ff2a1a3.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.1.2.1\) <a name="figure.669"></a>[`Figure 669.`](#figure.669) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323c83ee3c.svg`](plots/323c83ee3c.svg).
+![](plots/323c83ee3c.svg)
+
+
+##### \(1.4.1.2.5.2.4.2.2\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.4.1.2.5.2.4.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.2.5.2.4.2.2.1.1\) <a name="figure.670"></a>[`Figure 670.`](#figure.670) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3236c168e5e.svg`](plots/3236c168e5e.svg).
+![](plots/3236c168e5e.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.2.1.1\) <a name="figure.671"></a>[`Figure 671.`](#figure.671) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3232321c8ac.svg`](plots/3232321c8ac.svg).
+![](plots/3232321c8ac.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.2.1.1\) <a name="figure.672"></a>[`Figure 672.`](#figure.672) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323457948d7.svg`](plots/323457948d7.svg).
+![](plots/323457948d7.svg)
+
+
+##### \(1.4.1.2.5.2.4.2.2.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.4.1.2.5.2.4.2.2.2.1\) <a name="figure.673"></a>[`Figure 673.`](#figure.673) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/32392900c2.svg`](plots/32392900c2.svg).
+![](plots/32392900c2.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.2.2.1\) <a name="figure.674"></a>[`Figure 674.`](#figure.674) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3233aee936e.svg`](plots/3233aee936e.svg).
+![](plots/3233aee936e.svg)
+
+
+
+
+\(1.4.1.2.5.2.4.2.2.2.1\) <a name="figure.675"></a>[`Figure 675.`](#figure.675) Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Data grouped by Drug.Before.Diet. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/32375ea4aa6.svg`](plots/32375ea4aa6.svg).
+![](plots/32375ea4aa6.svg)

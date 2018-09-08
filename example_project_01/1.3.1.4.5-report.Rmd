@@ -1,0 +1,1031 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.3.1.4.5\) Plots of Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.3.1.4.5.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.3.1.4.5.2.1\) Entire pool of samples
+
+
+
+
+##### \(1.3.1.4.5.2.2\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order
+
+
+
+
+##### \(1.3.1.4.5.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.3.1.4.5.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.3.1.4.5.2.2.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.4.5.2.2.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.3.1.4.5.2.2.2.1.1.0\) <a name="table.138"></a>[`Table 138.`](#table.138) Data table used for plots. Data for all pooled samples. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.4.5.2.2.2.1.1.0-3233957d83.1.3.1.4.5.2.2.2.1.1.csv`](data/1.3.1.4.5.2.2.2.1.1.0-3233957d83.1.3.1.4.5.2.2.2.1.1.csv)
+
+
+
+
+| .record.id   | feature                  | l2fc        |
+|:-------------|:-------------------------|:------------|
+| MG1.patient  | Bacteroides.Otu0001      | 0.694991    |
+| MG10.patient | Bacteroides.Otu0001      | 5.049920    |
+| MG13.patient | Bacteroides.Otu0001      | 42.625385   |
+| MG14.patient | Bacteroides.Otu0001      | \-0.242777  |
+| MG16.patient | Bacteroides.Otu0001      | 0.173279    |
+| MG17.patient | Bacteroides.Otu0001      | 1.894468    |
+| MG19.patient | Bacteroides.Otu0001      | 0.802713    |
+| MG2.patient  | Bacteroides.Otu0001      | \-36.927183 |
+| MG21.patient | Bacteroides.Otu0001      | 0.990007    |
+| MG22.patient | Bacteroides.Otu0001      | \-1.763697  |
+| MG23.patient | Bacteroides.Otu0001      | 0.287426    |
+| MG25.patient | Bacteroides.Otu0001      | 2.785405    |
+| MG3.patient  | Bacteroides.Otu0001      | 3.089662    |
+| MG4.patient  | Bacteroides.Otu0001      | 1.622551    |
+| MG6.patient  | Bacteroides.Otu0001      | \-1.517464  |
+| MG8.patient  | Bacteroides.Otu0001      | \-0.424184  |
+| MG1.patient  | Bacteroides.Otu2520      | 7.047037    |
+| MG10.patient | Bacteroides.Otu2520      | \-3.119746  |
+| MG13.patient | Bacteroides.Otu2520      | 38.498057   |
+| MG14.patient | Bacteroides.Otu2520      | \-0.803845  |
+| MG16.patient | Bacteroides.Otu2520      | \-2.798154  |
+| MG17.patient | Bacteroides.Otu2520      | \-4.773882  |
+| MG19.patient | Bacteroides.Otu2520      | \-43.293915 |
+| MG2.patient  | Bacteroides.Otu2520      | \-3.452479  |
+| MG21.patient | Bacteroides.Otu2520      | \-2.743763  |
+| MG22.patient | Bacteroides.Otu2520      | 1.089384    |
+| MG23.patient | Bacteroides.Otu2520      | 0.000000    |
+| MG25.patient | Bacteroides.Otu2520      | 5.145809    |
+| MG3.patient  | Bacteroides.Otu2520      | 3.786875    |
+| MG4.patient  | Bacteroides.Otu2520      | \-0.745758  |
+| MG6.patient  | Bacteroides.Otu2520      | \-0.854567  |
+| MG8.patient  | Bacteroides.Otu2520      | 0.881099    |
+| MG1.patient  | Prevotella.Otu1987       | \-42.475127 |
+| MG10.patient | Prevotella.Otu1987       | 0.000000    |
+| MG13.patient | Prevotella.Otu1987       | \-1.613076  |
+| MG14.patient | Prevotella.Otu1987       | 0.000000    |
+| MG16.patient | Prevotella.Otu1987       | 0.000000    |
+| MG17.patient | Prevotella.Otu1987       | \-8.254042  |
+| MG19.patient | Prevotella.Otu1987       | 0.000000    |
+| MG2.patient  | Prevotella.Otu1987       | \-5.672154  |
+| MG21.patient | Prevotella.Otu1987       | 42.028746   |
+| MG22.patient | Prevotella.Otu1987       | 0.000000    |
+| MG23.patient | Prevotella.Otu1987       | 0.000000    |
+| MG25.patient | Prevotella.Otu1987       | \-2.791150  |
+| MG3.patient  | Prevotella.Otu1987       | 0.000000    |
+| MG4.patient  | Prevotella.Otu1987       | 0.000000    |
+| MG6.patient  | Prevotella.Otu1987       | 0.000000    |
+| MG8.patient  | Prevotella.Otu1987       | \-31.619530 |
+| MG1.patient  | Bacteroides.Otu2654      | 9.154794    |
+| MG10.patient | Bacteroides.Otu2654      | 4.010515    |
+| MG13.patient | Bacteroides.Otu2654      | 40.490152   |
+| MG14.patient | Bacteroides.Otu2654      | 1.821609    |
+| MG16.patient | Bacteroides.Otu2654      | \-1.354770  |
+| MG17.patient | Bacteroides.Otu2654      | \-31.836630 |
+| MG19.patient | Bacteroides.Otu2654      | \-36.078856 |
+| MG2.patient  | Bacteroides.Otu2654      | \-35.119830 |
+| MG21.patient | Bacteroides.Otu2654      | \-0.521864  |
+| MG22.patient | Bacteroides.Otu2654      | \-0.706593  |
+| MG23.patient | Bacteroides.Otu2654      | 34.959004   |
+| MG25.patient | Bacteroides.Otu2654      | 5.261781    |
+| MG3.patient  | Bacteroides.Otu2654      | 5.640960    |
+| MG4.patient  | Bacteroides.Otu2654      | 1.969530    |
+| MG6.patient  | Bacteroides.Otu2654      | \-33.160157 |
+| MG8.patient  | Bacteroides.Otu2654      | 2.340754    |
+| MG1.patient  | Bacteroides.Otu0863      | 2.493363    |
+| MG10.patient | Bacteroides.Otu0863      | 2.879130    |
+| MG13.patient | Bacteroides.Otu0863      | 40.174694   |
+| MG14.patient | Bacteroides.Otu0863      | 2.522220    |
+| MG16.patient | Bacteroides.Otu0863      | 3.051349    |
+| MG17.patient | Bacteroides.Otu0863      | \-38.436527 |
+| MG19.patient | Bacteroides.Otu0863      | \-38.623156 |
+| MG2.patient  | Bacteroides.Otu0863      | 2.823608    |
+| MG21.patient | Bacteroides.Otu0863      | \-2.105128  |
+| MG22.patient | Bacteroides.Otu0863      | 1.040321    |
+| MG23.patient | Bacteroides.Otu0863      | 39.385208   |
+| MG25.patient | Bacteroides.Otu0863      | 3.213274    |
+| MG3.patient  | Bacteroides.Otu0863      | \-2.529878  |
+| MG4.patient  | Bacteroides.Otu0863      | \-3.181104  |
+| MG6.patient  | Bacteroides.Otu0863      | 1.572731    |
+| MG8.patient  | Bacteroides.Otu0863      | \-1.523829  |
+| MG1.patient  | Bacteroides.Otu2038      | 1.663290    |
+| MG10.patient | Bacteroides.Otu2038      | 36.073634   |
+| MG13.patient | Bacteroides.Otu2038      | 7.467646    |
+| MG14.patient | Bacteroides.Otu2038      | 2.306928    |
+| MG16.patient | Bacteroides.Otu2038      | \-2.050774  |
+| MG17.patient | Bacteroides.Otu2038      | 4.940348    |
+| MG19.patient | Bacteroides.Otu2038      | 1.159382    |
+| MG2.patient  | Bacteroides.Otu2038      | 33.989275   |
+| MG21.patient | Bacteroides.Otu2038      | 2.660962    |
+| MG22.patient | Bacteroides.Otu2038      | \-3.672197  |
+| MG23.patient | Bacteroides.Otu2038      | 1.055541    |
+| MG25.patient | Bacteroides.Otu2038      | 2.869377    |
+| MG3.patient  | Bacteroides.Otu2038      | 2.857576    |
+| MG4.patient  | Bacteroides.Otu2038      | 1.647018    |
+| MG6.patient  | Bacteroides.Otu2038      | \-2.255223  |
+| MG8.patient  | Bacteroides.Otu2038      | \-1.749982  |
+| MG1.patient  | Faecalibacterium.Otu0067 | \-6.063997  |
+| MG10.patient | Faecalibacterium.Otu0067 | 0.381534    |
+| MG13.patient | Faecalibacterium.Otu0067 | \-0.663448  |
+| MG14.patient | Faecalibacterium.Otu0067 | \-1.733991  |
+| MG16.patient | Faecalibacterium.Otu0067 | \-1.509331  |
+| MG17.patient | Faecalibacterium.Otu0067 | 1.246309    |
+| MG19.patient | Faecalibacterium.Otu0067 | 3.007372    |
+| MG2.patient  | Faecalibacterium.Otu0067 | \-0.819669  |
+| MG21.patient | Faecalibacterium.Otu0067 | 1.900814    |
+| MG22.patient | Faecalibacterium.Otu0067 | \-0.426908  |
+| MG23.patient | Faecalibacterium.Otu0067 | 1.080606    |
+| MG25.patient | Faecalibacterium.Otu0067 | 0.682202    |
+| MG3.patient  | Faecalibacterium.Otu0067 | \-2.205096  |
+| MG4.patient  | Faecalibacterium.Otu0067 | \-0.429791  |
+| MG6.patient  | Faecalibacterium.Otu0067 | \-4.123062  |
+| MG8.patient  | Faecalibacterium.Otu0067 | \-2.038609  |
+| MG1.patient  | Alistipes.Otu2508        | \-38.585650 |
+| MG10.patient | Alistipes.Otu2508        | \-40.860042 |
+| MG13.patient | Alistipes.Otu2508        | 8.763224    |
+| MG14.patient | Alistipes.Otu2508        | \-5.727386  |
+| MG16.patient | Alistipes.Otu2508        | 0.045884    |
+| MG17.patient | Alistipes.Otu2508        | \-38.006546 |
+| MG19.patient | Alistipes.Otu2508        | 1.422419    |
+| MG2.patient  | Alistipes.Otu2508        | \-39.939878 |
+| MG21.patient | Alistipes.Otu2508        | \-7.190270  |
+| MG22.patient | Alistipes.Otu2508        | \-0.544539  |
+| MG23.patient | Alistipes.Otu2508        | 0.000000    |
+| MG25.patient | Alistipes.Otu2508        | 0.589309    |
+| MG3.patient  | Alistipes.Otu2508        | 40.339473   |
+| MG4.patient  | Alistipes.Otu2508        | 0.000000    |
+| MG6.patient  | Alistipes.Otu2508        | 1.224207    |
+| MG8.patient  | Alistipes.Otu2508        | 0.000000    |
+| MG1.patient  | Ruminococcus.Otu1859     | \-32.885231 |
+| MG10.patient | Ruminococcus.Otu1859     | 0.000000    |
+| MG13.patient | Ruminococcus.Otu1859     | \-35.886247 |
+| MG14.patient | Ruminococcus.Otu1859     | \-6.005116  |
+| MG16.patient | Ruminococcus.Otu1859     | \-3.190626  |
+| MG17.patient | Ruminococcus.Otu1859     | 0.000000    |
+| MG19.patient | Ruminococcus.Otu1859     | \-2.934050  |
+| MG2.patient  | Ruminococcus.Otu1859     | \-41.278858 |
+| MG21.patient | Ruminococcus.Otu1859     | \-39.396080 |
+| MG22.patient | Ruminococcus.Otu1859     | \-37.226343 |
+| MG23.patient | Ruminococcus.Otu1859     | 0.000000    |
+| MG25.patient | Ruminococcus.Otu1859     | \-3.023613  |
+| MG3.patient  | Ruminococcus.Otu1859     | \-38.590092 |
+| MG4.patient  | Ruminococcus.Otu1859     | 0.000000    |
+| MG6.patient  | Ruminococcus.Otu1859     | \-38.114342 |
+| MG8.patient  | Ruminococcus.Otu1859     | \-3.105813  |
+| MG1.patient  | Bacteroides.Otu2065      | \-37.344659 |
+| MG10.patient | Bacteroides.Otu2065      | \-40.491305 |
+| MG13.patient | Bacteroides.Otu2065      | 0.000000    |
+| MG14.patient | Bacteroides.Otu2065      | 0.000000    |
+| MG16.patient | Bacteroides.Otu2065      | \-6.902830  |
+| MG17.patient | Bacteroides.Otu2065      | 0.000000    |
+| MG19.patient | Bacteroides.Otu2065      | 43.948405   |
+| MG2.patient  | Bacteroides.Otu2065      | 0.000000    |
+| MG21.patient | Bacteroides.Otu2065      | \-40.064364 |
+| MG22.patient | Bacteroides.Otu2065      | 0.000000    |
+| MG23.patient | Bacteroides.Otu2065      | 0.000000    |
+| MG25.patient | Bacteroides.Otu2065      | 0.000000    |
+| MG3.patient  | Bacteroides.Otu2065      | \-0.375564  |
+| MG4.patient  | Bacteroides.Otu2065      | 0.000000    |
+| MG6.patient  | Bacteroides.Otu2065      | 0.000000    |
+| MG8.patient  | Bacteroides.Otu2065      | 1.915150    |
+| MG1.patient  | Bacteroides.Otu0848      | 38.518129   |
+| MG10.patient | Bacteroides.Otu0848      | 3.096685    |
+| MG13.patient | Bacteroides.Otu0848      | 37.791265   |
+| MG14.patient | Bacteroides.Otu0848      | 2.291088    |
+| MG16.patient | Bacteroides.Otu0848      | \-1.490196  |
+| MG17.patient | Bacteroides.Otu0848      | \-35.743521 |
+| MG19.patient | Bacteroides.Otu0848      | \-35.815822 |
+| MG2.patient  | Bacteroides.Otu0848      | 0.869445    |
+| MG21.patient | Bacteroides.Otu0848      | \-1.563159  |
+| MG22.patient | Bacteroides.Otu0848      | 0.107586    |
+| MG23.patient | Bacteroides.Otu0848      | 42.402085   |
+| MG25.patient | Bacteroides.Otu0848      | 4.499873    |
+| MG3.patient  | Bacteroides.Otu0848      | 2.749419    |
+| MG4.patient  | Bacteroides.Otu0848      | \-37.414620 |
+| MG6.patient  | Bacteroides.Otu0848      | 0.929187    |
+| MG8.patient  | Bacteroides.Otu0848      | 0.411228    |
+| MG1.patient  | Prevotella.Otu1994       | 0.000000    |
+| MG10.patient | Prevotella.Otu1994       | 0.000000    |
+| MG13.patient | Prevotella.Otu1994       | \-42.501872 |
+| MG14.patient | Prevotella.Otu1994       | 0.000000    |
+| MG16.patient | Prevotella.Otu1994       | 0.000000    |
+| MG17.patient | Prevotella.Otu1994       | \-40.394803 |
+| MG19.patient | Prevotella.Otu1994       | 0.000000    |
+| MG2.patient  | Prevotella.Otu1994       | \-43.151559 |
+| MG21.patient | Prevotella.Otu1994       | 39.091555   |
+| MG22.patient | Prevotella.Otu1994       | 0.000000    |
+| MG23.patient | Prevotella.Otu1994       | 0.000000    |
+| MG25.patient | Prevotella.Otu1994       | \-0.431423  |
+| MG3.patient  | Prevotella.Otu1994       | 0.000000    |
+| MG4.patient  | Prevotella.Otu1994       | 0.000000    |
+| MG6.patient  | Prevotella.Otu1994       | 0.000000    |
+| MG8.patient  | Prevotella.Otu1994       | 0.000000    |
+| MG1.patient  | Bacteroides.Otu2431      | 37.487116   |
+| MG10.patient | Bacteroides.Otu2431      | \-40.960001 |
+| MG13.patient | Bacteroides.Otu2431      | 37.435787   |
+| MG14.patient | Bacteroides.Otu2431      | \-0.002965  |
+| MG16.patient | Bacteroides.Otu2431      | \-0.004586  |
+| MG17.patient | Bacteroides.Otu2431      | \-35.836630 |
+| MG19.patient | Bacteroides.Otu2431      | 6.150252    |
+| MG2.patient  | Bacteroides.Otu2431      | \-35.119830 |
+
+
+
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.1.1\) <a name="widget.152"></a>[`Widget 152.`](#widget.152) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.3.1.4.5.2.2.2.1.1.1-32370288d02Dynamic.Pivot.Table.html`](./1.3.1.4.5.2.2.2.1.1.1-32370288d02Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.1.1\) <a name="widget.153"></a>[`Widget 153.`](#widget.153) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.3.1.4.5.2.2.2.1.1.1-32328f54c22Dynamic.Pivot.Table.html`](./1.3.1.4.5.2.2.2.1.1.1-32328f54c22Dynamic.Pivot.Table.html)
+
+
+\(1.3.1.4.5.2.2.2.1.1.1\) <a name="table.139"></a>[`Table 139.`](#table.139) Summary table. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.4.5.2.2.2.1.1.1-32328de71ad.1.3.1.4.5.2.2.2.1.1.csv`](data/1.3.1.4.5.2.2.2.1.1.1-32328de71ad.1.3.1.4.5.2.2.2.1.1.csv)
+
+
+
+
+| feature                                      | mean      | sd      | median      | incidence |
+|:---------------------------------------------|:----------|:--------|:------------|:----------|
+| Lachnospiracea\_incertae\_sedis.Otu0113      | \-14.8308 | 17.4183 | \-3.475205  | 0.0625    |
+| Lachnospiraceae.Otu2512                      | \-13.8055 | 20.8767 | \-6.400535  | 0.1250    |
+| Lachnospiraceae.Otu2222                      | \-21.7474 | 17.6033 | \-34.250105 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu2549      | \-18.7788 | 17.8317 | \-19.034583 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu1990      | \-24.0609 | 17.4417 | \-36.049432 | 0.1250    |
+| Ruminococcus.Otu1027                         | \-29.2934 | 14.5037 | \-35.838488 | 0.0000    |
+| Lachnospiraceae.Otu0272                      | \-16.0676 | 17.6295 | \-2.686725  | 0.0625    |
+| Lachnospiracea\_incertae\_sedis.Otu2746      | \-27.8621 | 16.3966 | \-36.171322 | 0.1250    |
+| Gemmiger.Otu0907                             | \-7.9072  | 13.5186 | \-2.134025  | 0.1250    |
+| Ruminococcus.Otu2545                         | \-20.1244 | 17.0071 | \-32.569716 | 0.0000    |
+| Lachnospiraceae.Otu0220                      | \-17.2191 | 18.7682 | \-4.851571  | 0.1875    |
+| Blautia.Otu2495                              | \-10.0491 | 15.4030 | \-2.865942  | 0.1875    |
+| Bacteroides.Otu2375                          | 7.6996    | 14.4433 | 1.712641    | 0.7500    |
+| Ruminococcus.Otu1859                         | \-17.6023 | 18.3832 | \-4.597871  | 0.0000    |
+| Roseburia.Otu2637                            | \-17.9486 | 18.3333 | \-18.836484 | 0.3125    |
+| Lachnospiraceae.Otu2612                      | \-20.8179 | 22.7849 | \-35.790833 | 0.2500    |
+| Bacteroides.Otu1201                          | 1.1801    | 23.5764 | 1.359248    | 0.7500    |
+| Bacteroides.Otu0001                          | 1.1963    | 14.6391 | 0.748852    | 0.6875    |
+| Ruminococcus.Otu1915                         | \-20.1832 | 17.3178 | \-32.385739 | 0.0000    |
+| Blautia.Otu2475                              | \-3.4588  | 9.0540  | \-0.957939  | 0.1250    |
+| Bacteroides.Otu0863                          | 0.7973    | 20.3297 | 2.033047    | 0.6250    |
+| Lachnospiracea\_incertae\_sedis.Otu1152      | \-18.6852 | 22.3447 | \-34.861688 | 0.3125    |
+| Bacteroides.Otu2038                          | 5.5602    | 11.8453 | 1.985109    | 0.7500    |
+| Lachnospiraceae.Otu0578                      | \-16.5309 | 17.9391 | \-4.357315  | 0.0000    |
+| Blautia.Otu0591                              | \-6.8929  | 14.0363 | \-0.519566  | 0.1875    |
+| Bacteroides.Otu0006                          | 3.2629    | 9.8198  | 1.142482    | 0.7500    |
+| Lachnospiraceae.Otu0898                      | 13.4235   | 25.0856 | 17.995810   | 0.7500    |
+| Bacteroides.Otu0848                          | 1.3524    | 24.0691 | 0.899316    | 0.6875    |
+| Coprococcus.Otu0802                          | \-11.6593 | 21.3409 | \-2.364726  | 0.1875    |
+| Roseburia.Otu1051                            | \-11.1434 | 16.5573 | \-1.471972  | 0.2500    |
+| Bacteroides.Otu0069                          | 5.2569    | 12.8523 | 0.415157    | 0.6875    |
+| Bacteroides.Otu2460                          | 3.2374    | 30.4628 | 2.733920    | 0.6875    |
+| Bacteroides.Otu2654                          | \-2.0706  | 22.5328 | 1.895570    | 0.5625    |
+| Bacteroides.Otu2765                          | 5.7664    | 13.1931 | 1.181265    | 0.5625    |
+| Bacteroides.Otu2104                          | 3.4072    | 21.4173 | 0.877258    | 0.6250    |
+| Oscillibacter.Otu1518                        | \-16.1920 | 18.3962 | \-2.642628  | 0.0625    |
+| Erysipelotrichaceae\_incertae\_sedis.Otu0818 | 8.0571    | 23.2855 | 2.924897    | 0.5625    |
+| Lachnospiracea\_incertae\_sedis.Otu0651      | \-13.4011 | 16.9161 | \-2.152154  | 0.1875    |
+| Faecalibacterium.Otu0751                     | \-0.7250  | 13.0955 | \-0.185837  | 0.3750    |
+| Ruminococcus.Otu1429                         | \-18.3246 | 18.7234 | \-19.087125 | 0.1250    |
+| Dorea.Otu1142                                | \-12.0560 | 17.9195 | \-2.001878  | 0.3125    |
+| Faecalibacterium.Otu0067                     | \-0.7322  | 2.2652  | \-0.546619  | 0.3750    |
+| Clostridium\_IV.Otu1864                      | \-9.3316  | 24.1560 | \-0.880359  | 0.1875    |
+| Bacteroides.Otu2437                          | \-9.0723  | 28.1590 | \-2.845007  | 0.3125    |
+| Bacteroides.Otu0877                          | 5.1037    | 17.8443 | 1.440537    | 0.5625    |
+| Parabacteroides.Otu1378                      | \-5.2075  | 23.2129 | \-0.873743  | 0.4375    |
+| Ruminococcaceae.Otu2507                      | \-13.1931 | 21.9749 | \-3.494222  | 0.1875    |
+| Clostridium\_XI.Otu2681                      | \-12.5226 | 25.6029 | \-16.869380 | 0.2500    |
+| Clostridium\_XI.Otu1804                      | \-9.6006  | 17.0011 | \-1.820782  | 0.3125    |
+| Bacteroides.Otu1669                          | \-6.3664  | 23.0792 | \-0.795450  | 0.3125    |
+| Bacteroides.Otu1411                          | \-6.5756  | 25.7360 | \-0.243804  | 0.3125    |
+| Bacteroides.Otu0929                          | \-3.6301  | 23.1632 | \-0.334407  | 0.5000    |
+| Bacteroides.Otu2431                          | 0.3572    | 24.0485 | \-0.003775  | 0.4375    |
+| Parabacteroides.Otu1736                      | \-9.5076  | 15.9897 | \-0.648139  | 0.3750    |
+| Clostridiales.Otu1597                        | \-11.8501 | 17.4708 | 0.000000    | 0.0000    |
+| Bacteroides.Otu2120                          | \-3.9607  | 11.7962 | 0.037498    | 0.5000    |
+| Lachnospiraceae.Otu2599                      | \-8.4019  | 15.6762 | \-0.479147  | 0.3750    |
+| Bacteroides.Otu2520                          | \-0.3836  | 15.2933 | \-0.774802  | 0.3750    |
+| Bacteroides.Otu0752                          | \-1.7986  | 23.9991 | 1.107317    | 0.6250    |
+| Clostridium\_XlVa.Otu0236                    | \-0.4875  | 2.5969  | \-0.052340  | 0.5000    |
+| Lachnospiracea\_incertae\_sedis.Otu0778      | \-11.7018 | 17.5904 | \-1.867060  | 0.2500    |
+| Lachnospiraceae.Otu0875                      | \-12.9983 | 18.9812 | \-1.527016  | 0.4375    |
+| Lachnospiraceae.Otu1734                      | \-13.0754 | 17.8716 | \-1.609476  | 0.3125    |
+| Roseburia.Otu2084                            | \-11.1061 | 17.7595 | \-0.162035  | 0.5000    |
+| Lachnospiraceae.Otu0790                      | \-8.6662  | 16.4397 | \-1.439198  | 0.3750    |
+| Bacteroides.Otu2625                          | \-6.1170  | 28.6756 | \-1.212884  | 0.4375    |
+| Bacteroides.Otu2343                          | 3.0300    | 20.3777 | 0.000000    | 0.4375    |
+| Prevotella.Otu1803                           | \-2.8878  | 20.0381 | 0.000000    | 0.1250    |
+| Prevotella.Otu1987                           | \-3.1498  | 17.3634 | 0.000000    | 0.0625    |
+| Blautia.Otu0620                              | \-4.6284  | 12.1581 | \-0.153519  | 0.3750    |
+| Bacteroides.Otu2383                          | \-2.1306  | 23.9675 | 0.000000    | 0.4375    |
+| Alistipes.Otu2508                            | \-7.4044  | 21.7771 | 0.000000    | 0.3750    |
+| Prevotella.Otu0634                           | \-13.0720 | 22.8309 | \-1.895045  | 0.1875    |
+| Escherichia\_Shigella.Otu2393                | \-10.2235 | 25.5473 | \-1.750295  | 0.1875    |
+| Bacteroides.Otu0661                          | 0.3144    | 20.0050 | \-0.234428  | 0.3750    |
+| Prevotella.Otu2602                           | \-4.8287  | 18.0022 | 0.000000    | 0.0625    |
+| Enterococcus.Otu1019                         | 9.2427    | 20.5438 | 0.000000    | 0.3750    |
+| Bacteroides.Otu1565                          | \-4.4323  | 25.2277 | \-0.187782  | 0.2500    |
+| Bacteroides.Otu0775                          | 1.7448    | 23.5730 | 0.000000    | 0.3750    |
+| Alistipes.Otu1466                            | 2.7046    | 22.0781 | 0.000000    | 0.3750    |
+| Bacteroides.Otu2481                          | \-10.9561 | 16.9586 | 0.000000    | 0.0000    |
+| Ruminococcaceae.Otu0064                      | \-7.7628  | 19.8311 | 0.000000    | 0.0625    |
+| Parabacteroides.Otu1107                      | \-10.2856 | 21.4178 | \-0.399986  | 0.2500    |
+| Sutterella.Otu1997                           | \-11.0368 | 22.5584 | 0.000000    | 0.1875    |
+| Prevotella.Otu1563                           | \-2.8342  | 17.0290 | 0.000000    | 0.0625    |
+| Bacteroidales.Otu1168                        | 2.9590    | 24.2796 | 0.000000    | 0.3125    |
+| Prevotella.Otu1994                           | \-5.4618  | 20.5771 | 0.000000    | 0.0625    |
+| Prevotella.Otu1319                           | \-3.0463  | 16.1664 | 0.000000    | 0.0625    |
+| Alistipes.Otu0529                            | \-8.6023  | 20.9586 | 0.000000    | 0.2500    |
+| Bacteroides.Otu2534                          | 9.3752    | 15.5490 | 0.000000    | 0.3125    |
+| Bacteroides.Otu0480                          | \-2.2450  | 22.3175 | 0.000000    | 0.1250    |
+| Bifidobacterium.Otu1244                      | \-10.4247 | 20.4415 | 0.000000    | 0.1250    |
+| Bacteroides.Otu0786                          | 2.7849    | 20.9528 | 0.000000    | 0.3125    |
+| Bacteroides.Otu1624                          | \-0.7346  | 18.6586 | 0.000000    | 0.2500    |
+| Prevotella.Otu1633                           | 1.7773    | 16.8689 | 0.000000    | 0.2500    |
+| Akkermansia.Otu1935                          | \-0.1850  | 17.4569 | 0.000000    | 0.2500    |
+| Bacteroides.Otu2065                          | \-4.9572  | 20.3782 | 0.000000    | 0.1250    |
+| Prevotella.Otu0773                           | \-5.1181  | 18.5530 | 0.000000    | 0.0625    |
+| Ruminococcus.Otu0422                         | \-9.2203  | 16.5984 | 0.000000    | 0.0000    |
+| Sutterella.Otu0171                           | \-0.5875  | 20.2877 | 0.000000    | 0.1875    |
+| Prevotella.Otu2327                           | 1.2092    | 14.9532 | 0.000000    | 0.1250    |
+| Megamonas.Otu2657                            | \-3.0676  | 16.7204 | 0.000000    | 0.0625    |
+| Bacteroides.Otu2216                          | \-6.3730  | 20.6095 | 0.000000    | 0.1250    |
+| Bacteroides.Otu1726                          | \-6.8393  | 14.8645 | 0.000000    | 0.0000    |
+| Phascolarctobacterium.Otu1814                | 4.0832    | 18.2766 | 0.000000    | 0.3125    |
+| Prevotella.Otu0882                           | \-3.9763  | 18.2355 | 0.000000    | 0.1250    |
+| Prevotellaceae.Otu2503                       | \-4.8083  | 22.5932 | 0.000000    | 0.1250    |
+| Ruminococcaceae.Otu1504                      | \-7.1870  | 15.8804 | 0.000000    | 0.0625    |
+| Klebsiella.Otu1452                           | 4.4357    | 17.4233 | 0.000000    | 0.2500    |
+| Prevotella.Otu0738                           | \-3.6036  | 18.2476 | 0.000000    | 0.1250    |
+| Lactobacillus.Otu0959                        | \-2.6543  | 16.7889 | 0.000000    | 0.0625    |
+| Prevotella.Otu2501                           | \-3.6547  | 18.3593 | 0.000000    | 0.1875    |
+| Ruminococcaceae.Otu2510                      | \-6.8976  | 14.9036 | 0.000000    | 0.0000    |
+| Prevotella.Otu2666                           | \-2.0044  | 16.0346 | 0.000000    | 0.0625    |
+| Streptococcus.Otu0749                        | 1.6599    | 16.3707 | 0.000000    | 0.1250    |
+| Catenibacterium.Otu2320                      | \-2.5324  | 17.2065 | 0.000000    | 0.0625    |
+| Prevotella.Otu2702                           | \-2.4433  | 16.0222 | 0.000000    | 0.0625    |
+| Prevotella.Otu2220                           | \-1.7046  | 15.6792 | 0.000000    | 0.1250    |
+| Bacteroides.Otu2277                          | \-2.3644  | 15.9540 | 0.000000    | 0.0625    |
+| Megamonas.Otu1877                            | \-0.1153  | 0.4611  | 0.000000    | 0.0000    |
+| Lactobacillales.Otu0504                      | 2.6624    | 10.6497 | 0.000000    | 0.0625    |
+| Bacteroides.Otu0801                          | \-2.5027  | 10.0107 | 0.000000    | 0.0000    |
+
+
+
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.1.1\) <a name="figure.566"></a>[`Figure 566.`](#figure.566) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/32326e2a0bd.svg`](plots/32326e2a0bd.svg).
+![](plots/32326e2a0bd.svg)
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.1.1\) <a name="figure.567"></a>[`Figure 567.`](#figure.567) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3236c75114e.svg`](plots/3236c75114e.svg).
+![](plots/3236c75114e.svg)
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.1.1\) <a name="figure.568"></a>[`Figure 568.`](#figure.568) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3231bfdefa3.svg`](plots/3231bfdefa3.svg).
+![](plots/3231bfdefa3.svg)
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.1.1\) <a name="figure.569"></a>[`Figure 569.`](#figure.569) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3236bb8889a.svg`](plots/3236bb8889a.svg).
+![](plots/3236bb8889a.svg)
+
+
+##### \(1.3.1.4.5.2.2.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.2.1\) <a name="figure.570"></a>[`Figure 570.`](#figure.570) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3233be46284.svg`](plots/3233be46284.svg).
+![](plots/3233be46284.svg)
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.2.1\) <a name="figure.571"></a>[`Figure 571.`](#figure.571) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32312c67164.svg`](plots/32312c67164.svg).
+![](plots/32312c67164.svg)
+
+
+
+
+\(1.3.1.4.5.2.2.2.1.2.1\) <a name="figure.572"></a>[`Figure 572.`](#figure.572) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323f3559d.svg`](plots/323f3559d.svg).
+![](plots/323f3559d.svg)
+
+
+##### \(1.3.1.4.5.2.3\) Grouping variables age.quant
+
+
+
+
+##### \(1.3.1.4.5.2.4\) Iterating over Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order
+
+
+
+
+##### \(1.3.1.4.5.2.4.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.3.1.4.5.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.3.1.4.5.2.4.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.4.5.2.4.2.1.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.3.1.4.5.2.4.2.1.1.0\) <a name="table.140"></a>[`Table 140.`](#table.140) Data table used for plots. Data grouped by age.quant. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.4.5.2.4.2.1.1.0-3237e2e782.1.3.1.4.5.2.4.2.1.1.csv`](data/1.3.1.4.5.2.4.2.1.1.0-3237e2e782.1.3.1.4.5.2.4.2.1.1.csv)
+
+
+
+
+| .record.id   | age.quant     | feature                  | l2fc        |
+|:-------------|:--------------|:-------------------------|:------------|
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu0001      | 0.694991    |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu0001      | 5.049920    |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu0001      | 42.625385   |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu0001      | \-0.242777  |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu0001      | 0.173279    |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu0001      | 1.894468    |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu0001      | 0.802713    |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu0001      | \-36.927183 |
+| MG21.patient | \(15.3,26.4\] | Bacteroides.Otu0001      | 0.990007    |
+| MG22.patient | \(8.71,15.3\] | Bacteroides.Otu0001      | \-1.763697  |
+| MG23.patient | \(6.27,8.71\] | Bacteroides.Otu0001      | 0.287426    |
+| MG25.patient | \[3.18,6.27\] | Bacteroides.Otu0001      | 2.785405    |
+| MG3.patient  | \(6.27,8.71\] | Bacteroides.Otu0001      | 3.089662    |
+| MG4.patient  | \(6.27,8.71\] | Bacteroides.Otu0001      | 1.622551    |
+| MG6.patient  | \(8.71,15.3\] | Bacteroides.Otu0001      | \-1.517464  |
+| MG8.patient  | \[3.18,6.27\] | Bacteroides.Otu0001      | \-0.424184  |
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu2520      | 7.047037    |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu2520      | \-3.119746  |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu2520      | 38.498057   |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu2520      | \-0.803845  |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu2520      | \-2.798154  |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu2520      | \-4.773882  |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu2520      | \-43.293915 |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu2520      | \-3.452479  |
+| MG21.patient | \(15.3,26.4\] | Bacteroides.Otu2520      | \-2.743763  |
+| MG22.patient | \(8.71,15.3\] | Bacteroides.Otu2520      | 1.089384    |
+| MG23.patient | \(6.27,8.71\] | Bacteroides.Otu2520      | 0.000000    |
+| MG25.patient | \[3.18,6.27\] | Bacteroides.Otu2520      | 5.145809    |
+| MG3.patient  | \(6.27,8.71\] | Bacteroides.Otu2520      | 3.786875    |
+| MG4.patient  | \(6.27,8.71\] | Bacteroides.Otu2520      | \-0.745758  |
+| MG6.patient  | \(8.71,15.3\] | Bacteroides.Otu2520      | \-0.854567  |
+| MG8.patient  | \[3.18,6.27\] | Bacteroides.Otu2520      | 0.881099    |
+| MG1.patient  | \(15.3,26.4\] | Prevotella.Otu1987       | \-42.475127 |
+| MG10.patient | \(8.71,15.3\] | Prevotella.Otu1987       | 0.000000    |
+| MG13.patient | \(15.3,26.4\] | Prevotella.Otu1987       | \-1.613076  |
+| MG14.patient | \(15.3,26.4\] | Prevotella.Otu1987       | 0.000000    |
+| MG16.patient | \(15.3,26.4\] | Prevotella.Otu1987       | 0.000000    |
+| MG17.patient | \(15.3,26.4\] | Prevotella.Otu1987       | \-8.254042  |
+| MG19.patient | \(6.27,8.71\] | Prevotella.Otu1987       | 0.000000    |
+| MG2.patient  | \(8.71,15.3\] | Prevotella.Otu1987       | \-5.672154  |
+| MG21.patient | \(15.3,26.4\] | Prevotella.Otu1987       | 42.028746   |
+| MG22.patient | \(8.71,15.3\] | Prevotella.Otu1987       | 0.000000    |
+| MG23.patient | \(6.27,8.71\] | Prevotella.Otu1987       | 0.000000    |
+| MG25.patient | \[3.18,6.27\] | Prevotella.Otu1987       | \-2.791150  |
+| MG3.patient  | \(6.27,8.71\] | Prevotella.Otu1987       | 0.000000    |
+| MG4.patient  | \(6.27,8.71\] | Prevotella.Otu1987       | 0.000000    |
+| MG6.patient  | \(8.71,15.3\] | Prevotella.Otu1987       | 0.000000    |
+| MG8.patient  | \[3.18,6.27\] | Prevotella.Otu1987       | \-31.619530 |
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu2654      | 9.154794    |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu2654      | 4.010515    |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu2654      | 40.490152   |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu2654      | 1.821609    |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu2654      | \-1.354770  |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu2654      | \-31.836630 |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu2654      | \-36.078856 |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu2654      | \-35.119830 |
+| MG21.patient | \(15.3,26.4\] | Bacteroides.Otu2654      | \-0.521864  |
+| MG22.patient | \(8.71,15.3\] | Bacteroides.Otu2654      | \-0.706593  |
+| MG23.patient | \(6.27,8.71\] | Bacteroides.Otu2654      | 34.959004   |
+| MG25.patient | \[3.18,6.27\] | Bacteroides.Otu2654      | 5.261781    |
+| MG3.patient  | \(6.27,8.71\] | Bacteroides.Otu2654      | 5.640960    |
+| MG4.patient  | \(6.27,8.71\] | Bacteroides.Otu2654      | 1.969530    |
+| MG6.patient  | \(8.71,15.3\] | Bacteroides.Otu2654      | \-33.160157 |
+| MG8.patient  | \[3.18,6.27\] | Bacteroides.Otu2654      | 2.340754    |
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu0863      | 2.493363    |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu0863      | 2.879130    |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu0863      | 40.174694   |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu0863      | 2.522220    |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu0863      | 3.051349    |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu0863      | \-38.436527 |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu0863      | \-38.623156 |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu0863      | 2.823608    |
+| MG21.patient | \(15.3,26.4\] | Bacteroides.Otu0863      | \-2.105128  |
+| MG22.patient | \(8.71,15.3\] | Bacteroides.Otu0863      | 1.040321    |
+| MG23.patient | \(6.27,8.71\] | Bacteroides.Otu0863      | 39.385208   |
+| MG25.patient | \[3.18,6.27\] | Bacteroides.Otu0863      | 3.213274    |
+| MG3.patient  | \(6.27,8.71\] | Bacteroides.Otu0863      | \-2.529878  |
+| MG4.patient  | \(6.27,8.71\] | Bacteroides.Otu0863      | \-3.181104  |
+| MG6.patient  | \(8.71,15.3\] | Bacteroides.Otu0863      | 1.572731    |
+| MG8.patient  | \[3.18,6.27\] | Bacteroides.Otu0863      | \-1.523829  |
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu2038      | 1.663290    |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu2038      | 36.073634   |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu2038      | 7.467646    |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu2038      | 2.306928    |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu2038      | \-2.050774  |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu2038      | 4.940348    |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu2038      | 1.159382    |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu2038      | 33.989275   |
+| MG21.patient | \(15.3,26.4\] | Bacteroides.Otu2038      | 2.660962    |
+| MG22.patient | \(8.71,15.3\] | Bacteroides.Otu2038      | \-3.672197  |
+| MG23.patient | \(6.27,8.71\] | Bacteroides.Otu2038      | 1.055541    |
+| MG25.patient | \[3.18,6.27\] | Bacteroides.Otu2038      | 2.869377    |
+| MG3.patient  | \(6.27,8.71\] | Bacteroides.Otu2038      | 2.857576    |
+| MG4.patient  | \(6.27,8.71\] | Bacteroides.Otu2038      | 1.647018    |
+| MG6.patient  | \(8.71,15.3\] | Bacteroides.Otu2038      | \-2.255223  |
+| MG8.patient  | \[3.18,6.27\] | Bacteroides.Otu2038      | \-1.749982  |
+| MG1.patient  | \(15.3,26.4\] | Faecalibacterium.Otu0067 | \-6.063997  |
+| MG10.patient | \(8.71,15.3\] | Faecalibacterium.Otu0067 | 0.381534    |
+| MG13.patient | \(15.3,26.4\] | Faecalibacterium.Otu0067 | \-0.663448  |
+| MG14.patient | \(15.3,26.4\] | Faecalibacterium.Otu0067 | \-1.733991  |
+| MG16.patient | \(15.3,26.4\] | Faecalibacterium.Otu0067 | \-1.509331  |
+| MG17.patient | \(15.3,26.4\] | Faecalibacterium.Otu0067 | 1.246309    |
+| MG19.patient | \(6.27,8.71\] | Faecalibacterium.Otu0067 | 3.007372    |
+| MG2.patient  | \(8.71,15.3\] | Faecalibacterium.Otu0067 | \-0.819669  |
+| MG21.patient | \(15.3,26.4\] | Faecalibacterium.Otu0067 | 1.900814    |
+| MG22.patient | \(8.71,15.3\] | Faecalibacterium.Otu0067 | \-0.426908  |
+| MG23.patient | \(6.27,8.71\] | Faecalibacterium.Otu0067 | 1.080606    |
+| MG25.patient | \[3.18,6.27\] | Faecalibacterium.Otu0067 | 0.682202    |
+| MG3.patient  | \(6.27,8.71\] | Faecalibacterium.Otu0067 | \-2.205096  |
+| MG4.patient  | \(6.27,8.71\] | Faecalibacterium.Otu0067 | \-0.429791  |
+| MG6.patient  | \(8.71,15.3\] | Faecalibacterium.Otu0067 | \-4.123062  |
+| MG8.patient  | \[3.18,6.27\] | Faecalibacterium.Otu0067 | \-2.038609  |
+| MG1.patient  | \(15.3,26.4\] | Alistipes.Otu2508        | \-38.585650 |
+| MG10.patient | \(8.71,15.3\] | Alistipes.Otu2508        | \-40.860042 |
+| MG13.patient | \(15.3,26.4\] | Alistipes.Otu2508        | 8.763224    |
+| MG14.patient | \(15.3,26.4\] | Alistipes.Otu2508        | \-5.727386  |
+| MG16.patient | \(15.3,26.4\] | Alistipes.Otu2508        | 0.045884    |
+| MG17.patient | \(15.3,26.4\] | Alistipes.Otu2508        | \-38.006546 |
+| MG19.patient | \(6.27,8.71\] | Alistipes.Otu2508        | 1.422419    |
+| MG2.patient  | \(8.71,15.3\] | Alistipes.Otu2508        | \-39.939878 |
+| MG21.patient | \(15.3,26.4\] | Alistipes.Otu2508        | \-7.190270  |
+| MG22.patient | \(8.71,15.3\] | Alistipes.Otu2508        | \-0.544539  |
+| MG23.patient | \(6.27,8.71\] | Alistipes.Otu2508        | 0.000000    |
+| MG25.patient | \[3.18,6.27\] | Alistipes.Otu2508        | 0.589309    |
+| MG3.patient  | \(6.27,8.71\] | Alistipes.Otu2508        | 40.339473   |
+| MG4.patient  | \(6.27,8.71\] | Alistipes.Otu2508        | 0.000000    |
+| MG6.patient  | \(8.71,15.3\] | Alistipes.Otu2508        | 1.224207    |
+| MG8.patient  | \[3.18,6.27\] | Alistipes.Otu2508        | 0.000000    |
+| MG1.patient  | \(15.3,26.4\] | Ruminococcus.Otu1859     | \-32.885231 |
+| MG10.patient | \(8.71,15.3\] | Ruminococcus.Otu1859     | 0.000000    |
+| MG13.patient | \(15.3,26.4\] | Ruminococcus.Otu1859     | \-35.886247 |
+| MG14.patient | \(15.3,26.4\] | Ruminococcus.Otu1859     | \-6.005116  |
+| MG16.patient | \(15.3,26.4\] | Ruminococcus.Otu1859     | \-3.190626  |
+| MG17.patient | \(15.3,26.4\] | Ruminococcus.Otu1859     | 0.000000    |
+| MG19.patient | \(6.27,8.71\] | Ruminococcus.Otu1859     | \-2.934050  |
+| MG2.patient  | \(8.71,15.3\] | Ruminococcus.Otu1859     | \-41.278858 |
+| MG21.patient | \(15.3,26.4\] | Ruminococcus.Otu1859     | \-39.396080 |
+| MG22.patient | \(8.71,15.3\] | Ruminococcus.Otu1859     | \-37.226343 |
+| MG23.patient | \(6.27,8.71\] | Ruminococcus.Otu1859     | 0.000000    |
+| MG25.patient | \[3.18,6.27\] | Ruminococcus.Otu1859     | \-3.023613  |
+| MG3.patient  | \(6.27,8.71\] | Ruminococcus.Otu1859     | \-38.590092 |
+| MG4.patient  | \(6.27,8.71\] | Ruminococcus.Otu1859     | 0.000000    |
+| MG6.patient  | \(8.71,15.3\] | Ruminococcus.Otu1859     | \-38.114342 |
+| MG8.patient  | \[3.18,6.27\] | Ruminococcus.Otu1859     | \-3.105813  |
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu2065      | \-37.344659 |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu2065      | \-40.491305 |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu2065      | 0.000000    |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu2065      | 0.000000    |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu2065      | \-6.902830  |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu2065      | 0.000000    |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu2065      | 43.948405   |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu2065      | 0.000000    |
+| MG21.patient | \(15.3,26.4\] | Bacteroides.Otu2065      | \-40.064364 |
+| MG22.patient | \(8.71,15.3\] | Bacteroides.Otu2065      | 0.000000    |
+| MG23.patient | \(6.27,8.71\] | Bacteroides.Otu2065      | 0.000000    |
+| MG25.patient | \[3.18,6.27\] | Bacteroides.Otu2065      | 0.000000    |
+| MG3.patient  | \(6.27,8.71\] | Bacteroides.Otu2065      | \-0.375564  |
+| MG4.patient  | \(6.27,8.71\] | Bacteroides.Otu2065      | 0.000000    |
+| MG6.patient  | \(8.71,15.3\] | Bacteroides.Otu2065      | 0.000000    |
+| MG8.patient  | \[3.18,6.27\] | Bacteroides.Otu2065      | 1.915150    |
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu0848      | 38.518129   |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu0848      | 3.096685    |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu0848      | 37.791265   |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu0848      | 2.291088    |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu0848      | \-1.490196  |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu0848      | \-35.743521 |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu0848      | \-35.815822 |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu0848      | 0.869445    |
+| MG21.patient | \(15.3,26.4\] | Bacteroides.Otu0848      | \-1.563159  |
+| MG22.patient | \(8.71,15.3\] | Bacteroides.Otu0848      | 0.107586    |
+| MG23.patient | \(6.27,8.71\] | Bacteroides.Otu0848      | 42.402085   |
+| MG25.patient | \[3.18,6.27\] | Bacteroides.Otu0848      | 4.499873    |
+| MG3.patient  | \(6.27,8.71\] | Bacteroides.Otu0848      | 2.749419    |
+| MG4.patient  | \(6.27,8.71\] | Bacteroides.Otu0848      | \-37.414620 |
+| MG6.patient  | \(8.71,15.3\] | Bacteroides.Otu0848      | 0.929187    |
+| MG8.patient  | \[3.18,6.27\] | Bacteroides.Otu0848      | 0.411228    |
+| MG1.patient  | \(15.3,26.4\] | Prevotella.Otu1994       | 0.000000    |
+| MG10.patient | \(8.71,15.3\] | Prevotella.Otu1994       | 0.000000    |
+| MG13.patient | \(15.3,26.4\] | Prevotella.Otu1994       | \-42.501872 |
+| MG14.patient | \(15.3,26.4\] | Prevotella.Otu1994       | 0.000000    |
+| MG16.patient | \(15.3,26.4\] | Prevotella.Otu1994       | 0.000000    |
+| MG17.patient | \(15.3,26.4\] | Prevotella.Otu1994       | \-40.394803 |
+| MG19.patient | \(6.27,8.71\] | Prevotella.Otu1994       | 0.000000    |
+| MG2.patient  | \(8.71,15.3\] | Prevotella.Otu1994       | \-43.151559 |
+| MG21.patient | \(15.3,26.4\] | Prevotella.Otu1994       | 39.091555   |
+| MG22.patient | \(8.71,15.3\] | Prevotella.Otu1994       | 0.000000    |
+| MG23.patient | \(6.27,8.71\] | Prevotella.Otu1994       | 0.000000    |
+| MG25.patient | \[3.18,6.27\] | Prevotella.Otu1994       | \-0.431423  |
+| MG3.patient  | \(6.27,8.71\] | Prevotella.Otu1994       | 0.000000    |
+| MG4.patient  | \(6.27,8.71\] | Prevotella.Otu1994       | 0.000000    |
+| MG6.patient  | \(8.71,15.3\] | Prevotella.Otu1994       | 0.000000    |
+| MG8.patient  | \[3.18,6.27\] | Prevotella.Otu1994       | 0.000000    |
+| MG1.patient  | \(15.3,26.4\] | Bacteroides.Otu2431      | 37.487116   |
+| MG10.patient | \(8.71,15.3\] | Bacteroides.Otu2431      | \-40.960001 |
+| MG13.patient | \(15.3,26.4\] | Bacteroides.Otu2431      | 37.435787   |
+| MG14.patient | \(15.3,26.4\] | Bacteroides.Otu2431      | \-0.002965  |
+| MG16.patient | \(15.3,26.4\] | Bacteroides.Otu2431      | \-0.004586  |
+| MG17.patient | \(15.3,26.4\] | Bacteroides.Otu2431      | \-35.836630 |
+| MG19.patient | \(6.27,8.71\] | Bacteroides.Otu2431      | 6.150252    |
+| MG2.patient  | \(8.71,15.3\] | Bacteroides.Otu2431      | \-35.119830 |
+
+
+
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.1.1\) <a name="widget.154"></a>[`Widget 154.`](#widget.154) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by age.quant. Click to see HTML widget file in full window: [`./1.3.1.4.5.2.4.2.1.1.1-3235ea15426Dynamic.Pivot.Table.html`](./1.3.1.4.5.2.4.2.1.1.1-3235ea15426Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.1.1\) <a name="widget.155"></a>[`Widget 155.`](#widget.155) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by age.quant. Click to see HTML widget file in full window: [`./1.3.1.4.5.2.4.2.1.1.1-3236bc2abe5Dynamic.Pivot.Table.html`](./1.3.1.4.5.2.4.2.1.1.1-3236bc2abe5Dynamic.Pivot.Table.html)
+
+
+\(1.3.1.4.5.2.4.2.1.1.1\) <a name="table.141"></a>[`Table 141.`](#table.141) Summary table. Data grouped by age.quant. Showing only 200 first rows. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.4.5.2.4.2.1.1.1-323420e043c.1.3.1.4.5.2.4.2.1.1.csv`](data/1.3.1.4.5.2.4.2.1.1.1-323420e043c.1.3.1.4.5.2.4.2.1.1.csv)
+
+
+
+
+| feature                                      | age.quant     | mean      | sd        | median     | incidence |
+|:---------------------------------------------|:--------------|:----------|:----------|:-----------|:----------|
+| Lachnospiracea\_incertae\_sedis.Otu0113      | \[3.18,6.27\] | \-37.1091 | 0.396162  | \-37.10911 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu0113      | \(6.27,8.71\] | \-9.4645  | 17.534177 | \-1.83054  | 0.2500    |
+| Lachnospiracea\_incertae\_sedis.Otu0113      | \(8.71,15.3\] | \-19.0092 | 19.497441 | \-17.71214 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu0113      | \(15.3,26.4\] | \-8.1966  | 14.465549 | \-2.85925  | 0.0000    |
+| Lachnospiraceae.Otu2512                      | \[3.18,6.27\] | \-22.3304 | 23.917116 | \-22.33040 | 0.0000    |
+| Lachnospiraceae.Otu2512                      | \(6.27,8.71\] | \-1.2585  | 28.434028 | \-2.87196  | 0.5000    |
+| Lachnospiraceae.Otu2512                      | \(8.71,15.3\] | \-27.8519 | 17.909430 | \-35.16011 | 0.0000    |
+| Lachnospiraceae.Otu2512                      | \(15.3,26.4\] | \-9.9641  | 13.601658 | \-6.19610  | 0.0000    |
+| Lachnospiraceae.Otu2222                      | \[3.18,6.27\] | \-37.5152 | 0.916057  | \-37.51521 | 0.0000    |
+| Lachnospiraceae.Otu2222                      | \(6.27,8.71\] | \-11.3491 | 19.636620 | \-2.34121  | 0.0000    |
+| Lachnospiraceae.Otu2222                      | \(8.71,15.3\] | \-27.7384 | 17.818013 | \-35.95260 | 0.0000    |
+| Lachnospiraceae.Otu2222                      | \(15.3,26.4\] | \-19.4298 | 16.926465 | \-19.81085 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu2549      | \[3.18,6.27\] | \-35.1417 | 1.697394  | \-35.14170 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu2549      | \(6.27,8.71\] | \-11.4474 | 19.351897 | \-2.71687  | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu2549      | \(8.71,15.3\] | \-27.1741 | 17.607773 | \-35.49915 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu2549      | \(15.3,26.4\] | \-12.6152 | 17.045268 | \-3.17454  | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu1990      | \[3.18,6.27\] | \-37.4897 | 0.664231  | \-37.48969 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu1990      | \(6.27,8.71\] | \-20.6638 | 18.440122 | \-20.24941 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu1990      | \(8.71,15.3\] | \-27.4699 | 18.439935 | \-35.80851 | 0.2500    |
+| Lachnospiracea\_incertae\_sedis.Otu1990      | \(15.3,26.4\] | \-19.5767 | 19.741359 | \-21.49643 | 0.1667    |
+| Ruminococcus.Otu1027                         | \[3.18,6.27\] | \-36.2570 | 0.512689  | \-36.25700 | 0.0000    |
+| Ruminococcus.Otu1027                         | \(6.27,8.71\] | \-27.1517 | 18.120754 | \-35.61531 | 0.0000    |
+| Ruminococcus.Otu1027                         | \(8.71,15.3\] | \-27.7609 | 18.216941 | \-36.13609 | 0.0000    |
+| Ruminococcus.Otu1027                         | \(15.3,26.4\] | \-29.4218 | 14.488759 | \-34.79214 | 0.0000    |
+| Lachnospiraceae.Otu0272                      | \[3.18,6.27\] | \-35.8775 | 0.625735  | \-35.87751 | 0.0000    |
+| Lachnospiraceae.Otu0272                      | \(6.27,8.71\] | \-10.8729 | 19.451388 | \-1.73895  | 0.0000    |
+| Lachnospiraceae.Otu0272                      | \(8.71,15.3\] | \-17.6731 | 19.676199 | \-17.69187 | 0.0000    |
+| Lachnospiraceae.Otu0272                      | \(15.3,26.4\] | \-11.8571 | 16.465681 | \-2.68673  | 0.1667    |
+| Lachnospiracea\_incertae\_sedis.Otu2746      | \[3.18,6.27\] | \-36.6548 | 0.734423  | \-36.65480 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu2746      | \(6.27,8.71\] | \-29.3434 | 17.026456 | \-37.09034 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu2746      | \(8.71,15.3\] | \-27.1508 | 18.818503 | \-36.37128 | 0.2500    |
+| Lachnospiracea\_incertae\_sedis.Otu2746      | \(15.3,26.4\] | \-24.4179 | 19.305237 | \-36.12769 | 0.1667    |
+| Gemmiger.Otu0907                             | \[3.18,6.27\] | \-2.1340  | 0.007143  | \-2.13403  | 0.0000    |
+| Gemmiger.Otu0907                             | \(6.27,8.71\] | \-8.4696  | 15.414659 | \-1.17321  | 0.0000    |
+| Gemmiger.Otu0907                             | \(8.71,15.3\] | \-19.2963 | 19.860245 | \-19.59875 | 0.0000    |
+| Gemmiger.Otu0907                             | \(15.3,26.4\] | \-1.8640  | 2.803204  | \-0.55453  | 0.3333    |
+| Ruminococcus.Otu2545                         | \[3.18,6.27\] | \-18.5542 | 21.871999 | \-18.55417 | 0.0000    |
+| Ruminococcus.Otu2545                         | \(6.27,8.71\] | \-9.7857  | 17.838938 | \-1.33252  | 0.0000    |
+| Ruminococcus.Otu2545                         | \(8.71,15.3\] | \-26.1498 | 17.471531 | \-34.34747 | 0.0000    |
+| Ruminococcus.Otu2545                         | \(15.3,26.4\] | \-23.5234 | 16.387496 | \-32.88574 | 0.0000    |
+| Lachnospiraceae.Otu0220                      | \[3.18,6.27\] | \-37.7121 | 0.163025  | \-37.71208 | 0.0000    |
+| Lachnospiraceae.Otu0220                      | \(6.27,8.71\] | \-12.1772 | 19.329588 | \-4.69074  | 0.2500    |
+| Lachnospiraceae.Otu0220                      | \(8.71,15.3\] | \-17.7905 | 21.374317 | \-18.19187 | 0.2500    |
+| Lachnospiraceae.Otu0220                      | \(15.3,26.4\] | \-13.3683 | 18.763065 | \-2.78310  | 0.1667    |
+| Blautia.Otu2495                              | \[3.18,6.27\] | \-35.5044 | 1.512274  | \-35.50439 | 0.0000    |
+| Blautia.Otu2495                              | \(6.27,8.71\] | \-2.0243  | 1.649102  | \-2.19516  | 0.0000    |
+| Blautia.Otu2495                              | \(8.71,15.3\] | \-18.7667 | 19.926634 | \-18.87555 | 0.0000    |
+| Blautia.Otu2495                              | \(15.3,26.4\] | \-1.1022  | 1.966212  | \-0.54842  | 0.5000    |
+| Bacteroides.Otu2375                          | \[3.18,6.27\] | \-1.1153  | 0.697612  | \-1.11529  | 0.0000    |
+| Bacteroides.Otu2375                          | \(6.27,8.71\] | 10.1493   | 18.551178 | 1.10995    | 1.0000    |
+| Bacteroides.Otu2375                          | \(8.71,15.3\] | 0.7513    | 1.483525  | 0.81390    | 0.5000    |
+| Bacteroides.Otu2375                          | \(15.3,26.4\] | 13.6370   | 17.352700 | 3.18197    | 1.0000    |
+| Ruminococcus.Otu1859                         | \[3.18,6.27\] | \-3.0647  | 0.058124  | \-3.06471  | 0.0000    |
+| Ruminococcus.Otu1859                         | \(6.27,8.71\] | \-10.3810 | 18.856831 | \-1.46702  | 0.0000    |
+| Ruminococcus.Otu1859                         | \(8.71,15.3\] | \-29.1549 | 19.514254 | \-37.67034 | 0.0000    |
+| Ruminococcus.Otu1859                         | \(15.3,26.4\] | \-19.5606 | 18.285858 | \-19.44517 | 0.0000    |
+| Roseburia.Otu2637                            | \[3.18,6.27\] | \-36.8198 | 1.958286  | \-36.81976 | 0.0000    |
+| Roseburia.Otu2637                            | \(6.27,8.71\] | \-18.1501 | 20.079319 | \-18.40450 | 0.0000    |
+| Roseburia.Otu2637                            | \(8.71,15.3\] | \-17.7572 | 21.055709 | \-17.59324 | 0.5000    |
+| Roseburia.Otu2637                            | \(15.3,26.4\] | \-11.6515 | 17.594222 | \-1.83668  | 0.5000    |
+| Lachnospiraceae.Otu2612                      | \[3.18,6.27\] | \-37.4374 | 1.417500  | \-37.43737 | 0.0000    |
+| Lachnospiraceae.Otu2612                      | \(6.27,8.71\] | \-9.7080  | 33.825835 | \-18.15629 | 0.2500    |
+| Lachnospiraceae.Otu2612                      | \(8.71,15.3\] | \-27.5133 | 19.749906 | \-36.95624 | 0.2500    |
+| Lachnospiraceae.Otu2612                      | \(15.3,26.4\] | \-18.2211 | 19.578806 | \-19.90474 | 0.3333    |
+| Bacteroides.Otu1201                          | \[3.18,6.27\] | 3.9288    | 0.428410  | 3.92884    | 1.0000    |
+| Bacteroides.Otu1201                          | \(6.27,8.71\] | 0.4155    | 28.598189 | 0.89102    | 0.7500    |
+| Bacteroides.Otu1201                          | \(8.71,15.3\] | \-9.0751  | 18.874637 | \-0.35174  | 0.5000    |
+| Bacteroides.Otu1201                          | \(15.3,26.4\] | 7.6104    | 28.736776 | 2.91600    | 0.8333    |
+| Bacteroides.Otu0001                          | \[3.18,6.27\] | 1.1806    | 2.269522  | 1.18061    | 0.5000    |
+| Bacteroides.Otu0001                          | \(6.27,8.71\] | 1.4506    | 1.223223  | 1.21263    | 1.0000    |
+| Bacteroides.Otu0001                          | \(8.71,15.3\] | \-8.7896  | 19.021945 | \-1.64058  | 0.2500    |
+| Bacteroides.Otu0001                          | \(15.3,26.4\] | 7.6892    | 17.130787 | 0.84250    | 0.8333    |
+| Ruminococcus.Otu1915                         | \[3.18,6.27\] | \-35.8198 | 1.131031  | \-35.81977 | 0.0000    |
+| Ruminococcus.Otu1915                         | \(6.27,8.71\] | \-9.7333  | 17.473658 | \-1.54003  | 0.0000    |
+| Ruminococcus.Otu1915                         | \(8.71,15.3\] | \-26.2961 | 17.551030 | \-34.47899 | 0.0000    |
+| Ruminococcus.Otu1915                         | \(15.3,26.4\] | \-17.8625 | 17.604707 | \-18.52726 | 0.0000    |
+| Blautia.Otu2475                              | \[3.18,6.27\] | \-2.1825  | 2.426251  | \-2.18246  | 0.0000    |
+| Blautia.Otu2475                              | \(6.27,8.71\] | \-1.7502  | 0.957542  | \-1.51342  | 0.0000    |
+| Blautia.Otu2475                              | \(8.71,15.3\] | \-9.4707  | 18.333895 | \-0.75745  | 0.2500    |
+| Blautia.Otu2475                              | \(15.3,26.4\] | \-1.0153  | 1.857386  | \-0.46682  | 0.1667    |
+| Bacteroides.Otu0863                          | \[3.18,6.27\] | 0.8447    | 3.349638  | 0.84472    | 0.5000    |
+| Bacteroides.Otu0863                          | \(6.27,8.71\] | \-1.2372  | 31.902662 | \-2.85549  | 0.2500    |
+| Bacteroides.Otu0863                          | \(8.71,15.3\] | 2.0789    | 0.918298  | 2.19817    | 1.0000    |
+| Bacteroides.Otu0863                          | \(15.3,26.4\] | 1.2833    | 24.931152 | 2.50779    | 0.6667    |
+| Lachnospiracea\_incertae\_sedis.Otu1152      | \[3.18,6.27\] | \-36.5919 | 0.494307  | \-36.59193 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu1152      | \(6.27,8.71\] | \-11.0215 | 19.480617 | \-3.16582  | 0.2500    |
+| Lachnospiracea\_incertae\_sedis.Otu1152      | \(8.71,15.3\] | \-17.5285 | 20.365348 | \-17.40835 | 0.5000    |
+| Lachnospiracea\_incertae\_sedis.Otu1152      | \(15.3,26.4\] | \-18.5966 | 29.067822 | \-35.59065 | 0.3333    |
+| Bacteroides.Otu2038                          | \[3.18,6.27\] | 0.5597    | 3.266380  | 0.55970    | 0.5000    |
+| Bacteroides.Otu2038                          | \(6.27,8.71\] | 1.6799    | 0.826391  | 1.40320    | 1.0000    |
+| Bacteroides.Otu2038                          | \(8.71,15.3\] | 16.0339   | 21.960637 | 15.86703   | 0.5000    |
+| Bacteroides.Otu2038                          | \(15.3,26.4\] | 2.8314    | 3.207699  | 2.48395    | 0.8333    |
+| Lachnospiraceae.Otu0578                      | \[3.18,6.27\] | \-34.4807 | 0.762650  | \-34.48073 | 0.0000    |
+| Lachnospiraceae.Otu0578                      | \(6.27,8.71\] | \-10.5743 | 17.031630 | \-3.25289  | 0.0000    |
+| Lachnospiraceae.Otu0578                      | \(8.71,15.3\] | \-18.1969 | 21.015477 | \-17.96359 | 0.0000    |
+| Lachnospiraceae.Otu0578                      | \(15.3,26.4\] | \-13.4081 | 18.843906 | \-2.58051  | 0.0000    |
+| Blautia.Otu0591                              | \[3.18,6.27\] | \-0.7426  | 0.397440  | \-0.74258  | 0.0000    |
+| Blautia.Otu0591                              | \(6.27,8.71\] | \-9.4631  | 17.555563 | \-0.86538  | 0.0000    |
+| Blautia.Otu0591                              | \(8.71,15.3\] | \-8.3243  | 16.557374 | \-0.07433  | 0.2500    |
+| Blautia.Otu0591                              | \(15.3,26.4\] | \-6.2752  | 14.802188 | \-0.87984  | 0.3333    |
+| Bacteroides.Otu0006                          | \[3.18,6.27\] | \-0.1124  | 2.427956  | \-0.11244  | 0.5000    |
+| Bacteroides.Otu0006                          | \(6.27,8.71\] | 0.9948    | 1.595193  | 0.86942    | 0.7500    |
+| Bacteroides.Otu0006                          | \(8.71,15.3\] | 0.7057    | 2.736485  | 0.53335    | 0.5000    |
+| Bacteroides.Otu0006                          | \(15.3,26.4\] | 7.6047    | 15.670321 | 1.46811    | 1.0000    |
+| Lachnospiraceae.Otu0898                      | \[3.18,6.27\] | \-0.7092  | 1.003018  | \-0.70924  | 0.0000    |
+| Lachnospiraceae.Otu0898                      | \(6.27,8.71\] | 9.2680    | 34.145422 | 18.96434   | 0.7500    |
+| Lachnospiraceae.Otu0898                      | \(8.71,15.3\] | 1.3386    | 29.797843 | 0.45903    | 0.7500    |
+| Lachnospiraceae.Otu0898                      | \(15.3,26.4\] | 28.9613   | 12.454491 | 33.92185   | 1.0000    |
+| Bacteroides.Otu0848                          | \[3.18,6.27\] | 2.4556    | 2.891109  | 2.45555    | 1.0000    |
+| Bacteroides.Otu0848                          | \(6.27,8.71\] | \-7.0197  | 37.819820 | \-16.53320 | 0.5000    |
+| Bacteroides.Otu0848                          | \(8.71,15.3\] | 1.2507    | 1.286221  | 0.89932    | 1.0000    |
+| Bacteroides.Otu0848                          | \(15.3,26.4\] | 6.6339    | 28.054532 | 0.40045    | 0.5000    |
+| Coprococcus.Otu0802                          | \[3.18,6.27\] | \-19.1946 | 27.145283 | \-19.19461 | 0.0000    |
+| Coprococcus.Otu0802                          | \(6.27,8.71\] | \-16.3997 | 21.092350 | \-16.14225 | 0.5000    |
+| Coprococcus.Otu0802                          | \(8.71,15.3\] | \-1.2030  | 28.470969 | \-2.36473  | 0.2500    |
+| Coprococcus.Otu0802                          | \(15.3,26.4\] | \-12.9581 | 18.315518 | \-2.58371  | 0.0000    |
+| Roseburia.Otu1051                            | \[3.18,6.27\] | \-17.7003 | 24.121836 | \-17.70026 | 0.0000    |
+| Roseburia.Otu1051                            | \(6.27,8.71\] | \-9.8818  | 16.456244 | \-2.54769  | 0.2500    |
+| Roseburia.Otu1051                            | \(8.71,15.3\] | \-17.2656 | 20.775764 | \-18.12695 | 0.2500    |
+| Roseburia.Otu1051                            | \(15.3,26.4\] | \-5.7174  | 14.170613 | \-0.41851  | 0.3333    |
+| Bacteroides.Otu0069                          | \[3.18,6.27\] | 1.2340    | 1.404051  | 1.23404    | 1.0000    |
+| Bacteroides.Otu0069                          | \(6.27,8.71\] | 10.3196   | 17.169414 | 2.65608    | 1.0000    |
+| Bacteroides.Otu0069                          | \(8.71,15.3\] | 0.3674    | 3.196193  | \-0.49496  | 0.2500    |
+| Bacteroides.Otu0069                          | \(15.3,26.4\] | 6.4824    | 16.255436 | 0.41516    | 0.6667    |
+| Bacteroides.Otu2460                          | \[3.18,6.27\] | 21.0162   | 24.364194 | 21.01622   | 1.0000    |
+| Bacteroides.Otu2460                          | \(6.27,8.71\] | 18.9820   | 18.793514 | 18.45353   | 1.0000    |
+| Bacteroides.Otu2460                          | \(8.71,15.3\] | \-18.1557 | 35.328883 | \-34.80096 | 0.2500    |
+| Bacteroides.Otu2460                          | \(15.3,26.4\] | 1.0768    | 31.748253 | 0.37908    | 0.6667    |
+| Bacteroides.Otu2654                          | \[3.18,6.27\] | 3.8013    | 2.065478  | 3.80127    | 1.0000    |
+| Bacteroides.Otu2654                          | \(6.27,8.71\] | 1.6227    | 29.148946 | 3.80524    | 0.7500    |
+| Bacteroides.Otu2654                          | \(8.71,15.3\] | \-16.2440 | 20.769446 | \-16.93337 | 0.2500    |
+| Bacteroides.Otu2654                          | \(15.3,26.4\] | 2.9589    | 23.193662 | 0.64987    | 0.5000    |
+| Bacteroides.Otu2765                          | \[3.18,6.27\] | 1.4479    | 3.562874  | 1.44791    | 0.5000    |
+| Bacteroides.Otu2765                          | \(6.27,8.71\] | 10.8019   | 20.340589 | 1.81398    | 0.5000    |
+| Bacteroides.Otu2765                          | \(8.71,15.3\] | 2.2212    | 1.217581  | 2.16423    | 1.0000    |
+| Bacteroides.Otu2765                          | \(15.3,26.4\] | 6.2124    | 15.246778 | \-0.33225  | 0.3333    |
+| Bacteroides.Otu2104                          | \[3.18,6.27\] | \-17.0154 | 30.969425 | \-17.01543 | 0.5000    |
+| Bacteroides.Otu2104                          | \(6.27,8.71\] | 10.5244   | 19.739754 | 1.51101    | 0.5000    |
+| Bacteroides.Otu2104                          | \(8.71,15.3\] | 2.2041    | 1.544481  | 2.22587    | 1.0000    |
+| Bacteroides.Otu2104                          | \(15.3,26.4\] | 6.2720    | 27.031344 | 0.25693    | 0.5000    |
+| Oscillibacter.Otu1518                        | \[3.18,6.27\] | \-17.0100 | 24.055779 | \-17.01000 | 0.0000    |
+| Oscillibacter.Otu1518                        | \(6.27,8.71\] | \-0.2634  | 0.526818  | 0.00000    | 0.0000    |
+| Oscillibacter.Otu1518                        | \(8.71,15.3\] | \-27.3203 | 18.304908 | \-35.34747 | 0.0000    |
+| Oscillibacter.Otu1518                        | \(15.3,26.4\] | \-19.1194 | 19.639648 | \-19.30427 | 0.1667    |
+| Erysipelotrichaceae\_incertae\_sedis.Otu0818 | \[3.18,6.27\] | \-0.2533  | 0.358174  | \-0.25327  | 0.0000    |
+| Erysipelotrichaceae\_incertae\_sedis.Otu0818 | \(6.27,8.71\] | 0.5109    | 28.489124 | 1.32237    | 0.5000    |
+| Erysipelotrichaceae\_incertae\_sedis.Otu0818 | \(8.71,15.3\] | \-5.6009  | 19.805408 | 1.54963    | 0.5000    |
+| Erysipelotrichaceae\_incertae\_sedis.Otu0818 | \(15.3,26.4\] | 24.9635   | 18.408620 | 35.16304   | 0.8333    |
+| Lachnospiracea\_incertae\_sedis.Otu0651      | \[3.18,6.27\] | \-18.7617 | 22.620760 | \-18.76168 | 0.0000    |
+| Lachnospiracea\_incertae\_sedis.Otu0651      | \(6.27,8.71\] | \-16.7900 | 19.702101 | \-16.21536 | 0.2500    |
+| Lachnospiracea\_incertae\_sedis.Otu0651      | \(8.71,15.3\] | \-8.4033  | 17.235871 | 0.00000    | 0.2500    |
+| Lachnospiracea\_incertae\_sedis.Otu0651      | \(15.3,26.4\] | \-12.6868 | 17.426897 | \-3.50181  | 0.1667    |
+| Faecalibacterium.Otu0751                     | \[3.18,6.27\] | \-1.2773  | 1.717117  | \-1.27733  | 0.0000    |
+| Faecalibacterium.Otu0751                     | \(6.27,8.71\] | 8.5141    | 17.038238 | 1.15385    | 0.5000    |
+| Faecalibacterium.Otu0751                     | \(8.71,15.3\] | \-8.9936  | 18.654648 | 0.08625    | 0.5000    |
+| Faecalibacterium.Otu0751                     | \(15.3,26.4\] | \-1.1878  | 2.746427  | \-0.64489  | 0.3333    |
+| Ruminococcus.Otu1429                         | \[3.18,6.27\] | \-35.5815 | 2.208351  | \-35.58155 | 0.0000    |
+| Ruminococcus.Otu1429                         | \(6.27,8.71\] | \-9.3086  | 17.023627 | \-2.07712  | 0.2500    |
+| Ruminococcus.Otu1429                         | \(8.71,15.3\] | \-18.4469 | 21.300714 | \-18.43030 | 0.0000    |
+| Ruminococcus.Otu1429                         | \(15.3,26.4\] | \-18.5013 | 20.503870 | \-17.88528 | 0.1667    |
+| Dorea.Otu1142                                | \[3.18,6.27\] | \-37.3254 | 1.846063  | \-37.32537 | 0.0000    |
+| Dorea.Otu1142                                | \(6.27,8.71\] | \-11.3060 | 18.538781 | \-2.59509  | 0.0000    |
+| Dorea.Otu1142                                | \(8.71,15.3\] | \-8.7154  | 19.646055 | \-0.17647  | 0.5000    |
+| Dorea.Otu1142                                | \(15.3,26.4\] | \-6.3600  | 14.870167 | \-0.83198  | 0.5000    |
+| Faecalibacterium.Otu0067                     | \[3.18,6.27\] | \-0.6782  | 1.923904  | \-0.67820  | 0.5000    |
+| Faecalibacterium.Otu0067                     | \(6.27,8.71\] | 0.3633    | 2.215949  | 0.32541    | 0.5000    |
+| Faecalibacterium.Otu0067                     | \(8.71,15.3\] | \-1.2470  | 1.981499  | \-0.62329  | 0.2500    |
+| Faecalibacterium.Otu0067                     | \(15.3,26.4\] | \-1.1373  | 2.824998  | \-1.08639  | 0.3333    |
+| Clostridium\_IV.Otu1864                      | \[3.18,6.27\] | \-17.3785 | 24.576893 | \-17.37849 | 0.0000    |
+| Clostridium\_IV.Otu1864                      | \(6.27,8.71\] | 8.3920    | 32.572306 | 15.73101   | 0.5000    |
+| Clostridium\_IV.Otu1864                      | \(8.71,15.3\] | \-19.8712 | 22.419180 | \-19.70533 | 0.0000    |
+| Clostridium\_IV.Otu1864                      | \(15.3,26.4\] | \-11.4387 | 17.893787 | \-0.41371  | 0.1667    |
+| Bacteroides.Otu2437                          | \[3.18,6.27\] | \-17.0728 | 21.986365 | \-17.07282 | 0.0000    |
+| Bacteroides.Otu2437                          | \(6.27,8.71\] | \-1.4395  | 33.169370 | \-1.55916  | 0.2500    |
+| Bacteroides.Otu2437                          | \(8.71,15.3\] | \-19.6361 | 21.479144 | \-20.16769 | 0.2500    |
+| Bacteroides.Otu2437                          | \(15.3,26.4\] | \-4.4513  | 34.030253 | \-15.02472 | 0.5000    |
+| Bacteroides.Otu0877                          | \[3.18,6.27\] | 17.2079   | 25.983941 | 17.20794   | 0.5000    |
+| Bacteroides.Otu0877                          | \(6.27,8.71\] | 2.0207    | 29.412355 | 3.96983    | 0.7500    |
+| Bacteroides.Otu0877                          | \(8.71,15.3\] | 0.5034    | 3.494225  | \-0.15821  | 0.5000    |
+| Bacteroides.Otu0877                          | \(15.3,26.4\] | 6.1910    | 14.466960 | 0.47113    | 0.5000    |
+| Parabacteroides.Otu1378                      | \[3.18,6.27\] | \-12.7443 | 29.522005 | \-12.74432 | 0.5000    |
+| Parabacteroides.Otu1378                      | \(6.27,8.71\] | \-8.2737  | 16.956408 | \-0.87374  | 0.2500    |
+| Parabacteroides.Otu1378                      | \(8.71,15.3\] | 1.4984    | 27.904842 | 2.12876    | 0.7500    |
+| Parabacteroides.Otu1378                      | \(15.3,26.4\] | \-5.1216  | 27.134050 | \-2.53489  | 0.3333    |
+| Ruminococcaceae.Otu2507                      | \[3.18,6.27\] | \-16.2175 | 22.935041 | \-16.21752 | 0.0000    |
+| Ruminococcaceae.Otu2507                      | \(6.27,8.71\] | \-7.1019  | 18.401622 | 0.44607    | 0.5000    |
+| Ruminococcaceae.Otu2507                      | \(8.71,15.3\] | \-8.4144  | 33.707555 | \-16.62659 | 0.2500    |
+| Ruminococcaceae.Otu2507                      | \(15.3,26.4\] | \-19.4316 | 18.981058 | \-18.09324 | 0.0000    |
+| Clostridium\_XI.Otu2681                      | \[3.18,6.27\] | \-34.8046 | 3.351028  | \-34.80458 | 0.0000    |
+| Clostridium\_XI.Otu2681                      | \(6.27,8.71\] | \-25.6778 | 15.699197 | \-32.88104 | 0.0000    |
+| Clostridium\_XI.Otu2681                      | \(8.71,15.3\] | \-8.5329  | 16.471363 | \-1.23529  | 0.2500    |
+| Clostridium\_XI.Otu2681                      | \(15.3,26.4\] | 1.0152    | 32.922972 | 1.35206    | 0.5000    |
+| Clostridium\_XI.Otu1804                      | \[3.18,6.27\] | \-1.1025  | 5.831213  | \-1.10252  | 0.5000    |
+| Clostridium\_XI.Otu1804                      | \(6.27,8.71\] | \-10.5122 | 17.507384 | \-1.98541  | 0.0000    |
+| Clostridium\_XI.Otu1804                      | \(8.71,15.3\] | \-8.0945  | 18.393275 | 0.43227    | 0.5000    |
+| Clostridium\_XI.Otu1804                      | \(15.3,26.4\] | \-12.8297 | 20.725261 | \-2.85573  | 0.3333    |
+| Bacteroides.Otu1669                          | \[3.18,6.27\] | 2.3073    | 3.427955  | 2.30734    | 0.5000    |
+| Bacteroides.Otu1669                          | \(6.27,8.71\] | \-9.4545  | 18.899890 | \-1.50738  | 0.2500    |
+| Bacteroides.Otu1669                          | \(8.71,15.3\] | \-26.0629 | 17.171999 | \-33.63999 | 0.0000    |
+| Bacteroides.Otu1669                          | \(15.3,26.4\] | 5.9319    | 25.976282 | \-0.49000  | 0.5000    |
+
+
+
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.1.1\) <a name="figure.573"></a>[`Figure 573.`](#figure.573) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/32323bc4f73.svg`](plots/32323bc4f73.svg).
+![](plots/32323bc4f73.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.1.1\) <a name="figure.574"></a>[`Figure 574.`](#figure.574) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3237fbffad7.svg`](plots/3237fbffad7.svg).
+![](plots/3237fbffad7.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.1.1\) <a name="figure.575"></a>[`Figure 575.`](#figure.575) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3234fa61fd3.svg`](plots/3234fa61fd3.svg).
+![](plots/3234fa61fd3.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.1.1\) <a name="figure.576"></a>[`Figure 576.`](#figure.576) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323592a3912.svg`](plots/323592a3912.svg).
+![](plots/323592a3912.svg)
+
+
+##### \(1.3.1.4.5.2.4.2.1.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.2.1\) <a name="figure.577"></a>[`Figure 577.`](#figure.577) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/3235e236105.svg`](plots/3235e236105.svg).
+![](plots/3235e236105.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.2.1\) <a name="figure.578"></a>[`Figure 578.`](#figure.578) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/323337dbd4f.svg`](plots/323337dbd4f.svg).
+![](plots/323337dbd4f.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.1.2.1\) <a name="figure.579"></a>[`Figure 579.`](#figure.579) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/32393419c6.svg`](plots/32393419c6.svg).
+![](plots/32393419c6.svg)
+
+
+##### \(1.3.1.4.5.2.4.2.2\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.4.5.2.4.2.2.1\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.4.5.2.4.2.2.1.1\) <a name="figure.580"></a>[`Figure 580.`](#figure.580) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/323479e0e60.svg`](plots/323479e0e60.svg).
+![](plots/323479e0e60.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.2.1.1\) <a name="figure.581"></a>[`Figure 581.`](#figure.581) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32345a0cdf4.svg`](plots/32345a0cdf4.svg).
+![](plots/32345a0cdf4.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.2.1.1\) <a name="figure.582"></a>[`Figure 582.`](#figure.582) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3231f77436e.svg`](plots/3231f77436e.svg).
+![](plots/3231f77436e.svg)
+
+
+##### \(1.3.1.4.5.2.4.2.2.2\) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.4.5.2.4.2.2.2.1\) <a name="figure.583"></a>[`Figure 583.`](#figure.583) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample median) plot.  Image file: [`plots/32315cc403d.svg`](plots/32315cc403d.svg).
+![](plots/32315cc403d.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.2.2.1\) <a name="figure.584"></a>[`Figure 584.`](#figure.584) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3233ca2a90.svg`](plots/3233ca2a90.svg).
+![](plots/3233ca2a90.svg)
+
+
+
+
+\(1.3.1.4.5.2.4.2.2.2.1\) <a name="figure.585"></a>[`Figure 585.`](#figure.585) Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/32359dd71d6.svg`](plots/32359dd71d6.svg).
+![](plots/32359dd71d6.svg)

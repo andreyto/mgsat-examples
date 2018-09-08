@@ -1,0 +1,202 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+#### \(1.6.1.1\) Taxonomic level: 2 of Subset: Patient samples
+
+
+
+
+##### \(1.6.1.1.1\) Loading counts and metadata
+
+[`Subreport`](./1.6.1.1.1-report.html)
+
+
+##### \(1.6.1.1.2\) Data analysis
+
+
+
+Filtering abundance matrix with arguments [ min_mean                :10, min_quant_incidence_frac:0.25, min_quant_mean_frac     :0.25]. Filtering features
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 67 records for 7 features
+
+
+Wrote counts and metadata for raw counts After final feature filtering to files [`data/1.6.1.1.2.1-3236c4a9460samples.raw.16s.l.2.count.tsv`](data/1.6.1.1.2.1-3236c4a9460samples.raw.16s.l.2.count.tsv),[`data/1.6.1.1.2.1-3236c4a9460samples.raw.16s.l.2.attr.tsv`](data/1.6.1.1.2.1-3236c4a9460samples.raw.16s.l.2.attr.tsv)
+
+
+Wrote counts and metadata for proportions counts After final feature filtering to files [`data/1.6.1.1.2.1-3235f071a75samples.proportions.16s.l.2.count.tsv`](data/1.6.1.1.2.1-3235f071a75samples.proportions.16s.l.2.count.tsv),[`data/1.6.1.1.2.1-3235f071a75samples.proportions.16s.l.2.attr.tsv`](data/1.6.1.1.2.1-3235f071a75samples.proportions.16s.l.2.attr.tsv)
+
+
+
+##### \(1.6.1.1.2.2\) DESeq2 tests and data normalization
+
+
+
+Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” _Genome Biology_, *15*,
+550. doi: 10.1186/s13059-014-0550-8 (URL: http://doi.org/10.1186/s13059-014-0550-8).
+
+
+\(1.6.1.1.2.2.1\) <a name="table.351"></a>[`Table 351.`](#table.351) DESeq2 results for task: visit;\[ alpha:0.05\]. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.1.2.2.1-32312b919ea.1.6.1.1.2.2.1.a.nam.csv`](data/1.6.1.1.2.2.1-32312b919ea.1.6.1.1.2.2.1.a.nam.csv)
+
+
+
+
+| feature                | baseMean | log2FoldChange | lfcSE  | stat     | pvalue   | padj     | i.baseMean | baseVar    | allZero | dispGeneEst | dispGeneIter | dispFit    | dispersion | dispIter | dispOutlier | dispMAP    | Intercept | visit     | SE\_Intercept | SE\_visit | WaldStatistic\_Intercept | WaldStatistic\_visit | WaldPvalue\_Intercept | WaldPvalue\_visit | betaConv | betaIter | deviance | maxCooks | replace |
+|:-----------------------|:---------|:---------------|:-------|:---------|:---------|:---------|:-----------|:-----------|:--------|:------------|:-------------|:-----------|:-----------|:---------|:------------|:-----------|:----------|:----------|:--------------|:----------|:-------------------------|:---------------------|:----------------------|:------------------|:---------|:---------|:---------|:---------|:--------|
+| Unclassified\_Bacteria | 21.813   | \-0.41266      | 0.1269 | \-3.2516 | 0.001148 | 0.006886 | 21.813     | 9.053e\+02 | FALSE   | 0.5937      | 10           | 5.937e\-01 | 0.5938     | 6        | FALSE       | 5.938e\-01 | 5.323     | \-0.41266 | 0.3171        | 0.1269    | 16.789                   | \-3.2516             | 2.942e\-63            | 0.001148          | TRUE     | 5        | 536.8    | NA       | FALSE   |
+| Firmicutes             | 2042.346 | 0.35831        | 0.1391 | 2.5758   | 0.010000 | 0.029999 | 2042.346   | 1.091e\+07 | FALSE   | 0.7867      | 13           | 7.867e\-01 | 0.7867     | 6        | FALSE       | 7.867e\-01 | 10.142    | 0.35831   | 0.3504        | 0.1391    | 28.945                   | 2.5758               | 3.205e\-184           | 0.010000          | TRUE     | 5        | 1148.4   | NA       | FALSE   |
+| Verrucomicrobia        | 3.974    | \-1.74328      | 0.8397 | \-2.0761 | 0.037887 | 0.075775 | 3.974      | 3.801e\+02 | FALSE   | 27.7074     | 10           | 1.430e\-12 | 27.7074    | 1        | TRUE        | 1.000e\-08 | 4.997     | \-1.74328 | 2.0954        | 0.8397    | 2.385                    | \-2.0761             | 1.709e\-02            | 0.037887          | TRUE     | 17       | 129.9    | NA       | TRUE    |
+| Proteobacteria         | 129.350  | 0.26733        | 0.1973 | 1.3549   | 0.175447 | 0.263170 | 129.350    | 2.846e\+04 | FALSE   | 1.5743      | 12           | 3.003e\-02 | 1.5743     | 15       | TRUE        | 1.131e\+00 | 6.383     | 0.26733   | 0.4973        | 0.1973    | 12.834                   | 1.3549               | 1.054e\-37            | 0.175447          | TRUE     | 5        | 775.4    | NA       | TRUE    |
+| Actinobacteria         | 12.224   | 0.24802        | 0.2439 | 1.0168   | 0.309270 | 0.371124 | 12.224     | 5.766e\+02 | FALSE   | 2.3218      | 12           | 2.322e\+00 | 2.3219     | 6        | FALSE       | 2.322e\+00 | 3.038     | 0.24802   | 0.6173        | 0.2439    | 4.921                    | 1.0168               | 8.624e\-07            | 0.309270          | TRUE     | 8        | 451.8    | NA       | FALSE   |
+| Bacteroidetes          | 6331.423 | \-0.09547      | 0.2081 | \-0.4588 | 0.646368 | 0.646368 | 6331.423   | 1.155e\+08 | FALSE   | 1.7615      | 12           | 1.761e\+00 | 1.7615     | 6        | FALSE       | 1.761e\+00 | 12.840    | \-0.09547 | 0.5241        | 0.2081    | 24.501                   | \-0.4588             | 1.452e\-132           | 0.646368          | TRUE     | 8        | 1291.3   | NA       | FALSE   |
+
+
+
+
+
+
+
+\(1.6.1.1.2.2.1\) <a name="figure.931"></a>[`Figure 931.`](#figure.931) Clustered heatmap of normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/3236325ba4a.svg`](plots/3236325ba4a.svg).
+![](plots/3236325ba4a.svg)
+
+
+
+
+\(1.6.1.1.2.2.1\)  G-test of independence between automatic cluster splits and attribute 'visit'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 9.314          | 6            | 0.1567  |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits to files [`data/1.6.1.1.2.2.1-3231e9c1cffsamples.raw.htmap.count.tsv`](data/1.6.1.1.2.2.1-3231e9c1cffsamples.raw.htmap.count.tsv),[`data/1.6.1.1.2.2.1-3231e9c1cffsamples.raw.htmap.attr.tsv`](data/1.6.1.1.2.2.1-3231e9c1cffsamples.raw.htmap.attr.tsv)
+
+
+
+##### \(1.6.1.1.2.3\) Default transformations for further data analysis
+
+
+
+Specific methods can override these and use their own normalization.
+
+
+Count normalization method for data analysis (unless modified by specific methods) : [ drop.features:List of 1,  ..$ :"other", method.args  :List of 1,  ..$ theta:1, method       :"norm.ihs.prop"]
+
+
+Wrote counts and metadata for raw counts Normalized after default transformations to files [`data/1.6.1.1.2.3-3235b7e8bebsamples.raw.16s.l.2.count.tsv`](data/1.6.1.1.2.3-3235b7e8bebsamples.raw.16s.l.2.count.tsv),[`data/1.6.1.1.2.3-3235b7e8bebsamples.raw.16s.l.2.attr.tsv`](data/1.6.1.1.2.3-3235b7e8bebsamples.raw.16s.l.2.attr.tsv)
+
+
+
+##### \(1.6.1.1.3\) Stability selection analysis for response ( visit )
+
+
+
+
+##### \(1.6.1.1.4\) PermANOVA (adonis) analysis of  normalized counts
+
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+Non-parametric multivariate test for association between
+                           normalized counts and meta-data variables. Dissimilarity index is euclidean.
+
+
+\(1.6.1.1.4\)  Association with visit paired by subject with formula count\~visit with strata =  SubjectID.
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Blocks:  m_a$attr[, strata] 
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+         Df SumOfSqs      R2      F Pr(>F)
+visit     1   0.5221 0.05347 3.6718 0.1685
+Residual 65   9.2420 0.94653              
+Total    66   9.7640 1.00000              
+```````
+
+
+
+
+
+
+\(1.6.1.1.4\)  Association with visit paired by subject Adonis summary.
+
+
+|    &nbsp;    | Df | SumOfSqs | R2     | F     | Pr(>F) |
+|:------------:|:---|:---------|:-------|:------|:-------|
+|  **visit**   | 1  | 0.5221   | 0.0535 | 3.672 | 0.1685 |
+| **Residual** | 65 | 9.242    | 0.9465 | NA    | NA     |
+|  **Total**   | 66 | 9.764    | 1      | NA    | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+Count normalization method for abundance plots : [ drop.features:List of 1,  ..$ :"other", method.args  : list(), method       :"norm.prop"]
+
+
+
+##### \(1.6.1.1.5\) Plots of Abundance.
+
+[`Subreport`](./1.6.1.1.5-report.html)
+
+
+
+
+\(1.6.1.1.5\) <a name="figure.945"></a>[`Figure 945.`](#figure.945) Clustered heatmap of normalized abundance values. Number of cluster splits is determined automatically with method `fpc::pamk`.  Image file: [`plots/3233e82029d.svg`](plots/3233e82029d.svg).
+![](plots/3233e82029d.svg)
+
+
+
+
+\(1.6.1.1.5\)  G-test of independence between automatic cluster splits and attribute 'visit'. Number of cluster splits is determined automatically with method `fpc::pamk`.
+
+
+| Test statistic | X-squared df | P value |
+|:---------------|:-------------|:--------|
+| 5.812          | 3            | 0.1211  |
+
+Table: Log likelihood ratio (G-test) test of independence with Williams' correction: `m_a$attr[, main.meta.var]` and `split`
+
+
+person) (????). _morpheus: Interactive heat maps using 'morpheus.js' and 'htmlwidgets'_. R package version 0.1.1.1, <URL:
+https://github.com/cmap/morpheus.R>.
+
+
+
+
+
+\(1.6.1.1.5\) <a name="widget.369"></a>[`Widget 369.`](#widget.369) Dynamic Morpheus heatmap of normalized abundance values. 
+                    It is available here through the link only because it can take a while to render for large datasets.
+                    This is very customizable. What you will see initially is just a default starting configuration. Explore its menus. Click to see HTML widget file in full window: [`./1.6.1.1.5-323494fc7f0Dynamic.Morpheus.hea.html`](./1.6.1.1.5-323494fc7f0Dynamic.Morpheus.hea.html)
+
+
+Wrote counts and metadata for raw counts Data used for heatmap with added row cluster splits (clustering by abundance profile) to files [`data/1.6.1.1.5-3233938d4a4samples.raw.htmap.count.tsv`](data/1.6.1.1.5-3233938d4a4samples.raw.htmap.count.tsv),[`data/1.6.1.1.5-3233938d4a4samples.raw.htmap.attr.tsv`](data/1.6.1.1.5-3233938d4a4samples.raw.htmap.attr.tsv)
+
+
+
+##### \(1.6.1.1.6\) Ordinations, 
+
+[`Subreport`](./1.6.1.1.6-report.html)
+
+
+##### \(1.6.1.1.7\) Network Analysis Feature correlation with overlaid differential abundance results 
+
+[`Subreport`](./1.6.1.1.7-report.html)

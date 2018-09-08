@@ -1,0 +1,531 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.3.1.1.4\) Plots of Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.3.1.1.4.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.3.1.1.4.2.1\) Entire pool of samples
+
+
+
+
+##### \(1.3.1.1.4.2.2\) Iterating over Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order
+
+
+
+
+##### \(1.3.1.1.4.2.2.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.3.1.1.4.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.3.1.1.4.2.2.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.1.4.2.2.2.1.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.3.1.1.4.2.2.2.1.1.0\) <a name="table.107"></a>[`Table 107.`](#table.107) Data table used for plots. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.1.4.2.2.2.1.1.0-3231bc8626c.1.3.1.1.4.2.2.2.1.1.csv`](data/1.3.1.1.4.2.2.2.1.1.0-3231bc8626c.1.3.1.1.4.2.2.2.1.1.csv)
+
+
+
+
+| .record.id | feature                | abundance.diff |
+|:-----------|:-----------------------|:---------------|
+| MG1        | Bacteroidetes          | 5.692e\-01     |
+| MG10       | Bacteroidetes          | 2.210e\-01     |
+| MG13       | Bacteroidetes          | 3.579e\-02     |
+| MG14       | Bacteroidetes          | 2.578e\-01     |
+| MG16       | Bacteroidetes          | 1.404e\-01     |
+| MG17       | Bacteroidetes          | \-4.393e\-01   |
+| MG19       | Bacteroidetes          | 3.264e\-01     |
+| MG2        | Bacteroidetes          | \-3.361e\-01   |
+| MG21       | Bacteroidetes          | 1.297e\-01     |
+| MG22       | Bacteroidetes          | 1.626e\-02     |
+| MG23       | Bacteroidetes          | 5.337e\-01     |
+| MG25       | Bacteroidetes          | 6.171e\-02     |
+| MG3        | Bacteroidetes          | 8.055e\-02     |
+| MG4        | Bacteroidetes          | 6.727e\-02     |
+| MG6        | Bacteroidetes          | 1.150e\-01     |
+| MG8        | Bacteroidetes          | 2.245e\-01     |
+| MG1        | Firmicutes             | \-5.493e\-01   |
+| MG10       | Firmicutes             | \-1.495e\-01   |
+| MG13       | Firmicutes             | \-3.319e\-02   |
+| MG14       | Firmicutes             | \-2.917e\-01   |
+| MG16       | Firmicutes             | \-1.134e\-01   |
+| MG17       | Firmicutes             | 3.200e\-01     |
+| MG19       | Firmicutes             | \-3.633e\-01   |
+| MG2        | Firmicutes             | 3.132e\-01     |
+| MG21       | Firmicutes             | \-1.498e\-01   |
+| MG22       | Firmicutes             | \-1.678e\-01   |
+| MG23       | Firmicutes             | \-5.078e\-01   |
+| MG25       | Firmicutes             | \-1.242e\-01   |
+| MG3        | Firmicutes             | \-9.827e\-02   |
+| MG4        | Firmicutes             | \-7.026e\-02   |
+| MG6        | Firmicutes             | \-1.374e\-01   |
+| MG8        | Firmicutes             | \-2.641e\-01   |
+| MG1        | Proteobacteria         | \-8.274e\-03   |
+| MG10       | Proteobacteria         | \-1.209e\-01   |
+| MG13       | Proteobacteria         | 2.071e\-03     |
+| MG14       | Proteobacteria         | 9.450e\-03     |
+| MG16       | Proteobacteria         | \-2.790e\-02   |
+| MG17       | Proteobacteria         | 1.030e\-01     |
+| MG19       | Proteobacteria         | \-1.789e\-03   |
+| MG2        | Proteobacteria         | \-9.935e\-03   |
+| MG21       | Proteobacteria         | 1.325e\-02     |
+| MG22       | Proteobacteria         | \-4.525e\-03   |
+| MG23       | Proteobacteria         | \-5.346e\-02   |
+| MG25       | Proteobacteria         | 4.938e\-02     |
+| MG3        | Proteobacteria         | \-6.959e\-03   |
+| MG4        | Proteobacteria         | 6.906e\-03     |
+| MG6        | Proteobacteria         | \-6.172e\-03   |
+| MG8        | Proteobacteria         | \-7.267e\-03   |
+| MG1        | Actinobacteria         | \-3.821e\-02   |
+| MG10       | Actinobacteria         | \-2.326e\-03   |
+| MG13       | Actinobacteria         | 4.249e\-04     |
+| MG14       | Actinobacteria         | 3.389e\-04     |
+| MG16       | Actinobacteria         | \-4.819e\-05   |
+| MG17       | Actinobacteria         | \-6.551e\-04   |
+| MG19       | Actinobacteria         | \-4.201e\-03   |
+| MG2        | Actinobacteria         | 7.372e\-03     |
+| MG21       | Actinobacteria         | \-4.585e\-03   |
+| MG22       | Actinobacteria         | 2.086e\-02     |
+| MG23       | Actinobacteria         | \-7.181e\-03   |
+| MG25       | Actinobacteria         | \-2.450e\-03   |
+| MG3        | Actinobacteria         | \-1.321e\-03   |
+| MG4        | Actinobacteria         | 4.949e\-03     |
+| MG6        | Actinobacteria         | \-2.304e\-03   |
+| MG8        | Actinobacteria         | \-6.715e\-03   |
+| MG1        | Unclassified\_Bacteria | \-1.184e\-02   |
+| MG10       | Unclassified\_Bacteria | \-1.364e\-02   |
+| MG13       | Unclassified\_Bacteria | \-1.100e\-03   |
+| MG14       | Unclassified\_Bacteria | \-5.432e\-03   |
+| MG16       | Unclassified\_Bacteria | \-2.259e\-03   |
+| MG17       | Unclassified\_Bacteria | \-5.929e\-03   |
+| MG19       | Unclassified\_Bacteria | \-1.386e\-02   |
+| MG2        | Unclassified\_Bacteria | \-3.410e\-02   |
+| MG21       | Unclassified\_Bacteria | \-1.594e\-02   |
+| MG22       | Unclassified\_Bacteria | \-7.447e\-03   |
+| MG23       | Unclassified\_Bacteria | 9.991e\-03     |
+| MG25       | Unclassified\_Bacteria | \-1.314e\-03   |
+| MG3        | Unclassified\_Bacteria | 1.327e\-04     |
+| MG4        | Unclassified\_Bacteria | \-9.981e\-03   |
+| MG6        | Unclassified\_Bacteria | 3.134e\-03     |
+| MG8        | Unclassified\_Bacteria | \-1.927e\-03   |
+| MG1        | Verrucomicrobia        | 0.000e\+00     |
+| MG10       | Verrucomicrobia        | 8.029e\-04     |
+| MG13       | Verrucomicrobia        | 0.000e\+00     |
+| MG14       | Verrucomicrobia        | 0.000e\+00     |
+| MG16       | Verrucomicrobia        | 0.000e\+00     |
+| MG17       | Verrucomicrobia        | 0.000e\+00     |
+| MG19       | Verrucomicrobia        | \-2.686e\-04   |
+| MG2        | Verrucomicrobia        | 0.000e\+00     |
+| MG21       | Verrucomicrobia        | \-7.218e\-03   |
+| MG22       | Verrucomicrobia        | 1.568e\-01     |
+| MG23       | Verrucomicrobia        | \-2.129e\-03   |
+| MG25       | Verrucomicrobia        | \-3.868e\-04   |
+| MG3        | Verrucomicrobia        | 8.853e\-05     |
+| MG4        | Verrucomicrobia        | 0.000e\+00     |
+| MG6        | Verrucomicrobia        | 7.976e\-03     |
+| MG8        | Verrucomicrobia        | 0.000e\+00     |
+
+
+
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.1.1\) <a name="widget.115"></a>[`Widget 115.`](#widget.115) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.3.1.1.4.2.2.2.1.1.1-323198895d3Dynamic.Pivot.Table.html`](./1.3.1.1.4.2.2.2.1.1.1-323198895d3Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.1.1\) <a name="widget.116"></a>[`Widget 116.`](#widget.116) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data for all pooled samples. Click to see HTML widget file in full window: [`./1.3.1.1.4.2.2.2.1.1.1-3237f27d5d5Dynamic.Pivot.Table.html`](./1.3.1.1.4.2.2.2.1.1.1-3237f27d5d5Dynamic.Pivot.Table.html)
+
+
+\(1.3.1.1.4.2.2.2.1.1.1\) <a name="table.108"></a>[`Table 108.`](#table.108) Summary table. Data for all pooled samples. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.1.4.2.2.2.1.1.1-3232a61d976.1.3.1.1.4.2.2.2.1.1.csv`](data/1.3.1.1.4.2.2.2.1.1.1-3232a61d976.1.3.1.1.4.2.2.2.1.1.csv)
+
+
+
+
+| feature                | mean       | sd       | median     | incidence |
+|:-----------------------|:-----------|:---------|:-----------|:----------|
+| Unclassified\_Bacteria | \-0.006970 | 0.009998 | \-0.005680 | 0.1875    |
+| Bacteroidetes          | 0.125244   | 0.258482 | 0.122320   | 0.8750    |
+| Firmicutes             | \-0.149185 | 0.234758 | \-0.143479 | 0.1250    |
+| Actinobacteria         | \-0.002253 | 0.011682 | \-0.001812 | 0.3125    |
+| Proteobacteria         | \-0.003941 | 0.045971 | \-0.005349 | 0.3750    |
+| Verrucomicrobia        | 0.009731   | 0.039328 | 0.000000   | 0.2500    |
+
+
+
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.1.1\) <a name="figure.417"></a>[`Figure 417.`](#figure.417) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/3233fa2ddba.svg`](plots/3233fa2ddba.svg).
+![](plots/3233fa2ddba.svg)
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.1.1\) <a name="figure.418"></a>[`Figure 418.`](#figure.418) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/3233a1cbcde.svg`](plots/3233a1cbcde.svg).
+![](plots/3233a1cbcde.svg)
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.1.1\) <a name="figure.419"></a>[`Figure 419.`](#figure.419) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/323d743062.svg`](plots/323d743062.svg).
+![](plots/323d743062.svg)
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.1.1\) <a name="figure.420"></a>[`Figure 420.`](#figure.420) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323307efcfe.svg`](plots/323307efcfe.svg).
+![](plots/323307efcfe.svg)
+
+
+##### \(1.3.1.1.4.2.2.2.1.2\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.2.1\) <a name="figure.421"></a>[`Figure 421.`](#figure.421) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/32345956618.svg`](plots/32345956618.svg).
+![](plots/32345956618.svg)
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.2.1\) <a name="figure.422"></a>[`Figure 422.`](#figure.422) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3237f333d00.svg`](plots/3237f333d00.svg).
+![](plots/3237f333d00.svg)
+
+
+
+
+\(1.3.1.1.4.2.2.2.1.2.1\) <a name="figure.423"></a>[`Figure 423.`](#figure.423) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data for all pooled samples. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/323476c79c0.svg`](plots/323476c79c0.svg).
+![](plots/323476c79c0.svg)
+
+
+##### \(1.3.1.1.4.2.3\) Grouping variables age.quant
+
+
+
+
+##### \(1.3.1.1.4.2.4\) Iterating over Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order
+
+
+
+
+##### \(1.3.1.1.4.2.4.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. profile sorting order: GeneSelector paired test ranking
+
+
+
+
+##### \(1.3.1.1.4.2.4.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.3.1.1.4.2.4.2.1\) faceted plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.1.4.2.4.2.1.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.3.1.1.4.2.4.2.1.1.0\) <a name="table.109"></a>[`Table 109.`](#table.109) Data table used for plots. Data grouped by age.quant. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.1.4.2.4.2.1.1.0-32378edb0d0.1.3.1.1.4.2.4.2.1.1.csv`](data/1.3.1.1.4.2.4.2.1.1.0-32378edb0d0.1.3.1.1.4.2.4.2.1.1.csv)
+
+
+
+
+| .record.id | age.quant     | feature                | abundance.diff |
+|:-----------|:--------------|:-----------------------|:---------------|
+| MG1        | \(15.3,26.4\] | Bacteroidetes          | 5.692e\-01     |
+| MG10       | \(8.71,15.3\] | Bacteroidetes          | 2.210e\-01     |
+| MG13       | \(15.3,26.4\] | Bacteroidetes          | 3.579e\-02     |
+| MG14       | \(15.3,26.4\] | Bacteroidetes          | 2.578e\-01     |
+| MG16       | \(15.3,26.4\] | Bacteroidetes          | 1.404e\-01     |
+| MG17       | \(15.3,26.4\] | Bacteroidetes          | \-4.393e\-01   |
+| MG19       | \(6.27,8.71\] | Bacteroidetes          | 3.264e\-01     |
+| MG2        | \[3.18,6.27\] | Bacteroidetes          | \-3.361e\-01   |
+| MG21       | \(8.71,15.3\] | Bacteroidetes          | 1.297e\-01     |
+| MG22       | \(8.71,15.3\] | Bacteroidetes          | 1.626e\-02     |
+| MG23       | \(6.27,8.71\] | Bacteroidetes          | 5.337e\-01     |
+| MG25       | \(8.71,15.3\] | Bacteroidetes          | 6.171e\-02     |
+| MG3        | \(8.71,15.3\] | Bacteroidetes          | 8.055e\-02     |
+| MG4        | \(8.71,15.3\] | Bacteroidetes          | 6.727e\-02     |
+| MG6        | \(8.71,15.3\] | Bacteroidetes          | 1.150e\-01     |
+| MG8        | \(8.71,15.3\] | Bacteroidetes          | 2.245e\-01     |
+| MG1        | \(15.3,26.4\] | Firmicutes             | \-5.493e\-01   |
+| MG10       | \(8.71,15.3\] | Firmicutes             | \-1.495e\-01   |
+| MG13       | \(15.3,26.4\] | Firmicutes             | \-3.319e\-02   |
+| MG14       | \(15.3,26.4\] | Firmicutes             | \-2.917e\-01   |
+| MG16       | \(15.3,26.4\] | Firmicutes             | \-1.134e\-01   |
+| MG17       | \(15.3,26.4\] | Firmicutes             | 3.200e\-01     |
+| MG19       | \(6.27,8.71\] | Firmicutes             | \-3.633e\-01   |
+| MG2        | \[3.18,6.27\] | Firmicutes             | 3.132e\-01     |
+| MG21       | \(8.71,15.3\] | Firmicutes             | \-1.498e\-01   |
+| MG22       | \(8.71,15.3\] | Firmicutes             | \-1.678e\-01   |
+| MG23       | \(6.27,8.71\] | Firmicutes             | \-5.078e\-01   |
+| MG25       | \(8.71,15.3\] | Firmicutes             | \-1.242e\-01   |
+| MG3        | \(8.71,15.3\] | Firmicutes             | \-9.827e\-02   |
+| MG4        | \(8.71,15.3\] | Firmicutes             | \-7.026e\-02   |
+| MG6        | \(8.71,15.3\] | Firmicutes             | \-1.374e\-01   |
+| MG8        | \(8.71,15.3\] | Firmicutes             | \-2.641e\-01   |
+| MG1        | \(15.3,26.4\] | Proteobacteria         | \-8.274e\-03   |
+| MG10       | \(8.71,15.3\] | Proteobacteria         | \-1.209e\-01   |
+| MG13       | \(15.3,26.4\] | Proteobacteria         | 2.071e\-03     |
+| MG14       | \(15.3,26.4\] | Proteobacteria         | 9.450e\-03     |
+| MG16       | \(15.3,26.4\] | Proteobacteria         | \-2.790e\-02   |
+| MG17       | \(15.3,26.4\] | Proteobacteria         | 1.030e\-01     |
+| MG19       | \(6.27,8.71\] | Proteobacteria         | \-1.789e\-03   |
+| MG2        | \[3.18,6.27\] | Proteobacteria         | \-9.935e\-03   |
+| MG21       | \(8.71,15.3\] | Proteobacteria         | 1.325e\-02     |
+| MG22       | \(8.71,15.3\] | Proteobacteria         | \-4.525e\-03   |
+| MG23       | \(6.27,8.71\] | Proteobacteria         | \-5.346e\-02   |
+| MG25       | \(8.71,15.3\] | Proteobacteria         | 4.938e\-02     |
+| MG3        | \(8.71,15.3\] | Proteobacteria         | \-6.959e\-03   |
+| MG4        | \(8.71,15.3\] | Proteobacteria         | 6.906e\-03     |
+| MG6        | \(8.71,15.3\] | Proteobacteria         | \-6.172e\-03   |
+| MG8        | \(8.71,15.3\] | Proteobacteria         | \-7.267e\-03   |
+| MG1        | \(15.3,26.4\] | Actinobacteria         | \-3.821e\-02   |
+| MG10       | \(8.71,15.3\] | Actinobacteria         | \-2.326e\-03   |
+| MG13       | \(15.3,26.4\] | Actinobacteria         | 4.249e\-04     |
+| MG14       | \(15.3,26.4\] | Actinobacteria         | 3.389e\-04     |
+| MG16       | \(15.3,26.4\] | Actinobacteria         | \-4.819e\-05   |
+| MG17       | \(15.3,26.4\] | Actinobacteria         | \-6.551e\-04   |
+| MG19       | \(6.27,8.71\] | Actinobacteria         | \-4.201e\-03   |
+| MG2        | \[3.18,6.27\] | Actinobacteria         | 7.372e\-03     |
+| MG21       | \(8.71,15.3\] | Actinobacteria         | \-4.585e\-03   |
+| MG22       | \(8.71,15.3\] | Actinobacteria         | 2.086e\-02     |
+| MG23       | \(6.27,8.71\] | Actinobacteria         | \-7.181e\-03   |
+| MG25       | \(8.71,15.3\] | Actinobacteria         | \-2.450e\-03   |
+| MG3        | \(8.71,15.3\] | Actinobacteria         | \-1.321e\-03   |
+| MG4        | \(8.71,15.3\] | Actinobacteria         | 4.949e\-03     |
+| MG6        | \(8.71,15.3\] | Actinobacteria         | \-2.304e\-03   |
+| MG8        | \(8.71,15.3\] | Actinobacteria         | \-6.715e\-03   |
+| MG1        | \(15.3,26.4\] | Unclassified\_Bacteria | \-1.184e\-02   |
+| MG10       | \(8.71,15.3\] | Unclassified\_Bacteria | \-1.364e\-02   |
+| MG13       | \(15.3,26.4\] | Unclassified\_Bacteria | \-1.100e\-03   |
+| MG14       | \(15.3,26.4\] | Unclassified\_Bacteria | \-5.432e\-03   |
+| MG16       | \(15.3,26.4\] | Unclassified\_Bacteria | \-2.259e\-03   |
+| MG17       | \(15.3,26.4\] | Unclassified\_Bacteria | \-5.929e\-03   |
+| MG19       | \(6.27,8.71\] | Unclassified\_Bacteria | \-1.386e\-02   |
+| MG2        | \[3.18,6.27\] | Unclassified\_Bacteria | \-3.410e\-02   |
+| MG21       | \(8.71,15.3\] | Unclassified\_Bacteria | \-1.594e\-02   |
+| MG22       | \(8.71,15.3\] | Unclassified\_Bacteria | \-7.447e\-03   |
+| MG23       | \(6.27,8.71\] | Unclassified\_Bacteria | 9.991e\-03     |
+| MG25       | \(8.71,15.3\] | Unclassified\_Bacteria | \-1.314e\-03   |
+| MG3        | \(8.71,15.3\] | Unclassified\_Bacteria | 1.327e\-04     |
+| MG4        | \(8.71,15.3\] | Unclassified\_Bacteria | \-9.981e\-03   |
+| MG6        | \(8.71,15.3\] | Unclassified\_Bacteria | 3.134e\-03     |
+| MG8        | \(8.71,15.3\] | Unclassified\_Bacteria | \-1.927e\-03   |
+| MG1        | \(15.3,26.4\] | Verrucomicrobia        | 0.000e\+00     |
+| MG10       | \(8.71,15.3\] | Verrucomicrobia        | 8.029e\-04     |
+| MG13       | \(15.3,26.4\] | Verrucomicrobia        | 0.000e\+00     |
+| MG14       | \(15.3,26.4\] | Verrucomicrobia        | 0.000e\+00     |
+| MG16       | \(15.3,26.4\] | Verrucomicrobia        | 0.000e\+00     |
+| MG17       | \(15.3,26.4\] | Verrucomicrobia        | 0.000e\+00     |
+| MG19       | \(6.27,8.71\] | Verrucomicrobia        | \-2.686e\-04   |
+| MG2        | \[3.18,6.27\] | Verrucomicrobia        | 0.000e\+00     |
+| MG21       | \(8.71,15.3\] | Verrucomicrobia        | \-7.218e\-03   |
+| MG22       | \(8.71,15.3\] | Verrucomicrobia        | 1.568e\-01     |
+| MG23       | \(6.27,8.71\] | Verrucomicrobia        | \-2.129e\-03   |
+| MG25       | \(8.71,15.3\] | Verrucomicrobia        | \-3.868e\-04   |
+| MG3        | \(8.71,15.3\] | Verrucomicrobia        | 8.853e\-05     |
+| MG4        | \(8.71,15.3\] | Verrucomicrobia        | 0.000e\+00     |
+| MG6        | \(8.71,15.3\] | Verrucomicrobia        | 7.976e\-03     |
+| MG8        | \(8.71,15.3\] | Verrucomicrobia        | 0.000e\+00     |
+
+
+
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.1.1\) <a name="widget.117"></a>[`Widget 117.`](#widget.117) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by age.quant. Click to see HTML widget file in full window: [`./1.3.1.1.4.2.4.2.1.1.1-3232a6dcea7Dynamic.Pivot.Table.html`](./1.3.1.1.4.2.4.2.1.1.1-3232a6dcea7Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.1.1\) <a name="widget.118"></a>[`Widget 118.`](#widget.118) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by age.quant. Click to see HTML widget file in full window: [`./1.3.1.1.4.2.4.2.1.1.1-32339c91477Dynamic.Pivot.Table.html`](./1.3.1.1.4.2.4.2.1.1.1-32339c91477Dynamic.Pivot.Table.html)
+
+
+\(1.3.1.1.4.2.4.2.1.1.1\) <a name="table.110"></a>[`Table 110.`](#table.110) Summary table. Data grouped by age.quant. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.1.4.2.4.2.1.1.1-32319552703.1.3.1.1.4.2.4.2.1.1.csv`](data/1.3.1.1.4.2.4.2.1.1.1-32319552703.1.3.1.1.4.2.4.2.1.1.csv)
+
+
+
+
+| feature                | age.quant     | mean        | sd       | median       | incidence |
+|:-----------------------|:--------------|:------------|:---------|:-------------|:----------|
+| Unclassified\_Bacteria | \[3.18,6.27\] | \-0.0341026 | NA       | \-3.410e\-02 | 0.000     |
+| Unclassified\_Bacteria | \(6.27,8.71\] | \-0.0019366 | 0.016868 | \-1.937e\-03 | 0.500     |
+| Unclassified\_Bacteria | \(8.71,15.3\] | \-0.0058734 | 0.006914 | \-4.687e\-03 | 0.250     |
+| Unclassified\_Bacteria | \(15.3,26.4\] | \-0.0053124 | 0.004187 | \-5.432e\-03 | 0.000     |
+| Bacteroidetes          | \[3.18,6.27\] | \-0.3360812 | NA       | \-3.361e\-01 | 0.000     |
+| Bacteroidetes          | \(6.27,8.71\] | 0.4300643   | 0.146609 | 4.301e\-01   | 1.000     |
+| Bacteroidetes          | \(8.71,15.3\] | 0.1144931   | 0.075115 | 9.777e\-02   | 1.000     |
+| Bacteroidetes          | \(15.3,26.4\] | 0.1127809   | 0.367713 | 1.404e\-01   | 0.800     |
+| Firmicutes             | \[3.18,6.27\] | 0.3131580   | NA       | 3.132e\-01   | 1.000     |
+| Firmicutes             | \(6.27,8.71\] | \-0.4355804 | 0.102194 | \-4.356e\-01 | 0.000     |
+| Firmicutes             | \(8.71,15.3\] | \-0.1451736 | 0.057346 | \-1.435e\-01 | 0.000     |
+| Firmicutes             | \(15.3,26.4\] | \-0.1335131 | 0.321730 | \-1.134e\-01 | 0.200     |
+| Actinobacteria         | \[3.18,6.27\] | 0.0073723   | NA       | 7.372e\-03   | 1.000     |
+| Actinobacteria         | \(6.27,8.71\] | \-0.0056908 | 0.002107 | \-5.691e\-03 | 0.000     |
+| Actinobacteria         | \(8.71,15.3\] | 0.0007639   | 0.008780 | \-2.315e\-03 | 0.250     |
+| Actinobacteria         | \(15.3,26.4\] | \-0.0076289 | 0.017098 | \-4.819e\-05 | 0.400     |
+| Proteobacteria         | \[3.18,6.27\] | \-0.0099354 | NA       | \-9.935e\-03 | 0.000     |
+| Proteobacteria         | \(6.27,8.71\] | \-0.0276264 | 0.036540 | \-2.763e\-02 | 0.000     |
+| Proteobacteria         | \(8.71,15.3\] | \-0.0095322 | 0.048849 | \-5.349e\-03 | 0.375     |
+| Proteobacteria         | \(15.3,26.4\] | 0.0156770   | 0.050815 | 2.071e\-03   | 0.600     |
+| Verrucomicrobia        | \[3.18,6.27\] | 0.0000000   | NA       | 0.000e\+00   | 0.000     |
+| Verrucomicrobia        | \(6.27,8.71\] | \-0.0011986 | 0.001315 | \-1.199e\-03 | 0.000     |
+| Verrucomicrobia        | \(8.71,15.3\] | 0.0197609   | 0.055532 | 4.426e\-05   | 0.500     |
+| Verrucomicrobia        | \(15.3,26.4\] | 0.0000000   | 0.000000 | 0.000e\+00   | 0.000     |
+
+
+
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.1.1\) <a name="figure.424"></a>[`Figure 424.`](#figure.424) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar_stacked plot.  Image file: [`plots/3235c5858f3.svg`](plots/3235c5858f3.svg).
+![](plots/3235c5858f3.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.1.1\) <a name="figure.425"></a>[`Figure 425.`](#figure.425) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/323486b00a7.svg`](plots/323486b00a7.svg).
+![](plots/323486b00a7.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.1.1\) <a name="figure.426"></a>[`Figure 426.`](#figure.426) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/323555d0ee6.svg`](plots/323555d0ee6.svg).
+![](plots/323555d0ee6.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.1.1\) <a name="figure.427"></a>[`Figure 427.`](#figure.427) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237c19af80.svg`](plots/3237c19af80.svg).
+![](plots/3237c19af80.svg)
+
+
+##### \(1.3.1.1.4.2.4.2.1.2\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.2.1\) <a name="figure.428"></a>[`Figure 428.`](#figure.428) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/323529d4d21.svg`](plots/323529d4d21.svg).
+![](plots/323529d4d21.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.2.1\) <a name="figure.429"></a>[`Figure 429.`](#figure.429) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/323216bf191.svg`](plots/323216bf191.svg).
+![](plots/323216bf191.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.1.2.1\) <a name="figure.430"></a>[`Figure 430.`](#figure.430) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/32356faa776.svg`](plots/32356faa776.svg).
+![](plots/32356faa776.svg)
+
+
+##### \(1.3.1.1.4.2.4.2.2\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.3.1.1.4.2.4.2.2.1\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.1.4.2.4.2.2.1.1\) <a name="figure.431"></a>[`Figure 431.`](#figure.431) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/323354ae64.svg`](plots/323354ae64.svg).
+![](plots/323354ae64.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.2.1.1\) <a name="figure.432"></a>[`Figure 432.`](#figure.432) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/3231bd752a4.svg`](plots/3231bd752a4.svg).
+![](plots/3231bd752a4.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.2.1.1\) <a name="figure.433"></a>[`Figure 433.`](#figure.433) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3235f0d8fb1.svg`](plots/3235f0d8fb1.svg).
+![](plots/3235f0d8fb1.svg)
+
+
+##### \(1.3.1.1.4.2.4.2.2.2\) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Plot is in flipped orientation, Y axis not scaled. Iterating over plot geometry
+
+
+
+
+
+
+\(1.3.1.1.4.2.4.2.2.2.1\) <a name="figure.434"></a>[`Figure 434.`](#figure.434) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. bar (sample mean) plot.  Image file: [`plots/32310214cc8.svg`](plots/32310214cc8.svg).
+![](plots/32310214cc8.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.2.2.1\) <a name="figure.435"></a>[`Figure 435.`](#figure.435) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. violin plot.  Image file: [`plots/32337577f98.svg`](plots/32337577f98.svg).
+![](plots/32337577f98.svg)
+
+
+
+
+\(1.3.1.1.4.2.4.2.2.2.1\) <a name="figure.436"></a>[`Figure 436.`](#figure.436) Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Data grouped by age.quant. Sorting order of features is GeneSelector paired test ranking. boxplot plot.  Image file: [`plots/3237c763637.svg`](plots/3237c763637.svg).
+![](plots/3237c763637.svg)

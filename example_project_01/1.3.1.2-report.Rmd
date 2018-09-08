@@ -1,0 +1,236 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+#### \(1.3.1.2\) Taxonomic level: 4 of Subset: Patient/control samples before diet aggregated by SubjectID Additional tests
+
+
+
+
+##### \(1.3.1.2.1\) Loading counts and metadata
+
+[`Subreport`](./1.3.1.2.1-report.html)
+
+
+##### \(1.3.1.2.2\) Data analysis
+
+
+
+Filtering abundance matrix with arguments [ min_mean                :10, min_quant_incidence_frac:0.25, min_quant_mean_frac     :0.25]. Filtering features
+
+
+Note that some community richness estimators will not work correctly 
+               if provided with abundance-filtered counts
+
+
+After filtering, left 34 records for 13 features
+
+
+Wrote counts and metadata for raw counts After final feature filtering to files [`data/1.3.1.2.2.1-3237f1420d2samples.raw.16s.l.4.count.tsv`](data/1.3.1.2.2.1-3237f1420d2samples.raw.16s.l.4.count.tsv),[`data/1.3.1.2.2.1-3237f1420d2samples.raw.16s.l.4.attr.tsv`](data/1.3.1.2.2.1-3237f1420d2samples.raw.16s.l.4.attr.tsv)
+
+
+Wrote counts and metadata for proportions counts After final feature filtering to files [`data/1.3.1.2.2.1-3235fe67232samples.proportions.16s.l.4.count.tsv`](data/1.3.1.2.2.1-3235fe67232samples.proportions.16s.l.4.count.tsv),[`data/1.3.1.2.2.1-3235fe67232samples.proportions.16s.l.4.attr.tsv`](data/1.3.1.2.2.1-3235fe67232samples.proportions.16s.l.4.attr.tsv)
+
+
+
+##### \(1.3.1.2.2.2\) Default transformations for further data analysis
+
+
+
+Specific methods can override these and use their own normalization.
+
+
+Count normalization method for data analysis (unless modified by specific methods) : [ drop.features:List of 1,  ..$ :"other", method.args  :List of 1,  ..$ theta:1, method       :"norm.ihs.prop"]
+
+
+Wrote counts and metadata for raw counts Normalized after default transformations to files [`data/1.3.1.2.2.2-32357440ff3samples.raw.16s.l.4.count.tsv`](data/1.3.1.2.2.2-32357440ff3samples.raw.16s.l.4.count.tsv),[`data/1.3.1.2.2.2-32357440ff3samples.raw.16s.l.4.attr.tsv`](data/1.3.1.2.2.2-32357440ff3samples.raw.16s.l.4.attr.tsv)
+
+
+
+##### \(1.3.1.2.3\) GeneSelector stability ranking
+
+
+
+Slawski M, Boulesteix. A (????). _GeneSelector: Stability and Aggregation of ranked gene lists_. R package version 2.31.0.
+
+
+Wilcoxon test (rank-sum for independent samples and signed-rank for paired samples) 
+                   is applied to each feature (feature, gene) on random
+                   subsamples of the data. Consensus ranking is found with a
+                   Monte Carlo procedure ((method AggregateMC in GeneSelector package). 
+                   features ordered according to the consensus ranking
+                   are returned, along with the p-values, statistic and effect size 
+                   computed on the full
+                   original dataset. In a special case when no replications are requested,
+                   features are ordered by the adjuested p-value. 
+                   P-values are reported with and without the 
+                   multiple testing correction of Benjamini & Hochberg. The effect sizes
+                   for Wilcoxon tests are reported as: common-language effect
+                   size (proportion of pairs where observations from the second group
+                   are larger than observations from the first group; no effect
+                   corresponds to 0.5); rank-biserial
+                   correlation (common language effect size minus its complement; no
+                   effect corresponds to 0; range is [-1;1]) and
+                   absolute value of r (as defined in Cohen, J. (1988). Statistical power 
+                   analysis for the behavioral sciences (2nd ed.). Hillsdale, NJ: Erlbaum.).
+                   For paired samples, when calculating the common language effect size,
+                   only paired observations are used, and one half of the number of ties is 
+                   added to the numerator (Grissom, R. J., and J. J. Kim. "Effect Sizes for Research: Univariate 
+                   and Multivariate Applications, 2nd Edn New York." NY: Taylor and Francis (2012)).
+                   Logarithm in base 2 of the fold change (l2fc) is also reported if requested.
+                   For independent samples, the fold change is computed between the sample means of
+                   the groups (last to first). For paired samples - as the sample median of the logfold change
+                   in each matched pair of observations.
+
+
+Stability selection parameters are: [ comp.log.fold.change:TRUE, maxrank             :20, samp.fold.ratio     :0.5, replicates          :400, type                :"paired", block.attr          :"MatchedGroupID"]
+
+
+\(1.3.1.2.3\)  Summary of response variable (unpaired samples) Sample.type.
+
+
+
+```````
+control patient 
+     18      16 
+```````
+
+
+
+\(1.3.1.2.3\) <a name="table.115"></a>[`Table 115.`](#table.115) GeneSelector stability ranking for response Sample.type. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.3.1.2.3-3233660b045.1.3.1.2.3.a.name.ta.csv`](data/1.3.1.2.3-3233660b045.1.3.1.2.3.a.name.ta.csv)
+
+
+
+
+| name                     | statistic | pval      | pval.adjusted | common.lang.eff.size | rank.biserial.corr.eff.size | r.eff.size | l2fc.patient.by.control | mean.control | mean.patient | l2fc.paired.median | median.paired.control | median.paired.patient |
+|:-------------------------|:----------|:----------|:--------------|:---------------------|:----------------------------|:-----------|:------------------------|:-------------|:-------------|:-------------------|:----------------------|:----------------------|
+| Clostridiales            | 16        | 0.0051575 | 0.02063       | 0.1250               | \-0.7500                    | 0.69926    | \-1.03029               | 0.336638     | 0.164822     | \-1.32873          | 0.3041067             | 0.1085618             |
+| Unclassified\_Firmicutes | 15        | 0.0041809 | 0.02063       | 0.1250               | \-0.7500                    | 0.71604    | \-1.86696               | 0.008502     | 0.002331     | \-1.87437          | 0.0032101             | 0.0007913             |
+| Unclassified\_Bacteria   | 18        | 0.0076294 | 0.02289       | 0.1875               | \-0.6250                    | 0.66701    | \-1.61924               | 0.014395     | 0.004686     | \-1.21909          | 0.0105402             | 0.0034629             |
+| Rhizobiales              | 4         | 0.0008545 | 0.01025       | 0.1875               | \-0.6250                    | 0.89119    | \-1.38988               | 0.006004     | 0.002291     | \-2.24257          | 0.0049563             | 0.0007732             |
+| Bacteroidales            | 109       | 0.0335388 | 0.08049       | 0.8750               | 0.7500                      | 0.53139    | 0.44720                 | 0.482778     | 0.658217     | 0.25916            | 0.5255557             | 0.7680317             |
+| Bifidobacteriales        | 34        | 0.0832520 | 0.16650       | 0.3125               | \-0.3750                    | 0.43303    | \-2.72682               | 0.014998     | 0.002266     | \-3.09920          | 0.0014316             | 0.0001811             |
+| Selenomonadales          | 41        | 0.3027954 | 0.51908       | 0.3438               | \-0.3125                    | 0.26606    | \-1.52187               | 0.023169     | 0.008068     | \-1.01304          | 0.0023987             | 0.0011167             |
+| Erysipelotrichales       | 72        | 0.8602600 | 0.86026       | 0.5000               | 0.0000                      | 0.04401    | 1.67466                 | 0.010161     | 0.032439     | 0.01034            | 0.0059714             | 0.0072374             |
+| Lactobacillales          | 74        | 0.7819519 | 0.86026       | 0.5625               | 0.1250                      | 0.06919    | \-0.02276               | 0.019265     | 0.018964     | 0.85091            | 0.0008704             | 0.0015445             |
+| Burkholderiales          | 73        | 0.8208923 | 0.86026       | 0.5000               | 0.0000                      | 0.05660    | \-0.36430               | 0.011891     | 0.009238     | \-0.29898          | 0.0021670             | 0.0029134             |
+| Enterobacteriales        | 38        | 0.6354980 | 0.86026       | 0.4062               | \-0.1875                    | 0.13146    | \-0.88237               | 0.017678     | 0.009590     | \-0.05393          | 0.0003853             | 0.0000000             |
+| Verrucomicrobiales       | 20        | 0.8437500 | 0.86026       | 0.5000               | 0.0000                      | 0.06969    | 1.94495                 | 0.003447     | 0.013271     | 0.00000            | 0.0000000             | 0.0000000             |
+
+
+
+
+
+##### \(1.3.1.2.4\) Plots of Abundance difference between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'.
+
+[`Subreport`](./1.3.1.2.4-report.html)
+
+
+##### \(1.3.1.2.5\) Plots of Log2 fold change in abundance between paired samples. Samples are paired according to attribute MatchedGroupID, resulting in 16 pairs. When fold change or difference is computed, this is done as 'patient by control'.
+
+[`Subreport`](./1.3.1.2.5-report.html)
+
+
+##### \(1.3.1.2.6\) PermANOVA (adonis) analysis of  normalized counts
+
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+Non-parametric multivariate test for association between
+                           normalized counts and meta-data variables. Dissimilarity index is euclidean.
+
+
+\(1.3.1.2.6\)  Association with the patient/control status paired by family with formula count\~Sample.type with strata =  MatchedGroupID.
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Blocks:  m_a$attr[, strata] 
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+            Df SumOfSqs      R2      F  Pr(>F)  
+Sample.type  1   0.5209 0.14818 5.5668 0.01325 *
+Residual    32   2.9946 0.85182                 
+Total       33   3.5156 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```````
+
+
+
+
+
+
+\(1.3.1.2.6\)  Association with the patient/control status paired by family Adonis summary.
+
+
+|     &nbsp;      | Df | SumOfSqs | R2     | F     | Pr(>F) |
+|:---------------:|:---|:---------|:-------|:------|:-------|
+| **Sample.type** | 1  | 0.5209   | 0.1482 | 5.567 | 0.0132 |
+|  **Residual**   | 32 | 2.995    | 0.8518 | NA    | NA     |
+|    **Total**    | 33 | 3.516    | 1      | NA    | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+
+##### \(1.3.1.2.7\) Ordinations, 
+
+[`Subreport`](./1.3.1.2.7-report.html)
+
+
+##### \(1.3.1.2.8\) Comparison and test of significant difference for profile dissimilarities within and between blocks defined by attribute MatchedGroupID across groups defined by attribute Sample.type
+
+
+
+Count normalization method for Dist.Matr.Within.Between : [ drop.features:List of 1,  ..$ :"other", method.args  :List of 1,  ..$ theta:1, method       :"norm.ihs.prop"]
+
+
+ Dissimilarity index is euclidian. Profile columns are normalized with range method of decostand function. The matrix of 
+  dissimilarities D is formed where rows correspond to observations with level control
+  of Sample.type, and columns - to level patient. The elements of 
+  this matrix corresponding to rows and columns with the same 
+  level of MatchedGroupID are called "within" block dissimilarities, while
+  the elements drawn from combinations of rows and columns
+  where MatchedGroupID are not equal are called "between" blocks dissimilarities. The null hypothesis is that the observed difference of "between" and "within" 
+  block dissimilarities is consistent with what could be expected 
+  if the block structure was assigned to the observations at random. The alternative hypothesis is that the "between"/"within" 
+  difference is larger than would have been expected from a random block assignment. We simulate 4000 matrices in which both "between" and "within" 
+  dissimilarities come from the null distribution 
+  by permuting the MatchedGroupID labels of the columns
+  of matrix D. The rank biserial correlation (Grissom, R. J., and J. J. Kim. 
+  "Effect Sizes for Research: Univariate 
+  and Multivariate Applications, 2nd Edn New York." NY: Taylor and Francis (2012)) is
+  computed between the observed "between" and "within" dissimilarities both in the observed and
+  simulated samples. Positive values of this correlation statistic would indicate 
+  "between" dissimilarities being stochastically larger than "within" dissimilarities.
+  The p-value is estimated as the fraction of the simulated statistic values that are as high or higher 
+  than the observed value. The estimated p-value was 0.003500 and the observed value of the statistic was 0.166667.
+
+
+
+
+
+\(1.3.1.2.8\) <a name="figure.502"></a>[`Figure 502.`](#figure.502) Emprical distribution density plots of the 
+             profile-profile
+             dissimilarities observed between and within MatchedGroupID blocks.
+             Distances were computed only across levels of Sample.type variable.  Image file: [`plots/32351b88d5b.svg`](plots/32351b88d5b.svg).
+![](plots/32351b88d5b.svg)
+
+
+
+
+\(1.3.1.2.8\) <a name="widget.136"></a>[`Widget 136.`](#widget.136) Dynamic Heatmap of normalized abundance. Click to see HTML widget file in full window: [`./1.3.1.2.8-3236428b1c3Dynamic.Heatmap.of.n.html`](./1.3.1.2.8-3236428b1c3Dynamic.Heatmap.of.n.html)
+
+
+
+<iframe src="./1.3.1.2.8-3236428b1c3Dynamic.Heatmap.of.n.html" width="800" height="800"> </iframe>

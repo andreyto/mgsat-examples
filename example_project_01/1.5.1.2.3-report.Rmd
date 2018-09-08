@@ -1,0 +1,51 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.5.1.2.3\) Ordinations, 
+
+
+
+McMurdie PJ, Holmes S (2013). “phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data.” _PLoS
+ONE_, *8*(4), e61217. <URL: http://dx.plos.org/10.1371/journal.pone.0061217>.
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+
+
+
+\(1.5.1.2.3.1\) <a name="figure.925"></a>[`Figure 925.`](#figure.925) Ordination plot. Ordination performed with parameters [ method:"RDA"]. 
+               Plot used parameters [ color:"DietStatus", label:"FullLabel"].  Image file: [`plots/3237d463dad.svg`](plots/3237d463dad.svg).
+![](plots/3237d463dad.svg)
+
+
+
+
+\(1.5.1.2.3.1\) <a name="widget.361"></a>[`Widget 361.`](#widget.361) Ordination plot in 3D. Ordination performed with parameters [ method:"RDA"]. 
+               Plot used parameters [ type      :"samples", color     :"DietStatus", label     :"FullLabel", size      : NULL, lines.args:List of 2,  ..$ line.group:"SubjectID",  ..$ line.order:"visit", axes      :1 2 3]. Click to see HTML widget file in full window: [`./1.5.1.2.3.1-323546935e8Ordination.plot.in.3.html`](./1.5.1.2.3.1-323546935e8Ordination.plot.in.3.html)
+
+
+
+<iframe src="./1.5.1.2.3.1-323546935e8Ordination.plot.in.3.html" width="800" height="800"> </iframe>
+
+
+
+
+\(1.5.1.2.3.1\) <a name="figure.926"></a>[`Figure 926.`](#figure.926) Ordination plot. Ordination performed with parameters [ method :"RDA", formula:Class 'formula' ~DietStatus]. 
+               Plot used parameters [ color:"DietStatus", label:"FullLabel"].  Image file: [`plots/3232c6c64cc.svg`](plots/3232c6c64cc.svg).
+![](plots/3232c6c64cc.svg)
+
+
+
+
+\(1.5.1.2.3.1\) <a name="widget.362"></a>[`Widget 362.`](#widget.362) Ordination plot in 3D. Ordination performed with parameters [ method :"RDA", formula:Class 'formula' ~DietStatus]. 
+               Plot used parameters [ type      :"samples", color     :"DietStatus", label     :"FullLabel", size      : NULL, lines.args:List of 2,  ..$ line.group:"SubjectID",  ..$ line.order:"visit", axes      :1 2 3]. Click to see HTML widget file in full window: [`./1.5.1.2.3.1-323691fdbcdOrdination.plot.in.3.html`](./1.5.1.2.3.1-323691fdbcdOrdination.plot.in.3.html)
+
+
+
+<iframe src="./1.5.1.2.3.1-323691fdbcdOrdination.plot.in.3.html" width="800" height="800"> </iframe>

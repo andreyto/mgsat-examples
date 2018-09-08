@@ -1,0 +1,662 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.6.1.4.2.1\) Richness and diversity estimates Before count filtering
+
+
+
+ Counts are rarefied to the lowest library size (2161), abundance-based and
+                   incidence-based alpha diversity indices and richness estimates are computed
+                   (if requested).
+                   This is repeated multiple times (n=400), and the results are averaged.
+                   Beta diversity matrix is also computed by averaging over multiple 
+                   rarefications. Incidence-based estimates are computed on sample pools split by
+                          metadata attribute visit, and in each repetition, samples are also
+                          stratified to balance the number of samples at each level
+                          of the grouping variable. Dimensions of input count matrix (67 x 2200).
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+\(1.6.1.4.2.1.1\) <a name="table.404"></a>[`Table 404.`](#table.404) Incidence based rihcness estimates and corresponding standard errors for samples grouped by visit. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.4.2.1.1-32374f89547.1.6.1.4.2.1.1.a.nam.csv`](data/1.6.1.4.2.1.1-32374f89547.1.6.1.4.2.1.1.a.nam.csv)
+
+
+
+
+| Species | chao | chao.se | jack1 | jack1.se | jack2 | boot  | boot.se | n  |
+|:--------|:-----|:--------|:------|:---------|:------|:------|:--------|:---|
+| 742.9   | 1225 | 68.28   | 1090  | 108.90   | 1302  | 894.4 | 50.63   | 13 |
+| 692.1   | 1160 | 67.24   | 1030  | 119.06   | 1237  | 839.1 | 60.07   | 13 |
+| 696.3   | 1133 | 64.42   | 1015  | 99.08    | 1209  | 835.4 | 47.47   | 13 |
+| 717.8   | 1219 | 73.10   | 1053  | 102.94   | 1265  | 862.8 | 46.31   | 13 |
+
+
+
+
+
+
+
+\(1.6.1.4.2.1.1\) <a name="figure.1011"></a>[`Figure 1011.`](#figure.1011) Incidence based rihcness estimates and corresponding standard errors for samples grouped by visit.  Image file: [`plots/32367b81909.svg`](plots/32367b81909.svg).
+![](plots/32367b81909.svg)
+
+
+##### \(1.6.1.4.2.1.2\) Plots of Abundance-based diversity indices (Hill numbers) With rarefication.
+
+[`Subreport`](./1.6.1.4.2.1.2-report.html)
+
+Scherer R, Pallmann P (2017). _simboot: Simultaneous Inference for Diversity Indices_. R package version 0.2-6, <URL:
+https://CRAN.R-project.org/package=simboot>.
+
+
+\(1.6.1.4.2.1.2\) <a name="table.407"></a>[`Table 407.`](#table.407) Comparison of diversity indices \(Hill numbers\)
+                         with Westfall and Young correction for multiple testing
+                          across levels of attribute visit. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.4.2.1.2-32328cb24ce.1.6.1.4.2.1.2.a.nam.csv`](data/1.6.1.4.2.1.2-32328cb24ce.1.6.1.4.2.1.2.a.nam.csv)
+
+
+
+
+|   &nbsp;   | q       | p\-value |
+|:----------:|:--------|:---------|
+| **2 \- 1** | N\_0    | 0.768    |
+| **3 \- 1** | N\_0    | 0.9992   |
+| **4 \- 1** | N\_0    | 1        |
+| **2 \- 1** | N\_0.25 | 0.8406   |
+| **3 \- 1** | N\_0.25 | 1        |
+| **4 \- 1** | N\_0.25 | 1        |
+| **2 \- 1** | N\_0.5  | 0.9178   |
+| **3 \- 1** | N\_0.5  | 1        |
+| **4 \- 1** | N\_0.5  | 1        |
+| **2 \- 1** | N\_1    | 0.9894   |
+| **3 \- 1** | N\_1    | 0.9998   |
+| **4 \- 1** | N\_1    | 1        |
+| **2 \- 1** | N\_2    | 0.9954   |
+| **3 \- 1** | N\_2    | 0.977    |
+| **4 \- 1** | N\_2    | 1        |
+| **2 \- 1** | N\_4    | 0.9594   |
+| **3 \- 1** | N\_4    | 0.9758   |
+| **4 \- 1** | N\_4    | 1        |
+| **2 \- 1** | N\_8    | 0.882    |
+| **3 \- 1** | N\_8    | 0.9948   |
+| **4 \- 1** | N\_8    | 1        |
+| **2 \- 1** | N\_Inf  | 0.8186   |
+| **3 \- 1** | N\_Inf  | 0.9984   |
+| **4 \- 1** | N\_Inf  | 1        |
+
+
+
+
+\(1.6.1.4.2.1.2\) <a name="table.408"></a>[`Table 408.`](#table.408) Levels that defined contrasts 
+                         in the previous table. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.4.2.1.2-3231e7d7764.1.6.1.4.2.1.2.a.nam.csv`](data/1.6.1.4.2.1.2-3231e7d7764.1.6.1.4.2.1.2.a.nam.csv)
+
+
+
+
+| level | label |
+|:------|:------|
+| 1     | 1     |
+| 2     | 2     |
+| 3     | 3     |
+| 4     | 4     |
+
+
+
+
+
+##### \(1.6.1.4.2.1.3\) Plots of Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication.
+
+[`Subreport`](./1.6.1.4.2.1.3-report.html)
+
+Scherer R, Pallmann P (2017). _simboot: Simultaneous Inference for Diversity Indices_. R package version 0.2-6, <URL:
+https://CRAN.R-project.org/package=simboot>.
+
+
+\(1.6.1.4.2.1.3\) <a name="table.411"></a>[`Table 411.`](#table.411) Comparison of evenness indices \(Hill numbers / Observed 'species'\)
+                         with Westfall and Young correction for multiple testing
+                          across levels of attribute visit. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.4.2.1.3-32334b142ea.1.6.1.4.2.1.3.a.nam.csv`](data/1.6.1.4.2.1.3-32334b142ea.1.6.1.4.2.1.3.a.nam.csv)
+
+
+
+
+|   &nbsp;   | q        | p\-value |
+|:----------:|:---------|:---------|
+| **2 \- 1** | NE\_0.25 | 0.9908   |
+| **3 \- 1** | NE\_0.25 | 1        |
+| **4 \- 1** | NE\_0.25 | 1        |
+| **2 \- 1** | NE\_0.5  | 1        |
+| **3 \- 1** | NE\_0.5  | 0.9974   |
+| **4 \- 1** | NE\_0.5  | 0.9998   |
+| **2 \- 1** | NE\_1    | 0.9958   |
+| **3 \- 1** | NE\_1    | 0.965    |
+| **4 \- 1** | NE\_1    | 0.9998   |
+| **2 \- 1** | NE\_2    | 0.8584   |
+| **3 \- 1** | NE\_2    | 0.9896   |
+| **4 \- 1** | NE\_2    | 1        |
+| **2 \- 1** | NE\_4    | 0.7922   |
+| **3 \- 1** | NE\_4    | 1        |
+| **4 \- 1** | NE\_4    | 1        |
+| **2 \- 1** | NE\_8    | 0.7742   |
+| **3 \- 1** | NE\_8    | 1        |
+| **4 \- 1** | NE\_8    | 1        |
+| **2 \- 1** | NE\_Inf  | 0.7342   |
+| **3 \- 1** | NE\_Inf  | 1        |
+| **4 \- 1** | NE\_Inf  | 1        |
+
+
+
+
+\(1.6.1.4.2.1.3\) <a name="table.412"></a>[`Table 412.`](#table.412) Levels that defined contrasts 
+                         in the previous table. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.4.2.1.3-32363f6fe4a.1.6.1.4.2.1.3.a.nam.csv`](data/1.6.1.4.2.1.3-32363f6fe4a.1.6.1.4.2.1.3.a.nam.csv)
+
+
+
+
+| level | label |
+|:------|:------|
+| 1     | 1     |
+| 2     | 2     |
+| 3     | 3     |
+| 4     | 4     |
+
+
+
+
+Wrote counts and metadata for Abundance based richness and diversity to files [`data/1.6.1.4.2.1.3-323d775511divrich.counts.count.tsv`](data/1.6.1.4.2.1.3-323d775511divrich.counts.count.tsv),[`data/1.6.1.4.2.1.3-323d775511divrich.counts.attr.tsv`](data/1.6.1.4.2.1.3-323d775511divrich.counts.attr.tsv)
+
+
+
+
+
+\(1.6.1.4.2.1.3\)  Association of abundance based Hill number of order N_0 with sample metadata.
+                                 GLM with family gaussian and formula N_0~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 137.2    | 12.9       | 10.63   | 0        |
+|    **visit**    | -0.7312  | 5.124      | -0.1427 | 0.887    |
+
+
+(Dispersion parameter for  gaussian  family taken to be  2223.151 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 144550  on 66  degrees of freedom |
+| Residual deviance: | 144505  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.4\) Plots of Abundance-based Hill number of order N_0.
+
+[`Subreport`](./1.6.1.4.2.1.4-report.html)
+
+
+
+
+\(1.6.1.4.2.1.4\)  Association of abundance based Hill number of order N_0.25 with sample metadata.
+                                 GLM with family gaussian and formula N_0.25~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 91.84    | 9.946      | 9.234   | 0        |
+|    **visit**    | -0.4817  | 3.949      | -0.122  | 0.9033   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  1320.663 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 85863  on 66  degrees of freedom |
+| Residual deviance: | 85843  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.5\) Plots of Abundance-based Hill number of order N_0.25.
+
+[`Subreport`](./1.6.1.4.2.1.5-report.html)
+
+
+
+
+\(1.6.1.4.2.1.5\)  Association of abundance based Hill number of order N_0.5 with sample metadata.
+                                 GLM with family gaussian and formula N_0.5~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 58.94    | 7.38       | 7.987   | 0        |
+|    **visit**    | -0.1431  | 2.93       | -0.0488 | 0.9612   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  727.0467 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 47260  on 66  degrees of freedom |
+| Residual deviance: | 47258  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.6\) Plots of Abundance-based Hill number of order N_0.5.
+
+[`Subreport`](./1.6.1.4.2.1.6-report.html)
+
+
+
+
+\(1.6.1.4.2.1.6\)  Association of abundance based Hill number of order N_1 with sample metadata.
+                                 GLM with family gaussian and formula N_1~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 25.79    | 4.047      | 6.372   | 0        |
+|    **visit**    | 0.2284   | 1.607      | 0.1421  | 0.8874   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  218.6793 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 14219  on 66  degrees of freedom |
+| Residual deviance: | 14214  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.7\) Plots of Abundance-based Hill number of order N_1.
+
+[`Subreport`](./1.6.1.4.2.1.7-report.html)
+
+
+
+
+\(1.6.1.4.2.1.7\)  Association of abundance based Hill number of order N_2 with sample metadata.
+                                 GLM with family gaussian and formula N_2~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 10.7     | 1.878      | 5.697   | 0        |
+|    **visit**    | 0.2501   | 0.7455     | 0.3355  | 0.7383   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  47.06798 )
+
+
+|                    |                                 |
+|:-------------------|:--------------------------------|
+| Null deviance:     | 3065  on 66  degrees of freedom |
+| Residual deviance: | 3059  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.8\) Plots of Abundance-based Hill number of order N_2.
+
+[`Subreport`](./1.6.1.4.2.1.8-report.html)
+
+
+
+
+\(1.6.1.4.2.1.8\)  Association of abundance based Hill number of order N_4 with sample metadata.
+                                 GLM with family gaussian and formula N_4~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 6.512    | 1.071      | 6.083   | 0        |
+|    **visit**    | 0.1578   | 0.4251     | 0.3712  | 0.7117   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  15.30141 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 996.7  on 66  degrees of freedom |
+| Residual deviance: | 994.6  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.9\) Plots of Abundance-based Hill number of order N_4.
+
+[`Subreport`](./1.6.1.4.2.1.9-report.html)
+
+
+
+
+\(1.6.1.4.2.1.9\)  Association of abundance based Hill number of order N_8 with sample metadata.
+                                 GLM with family gaussian and formula N_8~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 5.243    | 0.7832     | 6.694   | 0        |
+|    **visit**    | 0.0937   | 0.311      | 0.3013  | 0.7641   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  8.190041 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 533.1  on 66  degrees of freedom |
+| Residual deviance: | 532.4  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.10\) Plots of Abundance-based Hill number of order N_8.
+
+[`Subreport`](./1.6.1.4.2.1.10-report.html)
+
+
+
+
+\(1.6.1.4.2.1.10\)  Association of abundance based Hill number of order N_Inf with sample metadata.
+                                 GLM with family gaussian and formula N_Inf~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 4.299    | 0.5696     | 7.547   | 0        |
+|    **visit**    | 0.0584   | 0.2262     | 0.2581  | 0.7972   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  4.332064 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 281.9  on 66  degrees of freedom |
+| Residual deviance: | 281.6  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.11\) Plots of Abundance-based Hill number of order N_Inf.
+
+[`Subreport`](./1.6.1.4.2.1.11-report.html)
+
+
+
+
+\(1.6.1.4.2.1.11\)  Association of abundance based Hill number of order NE_0.25 with sample metadata.
+                                 GLM with family gaussian and formula NE_0.25~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 0.6471   | 0.0143     | 45.28   | 0        |
+|    **visit**    | 0.0035   | 0.0057     | 0.6097  | 0.5442   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.002727001 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1783  on 66  degrees of freedom |
+| Residual deviance: | 0.1773  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.12\) Plots of Abundance-based Hill number of order NE_0.25.
+
+[`Subreport`](./1.6.1.4.2.1.12-report.html)
+
+
+
+
+\(1.6.1.4.2.1.12\)  Association of abundance based Hill number of order NE_0.5 with sample metadata.
+                                 GLM with family gaussian and formula NE_0.5~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 0.4057   | 0.0185     | 21.99   | 0        |
+|    **visit**    | 0.0051   | 0.0073     | 0.6907  | 0.4922   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.004545147 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.2976  on 66  degrees of freedom |
+| Residual deviance: | 0.2954  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.13\) Plots of Abundance-based Hill number of order NE_0.5.
+
+[`Subreport`](./1.6.1.4.2.1.13-report.html)
+
+
+
+
+\(1.6.1.4.2.1.13\)  Association of abundance based Hill number of order NE_1 with sample metadata.
+                                 GLM with family gaussian and formula NE_1~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 0.1778   | 0.0174     | 10.23   | 0        |
+|    **visit**    | 0.0047   | 0.0069     | 0.6781  | 0.5001   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.004034248 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.2641  on 66  degrees of freedom |
+| Residual deviance: | 0.2622  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.14\) Plots of Abundance-based Hill number of order NE_1.
+
+[`Subreport`](./1.6.1.4.2.1.14-report.html)
+
+
+
+
+\(1.6.1.4.2.1.14\)  Association of abundance based Hill number of order NE_2 with sample metadata.
+                                 GLM with family gaussian and formula NE_2~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 0.0807   | 0.0146     | 5.536   | 0        |
+|    **visit**    | 0.0023   | 0.0058     | 0.3901  | 0.6977   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.002836479 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1848  on 66  degrees of freedom |
+| Residual deviance: | 0.1844  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.15\) Plots of Abundance-based Hill number of order NE_2.
+
+[`Subreport`](./1.6.1.4.2.1.15-report.html)
+
+
+
+
+\(1.6.1.4.2.1.15\)  Association of abundance based Hill number of order NE_4 with sample metadata.
+                                 GLM with family gaussian and formula NE_4~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 0.0543   | 0.0138     | 3.942   | 2e-04    |
+|    **visit**    | 7e-04    | 0.0055     | 0.1267  | 0.8996   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.002533964 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1647  on 66  degrees of freedom |
+| Residual deviance: | 0.1647  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.16\) Plots of Abundance-based Hill number of order NE_4.
+
+[`Subreport`](./1.6.1.4.2.1.16-report.html)
+
+
+
+
+\(1.6.1.4.2.1.16\)  Association of abundance based Hill number of order NE_8 with sample metadata.
+                                 GLM with family gaussian and formula NE_8~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 0.0463   | 0.0137     | 3.387   | 0.0012   |
+|    **visit**    | 0        | 0.0054     | -0.0056 | 0.9956   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.002492757 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 0.162  on 66  degrees of freedom |
+| Residual deviance: | 0.162  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.17\) Plots of Abundance-based Hill number of order NE_8.
+
+[`Subreport`](./1.6.1.4.2.1.17-report.html)
+
+
+
+
+\(1.6.1.4.2.1.17\)  Association of abundance based Hill number of order NE_Inf with sample metadata.
+                                 GLM with family gaussian and formula NE_Inf~visit.
+
+
+|     &nbsp;      | Estimate | Std. Error | t value | Pr(>|t|) |
+|:---------------:|:---------|:-----------|:--------|:---------|
+| **(Intercept)** | 0.0403   | 0.0137     | 2.95    | 0.0044   |
+|    **visit**    | -5e-04   | 0.0054     | -0.0893 | 0.9291   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.002492781 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1621  on 66  degrees of freedom |
+| Residual deviance: | 0.1620  on 65  degrees of freedom |
+
+
+
+##### \(1.6.1.4.2.1.18\) Plots of Abundance-based Hill number of order NE_Inf.
+
+[`Subreport`](./1.6.1.4.2.1.18-report.html)
+
+
+##### \(1.6.1.4.2.1.18.1\) Plots of Abundance-based rarefaction curves.
+
+[`Subreport`](./1.6.1.4.2.1.18.1-report.html)
+
+Computed beta-diversity matrix using function betadiver {vegan}
+                   with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a, 
+                      and the numbers of species unique to each site are b and c.
+
+
+Results of function betadisper {vegan}
+                       for the analysis of multivariate homogeneity of group dispersions.
+                       This is applied to sample beta diversity matrix to analyze it with
+                       respect to a grouping variable visit. Arguments for the call are: [ list()]
+
+
+
+
+
+|    &nbsp;     | Df | Sum Sq | Mean Sq | F value | Pr(>F) |
+|:-------------:|:---|:-------|:--------|:--------|:-------|
+|  **Groups**   | 3  | 0.0165 | 0.0055  | 0.9989  | 0.3993 |
+| **Residuals** | 63 | 0.3479 | 0.0055  | NA      | NA     |
+
+Table: Analysis of Variance Table
+
+
+
+
+
+\(1.6.1.4.2.1.18\) <a name="figure.1027"></a>[`Figure 1027.`](#figure.1027) Results of betadisper {vegan}. Distances from samples 
+               to the group
+               centroids are shown in the first two principal coordinates.
+               Groups are defined by the variable visit.
+               Sample beta-diversity matrix was generated with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a, 
+                      and the numbers of species unique to each site are b and c.  Image file: [`plots/3237e75638e.svg`](plots/3237e75638e.svg).
+![](plots/3237e75638e.svg)
+
+
+##### \(1.6.1.4.2.1.19\) PermANOVA (adonis) analysis of  Beta-diversity dissimilarity matrix created with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a,                        and the numbers of species unique to each site are b and c.
+
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+Non-parametric multivariate test for association between
+                           Beta-diversity dissimilarity matrix created with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a, 
+                      and the numbers of species unique to each site are b and c. and meta-data variables. Using supplied distance matrix.
+
+
+\(1.6.1.4.2.1.19\)  Association with visit paired by subject with formula count\~visit with strata =  SubjectID.
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Blocks:  m_a$attr[, strata] 
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+         Df SumOfSqs      R2      F   Pr(>F)   
+visit     1   0.4827 0.02749 1.8376 0.002249 **
+Residual 65  17.0727 0.97251                   
+Total    66  17.5554 1.00000                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```````
+
+
+
+
+
+
+\(1.6.1.4.2.1.19\)  Association with visit paired by subject Adonis summary.
+
+
+|    &nbsp;    | Df | SumOfSqs | R2     | F     | Pr(>F) |
+|:------------:|:---|:---------|:-------|:------|:-------|
+|  **visit**   | 1  | 0.4827   | 0.0275 | 1.838 | 0.0022 |
+| **Residual** | 65 | 17.07    | 0.9725 | NA    | NA     |
+|  **Total**   | 66 | 17.56    | 1      | NA    | NA     |
+
+Table: Permutation test for adonis under reduced model

@@ -1,0 +1,787 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.4.1.4.2.1\) Richness and diversity estimates Before count filtering
+
+
+
+ Counts are rarefied to the lowest library size (2161), abundance-based and
+                   incidence-based alpha diversity indices and richness estimates are computed
+                   (if requested).
+                   This is repeated multiple times (n=400), and the results are averaged.
+                   Beta diversity matrix is also computed by averaging over multiple 
+                   rarefications. Incidence-based estimates are computed on sample pools split by
+                          metadata attribute DietStatus, and in each repetition, samples are also
+                          stratified to balance the number of samples at each level
+                          of the grouping variable. Dimensions of input count matrix (33 x 1580).
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+\(1.4.1.4.2.1.1\) <a name="table.259"></a>[`Table 259.`](#table.259) Incidence based rihcness estimates and corresponding standard errors for samples grouped by DietStatus. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.1-3232926962a.1.4.1.4.2.1.1.a.nam.csv`](data/1.4.1.4.2.1.1-3232926962a.1.4.1.4.2.1.1.a.nam.csv)
+
+
+
+
+| Species | chao | chao.se | jack1 | jack1.se | jack2 | boot  | boot.se | n  |
+|:--------|:-----|:--------|:------|:---------|:------|:------|:--------|:---|
+| 767.4   | 1230 | 64.88   | 1122  | 110.9    | 1333  | 922.2 | 55.97   | 16 |
+| 812.9   | 1330 | 70.01   | 1196  | 116.8    | 1429  | 979.8 | 57.00   | 16 |
+
+
+
+
+
+
+
+\(1.4.1.4.2.1.1\) <a name="figure.821"></a>[`Figure 821.`](#figure.821) Incidence based rihcness estimates and corresponding standard errors for samples grouped by DietStatus.  Image file: [`plots/3234b27417b.svg`](plots/3234b27417b.svg).
+![](plots/3234b27417b.svg)
+
+
+##### \(1.4.1.4.2.1.2\) Plots of Abundance-based diversity indices (Hill numbers) With rarefication.
+
+[`Subreport`](./1.4.1.4.2.1.2-report.html)
+
+Scherer R, Pallmann P (2017). _simboot: Simultaneous Inference for Diversity Indices_. R package version 0.2-6, <URL:
+https://CRAN.R-project.org/package=simboot>.
+
+
+\(1.4.1.4.2.1.2\) <a name="table.264"></a>[`Table 264.`](#table.264) Comparison of diversity indices \(Hill numbers\)
+                         with Westfall and Young correction for multiple testing
+                          across levels of attribute DietStatus. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.2-323275fe27e.1.4.1.4.2.1.2.a.nam.csv`](data/1.4.1.4.2.1.2-323275fe27e.1.4.1.4.2.1.2.a.nam.csv)
+
+
+
+
+|   &nbsp;   | q       | p\-value |
+|:----------:|:--------|:---------|
+| **2 \- 1** | N\_0    | 0.9684   |
+| **2 \- 1** | N\_0.25 | 0.998    |
+| **2 \- 1** | N\_0.5  | 1        |
+| **2 \- 1** | N\_1    | 0.958    |
+| **2 \- 1** | N\_2    | 0.9914   |
+| **2 \- 1** | N\_4    | 0.9922   |
+| **2 \- 1** | N\_8    | 0.9044   |
+| **2 \- 1** | N\_Inf  | 0.8204   |
+
+
+
+
+\(1.4.1.4.2.1.2\) <a name="table.265"></a>[`Table 265.`](#table.265) Levels that defined contrasts 
+                         in the previous table. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.2-3233648d62c.1.4.1.4.2.1.2.a.nam.csv`](data/1.4.1.4.2.1.2-3233648d62c.1.4.1.4.2.1.2.a.nam.csv)
+
+
+
+
+| level | label       |
+|:------|:------------|
+| 1     | after.diet  |
+| 2     | before.diet |
+
+
+
+
+
+##### \(1.4.1.4.2.1.3\) Plots of Abundance-based evenness indices (Hill numbers / Observed 'species') With rarefication.
+
+[`Subreport`](./1.4.1.4.2.1.3-report.html)
+
+Scherer R, Pallmann P (2017). _simboot: Simultaneous Inference for Diversity Indices_. R package version 0.2-6, <URL:
+https://CRAN.R-project.org/package=simboot>.
+
+
+\(1.4.1.4.2.1.3\) <a name="table.270"></a>[`Table 270.`](#table.270) Comparison of evenness indices \(Hill numbers / Observed 'species'\)
+                         with Westfall and Young correction for multiple testing
+                          across levels of attribute DietStatus. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.3-323346c263a.1.4.1.4.2.1.3.a.nam.csv`](data/1.4.1.4.2.1.3-323346c263a.1.4.1.4.2.1.3.a.nam.csv)
+
+
+
+
+|   &nbsp;   | q        | p\-value |
+|:----------:|:---------|:---------|
+| **2 \- 1** | NE\_0.25 | 1        |
+| **2 \- 1** | NE\_0.5  | 0.9316   |
+| **2 \- 1** | NE\_1    | 0.6186   |
+| **2 \- 1** | NE\_2    | 0.6136   |
+| **2 \- 1** | NE\_4    | 0.681    |
+| **2 \- 1** | NE\_8    | 0.704    |
+| **2 \- 1** | NE\_Inf  | 0.6962   |
+
+
+
+
+\(1.4.1.4.2.1.3\) <a name="table.271"></a>[`Table 271.`](#table.271) Levels that defined contrasts 
+                         in the previous table. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.3-3235120b0cf.1.4.1.4.2.1.3.a.nam.csv`](data/1.4.1.4.2.1.3-3235120b0cf.1.4.1.4.2.1.3.a.nam.csv)
+
+
+
+
+| level | label       |
+|:------|:------------|
+| 1     | after.diet  |
+| 2     | before.diet |
+
+
+
+
+Wrote counts and metadata for Abundance based richness and diversity to files [`data/1.4.1.4.2.1.3-3237e336498divrich.counts.count.tsv`](data/1.4.1.4.2.1.3-3237e336498divrich.counts.count.tsv),[`data/1.4.1.4.2.1.3-3237e336498divrich.counts.attr.tsv`](data/1.4.1.4.2.1.3-3237e336498divrich.counts.attr.tsv)
+
+
+
+
+
+\(1.4.1.4.2.1.3\)  Association of abundance based Hill number of order N_0 with sample metadata.
+                                 GLM with family gaussian and formula N_0~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 124.6    | 12.52      | 9.953   | 0        |
+| **DietStatusbefore.diet** | 4.628    | 17.44      | 0.2654  | 0.7924   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  2506.511 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 77878  on 32  degrees of freedom |
+| Residual deviance: | 77702  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.4\) Plots of Abundance-based Hill number of order N_0.
+
+[`Subreport`](./1.4.1.4.2.1.4-report.html)
+
+
+
+
+\(1.4.1.4.2.1.4\)  Association of abundance based Hill number of order N_0.25 with sample metadata.
+                                 GLM with family gaussian and formula N_0.25~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 83.6     | 9.419      | 8.875   | 0        |
+| **DietStatusbefore.diet** | 1.453    | 13.12      | 0.1107  | 0.9125   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  1419.629 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 44026  on 32  degrees of freedom |
+| Residual deviance: | 44008  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.5\) Plots of Abundance-based Hill number of order N_0.25.
+
+[`Subreport`](./1.4.1.4.2.1.5-report.html)
+
+
+
+
+\(1.4.1.4.2.1.5\)  Association of abundance based Hill number of order N_0.5 with sample metadata.
+                                 GLM with family gaussian and formula N_0.5~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 54.29    | 6.837      | 7.941   | 0        |
+| **DietStatusbefore.diet** | -0.6501  | 9.525      | -0.0683 | 0.946    |
+
+
+(Dispersion parameter for  gaussian  family taken to be  747.849 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 23187  on 32  degrees of freedom |
+| Residual deviance: | 23183  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.6\) Plots of Abundance-based Hill number of order N_0.5.
+
+[`Subreport`](./1.4.1.4.2.1.6-report.html)
+
+
+
+
+\(1.4.1.4.2.1.6\)  Association of abundance based Hill number of order N_1 with sample metadata.
+                                 GLM with family gaussian and formula N_1~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 24.57    | 3.647      | 6.737   | 0        |
+| **DietStatusbefore.diet** | -1.481   | 5.082      | -0.2915 | 0.7726   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  212.8448 )
+
+
+|                    |                                 |
+|:-------------------|:--------------------------------|
+| Null deviance:     | 6616  on 32  degrees of freedom |
+| Residual deviance: | 6598  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.7\) Plots of Abundance-based Hill number of order N_1.
+
+[`Subreport`](./1.4.1.4.2.1.7-report.html)
+
+
+
+
+\(1.4.1.4.2.1.7\)  Association of abundance based Hill number of order N_2 with sample metadata.
+                                 GLM with family gaussian and formula N_2~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 10.32    | 1.637      | 6.302   | 0        |
+| **DietStatusbefore.diet** | -0.3812  | 2.281      | -0.1671 | 0.8683   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  42.8811 )
+
+
+|                    |                                 |
+|:-------------------|:--------------------------------|
+| Null deviance:     | 1331  on 32  degrees of freedom |
+| Residual deviance: | 1329  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.8\) Plots of Abundance-based Hill number of order N_2.
+
+[`Subreport`](./1.4.1.4.2.1.8-report.html)
+
+
+
+
+\(1.4.1.4.2.1.8\)  Association of abundance based Hill number of order N_4 with sample metadata.
+                                 GLM with family gaussian and formula N_4~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 6.103    | 0.9053     | 6.742   | 0        |
+| **DietStatusbefore.diet** | 0.202    | 1.261      | 0.1602  | 0.8738   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  13.11174 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 406.8  on 32  degrees of freedom |
+| Residual deviance: | 406.5  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.9\) Plots of Abundance-based Hill number of order N_4.
+
+[`Subreport`](./1.4.1.4.2.1.9-report.html)
+
+
+
+
+\(1.4.1.4.2.1.9\)  Association of abundance based Hill number of order N_8 with sample metadata.
+                                 GLM with family gaussian and formula N_8~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 4.784    | 0.6625     | 7.221   | 0        |
+| **DietStatusbefore.diet** | 0.3727   | 0.923      | 0.4038  | 0.6891   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  7.022231 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 218.8  on 32  degrees of freedom |
+| Residual deviance: | 217.7  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.10\) Plots of Abundance-based Hill number of order N_8.
+
+[`Subreport`](./1.4.1.4.2.1.10-report.html)
+
+
+
+
+\(1.4.1.4.2.1.10\)  Association of abundance based Hill number of order N_Inf with sample metadata.
+                                 GLM with family gaussian and formula N_Inf~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 3.896    | 0.4893     | 7.963   | 0        |
+| **DietStatusbefore.diet** | 0.3699   | 0.6817     | 0.5426  | 0.5913   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  3.830333 )
+
+
+|                    |                                  |
+|:-------------------|:---------------------------------|
+| Null deviance:     | 119.9  on 32  degrees of freedom |
+| Residual deviance: | 118.7  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.11\) Plots of Abundance-based Hill number of order N_Inf.
+
+[`Subreport`](./1.4.1.4.2.1.11-report.html)
+
+
+
+
+\(1.4.1.4.2.1.11\)  Association of abundance based Hill number of order NE_0.25 with sample metadata.
+                                 GLM with family gaussian and formula NE_0.25~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 0.6454   | 0.0149     | 43.33   | 0        |
+| **DietStatusbefore.diet** | 5e-04    | 0.0208     | 0.0258  | 0.9796   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.003549302 )
+
+
+|                    |                                 |
+|:-------------------|:--------------------------------|
+| Null deviance:     | 0.11  on 32  degrees of freedom |
+| Residual deviance: | 0.11  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.12\) Plots of Abundance-based Hill number of order NE_0.25.
+
+[`Subreport`](./1.4.1.4.2.1.12-report.html)
+
+
+
+
+\(1.4.1.4.2.1.12\)  Association of abundance based Hill number of order NE_0.5 with sample metadata.
+                                 GLM with family gaussian and formula NE_0.5~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 0.4143   | 0.0185     | 22.33   | 0        |
+| **DietStatusbefore.diet** | -0.0132  | 0.0258     | -0.5114 | 0.6127   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.005504915 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1721  on 32  degrees of freedom |
+| Residual deviance: | 0.1707  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.13\) Plots of Abundance-based Hill number of order NE_0.5.
+
+[`Subreport`](./1.4.1.4.2.1.13-report.html)
+
+
+
+
+\(1.4.1.4.2.1.13\)  Association of abundance based Hill number of order NE_1 with sample metadata.
+                                 GLM with family gaussian and formula NE_1~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 0.1979   | 0.0181     | 10.92   | 0        |
+| **DietStatusbefore.diet** | -0.0267  | 0.0253     | -1.057  | 0.2988   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.005257194 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1688  on 32  degrees of freedom |
+| Residual deviance: | 0.1630  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.14\) Plots of Abundance-based Hill number of order NE_1.
+
+[`Subreport`](./1.4.1.4.2.1.14-report.html)
+
+
+
+
+\(1.4.1.4.2.1.14\)  Association of abundance based Hill number of order NE_2 with sample metadata.
+                                 GLM with family gaussian and formula NE_2~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 0.1007   | 0.0172     | 5.845   | 0        |
+| **DietStatusbefore.diet** | -0.0256  | 0.024      | -1.066  | 0.2945   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.004745311 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1525  on 32  degrees of freedom |
+| Residual deviance: | 0.1471  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.15\) Plots of Abundance-based Hill number of order NE_2.
+
+[`Subreport`](./1.4.1.4.2.1.15-report.html)
+
+
+
+
+\(1.4.1.4.2.1.15\)  Association of abundance based Hill number of order NE_4 with sample metadata.
+                                 GLM with family gaussian and formula NE_4~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 0.0722   | 0.0174     | 4.151   | 2e-04    |
+| **DietStatusbefore.diet** | -0.0237  | 0.0242     | -0.9759 | 0.3367   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.004840924 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1547  on 32  degrees of freedom |
+| Residual deviance: | 0.1501  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.16\) Plots of Abundance-based Hill number of order NE_4.
+
+[`Subreport`](./1.4.1.4.2.1.16-report.html)
+
+
+
+
+\(1.4.1.4.2.1.16\)  Association of abundance based Hill number of order NE_8 with sample metadata.
+                                 GLM with family gaussian and formula NE_8~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 0.0633   | 0.0176     | 3.598   | 0.0011   |
+| **DietStatusbefore.diet** | -0.0232  | 0.0245     | -0.9461 | 0.3514   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.004949334 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1579  on 32  degrees of freedom |
+| Residual deviance: | 0.1534  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.17\) Plots of Abundance-based Hill number of order NE_8.
+
+[`Subreport`](./1.4.1.4.2.1.17-report.html)
+
+
+
+
+\(1.4.1.4.2.1.17\)  Association of abundance based Hill number of order NE_Inf with sample metadata.
+                                 GLM with family gaussian and formula NE_Inf~DietStatus.
+
+
+|          &nbsp;           | Estimate | Std. Error | t value | Pr(>|t|) |
+|:-------------------------:|:---------|:-----------|:--------|:---------|
+|      **(Intercept)**      | 0.0573   | 0.0178     | 3.224   | 0.003    |
+| **DietStatusbefore.diet** | -0.0236  | 0.0247     | -0.9558 | 0.3466   |
+
+
+(Dispersion parameter for  gaussian  family taken to be  0.00504445 )
+
+
+|                    |                                   |
+|:-------------------|:----------------------------------|
+| Null deviance:     | 0.1610  on 32  degrees of freedom |
+| Residual deviance: | 0.1564  on 31  degrees of freedom |
+
+
+
+##### \(1.4.1.4.2.1.18\) Plots of Abundance-based Hill number of order NE_Inf.
+
+[`Subreport`](./1.4.1.4.2.1.18-report.html)
+
+
+##### \(1.4.1.4.2.1.19\) GeneSelector stability ranking
+
+
+
+Slawski M, Boulesteix. A (????). _GeneSelector: Stability and Aggregation of ranked gene lists_. R package version 2.31.0.
+
+
+Wilcoxon test (rank-sum for independent samples and signed-rank for paired samples) 
+                   is applied to each feature (feature, gene) on random
+                   subsamples of the data. Consensus ranking is found with a
+                   Monte Carlo procedure ((method AggregateMC in GeneSelector package). 
+                   features ordered according to the consensus ranking
+                   are returned, along with the p-values, statistic and effect size 
+                   computed on the full
+                   original dataset. In a special case when no replications are requested,
+                   features are ordered by the adjuested p-value. 
+                   P-values are reported with and without the 
+                   multiple testing correction of Benjamini & Hochberg. The effect sizes
+                   for Wilcoxon tests are reported as: common-language effect
+                   size (proportion of pairs where observations from the second group
+                   are larger than observations from the first group; no effect
+                   corresponds to 0.5); rank-biserial
+                   correlation (common language effect size minus its complement; no
+                   effect corresponds to 0; range is [-1;1]) and
+                   absolute value of r (as defined in Cohen, J. (1988). Statistical power 
+                   analysis for the behavioral sciences (2nd ed.). Hillsdale, NJ: Erlbaum.).
+                   For paired samples, when calculating the common language effect size,
+                   only paired observations are used, and one half of the number of ties is 
+                   added to the numerator (Grissom, R. J., and J. J. Kim. "Effect Sizes for Research: Univariate 
+                   and Multivariate Applications, 2nd Edn New York." NY: Taylor and Francis (2012)).
+                   Logarithm in base 2 of the fold change (l2fc) is also reported if requested.
+                   For independent samples, the fold change is computed between the sample means of
+                   the groups (last to first). For paired samples - as the sample median of the logfold change
+                   in each matched pair of observations.
+
+
+Stability selection parameters are: [ comp.log.fold.change:TRUE, maxrank             :20, samp.fold.ratio     :0.5, replicates          :400, type                :"paired", block.attr          :"SubjectID"]
+
+
+\(1.4.1.4.2.1.19\)  Summary of response variable (unpaired samples) DietStatus.
+
+
+
+```````
+ after.diet before.diet 
+         16          17 
+```````
+
+
+
+\(1.4.1.4.2.1.19\) <a name="table.332"></a>[`Table 332.`](#table.332) GeneSelector stability ranking for response DietStatus. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.4.1.4.2.1.19-32347a47801.1.4.1.4.2.1.19.a.na.csv`](data/1.4.1.4.2.1.19-32347a47801.1.4.1.4.2.1.19.a.na.csv)
+
+
+
+
+| name     | statistic | pval    | pval.adjusted | common.lang.eff.size | rank.biserial.corr.eff.size | r.eff.size | l2fc.after.diet.by.before.diet | mean.before.diet | mean.after.diet | l2fc.paired.median | median.paired.after.diet | median.paired.before.diet |
+|:---------|:----------|:--------|:--------------|:---------------------|:----------------------------|:-----------|:-------------------------------|:-----------------|:----------------|:-------------------|:-------------------------|:--------------------------|
+| N\_4     | 81        | 0.07849 | 0.3925        | 0.7857               | 0.5714                      | 0.47025    | \-0.046985                     | 6.30509          | 6.10305         | 0.27593            | 5.40163                  | 6.26704                   |
+| N\_8     | 82        | 0.06763 | 0.3925        | 0.7857               | 0.5714                      | 0.48842    | \-0.108248                     | 5.15624          | 4.78352         | 0.32391            | 4.26974                  | 5.22510                   |
+| N\_Inf   | 83        | 0.05798 | 0.3925        | 0.7857               | 0.5714                      | 0.50668    | \-0.130845                     | 4.26629          | 3.89639         | 0.28758            | 3.56115                  | 4.38294                   |
+| N\_2     | 70        | 0.29578 | 0.6982        | 0.7143               | 0.4286                      | 0.27943    | 0.054322                       | 9.93500          | 10.31622        | 0.20640            | 9.67831                  | 9.17584                   |
+| NE\_4    | 69        | 0.32581 | 0.6982        | 0.7143               | 0.4286                      | 0.26261    | 0.572543                       | 0.04855          | 0.07220         | 0.07591            | 0.04657                  | 0.05008                   |
+| NE\_8    | 69        | 0.32581 | 0.6982        | 0.7143               | 0.4286                      | 0.26261    | 0.658149                       | 0.04010          | 0.06329         | 0.17935            | 0.03577                  | 0.04191                   |
+| NE\_Inf  | 71        | 0.26758 | 0.6982        | 0.6429               | 0.2857                      | 0.29630    | 0.768555                       | 0.03361          | 0.05725         | 0.18990            | 0.02876                  | 0.03455                   |
+| N\_0     | 56        | 0.85522 | 0.9032        | 0.6429               | 0.2857                      | 0.04876    | \-0.052630                     | 129.20309        | 124.57469       | 0.08523            | 140.75750                | 140.95500                 |
+| N\_0.25  | 55        | 0.90320 | 0.9032        | 0.6429               | 0.2857                      | 0.03250    | \-0.024866                     | 85.05217         | 83.59876        | 0.10832            | 93.36330                 | 94.71131                  |
+| N\_0.5   | 59        | 0.71484 | 0.8779        | 0.6429               | 0.2857                      | 0.09765    | 0.017380                       | 53.64079         | 54.29090        | 0.14015            | 59.44915                 | 62.27259                  |
+| N\_1     | 64        | 0.50159 | 0.8779        | 0.7143               | 0.4286                      | 0.17960    | 0.089700                       | 23.09135         | 24.57264        | 0.14707            | 24.96924                 | 22.40588                  |
+| NE\_0.25 | 60        | 0.66980 | 0.8779        | 0.6429               | 0.2857                      | 0.11397    | \-0.001198                     | 0.64594          | 0.64540         | 0.02900            | 0.66020                  | 0.66209                   |
+| NE\_0.5  | 60        | 0.66980 | 0.8779        | 0.5714               | 0.1429                      | 0.11397    | 0.046779                       | 0.40104          | 0.41425         | 0.06133            | 0.41803                  | 0.40541                   |
+| NE\_1    | 58        | 0.76086 | 0.8779        | 0.6429               | 0.2857                      | 0.08134    | 0.208993                       | 0.17122          | 0.19791         | 0.08865            | 0.18691                  | 0.16361                   |
+| NE\_2    | 58        | 0.76086 | 0.8779        | 0.5714               | 0.1429                      | 0.08134    | 0.423055                       | 0.07508          | 0.10066         | 0.04475            | 0.07279                  | 0.07312                   |
+
+
+
+
+
+##### \(1.4.1.4.2.1.20\) Plots of Abundance difference between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'.
+
+[`Subreport`](./1.4.1.4.2.1.20-report.html)
+
+
+##### \(1.4.1.4.2.1.21\) Plots of Log2 fold change in abundance between paired samples. Samples are paired according to attribute SubjectID, resulting in 14 pairs. When fold change or difference is computed, this is done as 'before.diet by after.diet'.
+
+[`Subreport`](./1.4.1.4.2.1.21-report.html)
+
+
+##### \(1.4.1.4.2.1.21.1\) Plots of Abundance-based rarefaction curves.
+
+[`Subreport`](./1.4.1.4.2.1.21.1-report.html)
+
+Computed beta-diversity matrix using function betadiver {vegan}
+                   with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a, 
+                      and the numbers of species unique to each site are b and c.
+
+
+Results of function betadisper {vegan}
+                       for the analysis of multivariate homogeneity of group dispersions.
+                       This is applied to sample beta diversity matrix to analyze it with
+                       respect to a grouping variable DietStatus. Arguments for the call are: [ list()]
+
+
+
+
+
+|    &nbsp;     | Df | Sum Sq | Mean Sq | F value | Pr(>F) |
+|:-------------:|:---|:-------|:--------|:--------|:-------|
+|  **Groups**   | 1  | 0.0056 | 0.0056  | 0.7173  | 0.4035 |
+| **Residuals** | 31 | 0.2408 | 0.0078  | NA      | NA     |
+
+Table: Analysis of Variance Table
+
+
+
+
+
+\(1.4.1.4.2.1.21\) <a name="figure.912"></a>[`Figure 912.`](#figure.912) Results of betadisper {vegan}. Distances from samples 
+               to the group
+               centroids are shown in the first two principal coordinates.
+               Groups are defined by the variable DietStatus.
+               Sample beta-diversity matrix was generated with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a, 
+                      and the numbers of species unique to each site are b and c.  Image file: [`plots/32342502734.svg`](plots/32342502734.svg).
+![](plots/32342502734.svg)
+
+
+##### \(1.4.1.4.2.1.22\) PermANOVA (adonis) analysis of  Beta-diversity dissimilarity matrix created with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a,                        and the numbers of species unique to each site are b and c.
+
+
+
+Oksanen J, Blanchet FG, Friendly M, Kindt R, Legendre P, McGlinn D, Minchin PR, O'Hara RB, Simpson GL, Solymos P, Stevens MHH, Szoecs E, Wagner
+H (2018). _vegan: Community Ecology Package_. R package version 2.5-2, <URL: https://CRAN.R-project.org/package=vegan>.
+
+
+Non-parametric multivariate test for association between
+                           Beta-diversity dissimilarity matrix created with method 2 "-1" = (b+c)/(2*a+b+c), where number of shared species in two sites is a, 
+                      and the numbers of species unique to each site are b and c. and meta-data variables. Using supplied distance matrix.
+
+
+\(1.4.1.4.2.1.22\)  Association with diet status unpaired by subject with formula count\~DietStatus .
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+           Df SumOfSqs      R2      F Pr(>F)
+DietStatus  1   0.2671 0.02956 0.9444 0.5339
+Residual   31   8.7687 0.97044              
+Total      32   9.0358 1.00000              
+```````
+
+
+
+
+
+
+\(1.4.1.4.2.1.22\)  Association with diet status unpaired by subject Adonis summary.
+
+
+|     &nbsp;     | Df | SumOfSqs | R2     | F      | Pr(>F) |
+|:--------------:|:---|:---------|:-------|:-------|:-------|
+| **DietStatus** | 1  | 0.2671   | 0.0296 | 0.9444 | 0.5339 |
+|  **Residual**  | 31 | 8.769    | 0.9704 | NA     | NA     |
+|   **Total**    | 32 | 9.036    | 1      | NA     | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+\(1.4.1.4.2.1.22\)  Association with diet status paired by subject with formula count\~DietStatus with strata =  SubjectID.
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Blocks:  m_a$attr[, strata] 
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+           Df SumOfSqs      R2      F  Pr(>F)  
+DietStatus  1   0.2671 0.02956 0.9444 0.05349 .
+Residual   31   8.7687 0.97044                 
+Total      32   9.0358 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```````
+
+
+
+
+
+
+\(1.4.1.4.2.1.22\)  Association with diet status paired by subject Adonis summary.
+
+
+|     &nbsp;     | Df | SumOfSqs | R2     | F      | Pr(>F) |
+|:--------------:|:---|:---------|:-------|:-------|:-------|
+| **DietStatus** | 1  | 0.2671   | 0.0296 | 0.9444 | 0.0535 |
+|  **Residual**  | 31 | 8.769    | 0.9704 | NA     | NA     |
+|   **Total**    | 32 | 9.036    | 1      | NA     | NA     |
+
+Table: Permutation test for adonis under reduced model
+
+
+\(1.4.1.4.2.1.22\)  Association with Drug use before diet and diet status with formula count\~Drug.Before.Diet \*  DietStatus .
+
+
+
+```````
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 4000
+
+adonis2(formula = as.formula(formula_str), data = m_a$attr, permutations = perm, method = dist.metr)
+                            Df SumOfSqs      R2      F  Pr(>F)  
+Drug.Before.Diet             1   0.4024 0.04453 1.4300 0.05899 .
+DietStatus                   1   0.2647 0.02930 0.9408 0.54461  
+Drug.Before.Diet:DietStatus  1   0.2090 0.02313 0.7427 0.89728  
+Residual                    29   8.1598 0.90305                 
+Total                       32   9.0358 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```````
+
+
+
+
+
+
+\(1.4.1.4.2.1.22\)  Association with Drug use before diet and diet status Adonis summary.
+
+
+|             &nbsp;              | Df | SumOfSqs | R2     | F      | Pr(>F) |
+|:-------------------------------:|:---|:---------|:-------|:-------|:-------|
+|      **Drug.Before.Diet**       | 1  | 0.4024   | 0.0445 | 1.43   | 0.059  |
+|         **DietStatus**          | 1  | 0.2647   | 0.0293 | 0.9408 | 0.5446 |
+| **Drug.Before.Diet:DietStatus** | 1  | 0.209    | 0.0231 | 0.7427 | 0.8973 |
+|          **Residual**           | 29 | 8.16     | 0.903  | NA     | NA     |
+|            **Total**            | 32 | 9.036    | 1      | NA     | NA     |
+
+Table: Permutation test for adonis under reduced model

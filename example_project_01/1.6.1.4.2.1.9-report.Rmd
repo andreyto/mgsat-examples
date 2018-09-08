@@ -1,0 +1,172 @@
+noone@mail.com
+Analysis of Dieting study 16S data
+% Fri Sep  7 05:46:18 2018
+
+
+
+##### \(1.6.1.4.2.1.9\) Plots of Abundance-based Hill number of order N_4.
+
+
+
+Plots are shown with relation to various combinations of meta 
+                   data variables and in different graphical representations. Lots of plots here.
+
+
+
+##### \(1.6.1.4.2.1.9.2\) Iterating over all combinations of grouping variables
+
+
+
+
+##### \(1.6.1.4.2.1.9.2.1\) Grouping variables visit,Drug.Before.Diet
+
+
+
+
+##### \(1.6.1.4.2.1.9.2.2\) Iterating over Abundance-based Hill number of order N_4. profile sorting order
+
+
+
+
+##### \(1.6.1.4.2.1.9.2.2.1\) Abundance-based Hill number of order N_4. profile sorting order: original
+
+
+
+
+##### \(1.6.1.4.2.1.9.2.2.2\) Iterating over dodged vs faceted bars
+
+
+
+The same data are shown in multiple combinations of graphical representations. 
+                         This is the same data, but each plot highlights slightly different aspects of it.
+                         It is not likely that you will need every plot - pick only what you need.
+
+
+
+##### \(1.6.1.4.2.1.9.2.2.2.1\) dodged plots. Iterating over orientation and, optionally, scaling
+
+
+
+
+##### \(1.6.1.4.2.1.9.2.2.2.1.1\) Abundance-based Hill number of order N_4. Plot is in original orientation, Y axis SQRT scaled. Iterating over plot geometry
+
+
+
+\(1.6.1.4.2.1.9.2.2.2.1.1.0\) <a name="table.423"></a>[`Table 423.`](#table.423) Data table used for plots. Data grouped by visit,Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.4.2.1.9.2.2.2.1.1.0-3234a7f4c7e.1.6.1.4.2.1.9.2.2.2.csv`](data/1.6.1.4.2.1.9.2.2.2.1.1.0-3234a7f4c7e.1.6.1.4.2.1.9.2.2.2.csv)
+
+
+
+
+| .record.id | visit | Drug.Before.Diet | feature | index  |
+|:-----------|:------|:-----------------|:--------|:-------|
+| SM1        | 1     | DrugBefore\_YES  | N\_4    | 8.808  |
+| SM10       | 3     | DrugBefore\_YES  | N\_4    | 17.387 |
+| SM100      | 4     | DrugBefore\_YES  | N\_4    | 3.536  |
+| SM11       | 2     | DrugBefore\_YES  | N\_4    | 6.907  |
+| SM12       | 1     | DrugBefore\_YES  | N\_4    | 6.488  |
+| SM13       | 1     | DrugBefore\_NO   | N\_4    | 5.658  |
+| SM14       | 1     | DrugBefore\_NO   | N\_4    | 3.538  |
+| SM16       | 4     | DrugBefore\_NO   | N\_4    | 5.347  |
+| SM17       | 1     | DrugBefore\_YES  | N\_4    | 5.774  |
+| SM18       | 2     | DrugBefore\_NO   | N\_4    | 4.130  |
+| SM19       | 2     | DrugBefore\_NO   | N\_4    | 5.155  |
+| SM2        | 1     | DrugBefore\_NO   | N\_4    | 3.223  |
+| SM21       | 1     | DrugBefore\_NO   | N\_4    | 18.107 |
+| SM22       | 1     | DrugBefore\_YES  | N\_4    | 9.594  |
+| SM23       | 2     | DrugBefore\_YES  | N\_4    | 1.574  |
+| SM24       | 1     | DrugBefore\_NO   | N\_4    | 2.756  |
+| SM25       | 4     | DrugBefore\_NO   | N\_4    | 4.859  |
+| SM29       | 3     | DrugBefore\_YES  | N\_4    | 2.351  |
+| SM3        | 2     | DrugBefore\_YES  | N\_4    | 13.149 |
+| SM30       | 4     | DrugBefore\_YES  | N\_4    | 9.259  |
+| SM33       | 1     | DrugBefore\_YES  | N\_4    | 2.662  |
+| SM36       | 4     | DrugBefore\_NO   | N\_4    | 6.881  |
+| SM38       | 2     | DrugBefore\_YES  | N\_4    | 5.266  |
+| SM39       | 1     | DrugBefore\_NO   | N\_4    | 10.954 |
+| SM40       | 4     | DrugBefore\_NO   | N\_4    | 11.942 |
+| SM41       | 1     | DrugBefore\_YES  | N\_4    | 9.101  |
+| SM42       | 4     | DrugBefore\_NO   | N\_4    | 5.877  |
+| SM43       | 4     | DrugBefore\_YES  | N\_4    | 8.120  |
+| SM45       | 2     | DrugBefore\_NO   | N\_4    | 1.004  |
+| SM49       | 1     | DrugBefore\_YES  | N\_4    | 7.389  |
+| SM5        | 3     | DrugBefore\_YES  | N\_4    | 5.589  |
+| SM50       | 3     | DrugBefore\_NO   | N\_4    | 6.414  |
+| SM51       | 4     | DrugBefore\_YES  | N\_4    | 5.364  |
+| SM52       | 1     | DrugBefore\_NO   | N\_4    | 11.739 |
+| SM53       | 2     | DrugBefore\_YES  | N\_4    | 6.081  |
+| SM54       | 3     | DrugBefore\_YES  | N\_4    | 5.108  |
+| SM56       | 2     | DrugBefore\_YES  | N\_4    | 1.707  |
+| SM57       | 1     | DrugBefore\_YES  | N\_4    | 3.523  |
+| SM58       | 2     | DrugBefore\_NO   | N\_4    | 2.737  |
+| SM59       | 3     | DrugBefore\_NO   | N\_4    | 12.294 |
+| SM60       | 3     | DrugBefore\_YES  | N\_4    | 5.174  |
+| SM62       | 1     | DrugBefore\_YES  | N\_4    | 2.305  |
+| SM64       | 2     | DrugBefore\_YES  | N\_4    | 4.000  |
+| SM65       | 3     | DrugBefore\_YES  | N\_4    | 15.546 |
+| SM67       | 4     | DrugBefore\_YES  | N\_4    | 6.629  |
+| SM68       | 4     | DrugBefore\_NO   | N\_4    | 7.646  |
+| SM69       | 4     | DrugBefore\_YES  | N\_4    | 10.593 |
+| SM71       | 3     | DrugBefore\_YES  | N\_4    | 5.487  |
+| SM73       | 1     | DrugBefore\_NO   | N\_4    | 5.699  |
+| SM75       | 3     | DrugBefore\_NO   | N\_4    | 6.762  |
+| SM77       | 2     | DrugBefore\_YES  | N\_4    | 8.243  |
+| SM79       | 2     | DrugBefore\_NO   | N\_4    | 5.434  |
+| SM8        | 1     | DrugBefore\_NO   | N\_4    | 5.334  |
+| SM82       | 4     | DrugBefore\_YES  | N\_4    | 3.921  |
+| SM83       | 1     | DrugBefore\_YES  | N\_4    | 6.053  |
+| SM84       | 1     | DrugBefore\_YES  | N\_4    | 14.075 |
+| SM86       | 2     | DrugBefore\_YES  | N\_4    | 5.360  |
+| SM87       | 1     | DrugBefore\_YES  | N\_4    | 8.798  |
+| SM88       | 2     | DrugBefore\_YES  | N\_4    | 7.905  |
+| SM9        | 2     | DrugBefore\_NO   | N\_4    | 7.973  |
+| SM90       | 2     | DrugBefore\_NO   | N\_4    | 15.129 |
+| SM91       | 3     | DrugBefore\_YES  | N\_4    | 13.720 |
+| SM92       | 3     | DrugBefore\_NO   | N\_4    | 2.622  |
+| SM93       | 1     | DrugBefore\_YES  | N\_4    | 4.729  |
+| SM96       | 1     | DrugBefore\_NO   | N\_4    | 2.813  |
+| SM98       | 3     | DrugBefore\_NO   | N\_4    | 6.592  |
+| SM99       | 3     | DrugBefore\_NO   | N\_4    | 4.234  |
+
+
+
+
+
+
+
+\(1.6.1.4.2.1.9.2.2.2.1.1.1\) <a name="widget.436"></a>[`Widget 436.`](#widget.436) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Stacked Bar Chart. Data grouped by visit,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.6.1.4.2.1.9.2.2.2.1.1.1-3232624d220Dynamic.Pivot.Table.html`](./1.6.1.4.2.1.9.2.2.2.1.1.1-3232624d220Dynamic.Pivot.Table.html)
+
+
+
+
+
+\(1.6.1.4.2.1.9.2.2.2.1.1.1\) <a name="widget.437"></a>[`Widget 437.`](#widget.437) Dynamic Pivot Table link (drag and drop field names and pick averaging 
+                      functions or plot types; click on fields or legend elements to filter values). 
+                      Starting rendering is Table Barchart. Data grouped by visit,Drug.Before.Diet. Click to see HTML widget file in full window: [`./1.6.1.4.2.1.9.2.2.2.1.1.1-323309a132fDynamic.Pivot.Table.html`](./1.6.1.4.2.1.9.2.2.2.1.1.1-323309a132fDynamic.Pivot.Table.html)
+
+
+\(1.6.1.4.2.1.9.2.2.2.1.1.1\) <a name="table.424"></a>[`Table 424.`](#table.424) Summary table. Data grouped by visit,Drug.Before.Diet. Full dataset is also saved in a delimited text file (click to download and open e.g. in Excel) [`data/1.6.1.4.2.1.9.2.2.2.1.1.1-323657d1c1c.1.6.1.4.2.1.9.2.2.2.csv`](data/1.6.1.4.2.1.9.2.2.2.1.1.1-323657d1c1c.1.6.1.4.2.1.9.2.2.2.csv)
+
+
+
+
+| feature | visit | Drug.Before.Diet | mean  | sd    | median | incidence |
+|:--------|:------|:-----------------|:------|:------|:-------|:----------|
+| N\_4    | 1     | DrugBefore\_NO   | 6.982 | 5.050 | 5.496  | 1         |
+| N\_4    | 1     | DrugBefore\_YES  | 6.869 | 3.271 | 6.488  | 1         |
+| N\_4    | 2     | DrugBefore\_NO   | 5.937 | 4.607 | 5.155  | 1         |
+| N\_4    | 2     | DrugBefore\_YES  | 6.019 | 3.392 | 5.720  | 1         |
+| N\_4    | 3     | DrugBefore\_NO   | 6.486 | 3.281 | 6.503  | 1         |
+| N\_4    | 3     | DrugBefore\_YES  | 8.795 | 5.771 | 5.538  | 1         |
+| N\_4    | 4     | DrugBefore\_NO   | 7.092 | 2.584 | 6.379  | 1         |
+| N\_4    | 4     | DrugBefore\_YES  | 6.775 | 2.683 | 6.629  | 1         |
+
+
+
+
+
+
+
+\(1.6.1.4.2.1.9.2.2.2.1.1.1\) <a name="figure.1017"></a>[`Figure 1017.`](#figure.1017) Abundance-based Hill number of order N_4. Data grouped by visit,Drug.Before.Diet.  boxplot plot.  Image file: [`plots/32327623dcc.svg`](plots/32327623dcc.svg).
+![](plots/32327623dcc.svg)
